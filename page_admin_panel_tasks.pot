@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:603
+msgid "Panel Tasks Intervals"
+msgstr ""
+
+#: functions/functions.translationStrings.php:604
+msgid "Last run"
+msgstr ""
+
+#: functions/functions.translationStrings.php:605
+msgid "Activated?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:606
+msgid "Interval"
+msgstr ""
+
+#: functions/functions.translationStrings.php:607
+msgid "Time frame"
+msgstr ""
+
+#: functions/functions.translationStrings.php:608
+msgid "from"
+msgstr ""
+
+#: functions/functions.translationStrings.php:609
+msgid "till"
+msgstr ""
+
+#: functions/functions.translationStrings.php:610
+msgid "o'clock"
+msgstr ""
+
+#: functions/functions.translationStrings.php:611
+msgid "every"
+msgstr ""
+
+#: functions/functions.translationStrings.php:612
+msgid "Perform updates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:613
+msgid ""
+"Performs tasks, that have been commissioned through the administration panel."
+"<br>For example creating a new user, writing configuration files etc."
+msgstr ""
+
+#: functions/functions.translationStrings.php:615
+msgid "Calculate disk space"
+msgstr ""
+
+#: functions/functions.translationStrings.php:616
+msgid "Calculates the disk space consumed by user accounts."
+msgstr ""
+
+#: functions/functions.translationStrings.php:617
+msgid "Update statistics"
+msgstr ""
+
+#: functions/functions.translationStrings.php:618
+msgid "Updates the traffic usage and the web statistics of user accounts."
+msgstr ""
+
+#: functions/functions.translationStrings.php:619
+msgid "Perform automatic panel updates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:620
+msgid ""
+"Keeps the administration panel up to date and installs newer versions as "
+"they are released."
+msgstr ""
+
+#: functions/functions.translationStrings.php:621
+msgid "Keep server services up to date"
+msgstr ""
+
+#: functions/functions.translationStrings.php:622
+msgid ""
+"Installs, if available, newer, improved versions of services/packages, which "
+"are already installed on the server.<br>(apt-get update & apt-get upgrade)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:624
+msgid "Session data cleanup"
+msgstr ""
+
+#: functions/functions.translationStrings.php:625
+msgid ""
+"Deletes unused PHP sessions from the temporary folder of the user accounts."
+msgstr ""
+
+#: functions/functions.translationStrings.php:626
+msgid "Antivirus scanner"
+msgstr ""
+
+#: functions/functions.translationStrings.php:627
+msgid "Performs a virus check."
+msgstr ""
+
+#: functions/functions.translationStrings.php:628
+#: functions/functions.translationStrings.php:635
+msgid "Settings >> Server"
+msgstr ""
+
+#: functions/functions.translationStrings.php:628
+#: functions/functions.translationStrings.php:631
+#: functions/functions.translationStrings.php:635
+msgid "You can configure it here:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:629
+msgid "Maintenance of SSL certificates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:630
+msgid ""
+"Checks if SSL certificates are going to expire, performs Let's Encrypt "
+"certificate update and other SSL related maintenance work."
+msgstr ""
+
+#: functions/functions.translationStrings.php:631
+msgid "Settings >> Panel Settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:632
+msgid "Repository update"
+msgstr ""
+
+#: functions/functions.translationStrings.php:633
+msgid ""
+"This job is responsible for receiving and updating packages, which are "
+"located inside KeyHelp's own repository."
+msgstr ""
+
+#: functions/functions.translationStrings.php:634
+msgid "E.g. update of the optional PHP interpreter packages."
+msgstr ""

@@ -1,0 +1,58 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:1152
+msgid "Mass Email Message"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1153
+msgid "Send mass email message"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1154
+msgid "Send email"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1155
+msgid "Subject"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1156
+msgid "Message text"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1157
+msgid "To"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1158
+msgid "From"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1159
+msgid ""
+"<nobr><i>Email address</i></nobr> or <nobr><i>Name &lt;EMAIL ADDRESS&gt;</"
+"i></nobr>"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1160
+msgid "Users"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1161
+msgid "Administrators"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1162
+msgid "Accounts without email address"
+msgstr ""

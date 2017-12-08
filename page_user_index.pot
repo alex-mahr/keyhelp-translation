@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:746
+msgid "Overview"
+msgstr ""
+
+#: functions/functions.translationStrings.php:747
+msgid "Total"
+msgstr ""
+
+#: functions/functions.translationStrings.php:748
+msgid "Account Information"
+msgstr ""
+
+#: functions/functions.translationStrings.php:749
+msgid "Main domain(s)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:750
+msgid "Emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:751
+msgid "MySQL-DBs"
+msgstr ""
+
+#: functions/functions.translationStrings.php:752
+msgid "Webspace"
+msgstr ""
+
+#: functions/functions.translationStrings.php:753
+msgid "Disk space"
+msgstr ""
+
+#: functions/functions.translationStrings.php:754
+msgid "Please note, what happens, when your disk space is 100&#37; used up:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:755
+msgid "- You can not upload more data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:756
+msgid "- You can not receive emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:757
+msgid "- Your database privileges will be restricted"
+msgstr ""
+
+#: functions/functions.translationStrings.php:758
+msgid "Email address for automatic server messages"
+msgstr ""
+
+#: functions/functions.translationStrings.php:759
+msgid ""
+"- If you ever forget your password, you can request a new one using this "
+"email address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:760
+msgid ""
+"- Administrators can send you messages to indicate possible maintenance etc."
+msgstr ""
+
+#: functions/functions.translationStrings.php:761
+msgid ""
+"- Warning emails will be sent if only 10&#37; of your maximum available disk "
+"space is left"
+msgstr ""
+
+#: functions/functions.translationStrings.php:762
+msgid "Change now"
+msgstr ""
+
+#: functions/functions.translationStrings.php:763
+msgid "MySQL databases"
+msgstr ""
+
+#: functions/functions.translationStrings.php:764
+msgid "Email addresses"
+msgstr ""
+
+#: functions/functions.translationStrings.php:765
+msgid "Mailboxes"
+msgstr ""
+
+#: functions/functions.translationStrings.php:766
+msgid "Scheduled tasks"
+msgstr ""
+
+#: functions/functions.translationStrings.php:767
+msgid "Activated services / privileges"
+msgstr ""
+
+#: functions/functions.translationStrings.php:768
+msgid "Directory listing"
+msgstr ""
+
+#: functions/functions.translationStrings.php:769
+msgid ""
+"If this option is enabled the files located in a web folder are shown as "
+"file lists in the browser even if there is no index file (e.g. index.html, "
+"index.php)."
+msgstr ""
+
+#: functions/functions.translationStrings.php:770
+msgid "Current state: Enabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:771
+msgid "Current state: Disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:772
+msgid "(current / maximum - in percent)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:773
+msgid "(current / maximum)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:774
+msgid "Absolute path to your home directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:775
+msgid "Consumed traffic this month"
+msgstr ""
+
+#: functions/functions.translationStrings.php:776
+msgid "Total traffic"
+msgstr ""
+
+#: functions/functions.translationStrings.php:777
+msgid "No main domains have been assigned to you."
+msgstr ""
+
+#: functions/functions.translationStrings.php:778
+msgid "This domain has been disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:779
+msgid "DISABLED"
+msgstr ""

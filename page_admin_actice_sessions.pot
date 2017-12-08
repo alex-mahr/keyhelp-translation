@@ -1,0 +1,100 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:685
+msgid "Active Sessions"
+msgstr ""
+
+#: functions/functions.translationStrings.php:686
+msgid "FTP Sessions"
+msgstr ""
+
+#: functions/functions.translationStrings.php:687
+msgid "Panel Sessions"
+msgstr ""
+
+#: functions/functions.translationStrings.php:688
+msgid "FTP server uptime"
+msgstr ""
+
+#: functions/functions.translationStrings.php:689
+msgid "Current session lifetime"
+msgstr ""
+
+#: functions/functions.translationStrings.php:690
+msgid "IP address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:691
+msgid "User role"
+msgstr ""
+
+#: functions/functions.translationStrings.php:692
+msgid "Idle time"
+msgstr ""
+
+#: functions/functions.translationStrings.php:693
+msgid "Login time"
+msgstr ""
+
+#: functions/functions.translationStrings.php:694
+msgid "Status"
+msgstr ""
+
+#: functions/functions.translationStrings.php:695
+msgid "Progress"
+msgstr ""
+
+#: functions/functions.translationStrings.php:696
+msgid "Location"
+msgstr ""
+
+#: functions/functions.translationStrings.php:697
+msgid "Client"
+msgstr ""
+
+#: functions/functions.translationStrings.php:698
+msgid "Protocol"
+msgstr ""
+
+#: functions/functions.translationStrings.php:699
+msgid "Speed"
+msgstr ""
+
+#: functions/functions.translationStrings.php:700
+msgid "Idle"
+msgstr ""
+
+#: functions/functions.translationStrings.php:701
+msgid "Authenticating"
+msgstr ""
+
+#: functions/functions.translationStrings.php:702
+msgid "Downloading"
+msgstr ""
+
+#: functions/functions.translationStrings.php:703
+msgid "Uploading"
+msgstr ""
+
+#: functions/functions.translationStrings.php:704
+msgid "Unknown"
+msgstr ""
+
+#: functions/functions.translationStrings.php:705
+msgid "Stop selected sessions"
+msgstr ""
+
+#: functions/functions.translationStrings.php:706
+msgid "Are you sure you want to stop all selected sessions?"
+msgstr ""

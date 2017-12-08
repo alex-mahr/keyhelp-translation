@@ -1,0 +1,59 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:1068
+msgid ""
+"Using scheduled tasks you can automate certain commands or scripts.<br>The "
+"job will then run automatically at the time / date / interval specified by "
+"you."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1069
+msgid "Scheduled tasks"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1070
+msgid "Add task"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1071
+msgid "Command"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1072
+msgid "Schedule"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1073
+msgid "Email for notification"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1074
+msgid "on"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1075
+msgid "day of month"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1076
+msgid "at"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1077
+msgid "minutes"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1078
+msgid "o'clock"
+msgstr ""

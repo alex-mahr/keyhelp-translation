@@ -1,0 +1,84 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:651
+msgid "Server messages"
+msgstr ""
+
+#: functions/functions.translationStrings.php:652
+msgid "Message type"
+msgstr ""
+
+#: functions/functions.translationStrings.php:653
+msgid "Time"
+msgstr ""
+
+#: functions/functions.translationStrings.php:654
+msgid "Message"
+msgstr ""
+
+#: functions/functions.translationStrings.php:655
+msgid "Refresh view"
+msgstr ""
+
+#: functions/functions.translationStrings.php:656
+msgid "Clear server messages"
+msgstr ""
+
+#: functions/functions.translationStrings.php:657
+msgid "Are you sure you want to delete all server messages?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:658
+msgid "Show message type"
+msgstr ""
+
+#: functions/functions.translationStrings.php:660
+msgid "Auto status refresh:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:662
+msgid "Choose file"
+msgstr ""
+
+#: functions/functions.translationStrings.php:663
+msgid "Log files"
+msgstr ""
+
+#: functions/functions.translationStrings.php:664
+msgid "Show"
+msgstr ""
+
+#: functions/functions.translationStrings.php:665
+msgid "The latest entries"
+msgstr ""
+
+#: functions/functions.translationStrings.php:666
+msgid "Total content of the log file"
+msgstr ""
+
+#: functions/functions.translationStrings.php:667
+msgid "To total content"
+msgstr ""
+
+#: functions/functions.translationStrings.php:668
+msgid "To bottom"
+msgstr ""
+
+#: functions/functions.translationStrings.php:669
+msgid "To top"
+msgstr ""
+
+#: functions/functions.translationStrings.php:670
+msgid "To top of page"
+msgstr ""

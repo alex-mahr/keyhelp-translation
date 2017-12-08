@@ -1,0 +1,61 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:721
+msgid "Email Queue"
+msgstr ""
+
+#: functions/functions.translationStrings.php:722
+msgid "Email queue records"
+msgstr ""
+
+#: functions/functions.translationStrings.php:723
+msgid "Delete entire queue"
+msgstr ""
+
+#: functions/functions.translationStrings.php:724
+msgid "ID"
+msgstr ""
+
+#: functions/functions.translationStrings.php:725
+msgid "Sender"
+msgstr ""
+
+#: functions/functions.translationStrings.php:726
+msgid "Recipients"
+msgstr ""
+
+#: functions/functions.translationStrings.php:727
+msgid "Arrival date"
+msgstr ""
+
+#: functions/functions.translationStrings.php:728
+msgid "Age"
+msgstr ""
+
+#: functions/functions.translationStrings.php:729
+msgid "Size"
+msgstr ""
+
+#: functions/functions.translationStrings.php:730
+msgid "Delete records"
+msgstr ""
+
+#: functions/functions.translationStrings.php:731
+msgid ""
+"Are you sure you want to delete the <strong>entire email queue</strong>?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:732
+msgid "Are you sure you want to delete the selected emails?"
+msgstr ""

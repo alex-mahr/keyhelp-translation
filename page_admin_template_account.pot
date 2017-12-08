@@ -1,0 +1,48 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:1404
+msgid "Account templates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1405
+msgid "Add account template"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1406
+msgid "Name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1407
+msgid "Label"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1408
+msgid "Label of account template"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1409
+msgid "Limits"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1410
+msgid "Services"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1411
+msgid "Backup"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1412
+msgid "SSL settings"
+msgstr ""

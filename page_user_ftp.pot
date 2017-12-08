@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:910
+msgid ""
+"Here you can set up additional FTP accounts next to your main FTP access."
+"<br>Each User that you created can save and delete data and folder in the "
+"assigned directory and sub directories.<br><br>For the safety of your data "
+"we recommend establishing the FTP-connection only by protocol/encryption "
+"\"<b>FTP over SSL (FTPS) in explicit mode</b>\""
+msgstr ""
+
+#: functions/functions.translationStrings.php:913
+msgid "Add FTP user"
+msgstr ""
+
+#: functions/functions.translationStrings.php:914
+msgid "Existing FTP users"
+msgstr ""
+
+#: functions/functions.translationStrings.php:915
+msgid "Home directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:916
+msgid "Must be the directory or a subfolder of <b>/www/</b> or <b>/files/</b>."
+msgstr ""
+
+#: functions/functions.translationStrings.php:917
+msgid "Connection information"
+msgstr ""
+
+#: functions/functions.translationStrings.php:918
+msgid "Server"
+msgstr ""
+
+#: functions/functions.translationStrings.php:919
+msgid "Port"
+msgstr ""
+
+#: functions/functions.translationStrings.php:920
+msgid "Protocol"
+msgstr ""
+
+#: functions/functions.translationStrings.php:921
+msgid "FTP over TLS (FTPS)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:922
+msgid "Encryption"
+msgstr ""
+
+#: functions/functions.translationStrings.php:923
+msgid "Explicit mode"
+msgstr ""
+
+#: functions/functions.translationStrings.php:924
+msgid "If available, you can use, your own SSL protected domain as well."
+msgstr ""
+
+#: functions/functions.translationStrings.php:925
+msgid "This information is filled out automatically."
+msgstr ""
+
+#: functions/functions.translationStrings.php:926
+msgid "Use selected directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:927
+msgid ""
+"Insert a directory - if the directory does not exist, it will be created "
+"automatically!"
+msgstr ""
+
+#: functions/functions.translationStrings.php:928
+msgid "FTP user settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:929
+msgid "Delete home directory"
+msgstr ""

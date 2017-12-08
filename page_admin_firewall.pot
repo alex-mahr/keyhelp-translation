@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:1495
+msgid "Firewall"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1496
+msgid "Add chain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1497
+msgid "Close"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1498
+msgid "Current rule set"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1499
+msgid "Draft name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1500
+msgid "New draft"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1501
+msgid "Open rule set"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1502
+msgid "The current rule set is not loaded yet."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1503
+msgid "Click on \"Settings\" and initiate a reload of the current rule set."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1504
+#, php-format
+msgid ""
+"Please note: When you use the KeyHelp firewall management,<br>the current "
+"behaviour of your fail2ban daemon will change.<br><br>When you later decide "
+"to not use KeyHelp firewall management anymore,<br>it can be required to "
+"undo the changes in %1$s.<br>(If the above file does not exist, check out "
+"this file %2$s.)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1509
+msgid "Chain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1510
+msgid "Rule no."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1511
+msgid ""
+"This chain is managed by fail2ban. It should be referenced by a rule inside "
+"of the INPUT chain."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1512
+msgid "Reference to chain managed by fail2ban."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1514
+msgid "Choose action"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1515
+msgid "Export"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1516
+msgid "Save & apply"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1517
+msgid "Anti lockout"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1518
+msgid "Remove draft"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1519
+msgid "Perform"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1521
+msgid "Add rule"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1522
+msgid "Edit chain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1523
+msgid "Remove chain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1524
+msgid "Chain name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1525
+msgid "Default policy"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1527
+msgid "Action"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1528
+msgid "Position"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1529
+msgid "Keep current position"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1530
+msgid "Available actions"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1531
+msgid "Custom chains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1532
+msgid "Comment"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1533
+msgid "Add option"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1534
+msgid "Inverted"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1535
+msgid "e.g. --<PARAMETER> <VALUE>"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1537
+msgid "Add draft"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1538
+msgid "IP version"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1539
+msgid "Use existing rules"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1540
+msgid "Recommented rules"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1541
+msgid "Own rules"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1542
+msgid "Import"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1543
+msgid ""
+"Insert the output of the <b>iptables-save</b> / <b>ip6tables-save</b> "
+"command or the rule set export by KeyHelp."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1545
+msgid "Settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1546
+msgid "Load on server startup"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1547
+msgid "Sets up the current rule sets after the server has been booted."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1548
+msgid "Readable parameter"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1549
+msgid "Presents the parameters in a more readable way."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1550
+msgid "Reload current rule sets"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1551
+msgid ""
+"If you have done changes to iptables through CLI, you can initiate a reload "
+"of the current rules."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1553
+msgid "Caution, when saving this form, unsaved firewall rules will get lost."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1554
+msgid "Validation error"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1555
+msgid ""
+"The chain name you have chosen is either already in use / a prohibited "
+"name / longer than 28 chars or contains invalid characters."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1558
+msgid "Please fix all errors and try again."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1559
+msgid "Export rule set"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1560
+msgid "Copy to clipboard"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1561
+msgid "Please confirm action"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1562
+msgid ""
+"Are you sure you want to remove the selected chain including all of its "
+"rules?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1563
+msgid "Are you sure you want to remove the selected rule?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1565
+msgid "Protocol"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1566
+msgid "Source IP"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1567
+msgid "Source port"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1568
+msgid "Source ports"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1569
+msgid "Destination IP"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1570
+msgid "Destination port"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1571
+msgid "Destination ports"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1572
+msgid "Input interface"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1573
+msgid "Output interface"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1574
+msgid "Extension"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1575
+msgid "Reject with"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1576
+msgid "Custom"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1577
+msgid "Limit"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1578
+msgid "ICMP-Type"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1579
+msgid "ICMPv6-Type"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1580
+msgid "State"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1581
+msgid "TCP-Flags"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1582
+msgid "Ports"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1584
+msgid "Status"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1585
+msgid "Checking"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1586
+msgid "You have locked yourself out!"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1587
+msgid "Finished successfully"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1588
+msgid "Finished with error"
+msgstr ""

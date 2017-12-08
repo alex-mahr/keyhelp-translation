@@ -1,0 +1,421 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"Report-Msgid-Bugs-To: info@keyhelp.de\n"
+"POT-Creation-Date: 2017-12-08 12:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: functions/functions.translationStrings.php:794
+msgid "Assigned domains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:795
+msgid "Add subdomain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:796
+msgid "Target"
+msgstr ""
+
+#: functions/functions.translationStrings.php:797
+msgid "Domain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:798
+msgid "Security"
+msgstr ""
+
+#: functions/functions.translationStrings.php:799
+msgid "Add domain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:800
+msgid "Email domain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:801
+msgid "Owner"
+msgstr ""
+
+#: functions/functions.translationStrings.php:802
+msgid "Complete domain name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:803
+msgid "Complete domain names"
+msgstr ""
+
+#: functions/functions.translationStrings.php:804
+msgid "Hide subdomains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:805
+msgid "Show subdomains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:806
+msgid "Added on"
+msgstr ""
+
+#: functions/functions.translationStrings.php:807
+msgid "Main domain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:808
+msgid "Domain type"
+msgstr ""
+
+#: functions/functions.translationStrings.php:809
+msgid "Create www. subdomain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:810
+msgid "Domain can be used for email addresses"
+msgstr ""
+
+#: functions/functions.translationStrings.php:811
+msgid "Domain is deactivated"
+msgstr ""
+
+#: functions/functions.translationStrings.php:812
+msgid "By turning off a main domain all subdomains are disabled too."
+msgstr ""
+
+#: functions/functions.translationStrings.php:813
+msgid "Number of subdomains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:814
+msgid "Number of email accounts"
+msgstr ""
+
+#: functions/functions.translationStrings.php:815
+msgid "Additional Apache directives"
+msgstr ""
+
+#: functions/functions.translationStrings.php:816
+msgid ""
+"The directives you enter below will get included to the users HTTP and HTTPS "
+"vhost containers of this domain."
+msgstr ""
+
+#: functions/functions.translationStrings.php:817
+msgid ""
+"Make sure that the directives have the correct syntax. The data are not "
+"subjected to a syntax check and an incorrect syntax prevents a restart of "
+"the web server."
+msgstr ""
+
+#: functions/functions.translationStrings.php:818
+msgid "Creation of multiple domains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:819
+msgid "Here you can add multiple domains at once."
+msgstr ""
+
+#: functions/functions.translationStrings.php:820
+msgid ""
+"Input domain and/or subdomain names by space, comma, semicolon or newline "
+"from each other."
+msgstr ""
+
+#: functions/functions.translationStrings.php:821
+msgid ""
+"If the checkbox 'Create www. subdomain' is activated, a www. subdomain will "
+"be created for each detected main domain."
+msgstr ""
+
+#: functions/functions.translationStrings.php:822
+msgid "Suspended"
+msgstr ""
+
+#: functions/functions.translationStrings.php:823
+msgid "Domain settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:824
+msgid ""
+"The directory \"<b>/</b>\" is your \"<b>www-directory</b>\" on the server. "
+"The directory\"<b>/example folder/</b>\" is a subfolder of your\"<b>www-"
+"directory</b>\". If the specified directory does not exist, it will be "
+"created automatically."
+msgstr ""
+
+#: functions/functions.translationStrings.php:825
+msgid "External target"
+msgstr ""
+
+#: functions/functions.translationStrings.php:826
+msgid ""
+"You can forward your domain on an external website by specifying a valid "
+"URL, starting with \"<b>http://</b>\" or \"<b>https://</b>\"."
+msgstr ""
+
+#: functions/functions.translationStrings.php:827
+msgid "Domain name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:828
+msgid ""
+"Directory or specify external destination starting with \"http://\" or "
+"\"https://\"!"
+msgstr ""
+
+#: functions/functions.translationStrings.php:829
+msgid "Use selected directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:830
+msgid "Redirection"
+msgstr ""
+
+#: functions/functions.translationStrings.php:831
+msgid ""
+"If the entered target is a URL, you can determine the HTTP redirect code "
+"here."
+msgstr ""
+
+#: functions/functions.translationStrings.php:832
+msgid "Is no redirection"
+msgstr ""
+
+#: functions/functions.translationStrings.php:833
+msgid "Subdomain"
+msgstr ""
+
+#: functions/functions.translationStrings.php:834
+msgid "The security options are only available after domain creation process."
+msgstr ""
+
+#: functions/functions.translationStrings.php:835
+msgid "Go to security option management automatically."
+msgstr ""
+
+#: functions/functions.translationStrings.php:836
+msgid "CGI Settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:837
+msgid "Script-Alias Directive"
+msgstr ""
+
+#: functions/functions.translationStrings.php:838
+msgid ""
+"In order to get your CGI programs to work properly,<br>you will need to "
+"specify this path. All scripts inside are treated as CGI programs."
+"<br><br>The script alias directory will not be created automatically."
+msgstr ""
+
+#: functions/functions.translationStrings.php:841
+msgid "Custom setting"
+msgstr ""
+
+#: functions/functions.translationStrings.php:842
+msgid "Enter the path to your desired directory."
+msgstr ""
+
+#: functions/functions.translationStrings.php:843
+msgid "Default setting"
+msgstr ""
+
+#: functions/functions.translationStrings.php:844
+msgid "&lt;Target directory&gt;/cgi-bin/"
+msgstr ""
+
+#: functions/functions.translationStrings.php:845
+msgid "Show logs"
+msgstr ""
+
+#: functions/functions.translationStrings.php:846
+msgid "Enable realtime monitoring"
+msgstr ""
+
+#: functions/functions.translationStrings.php:847
+msgid "Disable realtime monitoring"
+msgstr ""
+
+#: functions/functions.translationStrings.php:848
+msgid "Refresh"
+msgstr ""
+
+#: functions/functions.translationStrings.php:849
+msgid "Clear list"
+msgstr ""
+
+#: functions/functions.translationStrings.php:850
+msgid "Show"
+msgstr ""
+
+#: functions/functions.translationStrings.php:851
+msgid "Access log"
+msgstr ""
+
+#: functions/functions.translationStrings.php:852
+msgid "Access logs"
+msgstr ""
+
+#: functions/functions.translationStrings.php:853
+msgid "Error log"
+msgstr ""
+
+#: functions/functions.translationStrings.php:854
+msgid "Error logs"
+msgstr ""
+
+#: functions/functions.translationStrings.php:855
+msgid "Download"
+msgstr ""
+
+#: functions/functions.translationStrings.php:856
+msgid "Here you can download all available log files in full size."
+msgstr ""
+
+#: functions/functions.translationStrings.php:857
+msgid "Date"
+msgstr ""
+
+#: functions/functions.translationStrings.php:858
+msgid "Client IP"
+msgstr ""
+
+#: functions/functions.translationStrings.php:859
+msgid "HTTP Code"
+msgstr ""
+
+#: functions/functions.translationStrings.php:860
+msgid "Message"
+msgstr ""
+
+#: functions/functions.translationStrings.php:861
+msgid "Referer"
+msgstr ""
+
+#: functions/functions.translationStrings.php:862
+msgid "User Agent"
+msgstr ""
+
+#: functions/functions.translationStrings.php:863
+msgid "Protocol"
+msgstr ""
+
+#: functions/functions.translationStrings.php:864
+msgid "PHP version"
+msgstr ""
+
+#: functions/functions.translationStrings.php:865
+msgid "PHP interpreter"
+msgstr ""
+
+#: functions/functions.translationStrings.php:866
+msgid "PHP interpreter version"
+msgstr ""
+
+#: functions/functions.translationStrings.php:868
+msgid "301 - Moved permanently"
+msgstr ""
+
+#: functions/functions.translationStrings.php:869
+msgid ""
+"Redirects the visitor permanently to another page. Such redirection will not "
+"affect your search engine page ranking."
+msgstr ""
+
+#: functions/functions.translationStrings.php:870
+msgid "302 - Moved temporarily"
+msgstr ""
+
+#: functions/functions.translationStrings.php:871
+msgid ""
+"Redirects the visitor temporarily to another page. The original link remains "
+"in the search engine index."
+msgstr ""
+
+#: functions/functions.translationStrings.php:873
+msgid "(Multiple selection with CTRL + click / SHIFT + click)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:874
+msgid "Cancel selection / Do not apply to subdomains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:875
+msgid "Apply security settings to subdomains"
+msgstr ""
+
+#: functions/functions.translationStrings.php:876
+msgid ""
+"The security settings you set here are also applied for the selected "
+"subdomains."
+msgstr ""
+
+#: functions/functions.translationStrings.php:877
+msgid "HTTP Strict Transport Security (HSTS)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:878
+msgid ""
+"If enabled, the visitor's browser will be told,<br>that the requested "
+"website is only available via a secure connection.<br>Max age specifies, how "
+"long this option is stored in the visitor's browser.<br><span class=\"text-"
+"danger\">Attention, only enable this option if you are aware of the "
+"consequences:</span><br>When you disable the certificate / switching back "
+"from HTTPS to HTTP later on,<br>under certain circumstances visitors are "
+"prevented by their browser from accessing this domain."
+msgstr ""
+
+#: functions/functions.translationStrings.php:883
+msgid "HSTS enabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:884
+msgid "Max-Age"
+msgstr ""
+
+#: functions/functions.translationStrings.php:885
+msgid "Force secure connection"
+msgstr ""
+
+#: functions/functions.translationStrings.php:886
+msgid "All requests to <b>http://</b> will be redirected to <b>https://</b>"
+msgstr ""
+
+#: functions/functions.translationStrings.php:887
+msgid "No certificate"
+msgstr ""
+
+#: functions/functions.translationStrings.php:888
+msgid "This domain is only accessible via an unsecured HTTP connection."
+msgstr ""
+
+#: functions/functions.translationStrings.php:889
+msgid "Let's Encrypt certificate"
+msgstr ""
+
+#: functions/functions.translationStrings.php:890
+msgid ""
+"A free of charge certificate of the Let's Encrypt certificate authority will "
+"be obtained.<br>The administrative handling (request, renewal, etc.) of such "
+"certificate is handled fully automatically."
+msgstr ""
+
+#: functions/functions.translationStrings.php:892
+msgid "Available certificate"
+msgstr ""
+
+#: functions/functions.translationStrings.php:893
+msgid "SSL certificate"
+msgstr ""
+
+#: functions/functions.translationStrings.php:894
+msgid ""
+"Websites that are authenticated by an SSL certificate,<br>offer visitors an "
+"encrypted communication between the browser and web server,<br>that can not "
+"be seen by third parties."
+msgstr ""
