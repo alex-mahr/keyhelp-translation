@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userScheduledTasks\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1100
+msgid ""
+"Using scheduled tasks you can automate certain commands or scripts.<br>The "
+"job will then run automatically at the time / date / interval specified by "
+"you."
+msgstr ""
+"S pomocu planiranih zadataka mozete automatisirati komate ili skripte."
+"<br>Posao ce tada automaski krenuti na Vrijeme / Datum / Interval odredjen s "
+"vase strane."
+
+#: functions/functions.translationStrings.php:1101
+msgid "Scheduled tasks"
+msgstr "Planirani zadaci"
+
+#: functions/functions.translationStrings.php:1102
+msgid "Add task"
+msgstr "Dodaj zadatak"
+
+#: functions/functions.translationStrings.php:1103
+msgid "Command"
+msgstr "Komanda"
+
+#: functions/functions.translationStrings.php:1104
+msgid "Schedule"
+msgstr "Vremenski Plan"
+
+#: functions/functions.translationStrings.php:1105
+msgid "Email for notification"
+msgstr "E-Mail za obavjestenje"
+
+#: functions/functions.translationStrings.php:1106
+msgid "on"
+msgstr "na"
+
+#: functions/functions.translationStrings.php:1107
+msgid "day of month"
+msgstr "da u mjesecu"
+
+#: functions/functions.translationStrings.php:1108
+msgid "at"
+msgstr "u"
+
+#: functions/functions.translationStrings.php:1109
+msgid "minutes"
+msgstr "Minute"
+
+#: functions/functions.translationStrings.php:1110
+msgid "o'clock"
+msgstr "Sati"
+
+#~ msgid "Are you sure you want to delete the following scheduled task?"
+#~ msgstr "Dali ste sigurni da zelite obrisati slijedeci planirani zadatak?"

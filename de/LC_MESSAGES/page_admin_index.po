@@ -1,0 +1,158 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:125
+msgid "Overview"
+msgstr "Übersicht"
+
+#: functions/functions.translationStrings.php:126
+msgid "General information"
+msgstr "Allgemeine Informationen"
+
+#: functions/functions.translationStrings.php:127
+msgid "MySQL databases"
+msgstr "MySQL-Datenbanken"
+
+#: functions/functions.translationStrings.php:128
+msgid "User accounts"
+msgstr "Benutzerkonten"
+
+#: functions/functions.translationStrings.php:129
+msgid "Email addresses"
+msgstr "E-Mail-Adressen"
+
+#: functions/functions.translationStrings.php:130
+msgid "Mailboxes"
+msgstr "E-Mail-Postfächer"
+
+#: functions/functions.translationStrings.php:131
+msgid "Scheduled tasks"
+msgstr "Geplante Aufgaben"
+
+#: functions/functions.translationStrings.php:132
+msgid "Administration panel"
+msgstr "Administrations-Panel"
+
+#: functions/functions.translationStrings.php:133
+msgid "Installed version"
+msgstr "Installierte Version"
+
+#: functions/functions.translationStrings.php:134
+msgid "Latest version"
+msgstr "Aktuelle Version"
+
+#: functions/functions.translationStrings.php:135
+msgid "See history of changes"
+msgstr "Änderungsprotokoll anzeigen"
+
+#: functions/functions.translationStrings.php:136
+msgid "Automatic panel updates have been disabled!"
+msgstr "Automatische Panel-Updates wurden deaktiviert!"
+
+#: functions/functions.translationStrings.php:137
+msgid "Panel tasks"
+msgstr "Panel-Aufgaben"
+
+#: functions/functions.translationStrings.php:138
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: functions/functions.translationStrings.php:139
+msgid "Last run"
+msgstr "Letzter Lauf"
+
+#: functions/functions.translationStrings.php:140
+msgid "System overview"
+msgstr "System Übersicht"
+
+#: functions/functions.translationStrings.php:141
+msgid "Server time"
+msgstr "Serverzeit"
+
+#: functions/functions.translationStrings.php:142
+msgid "System uptime"
+msgstr "Systembetriebszeit"
+
+#: functions/functions.translationStrings.php:143
+msgid "CPU usage"
+msgstr "CPU-Auslastung"
+
+#: functions/functions.translationStrings.php:144
+msgid "Hard disk usage"
+msgstr "Festplattenauslastung"
+
+#: functions/functions.translationStrings.php:145
+msgid "Memory usage"
+msgstr "Speicherauslastung"
+
+#: functions/functions.translationStrings.php:146
+msgid "Swap usage"
+msgstr "Swap-Nutzung"
+
+#: functions/functions.translationStrings.php:147
+msgid "IP address(es)"
+msgstr "IP-Adresse(n)"
+
+#: functions/functions.translationStrings.php:148
+msgid "Hostname"
+msgstr "Hostname"
+
+#: functions/functions.translationStrings.php:149
+msgid "CPU"
+msgstr "CPU"
+
+#: functions/functions.translationStrings.php:150
+msgid "Operating system"
+msgstr "Betriebssystem"
+
+#: functions/functions.translationStrings.php:151
+msgid "Web server"
+msgstr "Webserver"
+
+#: functions/functions.translationStrings.php:152
+msgid "PHP version"
+msgstr "PHP-Version"
+
+#: functions/functions.translationStrings.php:153
+msgid "MySQL version"
+msgstr "MySQL-Version"
+
+#: functions/functions.translationStrings.php:154
+msgid "FTP server"
+msgstr "FTP-Server"
+
+#: functions/functions.translationStrings.php:155
+msgid "Database administration"
+msgstr "Datenbank-Administration"
+
+#: functions/functions.translationStrings.php:156
+msgid "Webmail"
+msgstr "Webmail"
+
+#: functions/functions.translationStrings.php:157
+msgid "News"
+msgstr "News"
+
+#: functions/functions.translationStrings.php:158
+msgid "Traffic this month"
+msgstr "Traffic in diesem Monat"
+
+#: functions/functions.translationStrings.php:159
+msgid "Notes"
+msgstr "Notizen"

@@ -1,0 +1,234 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminWhiteLabel\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1125
+msgid "Import settings"
+msgstr "Импортировать настройки"
+
+#: functions/functions.translationStrings.php:1126
+msgid "Export settings"
+msgstr "Экспортировать настройки"
+
+#: functions/functions.translationStrings.php:1127
+msgid ""
+"In addition to the editable settings here you can also edit <br>the <a href="
+"\"index.php?page=admin_template_default_index\">default index page</a> as "
+"well as the <a href=\"index.php?page=admin_template_email_index\">email "
+"templates</a>."
+msgstr ""
+"В дополнении к стандартным настройкам, у Вас есть возможность редактировать "
+"как <br><a href=\"index.php?page=admin_template_default_index\">базовую "
+"страницу</a>, так и <a href=\"index.php?page=admin_template_email_index"
+"\">шаблон электронной почты</a>."
+
+#: functions/functions.translationStrings.php:1129
+msgid "Overview of white label settings"
+msgstr "Обзор настроек брендинга"
+
+#: functions/functions.translationStrings.php:1130
+msgid "Product name"
+msgstr "Имя продукта"
+
+#: functions/functions.translationStrings.php:1131
+msgid "Page title"
+msgstr "Заголовок страницы"
+
+#: functions/functions.translationStrings.php:1132
+msgid "Favicon"
+msgstr "Favicon"
+
+#: functions/functions.translationStrings.php:1133
+msgid "Banner (internal)"
+msgstr "Баннер (intern)"
+
+#: functions/functions.translationStrings.php:1134
+msgid "Banner (external)"
+msgstr "Баннер (extern)"
+
+#: functions/functions.translationStrings.php:1135
+msgid "Footer"
+msgstr "Подвал"
+
+#: functions/functions.translationStrings.php:1136
+msgid "Help links"
+msgstr "Справка"
+
+#: functions/functions.translationStrings.php:1137
+msgid "All languages"
+msgstr "Все языки"
+
+#: functions/functions.translationStrings.php:1138
+msgid "Reset all settings"
+msgstr "Сбросить все настройки"
+
+#: functions/functions.translationStrings.php:1139
+msgid "Reset white label settings"
+msgstr "Сбросить настройки"
+
+#: functions/functions.translationStrings.php:1140
+msgid "Are you sure you want to reset the white label settings?"
+msgstr "Вы действительно хотите сбросить все настройки?"
+
+#: functions/functions.translationStrings.php:1141
+msgid "Prioritization:"
+msgstr "Приоритеты:"
+
+#: functions/functions.translationStrings.php:1142
+msgid ""
+"Settings with higher priority override the settings with lower priority. "
+"This applies in the following order:"
+msgstr "Настройки с большим приоритетом перезаписывают настройки с меньшим."
+
+#: functions/functions.translationStrings.php:1143
+msgid "1. Language-specific settings (highest priority)"
+msgstr "1. Языковые настройки (высшмий приоритет)"
+
+#: functions/functions.translationStrings.php:1144
+#, fuzzy
+msgid "2. \"All languages\" settings"
+msgstr "Все языки"
+
+#: functions/functions.translationStrings.php:1145
+msgid "3. Panel default settings (lowest priority)"
+msgstr "3. Настройки панкли по умолчанию (наименьший приоритет)"
+
+#: functions/functions.translationStrings.php:1146
+msgid "An entry was saved, it overwrites all entries with lower priority."
+msgstr ""
+"Изменения были сохранены, они перезапишут настройки с меньшим приоритетом."
+
+#: functions/functions.translationStrings.php:1147
+msgid ""
+"No entry was saved, the entry with the next lower priority is used instead."
+msgstr ""
+"Изменения не были сохранены. Используется настройки с меньшим приоритетом."
+
+#: functions/functions.translationStrings.php:1148
+msgid ""
+"Please note, if you import new white label settings your current white label "
+"settings on this sever will be lost."
+msgstr ""
+"Пожалуйста обратите внимание, при импорте новых настроек текущие будут "
+"удалены."
+
+#: functions/functions.translationStrings.php:1149
+msgid "Pick a file for upload"
+msgstr "Выберите файл для загрузки"
+
+#: functions/functions.translationStrings.php:1150
+msgid "Import"
+msgstr "Импорт"
+
+#: functions/functions.translationStrings.php:1151
+msgid "- setting not set -"
+msgstr "- настройки не указаны -"
+
+#: functions/functions.translationStrings.php:1152
+msgid "Remove image"
+msgstr "Удалить изображение"
+
+#: functions/functions.translationStrings.php:1153
+msgid "Show preview on this page"
+msgstr "Просмотр страницы"
+
+#: functions/functions.translationStrings.php:1154
+msgid "Additional CSS"
+msgstr "Дополнительные стили CSS"
+
+#: functions/functions.translationStrings.php:1155
+msgid "You can define your own CSS styles and overwrite the current design."
+msgstr "Вы можете создать собственные CSS стили и изменить дизайн."
+
+#: functions/functions.translationStrings.php:1156
+msgid "Additional JavaScript"
+msgstr "Дополнительныескрипты JavaScript"
+
+#: functions/functions.translationStrings.php:1157
+msgid "You can define your own JavaScript code - jQuery can be used."
+msgstr ""
+"ы можете использовать свой собственный код JavaScript - jQuery может быть "
+"использован."
+
+#: functions/functions.translationStrings.php:1158
+msgid "Edit settings"
+msgstr "Изменить настройки"
+
+#: functions/functions.translationStrings.php:1159
+msgid "Label"
+msgstr "Брендинг"
+
+#: functions/functions.translationStrings.php:1160
+msgid "Link"
+msgstr "Ссылка"
+
+#: functions/functions.translationStrings.php:1161
+msgid "Remove entry"
+msgstr "Удалить запись"
+
+#: functions/functions.translationStrings.php:1162
+msgid "Add entry"
+msgstr "Добавить запись"
+
+#: functions/functions.translationStrings.php:1163
+msgid "This menu is currently hidden"
+msgstr "Это меню скрыто"
+
+#: functions/functions.translationStrings.php:1164
+msgid "Hide menu item"
+msgstr "Скрыть пункт меню"
+
+#: functions/functions.translationStrings.php:1165
+msgid "Show menu item"
+msgstr "Показать пункт меню"
+
+#: functions/functions.translationStrings.php:1166
+msgid "Reset settings"
+msgstr "Сбросить настройки"
+
+#: functions/functions.translationStrings.php:1167
+msgid "The image width should not be larger than 500px."
+msgstr "The image width should not be larger than 500px."
+
+#: functions/functions.translationStrings.php:1168
+msgid "Admin area"
+msgstr "Панель администратора"
+
+#: functions/functions.translationStrings.php:1169
+msgid "User area"
+msgstr "Панель пользователя"
+
+#, fuzzy
+#~ msgid ""
+#~ "<b>Prioritization:</b><br>Settings with higher priority override the "
+#~ "settings with lower priority. This applies in the following order:"
+#~ "<br><br>1. Language-specific settings (highest priority)<br>2. \"All "
+#~ "languages\" settings <br>3. Panel default settings (lowest "
+#~ "priority)<br><br>&#x2714; = An entry was saved, it overwrites all entries "
+#~ "with lower priority.<br>&#x2014; = No entry was saved, the entry with the "
+#~ "next lower priority is used instead."
+#~ msgstr ""
+#~ "<b>Приоритеты:</b><br>Настройки с высоким приоритетом преопределяют "
+#~ "настройки для параметров с низким приоритетом. Приоритеты установлены в "
+#~ "следующем порядке:<br><br>1. Персональные языковые настройки (высокий "
+#~ "приоритет)<br>2. Настройки параметра \"Все языки\"<br>3. Настройки языка "
+#~ "по умолчанию для панели KeyHelp (низкий приоритет)<br><br>&#x2714; = При "
+#~ "сохранении изменений, будут изменены и занчения в параметрах с низким "
+#~ "приоритетом.<br>&#x2014; = В случае сохранения настроек по умолчанию, "
+#~ "значения параметров используется в соответсвии с приоритетом.',"

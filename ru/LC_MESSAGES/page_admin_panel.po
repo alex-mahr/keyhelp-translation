@@ -1,0 +1,373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminPanel\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:353
+msgid "Panel Settings (KeyHelp)"
+msgstr "Настройки панели (KeyHelp)"
+
+#: functions/functions.translationStrings.php:354
+msgid "Appearance"
+msgstr "Внешний вид"
+
+#: functions/functions.translationStrings.php:355
+msgid "Account settings"
+msgstr "Настройки аккаунта"
+
+#: functions/functions.translationStrings.php:356
+msgid "Theme"
+msgstr "Тема"
+
+#: functions/functions.translationStrings.php:357
+msgid "Maximum number of login attempts"
+msgstr "Максимальное количество попыток входа в систему"
+
+#: functions/functions.translationStrings.php:358
+msgid ""
+"Number of failed login attempts for a user account, after the login is "
+"temporarily disabled."
+msgstr ""
+"Количество неудачных попыток входа для учетной записи пользователя, до "
+"временной блокировки входа."
+
+#: functions/functions.translationStrings.php:359
+#, fuzzy
+msgid "Expiration time for unsuccessful login attempts"
+msgstr "Срок истечения блокировки входа"
+
+#: functions/functions.translationStrings.php:360
+msgid "Unsuccessful logins attempts expire after this time.<br>(In seconds)"
+msgstr ""
+"Количество неудачных попыток входа для учетной записи пользователя, до "
+"временной блокировки входа."
+
+#: functions/functions.translationStrings.php:361
+msgid "Session validity"
+msgstr "Срок действия сеанса"
+
+#: functions/functions.translationStrings.php:362
+msgid ""
+"Validity of the session until the user is automatically logged out due to "
+"inactivity.<br>(In seconds)"
+msgstr ""
+"Срок действия сессии, до автовыхода пользователя при неактивности.<br>(В "
+"секундах)"
+
+#: functions/functions.translationStrings.php:363
+msgid "Prefix of the virtual FTP user"
+msgstr "Префикс для виртуальных пользователей FTP"
+
+#: functions/functions.translationStrings.php:364
+msgid "Prefix MySQL user / database"
+msgstr "Префикс для пользователей / баз данных MySQL"
+
+#: functions/functions.translationStrings.php:365
+msgid "Passwords"
+msgstr "Пароли"
+
+#: functions/functions.translationStrings.php:366
+msgid "Password minimum length"
+msgstr "Минимальная длина пароля"
+
+#: functions/functions.translationStrings.php:367
+msgid "Password complexity"
+msgstr "Сложность пароля"
+
+#: functions/functions.translationStrings.php:368
+msgid "The password must consist of at least one of the following characters."
+msgstr "Пароль должен содержать по крайней мере один из следующих символов."
+
+#: functions/functions.translationStrings.php:369
+#, fuzzy
+msgid "Characters [a-zA-Z]"
+msgstr "Символы нижнего регистра [a-z]"
+
+#: functions/functions.translationStrings.php:370
+msgid "Lowercase characters [a-z]"
+msgstr "Символы нижнего регистра [a-z]"
+
+#: functions/functions.translationStrings.php:371
+msgid "Uppercase characters [A-Z]"
+msgstr "Символы верхнего регистра [A-Z]"
+
+#: functions/functions.translationStrings.php:372
+msgid "Digits [0-9]"
+msgstr "Цифры [0-9]"
+
+#: functions/functions.translationStrings.php:373
+msgid "Special characters"
+msgstr "Специальные символы"
+
+#: functions/functions.translationStrings.php:374
+msgid "Length of the automatically generated password"
+msgstr "Длина автоматически генерируемого пароля"
+
+#: functions/functions.translationStrings.php:375
+#, fuzzy
+msgid "Databases"
+msgstr "MySQL базы данных"
+
+#: functions/functions.translationStrings.php:376
+msgid "Custom user / database names"
+msgstr "Собственные названия пользователей и баз данных MySQL"
+
+#: functions/functions.translationStrings.php:377
+#, fuzzy
+msgid "Allows users to assign own MySQL/MariaDB user and database names."
+msgstr ""
+"Разрешить пользователям задавать свои названия баз данных и пользователей "
+"MySQL."
+
+#: functions/functions.translationStrings.php:378
+#, fuzzy
+msgid "Custom FTP usernames"
+msgstr "Собственные названия пользователей и баз данных MySQL"
+
+#: functions/functions.translationStrings.php:379
+#, fuzzy
+msgid "Allows users to assign own FTP usernames."
+msgstr ""
+"Разрешить пользователям задавать свои названия баз данных и пользователей "
+"MySQL."
+
+#: functions/functions.translationStrings.php:380
+msgid "Enabled"
+msgstr "Включено"
+
+#: functions/functions.translationStrings.php:381
+msgid "Tools - phpMyAdmin"
+msgstr "Инструменты - phpMyAdmin"
+
+#: functions/functions.translationStrings.php:382
+msgid "Tools - Webmail"
+msgstr "Инструменты - веб-пота"
+
+#: functions/functions.translationStrings.php:383
+msgid "Webmail client"
+msgstr "Почтовый клиент"
+
+#: functions/functions.translationStrings.php:384
+msgid "The change of the client usually takes 1 minute."
+msgstr "Изменения занимают около минуты."
+
+#: functions/functions.translationStrings.php:385
+msgid "Target-URL for panel navigation"
+msgstr "Адрес панели"
+
+#: functions/functions.translationStrings.php:386
+msgid "Product name"
+msgstr "Имя продукта"
+
+#: functions/functions.translationStrings.php:387
+#, fuzzy
+msgid "Support URL"
+msgstr "Поддержка"
+
+#: functions/functions.translationStrings.php:388
+msgid "Plugins"
+msgstr "Плагины"
+
+#: functions/functions.translationStrings.php:389
+msgid "A comma-separated list of enabled Roundcube plugins."
+msgstr "Укажите список плагинов для подключения Roundcube через запятую."
+
+#: functions/functions.translationStrings.php:390
+#, fuzzy
+msgid "Specify a valid URL, starting with \"http://...\" or \"https://...\"."
+msgstr "Укажите верный URL с \"http://...\" или \"https://...\"."
+
+#: functions/functions.translationStrings.php:391
+msgid "Others"
+msgstr "Другое"
+
+#: functions/functions.translationStrings.php:392
+msgid "Administrator email"
+msgstr "E-mail администратора"
+
+#: functions/functions.translationStrings.php:393
+#, fuzzy
+msgid ""
+"Will be used as sender address for automatic generated emails (e.g. new user "
+"was created, etc.)."
+msgstr ""
+"Будет использоваться как исходящий адрес для отправки автоматических писем, "
+"генерируемых системой (например, о создании нового пользователя)."
+
+#: functions/functions.translationStrings.php:394
+msgid "SSL certificates"
+msgstr "SSL сертификаты"
+
+#: functions/functions.translationStrings.php:395
+#: functions/functions.translationStrings.php:409
+msgid "Notification email address"
+msgstr "Email для уведомлений"
+
+#: functions/functions.translationStrings.php:396
+msgid ""
+"Notifications concerning SSL certificates, will get send to this Email,"
+"<br>including problems encountered while renewing of Let's Encrypt "
+"certificates and expiration warnings of normal, currently used SSL "
+"certificates."
+msgstr ""
+"Уведомления касающиея SSL сертификатов будут отправлены на данный email,"
+"<br>включая проблемы возникающие при обновдении сертификатов Let's Encryptи "
+"истечении срока действия обычных сертификатов."
+
+#: functions/functions.translationStrings.php:398
+msgid "If no email is set, notification will be sent to the admin accounts."
+msgstr ""
+"Если email не задан, уведомления будут отправлены на почтовый ящик "
+"администратора"
+
+#: functions/functions.translationStrings.php:399
+msgid "Certificate expiration notification"
+msgstr "Уведомление об истечении сертификата"
+
+#: functions/functions.translationStrings.php:400
+msgid ""
+"If enabled, you will receive a notification the specified number of days in "
+"advance to the expiration date."
+msgstr ""
+"Если включено, вы получите уведомдение об истечении сертификата за "
+"указанноевами кол-во дней."
+
+#: functions/functions.translationStrings.php:401
+msgid "Let's Encrypt"
+msgstr "Let's Encrypt"
+
+#: functions/functions.translationStrings.php:402
+msgid "Environment"
+msgstr "Среда"
+
+#: functions/functions.translationStrings.php:403
+msgid ""
+"The test environment generates invalid certificates, but is suitable for "
+"testing and settings and functionality.<br>When changing the environment, it "
+"may be necessary to removing existing certificates in /etc/ssl/keyhelp/"
+"letsencrypt/."
+msgstr ""
+"Тестовое окружение создает недействительные сертификаты которые подходятдля "
+"проверки функциональности.<br>При смене окружения может "
+"потребоватьсяудаление существующих скртификатов в /etc/ssl/keyhelp/"
+"letsencrypt/."
+
+#: functions/functions.translationStrings.php:404
+msgid "Country"
+msgstr "Страна"
+
+#: functions/functions.translationStrings.php:405
+msgid "The country, which is used in the CSR for requested certificates."
+msgstr "The country, which is used in the CSR for requested certificates."
+
+#: functions/functions.translationStrings.php:406
+msgid "State / province / region"
+msgstr "Штат / провинция / регион"
+
+#: functions/functions.translationStrings.php:407
+msgid "The state, which is used in the CSR for requested certificates."
+msgstr "Регион указываемый в CSR запросе."
+
+#: functions/functions.translationStrings.php:408
+msgid "Traffic limit exceedance"
+msgstr "Превышение лимита трафика"
+
+#: functions/functions.translationStrings.php:410
+msgid ""
+"Sends a notification to the email address given here as soon as the traffic "
+"of a user exceeds the set limit in the current month."
+msgstr ""
+
+#: functions/functions.translationStrings.php:411
+msgid "If this field is empty, no notification will be sent."
+msgstr ""
+
+#: functions/functions.translationStrings.php:412
+msgid "Show Keyweb AG product recommendations"
+msgstr "Показать рекомендации KeyWeb.Ru"
+
+#: functions/functions.translationStrings.php:413
+msgid "Behavior of the webmail.* subdomain"
+msgstr "Поведение поддомена webmail.*"
+
+#: functions/functions.translationStrings.php:414
+msgid ""
+"For each domain created with KeyHelp there is automatically also a subdomain "
+"\"webmail.&lt;DOMAIN NAME&gt;\" available.<br>Here you can specify what "
+"should happen when a access this domain."
+msgstr ""
+"Для каждого домена созданного в KeyHelp также доступен поддомен \"webmail."
+"&lt;DOMAIN NAME&gt;\".<br>Здесь вы можете указать что откроется по этому "
+"поддомену."
+
+#: functions/functions.translationStrings.php:415
+msgid "Redirection"
+msgstr "Перенаправление"
+
+#: functions/functions.translationStrings.php:416
+msgid ""
+"The user is redirected to the web mailer within the KeyHelp domain. The "
+"domain name in the address bar is hereby changed."
+msgstr "Пользователь перенаправляется на станицу веб-почты без изменений URL"
+
+#: functions/functions.translationStrings.php:417
+msgid "Keep domain name"
+msgstr "Сохранить доменное имя"
+
+#: functions/functions.translationStrings.php:418
+msgid ""
+"In the address bar the domain name remains the same. An insecure access via "
+"http:// will be redirected to a secure https:// connection."
+msgstr "Все запросы на http:// будут перенаправлены на https://."
+
+#: functions/functions.translationStrings.php:419
+msgid "Keep domain name <span class=\"text-danger\">(insecure)</span>"
+msgstr "Оставить домен <span class=\"text-danger\">(незащищенным)</span>"
+
+#: functions/functions.translationStrings.php:420
+msgid ""
+"In the address bar the domain name remains the same.<br>WARNING, the "
+"insecure access via http:// is possible!"
+msgstr ""
+"Доменное имя не меняется в адресной строке.<br>ВНИМАНИЕ, возможен доступ по "
+"незащищенному соединению (http://)!"
+
+#: functions/functions.translationStrings.php:421
+msgid "Send 'Mailbox has been setup successfully' email"
+msgstr "Отправить уведомление об успешном создании почтового ящика"
+
+#: functions/functions.translationStrings.php:422
+msgid ""
+"When a user creates a new mailbox, an automated email is sent to the new "
+"email address to ensure, the mailbox has been setup successfully."
+msgstr ""
+"Пользователь подучает уведомление при создании нового почтового ящика,в том "
+"случае если он был моздан успешно."
+
+#~ msgid "Let's Encrypt subscriber agreement"
+#~ msgstr "Пользовательское соглашение Let's Encrypt"
+
+#~ msgid ""
+#~ "URL of the subscriber agreement currently in effect.<br>The current "
+#~ "version can be found at <a href=\"https://letsencrypt.org/repository/\" "
+#~ "target=\"_blank\">https://letsencrypt.org/repository/</a>.<br>(Empty for "
+#~ "default setting)"
+#~ msgstr ""
+#~ "Актуальная версия пользовательского соглашения доступна по адресу - <a "
+#~ "href=\"https://letsencrypt.org/repository/\" target=\"_blank\">https://"
+#~ "letsencrypt.org/repository/</a>.<br>(Пустой для установки по умолчанию)"

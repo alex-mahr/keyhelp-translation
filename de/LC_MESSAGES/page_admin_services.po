@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminServices\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:319
+msgid "Server Service Management"
+msgstr "Server-Dienst-Verwaltung"
+
+#: functions/functions.translationStrings.php:320
+msgid "Services"
+msgstr "Dienste"
+
+#: functions/functions.translationStrings.php:321
+msgid "Web hosting services"
+msgstr "Webhosting Dienste"
+
+#: functions/functions.translationStrings.php:322
+msgid "Web server (Apache)"
+msgstr "Web-Server (Apache)"
+
+#: functions/functions.translationStrings.php:323
+msgid "DNS server (Bind)"
+msgstr "DNS-Server (Bind)"
+
+#: functions/functions.translationStrings.php:324
+msgid "FastCGI Process Manager (PHP-FPM)"
+msgstr "FastCGI Process Manager (PHP-FPM)"
+
+#: functions/functions.translationStrings.php:325
+#, php-format
+msgid "Additional PHP-FPM interpreter %s"
+msgstr "PHP-FPM - Zusätzlicher PHP-Interpreter %s"
+
+#: functions/functions.translationStrings.php:326
+msgid "Database (MySQL/MariaDB)"
+msgstr "Datenbank (MySQL/MariaDB)"
+
+#: functions/functions.translationStrings.php:327
+msgid "FTP server (Proftpd)"
+msgstr "FTP-Server (Proftpd)"
+
+#: functions/functions.translationStrings.php:328
+msgid "Email services"
+msgstr "E-Mail Dienste"
+
+#: functions/functions.translationStrings.php:329
+msgid "Mail Transfer Agent (Postfix)"
+msgstr "Mail Transfer Agent (Postfix)"
+
+#: functions/functions.translationStrings.php:330
+msgid "Mail Delivery Agent (Dovecot)"
+msgstr "Mail Delivery Agent (Dovecot)"
+
+#: functions/functions.translationStrings.php:331
+msgid "Amavis"
+msgstr "Amavis"
+
+#: functions/functions.translationStrings.php:332
+msgid "Antispam (SpamAssassin)"
+msgstr "Antispam (SpamAssassin)"
+
+#: functions/functions.translationStrings.php:333
+msgid "Antivirus (ClamAV)"
+msgstr "Antivirus (ClamAV)"
+
+#: functions/functions.translationStrings.php:334
+msgid "Other services"
+msgstr "Sonstige Dienste"
+
+#: functions/functions.translationStrings.php:335
+msgid "Cron Daemon"
+msgstr "Cron Daemon"
+
+#: functions/functions.translationStrings.php:336
+msgid "Block IP address (Fail2ban)"
+msgstr "IP-Adressen blockieren (Fail2ban)"
+
+#: functions/functions.translationStrings.php:337
+msgid "SSH"
+msgstr "SSH"
+
+#: functions/functions.translationStrings.php:338
+msgid "Time Synchronization (NTP)"
+msgstr "Zeitsynchronisation (NTP)"

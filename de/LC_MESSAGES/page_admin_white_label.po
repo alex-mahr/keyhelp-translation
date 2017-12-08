@@ -1,0 +1,220 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminWhiteLabel\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1125
+msgid "Import settings"
+msgstr "Einstellungen importieren"
+
+#: functions/functions.translationStrings.php:1126
+msgid "Export settings"
+msgstr "Einstellungen exportieren"
+
+#: functions/functions.translationStrings.php:1127
+msgid ""
+"In addition to the editable settings here you can also edit <br>the <a href="
+"\"index.php?page=admin_template_default_index\">default index page</a> as "
+"well as the <a href=\"index.php?page=admin_template_email_index\">email "
+"templates</a>."
+msgstr ""
+"Als Ergänzung zu den hier editierbaren Einstellungen können Sie zusätzlich "
+"noch<br>die <a href=\"index.php?page=admin_template_default_index\">Standard "
+"Index-Seite</a> sowie die <a href=\"index.php?page=admin_template_email_index"
+"\">E-Mail-Vorlagen</a> bearbeiten."
+
+#: functions/functions.translationStrings.php:1129
+msgid "Overview of white label settings"
+msgstr "Übersicht der Whitelabel-Einstellungen"
+
+#: functions/functions.translationStrings.php:1130
+msgid "Product name"
+msgstr "Produktname"
+
+#: functions/functions.translationStrings.php:1131
+msgid "Page title"
+msgstr "Seitentitel"
+
+#: functions/functions.translationStrings.php:1132
+msgid "Favicon"
+msgstr "Favicon"
+
+#: functions/functions.translationStrings.php:1133
+msgid "Banner (internal)"
+msgstr "Banner (intern)"
+
+#: functions/functions.translationStrings.php:1134
+msgid "Banner (external)"
+msgstr "Banner (extern)"
+
+#: functions/functions.translationStrings.php:1135
+msgid "Footer"
+msgstr "Footer"
+
+#: functions/functions.translationStrings.php:1136
+msgid "Help links"
+msgstr "Hilfe-Links"
+
+#: functions/functions.translationStrings.php:1137
+msgid "All languages"
+msgstr "Alle Sprachen"
+
+#: functions/functions.translationStrings.php:1138
+msgid "Reset all settings"
+msgstr "Alle Einstellungen zurücksetzen"
+
+#: functions/functions.translationStrings.php:1139
+msgid "Reset white label settings"
+msgstr "Whitelabel zurücksetzen"
+
+#: functions/functions.translationStrings.php:1140
+msgid "Are you sure you want to reset the white label settings?"
+msgstr ""
+"Sind Sie sicher, dass Sie die Whitelabel-Einstellungen zurücksetzen möchten?"
+
+#: functions/functions.translationStrings.php:1141
+msgid "Prioritization:"
+msgstr "Priorisierung:"
+
+#: functions/functions.translationStrings.php:1142
+msgid ""
+"Settings with higher priority override the settings with lower priority. "
+"This applies in the following order:"
+msgstr ""
+"Einstellungen mit höherer Priorität überschreiben die Einstellungen mit "
+"niedrigerer Priorität. Es gilt die folgende Reihenfolge:"
+
+#: functions/functions.translationStrings.php:1143
+msgid "1. Language-specific settings (highest priority)"
+msgstr "1. sprachspezifischen Einstellungen (höchste Priorität)"
+
+#: functions/functions.translationStrings.php:1144
+msgid "2. \"All languages\" settings"
+msgstr "2. \"Alle Sprachen\" Einstellungen"
+
+#: functions/functions.translationStrings.php:1145
+msgid "3. Panel default settings (lowest priority)"
+msgstr "3. KeyHelp Standard Einstellungen (niedrigste Priorität)"
+
+#: functions/functions.translationStrings.php:1146
+msgid "An entry was saved, it overwrites all entries with lower priority."
+msgstr ""
+"Ein Eintrag wurde gespeichert, dieser überschreibt alle Einträge mit "
+"niedrigerer Priorität."
+
+#: functions/functions.translationStrings.php:1147
+msgid ""
+"No entry was saved, the entry with the next lower priority is used instead."
+msgstr ""
+" Es wurde kein Eintrag gespeichert, es wird die Einstellung der nächst-"
+"niedrigeren Priorität verwendet."
+
+#: functions/functions.translationStrings.php:1148
+msgid ""
+"Please note, if you import new white label settings your current white label "
+"settings on this sever will be lost."
+msgstr ""
+"Bitte beachten Sie, dass beim Importieren von neuen Whitelabel-Einstellungen "
+"Ihre derzeitigen Whitelabel-Einstellungen auf diesem Server verloren gehen."
+
+#: functions/functions.translationStrings.php:1149
+msgid "Pick a file for upload"
+msgstr "Datei zum Upload auswählen"
+
+#: functions/functions.translationStrings.php:1150
+msgid "Import"
+msgstr "Importieren"
+
+#: functions/functions.translationStrings.php:1151
+msgid "- setting not set -"
+msgstr "- Einstellung nicht gesetzt -"
+
+#: functions/functions.translationStrings.php:1152
+msgid "Remove image"
+msgstr "Bild entfernen"
+
+#: functions/functions.translationStrings.php:1153
+msgid "Show preview on this page"
+msgstr "Vorschau auf dieser Seite"
+
+#: functions/functions.translationStrings.php:1154
+msgid "Additional CSS"
+msgstr "Zusätzliches CSS"
+
+#: functions/functions.translationStrings.php:1155
+msgid "You can define your own CSS styles and overwrite the current design."
+msgstr ""
+"Hier können Sie eigenes CSS definieren und Styles des derzeitigen Design "
+"überschreiben."
+
+#: functions/functions.translationStrings.php:1156
+msgid "Additional JavaScript"
+msgstr "Zusätzliches JavaScript"
+
+#: functions/functions.translationStrings.php:1157
+msgid "You can define your own JavaScript code - jQuery can be used."
+msgstr ""
+"Hier können Sie eigenen JavaScript Code definieren - jQuery kann verwendet "
+"werden."
+
+#: functions/functions.translationStrings.php:1158
+msgid "Edit settings"
+msgstr "Einstellungen bearbeiten"
+
+#: functions/functions.translationStrings.php:1159
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: functions/functions.translationStrings.php:1160
+msgid "Link"
+msgstr "Link"
+
+#: functions/functions.translationStrings.php:1161
+msgid "Remove entry"
+msgstr "Eintrag entfernen"
+
+#: functions/functions.translationStrings.php:1162
+msgid "Add entry"
+msgstr "Eintrag hinzufügen"
+
+#: functions/functions.translationStrings.php:1163
+msgid "This menu is currently hidden"
+msgstr "Dieses Menü wird derzeit nicht angezeigt."
+
+#: functions/functions.translationStrings.php:1164
+msgid "Hide menu item"
+msgstr "Menüpunkt ausblenden"
+
+#: functions/functions.translationStrings.php:1165
+msgid "Show menu item"
+msgstr "Menüpunkt einblenden"
+
+#: functions/functions.translationStrings.php:1166
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: functions/functions.translationStrings.php:1167
+msgid "The image width should not be larger than 500px."
+msgstr "Die Bildbreite für diesen Banner sollte maximal 500px betragen."
+
+#: functions/functions.translationStrings.php:1168
+msgid "Admin area"
+msgstr "Adminbereich"
+
+#: functions/functions.translationStrings.php:1169
+msgid "User area"
+msgstr "Benutzerbereich"

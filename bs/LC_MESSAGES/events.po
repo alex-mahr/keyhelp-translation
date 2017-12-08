@@ -1,0 +1,1378 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp (Events)\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _event\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: _misc/old/admin_dnseditor_edit.php:88 _misc/old/dns_editor.php:102
+#: pages/dns_editor.php:148
+msgid "The zone has been reset to default records."
+msgstr "Zona je resetovana na zadane zapise."
+
+#: _misc/old/admin_dnseditor_edit.php:226 _misc/old/dns_editor.php:240
+#: pages/dns_editor.php:314
+msgid "Invalid SOA-timings."
+msgstr "Neispravna SOA-Timings."
+
+#: _misc/old/admin_dnseditor_edit.php:257 _misc/old/dns_editor.php:271
+#: pages/dns_editor.php:357
+#, php-format
+msgid "Record %s) You did not fill out all input fields."
+msgstr "Zapis %s) Vi niste ispunili sva potrebna polja."
+
+#: _misc/old/admin_dnseditor_edit.php:263 _misc/old/dns_editor.php:277
+#, php-format
+msgid "Record %s) Invalid Time-To-Live value."
+msgstr "Zapis %s) Netacna Time-To-Live vrijednost."
+
+#: _misc/old/admin_dnseditor_edit.php:270
+#: _misc/old/admin_dnseditor_edit.php:275
+#: _misc/old/admin_dnseditor_edit.php:281 _misc/old/dns_editor.php:284
+#: _misc/old/dns_editor.php:289 _misc/old/dns_editor.php:295
+#, php-format
+msgid ""
+"Record %1$s) The data field contains for a <b>%2$s-Record</b> invalid data."
+msgstr "Zapis %s) data polje zadrzi za <b>%2$s-Zapis</b> netacne podatke."
+
+#: _misc/old/admin_dnseditor_edit.php:289 _misc/old/dns_editor.php:303
+#: pages/dns_editor.php:392
+#, php-format
+msgid "Record %s) Invalid Record type."
+msgstr "Zapis %s) Netacan tip Zapisa."
+
+#: _misc/old/admin_dnseditor_edit.php:323 _misc/old/dns_editor.php:337
+msgid "Syntax check failed, please check your entries!"
+msgstr "Provjera sintakse neuspjesna, molimo vas provjerite vase unose!"
+
+#: _misc/old/admin_dnseditor_edit.php:347 _misc/old/dns_editor.php:361
+#: pages/dns_editor.php:484
+msgid "The zone has been edit successfully."
+msgstr "Vremenska zona je izmjenuta uspjesno."
+
+#: _misc/old/license/admin_license_index.php:58
+#: _misc/old/license/admin_license_install.php:49
+msgid "Could not establish a connection to the license update service."
+msgstr ""
+"Nije moguce uspostavljanje konekcije sa servisom za obnavljanje licence."
+
+#: _misc/old/license/admin_license_index.php:77
+msgid "Your license is up to date."
+msgstr "Vasa licenca je na najnovijem stanju."
+
+#: _misc/old/license/admin_license_index.php:84
+msgid "The license was renewed successfully."
+msgstr "Vasa licenca je uspjesno obnovljena."
+
+#: _misc/old/license/admin_license_index.php:86
+msgid "An error occurred while renewing the license."
+msgstr "Pojavila se greska povodom obnavljanje licence."
+
+#: _misc/old/license/admin_license_index.php:93
+#: _misc/old/license/admin_license_install.php:67
+#, php-format
+msgid "The license server reports an error: \"%s\""
+msgstr "Licenc server javlja slijedecu gresku: \"%s\""
+
+#: _misc/old/license/admin_license_install.php:42
+#, php-format
+msgid "The license with the key \"%s\" is already installed."
+msgstr "Licenca sa kljucem \"%s\" je vec instalirana."
+
+#: _misc/old/license/admin_license_install.php:59
+msgid "The license was installed successfully."
+msgstr "Licenca je uspjesno instalirana."
+
+#: _misc/old/license/admin_license_install.php:61
+msgid "An error occurred while installing the license."
+msgstr "Doslo je do greske prilikom instalacije licence."
+
+#: _misc/old/license/admin_license_remove.php:44
+msgid "The license was removed successfully."
+msgstr "Licenca je uspjesno obrisana."
+
+#: _misc/old/license/admin_license_remove.php:46
+msgid "An error occurred while removing the license."
+msgstr "Pojavila se greska prilikom brisanja licence."
+
+#: functions/functions.main.php:1734 functions/functions.main.php:1807
+msgid "The password you entered does not match the password confirmation!"
+msgstr "Lozinka koju ste upisali se nepoklapa sa povrdom!"
+
+#: functions/functions.main.php:1783 functions/functions.main.php:1852
+msgid "The required password complexity was not fulfilled."
+msgstr "Nazalost niste unjeli sve potrebne znakove za Lozinku."
+
+#: functions/functions.translationStrings.php:1040
+#: pages/admin_accounts_admin_add.php:81
+#: pages/admin_accounts_admin_edit.php:126
+#: pages/admin_accounts_user_add.php:226 pages/admin_accounts_user_edit.php:278
+#: pages/admin_mass_email_message.php:84 pages/admin_sslcerts_add.php:125
+#: pages/admin_template_email_add.php:137
+#: pages/admin_template_email_edit.php:119 pages/backup_create_backup.php:85
+#: pages/backup_scheduled_backup.php:153 pages/profile.php:80
+#: pages/user_email_add.php:106
+msgid "The entered email address is invalid."
+msgstr "Upisana E-Mail adresa nije tacna."
+
+#: index.php:250
+msgid "Version mismatch - Please contact your administrator."
+msgstr "Verzije se nepoklapaju - Molimo vas kontaktirajte administratora."
+
+#: index.php:318
+msgid "Your account is not fully set up - some functions are limited."
+msgstr "Vas nalog nije podpuno zavrsen - nekoliko funkcija su limitirane."
+
+#: pages/admin_accounts_admin_add.php:60
+#: pages/admin_accounts_admin_edit.php:105
+msgid "Please enter a valid username."
+msgstr "Molimo vas ukucajte ispravno Korisnicko Ime."
+
+#: pages/admin_accounts_admin_add.php:67
+#: pages/admin_accounts_admin_edit.php:112
+msgid "There is already a user with this name."
+msgstr "Vec postoji jedan Korisnik sa istim Imenom."
+
+#: pages/admin_accounts_admin_add.php:101
+#, php-format
+msgid "The administrator \"<b>%s</b>\" has been successfully created."
+msgstr "Administrator \"<b>%s</b>\" je uspjesno napravljen."
+
+#: pages/admin_accounts_admin_delete.php:94
+#: pages/admin_accounts_admin_edit.php:72
+msgid "Insufficient user privileges."
+msgstr "Nedovoljna Korisnicka prava."
+
+#: pages/admin_accounts_admin_delete.php:156
+#: pages/admin_accounts_user_delete.php:190
+#: pages/admin_accounts_user_edit.php:250
+msgid "The deleting of the demo accounts is not allowed in the KeyHelp demo!"
+msgstr "Brisanje Demo naloga nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_accounts_admin_delete.php:161
+msgid "The following administrator accounts were successfully deleted:"
+msgstr "Slijedeci administrator nalozi su uspjesno obrisani:"
+
+#: pages/admin_accounts_admin_edit.php:94
+msgid "The editing of this user in not allowed in the KeyHelp demo!"
+msgstr "Izmjenjivanje korisnika nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_accounts_admin_edit.php:150
+#, php-format
+msgid "The administrator account \"<b>%s</b>\" has been updated."
+msgstr "Administrator nalog \"<b>%s</b>\" je uspjesno izmjenut."
+
+#: pages/admin_accounts_user_add.php:196
+#, php-format
+msgid "Please enter a valid username with up to %s characters in lowercase."
+msgstr "Molimo vas ukucajte Korisnicko Ime do %s znakova malim slovima."
+
+#: pages/admin_accounts_user_add.php:201
+msgid "The username is already in use (in the database or on the server)."
+msgstr "Korisnicko Ime je vec u upotrebi (u Bazi Podataka ili na Serveru)."
+
+#: pages/admin_accounts_user_add.php:213
+msgid "The subdomain already exists."
+msgstr "Subdomena vec postoji."
+
+#: pages/admin_accounts_user_add.php:232
+msgid "You have not entered email address to receive the login information."
+msgstr "Vi niste upisali E-Mail adresu da dobijete informacije za prijavu."
+
+#: pages/admin_accounts_user_add.php:300 pages/admin_accounts_user_edit.php:347
+#, php-format
+msgid "Invalid input in the input field \"%s\"."
+msgstr "Nevazeci podaci u polju \"%s\"."
+
+#: pages/admin_accounts_user_add.php:301 pages/admin_accounts_user_edit.php:348
+#, fuzzy, php-format
+msgid "Invalid input in the additional options field \"%s\"."
+msgstr "Nevazeci podaci u polju \"%s\"."
+
+#: pages/admin_accounts_user_add.php:302 pages/admin_accounts_user_edit.php:349
+#, php-format
+msgid "Invalid input in the PHP setting field \"%s\"."
+msgstr "Nevazeci podaci u polju \"%s\"."
+
+#: pages/admin_accounts_user_add.php:303 pages/admin_accounts_user_edit.php:350
+#, php-format
+msgid "Invalid input in the PHP-FPM setting field \"%s\"."
+msgstr "Nevazeci podaci u polju \"%s\"."
+
+#: pages/admin_accounts_user_add.php:334 pages/admin_accounts_user_edit.php:381
+#: pages/admin_template_account_add.php:133
+#: pages/admin_template_account_edit.php:192
+msgid "You can not allow additional FTP users, if FTP is deactivated."
+msgstr "Vi nemozete dozvoliti dodatne FTP korisnike, ako je FTP Deaktiviran."
+
+#: pages/admin_accounts_user_add.php:340 pages/admin_accounts_user_edit.php:387
+#: pages/admin_template_account_add.php:138
+#: pages/admin_template_account_edit.php:197
+msgid ""
+"You can not allow email addresses, without having at least one email account."
+msgstr ""
+"Vi nemozete dozvoliti dodatne E-Mail adrese, ako nemate najmanje jedan E-"
+"Mail Nalog."
+
+#: pages/admin_accounts_user_add.php:346 pages/admin_accounts_user_edit.php:393
+#: pages/admin_template_account_add.php:143
+#: pages/admin_template_account_edit.php:202
+msgid "The disk space must be at least 1 MB."
+msgstr "Disk Prostor mora biti najmanje 1 MB."
+
+#: pages/admin_accounts_user_add.php:355 pages/admin_accounts_user_edit.php:401
+msgid ""
+"The value of \"pm.min_spare_servers\" may not be greater than \"pm."
+"max_spare_servers\"."
+msgstr ""
+"Vrijednost od \"pm.min_spare_servers\" nesmije biti veca od \"pm."
+"max_spare_servers\"."
+
+#: pages/admin_accounts_user_add.php:361 pages/admin_accounts_user_edit.php:407
+msgid ""
+"The values of \"pm.min_spare_servers\" and \"pm.max_spare_servers\" may not "
+"be greater than \"pm.max_children\"."
+msgstr ""
+"Vrijednost od \"pm.min_spare_servers\" i  \"pm.max_spare_servers\" nesmije "
+"biti veca od \"pm.max_children\"."
+
+#: pages/admin_accounts_user_add.php:367 pages/admin_accounts_user_edit.php:413
+msgid "Invalid IP for PHP-FPM status page IP restriction."
+msgstr "Nevazeca IP za PHP FPM status stranicu IP ogranicenje."
+
+#: pages/admin_accounts_user_add.php:482
+#, php-format
+msgid ""
+"The user \"<b>%s</b>\" has been successfully created. In a few moments, the "
+"account can be used."
+msgstr ""
+"Korisnik \"<b>%s</b>\" je uspjesno napravljen. Za nekoliko minuta mozete "
+"koristiti ovaj Korisnicki Nalog."
+
+#: pages/admin_accounts_user_delete.php:195
+msgid ""
+"The following user accounts will be deleted completely in a few moments:"
+msgstr "Slijedeci Korisnicki Nalozi ce biti za nekoliko minuta obrisani:"
+
+#: pages/admin_accounts_user_edit.php:256
+#, fuzzy
+msgid "The suspending of the demo accounts is not allowed in the KeyHelp demo!"
+msgstr "Brisanje Demo naloga nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_accounts_user_edit.php:261 pages/forgotpw.php:62
+#: pages/profile.php:141
+msgid ""
+"The change of passwords of demo accounts is not allowed in the KeyHelp demo!"
+msgstr "Promjena lozinke od Demo naloga nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_accounts_user_edit.php:577
+#, php-format
+msgid "The user \"<b>%s</b>\" will be completely updated in a few moments."
+msgstr ""
+"Korisnik \"<b>%s</b>\"  ce biti podpuno obnovljen za nekoliko trenutaka."
+
+#: pages/admin_accounts_user_edit.php:581
+#, php-format
+msgid "The user \"<b>%s</b>\" has been updated completely."
+msgstr "Korisnik \"<b>%s</b>\"  je podpuno obnovljen."
+
+#: pages/admin_active_sessions.php:108
+#, fuzzy
+msgid "The selected sessions got terminated."
+msgstr "Odabrana akcija nije dozvoljena."
+
+#: pages/admin_domain_add.php:123
+msgid "Please select a valid main domain."
+msgstr "Molimo vas unesite ispravnu glavnu domenu."
+
+#: pages/admin_domain_add.php:146
+msgid "Please choose a valid user."
+msgstr "Molimo vas odaberite ispravnog korisnika."
+
+#: pages/admin_domain_add.php:430
+msgid "One or more domains contain errors:"
+msgstr ""
+
+#: pages/admin_domain_add.php:440
+msgid "Error in associated main domain"
+msgstr ""
+
+#: pages/admin_domain_add.php:443
+#, fuzzy
+msgid "Domain name is invalid."
+msgstr "Ime baze podataka \"%s\" je netacno."
+
+#: pages/admin_domain_add.php:446
+#, fuzzy
+msgid "Domain name already exisits."
+msgstr "Subdomena vec postoji."
+
+#: pages/admin_domain_delete.php:124 pages/user_domain_delete.php:126
+msgid "The following domains were deleted successfully:"
+msgstr "Slijedece domene su uspjesno obrisane:"
+
+#: pages/admin_domain_delete.php:130 pages/user_domain_delete.php:121
+msgid "No domain could be deleted."
+msgstr "Nijedna domena se nije mogla obrisati."
+
+#: pages/admin_domain_edit.php:64 pages/admin_domain_edit.php:180
+#: pages/user_domain_edit.php:63 pages/user_domain_edit.php:201
+msgid "The selected domain does not exist."
+msgstr "Odabrana domena ne postoji."
+
+#: pages/admin_domain_edit.php:189 pages/user_domain_edit.php:263
+msgid ""
+"Let's Encrypt currently does not support internationalized domain names."
+msgstr "Let's Encrypt trenutno ne podrzava internacionalizovana imena domene."
+
+#: pages/admin_domain_edit.php:195 pages/user_domain_edit.php:269
+msgid "Let's Encrypt currently does not support wildcard domain names."
+msgstr "Let's Encrypt trenutno ne podrzava internacionalizovana imena domene."
+
+#: pages/admin_domain_edit.php:202
+msgid "You have selected none of the existing certificates."
+msgstr "Vi niste odabrali nijedan postojeci certifikat."
+
+#: pages/admin_domain_edit.php:372 pages/user_domain_edit.php:390
+#, php-format
+msgid "The domain \"<b>%s</b>\" has been successfully updated."
+msgstr "Domena \"<b>%s</b>\" je uspjesno obnovljena."
+
+#: pages/admin_firewall.php:88
+msgid "You cannot save this rule set while it is in applying process."
+msgstr "Vi nemozete sacuvati ovaj set pravila dok je u procesu primjene."
+
+#: pages/admin_firewall.php:95
+msgid ""
+"You cannot apply this rule set, while there is another rule set in applying "
+"process."
+msgstr ""
+"Vi nemozete primjeniti ovaj set pravila dok je jedan drugi set pravila u "
+"procesu primjene."
+
+#: pages/admin_firewall.php:107
+msgid "The rule set could not be saved because of previous errors."
+msgstr "Set pravila nije mogao biti sacuvan zbog prethodnih gresaka."
+
+#: pages/admin_firewall.php:126
+msgid "The current rule set cannot be saved directly."
+msgstr "Trenutni set pravila nije moguce sacuvati direktno."
+
+#: pages/admin_firewall.php:127
+#, php-format
+msgid ""
+"Instead, a copy including your changes was created and saved as \"<b>%s</b>"
+"\"."
+msgstr ""
+"Umjesto toga, kopija koja zadrzava vase promene je napravljena i sacuvana "
+"kao \"<b>%s</b>\"."
+
+#: pages/admin_firewall.php:133
+#, php-format
+msgid "Rule set \"<b>%s</b>\" was saved successfully."
+msgstr "Set pravila <b>%s</b>\" je uspjesno sacuvan."
+
+#: pages/admin_firewall.php:146
+msgid "Applying firewall rules is not allowed in the KeyHelp demo!"
+msgstr "Izmjenjivanje pravila firewall-a nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_firewall.php:177
+msgid "You cannot delete this rule set while it is in applying process."
+msgstr "Ovo pravilo nemozete obrisati dok se primenjuje."
+
+#: pages/admin_firewall.php:182
+#, php-format
+msgid "Rule set \"<b>%s</b>\" was deleted successfully."
+msgstr "Set pravila \"<b>%s</b>\" je uspjesno napravljen."
+
+#: pages/admin_firewall.php:199
+msgid "The settings have been saved successfully."
+msgstr "Podesavanja su uspjesno sacuvana."
+
+#: pages/admin_firewall.php:205
+msgid "Current rule sets are requested to reload. (This may take a moment.)"
+msgstr ""
+"Trenutni set pravila zahtjeva ponovo ucitavanje. (To moze potrajati momenat)"
+
+#: pages/admin_firewall.php:280
+msgid "Cannot create new draft. Imported rule set to be imported is invalid."
+msgstr ""
+"Nemozete napraviti novi primjer. Importirani set pravila koji je odabran za "
+"importiranje je nevazeci."
+
+#: pages/admin_firewall.php:305
+#, php-format
+msgid "New draft \"<b>%s</b>\" was created successfully."
+msgstr "Novi primjer \"<b>%s</b>\" je uspjesno napravljen."
+
+#: pages/admin_firewall.php:334
+#, php-format
+msgid "Rule set \"<b>%s</b>\" is in applying process."
+msgstr "Set pravila \"<b>%s</b>\" je u procesu primjene."
+
+#: pages/admin_firewall.php:339
+msgid "Anti lockout check is enabled!"
+msgstr "Kontrola protiv blokiranje s vlastitog servera je omogucena!"
+
+#: pages/admin_firewall.php:342
+msgid "Please stay on this page, until checking is finished."
+msgstr "Molimo vas ostanite na ovoj stranici, dok se provjera nezavrsi."
+
+#: pages/admin_firewall.php:345
+msgid ""
+"Changes will now get undone, please wait one minute, then you can access "
+"this page again."
+msgstr ""
+"Promjene ce biti sada vracene molimo vas sacekajte minut ili dva tada mozete "
+"pristupiti ponovo ovoj stranici."
+
+#: pages/admin_firewall.php:414
+#, php-format
+msgid "The rule set \"<b>%s</b> was applied successfully."
+msgstr "Set pravila \"<b>%s</b>\" je uspjesno primijenjen."
+
+#: pages/admin_firewall.php:419 pages/admin_firewall.php:428
+#, php-format
+msgid "Error occurred while trying to apply rule set \"<b>%s</b>\"."
+msgstr "Pojavila se greska povodom primijenjivanjem set pravila \"<b>%s</b>\"."
+
+#: pages/admin_firewall.php:421
+msgid "It seems you have locked yourself out of the server."
+msgstr "Izgleda da ste se zakljucali sa vaseg servera."
+
+#: pages/admin_firewall.php:423
+msgid "The previous rules have been restored."
+msgstr "Prethodno pravilo je vraceno."
+
+#: pages/admin_mailqueue.php:48
+msgid "The selected email queue records have been deleted."
+msgstr "Odabrana e-mail lista zapis je obrisana."
+
+#: pages/admin_mailqueue.php:55
+msgid "All emails from queue have been deleted."
+msgstr "Svi e-mailovi sa reda su obrisani."
+
+#: pages/admin_mass_email_message.php:78 pages/admin_sslcerts_add.php:100
+#: pages/admin_sslcerts_add.php:222 pages/admin_sslcerts_add.php:250
+#: pages/admin_sslcerts_edit.php:151 pages/admin_sslcerts_edit.php:173
+#: pages/admin_sslcerts_edit.php:194
+msgid "Please fill out all required fields."
+msgstr "Molimo popunite sva potreba polja."
+
+#: pages/admin_mass_email_message.php:109
+msgid ""
+"There are no recipients defined. / The selected recipients have no email "
+"address stored."
+msgstr ""
+"Nema definiranih primatelja. / Odabrani primaoci nemaju  pohranjene e-mail "
+"adrese."
+
+#: pages/admin_mass_email_message.php:151
+#, php-format
+msgid "The message has been sent to %s recipient(s)."
+msgstr "Ova poruka je poslana na %s primaoca(e)."
+
+#: pages/admin_mass_email_message.php:162
+#, php-format
+msgid ""
+"While sending emails to the following recipients, an error occurred.<br><br>"
+"%s"
+msgstr ""
+"Prilikom slanja e-maila sljedecim primaocima, doslo je do greske.<br><br>%s"
+
+#: pages/admin_panel.php:167 pages/admin_template_email_add.php:80
+#: pages/admin_whitelabel_edit.php:72 pages/profile.php:87
+msgid "You have selected an invalid language."
+msgstr "Vi ste odabrali neispravan jezik."
+
+#: pages/admin_panel.php:174
+msgid "The value for maximum login attempts is invalid."
+msgstr "Vrijednost maksimalnog pokusaja za prijavu je nevazeci."
+
+#: pages/admin_panel.php:179
+msgid "The value for the login deactivation time is invalid."
+msgstr "Vrijednost za deaktivaciju prijave je nevazeci."
+
+#: pages/admin_panel.php:184
+msgid ""
+"The period of validity of the session is invalid. (Enter a value of at least "
+"60 seconds.)"
+msgstr ""
+"Period vazenja sjednice je nevazeci. (Unesite vrijednost od najmanje 60 "
+"sekundi.)"
+
+#: pages/admin_panel.php:191
+msgid "The value of the minimum password length is invalid."
+msgstr "Vrijednost za minimalnu duzinu lozinke je nevazeci."
+
+#: pages/admin_panel.php:196
+msgid "The value of the length for generated passwords is invalid."
+msgstr "Vrijednost duzine za generirane lozinke je nevazeci."
+
+#: pages/admin_panel.php:210
+msgid "The email address for traffic-limit-exceeded notifications is invalid."
+msgstr ""
+"E-Mail adresa za obavjestenja  za prekoracenja ogranicenja protok podataka "
+"je nevazeci."
+
+#: pages/admin_panel.php:217
+msgid "The email address for SSL certificate notifications is invalid."
+msgstr ""
+"E-Mail adresa za obavjestenja  za obavjestenja o SSL certifikatima je "
+"nevazeci."
+
+#: pages/admin_panel.php:226
+msgid "Demo mode restriction: Only Let's Encrypt test environment allowed."
+msgstr "Demo modus ogranicenje: Samo Let's Encrypt test okolina dozvoljena."
+
+#: pages/admin_panel.php:235
+msgid "Let's Encrypt state may not be empty."
+msgstr "Let's Encrypt zemlja nemoze biti prazna."
+
+#: pages/admin_panel.php:242
+msgid "The URL to the tool \"PhpMyAdmin\" is invalid."
+msgstr "URL Adresa za alatku \"phpMyAdmin\" je nevazeci."
+
+#: pages/admin_panel.php:250
+msgid "The URL to the webmail client is invalid."
+msgstr "URL Adresa za alatku \"Webmail Client\" je nevazeci."
+
+#: pages/admin_panel.php:283 pages/admin_panel.php:314
+msgid "The webmail configuration could not be updated."
+msgstr "Webmail konfiguracija se nije mogla azurirati."
+
+#: pages/admin_panel.php:333
+msgid "The value of the administrator email address is invalid."
+msgstr "Vrijednost za administrator e-mail adresa je nevazeci."
+
+#: pages/admin_panel.php:390
+msgid "The panel settings have been updated successfully."
+msgstr "Panel podesavanja su uspjesno sacuvana."
+
+#: pages/admin_panel_tasks.php:167
+msgid "Invalid form data."
+msgstr "Netacni podaci u formularu."
+
+#: pages/admin_panel_tasks.php:187
+msgid "Settings have been updated successfully."
+msgstr "Podesavanja su uspjesno sacuvana."
+
+#: pages/admin_server.php:196
+#, fuzzy
+msgid "Changing the hostname is not allowed in the KeyHelp demo!"
+msgstr "Promjena certifikata za Server servise nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_server.php:209
+msgid "The specified hostname is not valid. Please enter a valid FQDN."
+msgstr "Odabrani Hostname nije vazeci. Molimo vas odaberite jednu vazecu FQDN."
+
+#: pages/admin_server.php:250
+msgid "Please input a valid number for the RAM-Disk size."
+msgstr "Molimo vas unesite validan broj za RAM velicinu."
+
+#: pages/admin_server.php:253
+msgid "Please choose a valid unit type for the RAM-Disk size."
+msgstr "Molimo odaberite vazeci tip za velicinu RAM."
+
+#: pages/admin_server.php:257
+msgid "Please input a valid percentage between 0 and 100."
+msgstr "Molimo unesite vazeci postotak izmedzu 0 i 100."
+
+#: pages/admin_server.php:282
+msgid ""
+"Please enter a valid email address for forwarding or leave this field empty."
+msgstr ""
+"Molimo unesite vazecu e-mail adresu za prosljedzivanje ili ostavi ovo polje "
+"prazno."
+
+#: pages/admin_server.php:288
+msgid "Please enter a valid email address for forwarding."
+msgstr "Molimo unesite vazecu e-mail adresu za prosljeđivanje."
+
+#: pages/admin_server.php:312
+msgid "Invalid webserver port range."
+msgstr "Pogresni webserver port prostor."
+
+#: pages/admin_server.php:399
+msgid ""
+"Please enter a valid email address for antivirus scanner notification or "
+"leave this field empty."
+msgstr ""
+"Molimo unesite vazecu e-mail adresu za antivirusni skener obavijestenja ili "
+"ostavi ovo polje prazno."
+
+#: pages/admin_server.php:426
+msgid ""
+"The server settings have been successfully saved and are available in a few "
+"seconds."
+msgstr ""
+"Server podesavanja su uspjesno sacuvana i bice dostupna za nekoliko sekundi."
+
+#: pages/admin_services.php:139
+msgid "The service has been successfully stopped."
+msgstr "Servis je uspjesno stopiran."
+
+#: pages/admin_services.php:143
+msgid "The service has been successfully started."
+msgstr "Servis je uspjesno pokrenut."
+
+#: pages/admin_services.php:148
+msgid ""
+"Sorry, the operation could not be performed correctly. (Permissions correct?)"
+msgstr ""
+"Izvinite, operacije nisu mogle biti zavrsene ispravno. (Dozvole tacne?)"
+
+#: pages/admin_sslcerts_add.php:106
+msgid "The transmitted key length is invalid."
+msgstr "Prenesena duzine kljuca je nevazeci."
+
+#: pages/admin_sslcerts_add.php:112
+msgid "The transmitted country is invalid."
+msgstr "Prenesena drzava je nevazeca."
+
+#: pages/admin_sslcerts_add.php:118
+msgid "Please enter a valid domain!"
+msgstr "Molimo vas unesite ispravnu domenu!"
+
+#: pages/admin_sslcerts_add.php:132
+msgid ""
+"Please choose whether a CSR (Certificate Signing Request) or a self-signed "
+"certificate will be created!"
+msgstr ""
+"Molimo izaberite da li je CSR (Certificate Signing Request) ili samostalno "
+"potpisan certifikat ce biti kreiran!"
+
+#: pages/admin_sslcerts_add.php:277
+msgid "The uploaded private key is invalid."
+msgstr "Uploadovan privatni kljuc je nevazeci."
+
+#: pages/admin_sslcerts_add.php:281 pages/admin_sslcerts_edit.php:222
+msgid "The uploaded certificate is invalid."
+msgstr "Uploadovan certifikat je nevazeci."
+
+#: pages/admin_sslcerts_add.php:307 pages/admin_sslcerts_edit.php:246
+msgid "The uploaded CA-certificat is invalid."
+msgstr "Uploadovan CA-certifikat je nevazeci."
+
+#: pages/admin_sslcerts_add.php:326 pages/admin_sslcerts_edit.php:335
+msgid "The certificate chain seems to be faulty."
+msgstr "Lanac certifikata izgleda neispravan."
+
+#: pages/admin_sslcerts_add.php:339 pages/admin_sslcerts_edit.php:277
+msgid "Invalid combination of private key and certificate."
+msgstr "Neispravna kombinacija privatnog kljuca i certifikata."
+
+#: pages/admin_sslcerts_add.php:362 pages/admin_sslcerts_edit.php:157
+msgid "The selected certificate name is already in use."
+msgstr "Odabrano ime certifikata se vec koristi."
+
+#: pages/admin_sslcerts_add.php:379 pages/admin_sslcerts_edit.php:289
+#, php-format
+msgid "The certificate repository \"%s\" does not exist or is not readable."
+msgstr "Certifikat spremista \"%s\" ne postoji ili nije citljiva."
+
+#: pages/admin_sslcerts_add.php:439
+msgid ""
+"The certificate request (CSR) has been successfully created. In order to "
+"obtain a valid certificate, now you submit this CSR to a certificate "
+"authority:"
+msgstr ""
+"Zahtjev za certifikat (CSR) je uspjesno kreiran. Da bi ste dobili vazeci "
+"certifikat, morate poslati ovaj CSR jednom certifikat izdavacu:"
+
+#: pages/admin_sslcerts_add.php:441
+msgid ""
+"The SSL certificate has been added successfully. To use the certificate, you "
+"must assign it to the corresponding domain (under general> domains> domain "
+"edit)."
+msgstr ""
+"SSL certifikat je uspjesno dodan. Kako bi ga mogli koristiti, morate prvo "
+"dodijeliti ovom certifikatu Domenu (na Osnovno > Domene > Izmjeni Domenu)."
+
+#: pages/admin_sslcerts_delete.php:171
+msgid "The following SSL certificates has been deleted successfully:"
+msgstr "Slijedeci SSL certifikati su obrisani uspjesno:"
+
+#: pages/admin_sslcerts_delete.php:178
+msgid "No SSL certificate could be deleted."
+msgstr "Nepostoji ceritfikat koji se moze obrisati."
+
+#: pages/admin_sslcerts_edit.php:51 pages/admin_sslcerts_edit.php:144
+msgid "The selected SSL certificate does not exist."
+msgstr "Odabrani SSL certifikat nepostoji."
+
+#: pages/admin_sslcerts_edit.php:165 pages/admin_sslcerts_edit.php:338
+#: pages/admin_sslcerts_index.php:81
+msgid "The SSL certificate has been updated successfully."
+msgstr "SSL certifikat je obnovljen uspjesno."
+
+#: pages/admin_sslcerts_index.php:39
+#, fuzzy
+msgid ""
+"Changing the server service certificates is not allowed in the KeyHelp demo!"
+msgstr "Promjena certifikata za Server servise nije dozvoljeno u KeyHelp Demo!"
+
+#: pages/admin_template_account_add.php:106
+#: pages/admin_template_account_edit.php:161
+msgid "Please choose a name for the template."
+msgstr "Molimo vas odaberite Ime za ovaj predlozak."
+
+#: pages/admin_template_account_add.php:127
+#: pages/admin_template_account_edit.php:186
+msgid "There already exists an account template with this name."
+msgstr "Vec postoji jedan predlozak za nalog sa istim imenom."
+
+#: pages/admin_template_account_add.php:186
+msgid "The account template has been successfully added."
+msgstr "Predlozak za nalog je uspjesno dodat."
+
+#: pages/admin_template_account_delete.php:118
+msgid "The following account template have been deleted successfully:"
+msgstr "Sljedeci predlozak za nalog je uspjesno obrisan:"
+
+#: pages/admin_template_account_delete.php:125
+msgid "No account template could be deleted."
+msgstr "Nema predlozaka za nalog koji se moze obrisati."
+
+#: pages/admin_template_account_edit.php:249
+msgid "The account template has been successfully updated."
+msgstr "Predlozak za nalog je uspjesno izmjenut."
+
+#: pages/admin_template_default_index.php:47
+#: pages/admin_template_default_index.php:59
+msgid "The changes were applied successfully"
+msgstr "Izmjene su uspjesno primijenjene"
+
+#: pages/admin_template_email_add.php:85
+msgid "The selected action is invalid."
+msgstr "Odabrana akcija nije dozvoljena."
+
+#: pages/admin_template_email_add.php:101
+msgid "There already exists a template in the selected language and action."
+msgstr "Vec postoji predlozak u odabranom jeziku i akciji."
+
+#: pages/admin_template_email_add.php:106
+#: pages/admin_template_email_edit.php:88
+msgid "Please enter a subject."
+msgstr "Molimo vas unesite naslov."
+
+#: pages/admin_template_email_add.php:111
+#: pages/admin_template_email_edit.php:93
+msgid "Please enter an email text."
+msgstr "Molimo unesite text za e-mail."
+
+#: pages/admin_template_email_add.php:158
+msgid "The email template has been successfully added."
+msgstr "Predlozak za e-mail je uspjesno dodan."
+
+#: pages/admin_template_email_delete.php:122
+msgid "The following email templates have been deleted successfully."
+msgstr "Sljedeci predlozak za e-mail je uspjesno obrisan."
+
+#: pages/admin_template_email_delete.php:126
+msgid "No email template could be deleted."
+msgstr "Nema predlozaka za e-mail koji se moze obrisati."
+
+#: pages/admin_template_email_edit.php:140
+msgid "The email template has been successfully updated."
+msgstr "Predlozak za e-mail je uspjesno izmjenut."
+
+#: pages/admin_whitelabel_edit.php:169 pages/admin_whitelabel_import.php:40
+#: pages/backup_create_backup.php:75 pages/backup_scheduled_backup.php:139
+msgid "This function is not available in the KeyHelp demo version."
+msgstr "Ova funkcija nije dostupna u KeyHelp demo verziji."
+
+#: pages/admin_whitelabel_edit.php:178
+msgid "The entered product name is too long (max. 20 characters)."
+msgstr "Upisano ime proizvoda je predugo (max. 20 znakova)."
+
+#: pages/admin_whitelabel_edit.php:200 pages/admin_whitelabel_import.php:49
+msgid "An error occurred while uploading data."
+msgstr "Prilikom uploadovanje podataka je se pojavila nova greska."
+
+#: pages/admin_whitelabel_edit.php:215
+msgid "The file could not be saved on the server due to lack of permissions."
+msgstr "Nije moguce zacuvati datoteku na serveru  nedostatak dozvola."
+
+#: pages/admin_whitelabel_edit.php:230
+msgid "The data entered under \"Help Links\" could not be applied correctly."
+msgstr "Podaci pod \"Pomocni Linkovi\" nisu tacno sacuvani."
+
+#: pages/admin_whitelabel_edit.php:251
+msgid ""
+"Please fill out all fields under \"Help Links\" or select \"Hide menu item"
+"\" / \"Reset settings\"."
+msgstr ""
+"Molimo vas popunite sva potrebna polja pod \"Pomocni Linkovi\" ili odaberi "
+"\"Sakriji stavke menija\" / \"Resetuj podesavanja\"."
+
+#: pages/admin_whitelabel_edit.php:306
+msgid "The white label settings have been successfully saved!"
+msgstr "White label podesavanja su uspjesno sacuvana!"
+
+#: pages/admin_whitelabel_import.php:60
+msgid "The settings have been successfully imported."
+msgstr "Podesavanja su uspjesno importirana."
+
+#: pages/admin_whitelabel_import.php:64
+#, php-format
+msgid "An error occurred while importing: %s"
+msgstr "Pojavila se greska prilikom importiranja: %s"
+
+#: pages/admin_whitelabel_index.php:61
+msgid "The white label settings have been reset successfully!"
+msgstr "White label podesavanja su uspjesno resetovana!"
+
+#: pages/backup_create_backup.php:89 pages/backup_scheduled_backup.php:163
+msgid "Please select a destination repository."
+msgstr "Molimo vas odaberite vanjsko spremišta."
+
+#: pages/backup_create_backup.php:106
+msgid "The backup task has been successfully scheduled."
+msgstr "Backup zadatak je uspjesno planiran."
+
+#: pages/backup_remote_settings.php:70 pages/backup_scheduled_backup.php:240
+msgid "The settings have been reset successfully!"
+msgstr "Podesavanja su uspjesno resetovana!"
+
+#: pages/backup_remote_settings.php:108
+#, php-format
+msgid ""
+"During testing the remote connection errors have occurred.<br>Error message: "
+"%s"
+msgstr ""
+"Prilikom spajanja sa daljnom konekcijom su se pojavile greske.<br>Greska: %s"
+
+#: pages/backup_remote_settings.php:111 pages/backup_scheduled_backup.php:227
+msgid "The settings have been saved successfully!"
+msgstr "Podesavanja su uspjesno sacuvana!"
+
+#: pages/backup_repository.php:88
+msgid "There are no remote connection settings stored."
+msgstr "Nema daljnih konekcija sacuvano."
+
+#: pages/backup_repository.php:107 pages/backup_repository.php:130
+msgid "The selected files have been deleted."
+msgstr "Odabrana datoteka je uspjesno obrisana."
+
+#: pages/backup_repository.php:114
+#, php-format
+msgid ""
+"The connection to the remote server could not be established.<br>Error "
+"message: %s"
+msgstr "Nije moguce spajanje sa daljnim serverom.<br>Greska: %s"
+
+#: pages/backup_scheduled_backup.php:145
+msgid "Please select a valid backup start time in the format HH:mm."
+msgstr "Molimo as odaberite vazeco vrijeme pocetka za Backup u formatu HH:mm."
+
+#: pages/backup_scheduled_backup.php:159
+msgid "Please select a valid backup interval."
+msgstr "Molimo vas odaberite vazeci Backup Interval."
+
+#: pages/dns_editor.php:299
+msgid "Invalid primary nameserver."
+msgstr ""
+
+#: pages/dns_editor.php:305
+#, fuzzy
+msgid "Invalid domain admin email."
+msgstr "Netacni podaci u formularu."
+
+#: pages/dns_editor.php:398
+#, fuzzy, php-format
+msgid ""
+"Record %1$s) The data field contains invalid data for a <b>%2$s-Record</b>."
+msgstr "Zapis %s) data polje zadrzi za <b>%2$s-Zapis</b> netacne podatke."
+
+#: pages/dns_editor.php:439
+#, fuzzy
+msgid "Syntax check failed, please check your records!"
+msgstr "Provjera sintakse neuspjesna, molimo vas provjerite vase unose!"
+
+#: pages/forgotpw.php:53
+msgid "The user does not exist or does not match to the email address."
+msgstr "Korisnik nepostoji ili se nepoklapa sa e-mail adresom."
+
+#: pages/forgotpw.php:56
+msgid "The email could not be sent, please contact your administrator."
+msgstr ""
+"Nije bilo moguce poslat e-mail poruku, molimo vas kontaktirajte vaseg "
+"administratora."
+
+#: pages/forgotpw.php:59
+msgid ""
+"Your password reset link appears to be invalid. Please request a new link "
+"below."
+msgstr ""
+"Vas link za resetovanje lozinke izgleda da nevazi vise. Molimo vas zatrazite "
+"novi link ispod."
+
+#: pages/login.php:48
+msgid "The username / password you entered is incorrect."
+msgstr "Korisnicko ime ili lozinka je netacna."
+
+#: pages/login.php:51
+#, fuzzy
+msgid "Your account has been suspended."
+msgstr "Vasa lozinka je uspjesno obnovljena."
+
+#: pages/login.php:55
+#, fuzzy
+msgid ""
+"Due to too many failed login attempts this account was temporarily suspended."
+msgstr ""
+"Zbog previse pokusaja pristupiti ovom nalogu ovaj nalog je privremeno "
+"zakljucan.<br>Molimo vas pokusajte za %s sekundi."
+
+#: pages/login.php:56
+#, php-format
+msgid "Please try again in %s seconds."
+msgstr ""
+
+#: pages/login.php:60
+msgid "You have successfully logged out."
+msgstr "Vi ste se uspjesno odjavili."
+
+#: pages/login.php:63
+msgid "Your session has expired, please sign in again!"
+msgstr "Vasa sjednica je istekla, molimo vas prijavite se ponovo!"
+
+#: pages/login.php:66
+msgid "An email with instructions, how to reset your password has been sent!"
+msgstr "E-Mail sa instrukcijama kako da resetujete vasu lozinku je poslat!"
+
+#: pages/login.php:69
+msgid "Your password has been updated."
+msgstr "Vasa lozinka je uspjesno obnovljena."
+
+#: pages/profile.php:128
+msgid "The entered current password was incorrect."
+msgstr "Trenutno unijeta lozinka je netacna."
+
+#: pages/profile.php:253
+msgid "Your profile has been updated successfully."
+msgstr "Vas profil je uspjesno obnovljen."
+
+#: pages/user_dirprotection.php:78
+msgid "The combination of username and path already exists."
+msgstr "Kombinacija od korisnickog imena i puta vec postoji."
+
+#: pages/user_dirprotection.php:107 pages/user_dirprotection.php:177
+#: pages/user_ftp.php:121 pages/user_ftp.php:200
+#: pages/user_scheduledtasks_edit.php:178
+msgid "An unknown error occurred."
+msgstr "Jedna nepoznata greska se pojavila."
+
+#: pages/user_dirprotection.php:116 pages/user_dirprotection.php:186
+msgid "The realm title contains illegal characters."
+msgstr "Naslov realm sadrzi nedozvoljene znakove."
+
+#: pages/user_dirprotection.php:119
+msgid "The username contains illegal characters."
+msgstr "Korisnicko Ime sadrzi nedozvoljene znakove."
+
+#: pages/user_dirprotection.php:122
+msgid "The path contains illegal characters."
+msgstr "Staza sadrzi nedozvoljene znakove."
+
+#: pages/user_dirprotection.php:126 pages/user_dirprotection.php:190
+#: pages/user_ftp.php:135 pages/user_ftp.php:210
+#, php-format
+msgid "An error occurred - Error ID: %s"
+msgstr "Pojavila se je jedna greska - Greska ID: %s"
+
+#: pages/user_dirprotection.php:267
+msgid ""
+"The following directory protections have been removed successfully. The "
+"changes take effect in a few moments."
+msgstr ""
+"Slijedece zastite direktorija su uspjesno obrisane. Promjene ce biti "
+"dostupne za nekoliko trenutaka."
+
+#: pages/user_dirprotection.php:271 pages/user_ftp.php:288
+msgid "Unable to delete."
+msgstr "Nije moguce brisanje."
+
+#: pages/user_domain_add.php:80
+msgid ""
+"No main domain was assigned to you, so you can not create any subdomains."
+msgstr ""
+"Vama nije dodjeljena nijedna domena tako da vi nemozete praviti subdomene."
+
+#: pages/user_domain_add.php:96
+msgid "You have reached the maximum number of your available subdomains."
+msgstr "Vi ste iskoristili maksimalni broj mogucih subdomena."
+
+#: pages/user_domain_add.php:113
+msgid "The selected domain is invalid."
+msgstr "Odabrana domena je netacna."
+
+#: pages/user_domain_add.php:136
+msgid ""
+"Please enter a valid domain. Use only letters and numbers. Hyphens and dots "
+"are allowed if they do not follow each other. Points and hyphens shall not "
+"be used at the beginning and at the end."
+msgstr ""
+"Molimo vas unesite ispravnu domenu. Koristite samo slova i brojeve. Crtice i "
+"tackice su dozvoljene samo ako ne prate jedno drugo. Tacke i crtice se "
+"nesmiju koristiti na pocetku i na kraju."
+
+#: pages/user_domain_add.php:147
+#, php-format
+msgid "The domain \"<b>%s</b>\" already exists!"
+msgstr "Domena \"<b>%s</b>\" vec postoji!"
+
+#: pages/user_domain_add.php:173 pages/user_domain_add.php:182
+#: pages/user_domain_edit.php:225 pages/user_domain_edit.php:234
+msgid ""
+"Please enter a valid path or a valid URL (including HTTP redirection code)!"
+msgstr ""
+"Molimo vas unesite ispravan put ili ispravan URL (Ukljucujuci i HTTP kod za "
+"preusmjeravanje)!"
+
+#: pages/user_domain_edit.php:275
+msgid "Let's Encrypt doesn't work with domain redirects."
+msgstr "Let's Encrypt neradi sa preusmjeravanje domena."
+
+#: pages/user_email_add.php:53
+msgid "The administrator has not been assigned an email domain to you."
+msgstr "Administrator vam nije dodijelio nijednu domenu."
+
+#: pages/user_email_add.php:83
+msgid ""
+"You have already reached the maximum number of your available email accounts."
+msgstr "Vi ste iskoristili maksimalni broj mogucih e-mail racuna."
+
+#: pages/user_email_add.php:88
+msgid ""
+"You have already reached the maximum number of your available email "
+"addresses."
+msgstr "Vi ste iskoristili maksimalni broj mogucih e-mail adresa."
+
+#: pages/user_email_add.php:99
+msgid "This email domain does not belong to you."
+msgstr "Ova e-mail domena ne pripada vama."
+
+#: pages/user_email_add.php:114
+msgid "This email address already exists."
+msgstr "E-Mail adresa vec postoji."
+
+#: pages/user_email_add.php:131 pages/user_email_edit.php:208
+#, php-format
+msgid ""
+"Invalid mailbox size. Please enter a valid number that is less / equal than "
+"your total memory (%s)."
+msgstr ""
+"Netacan unos za Mailbox velicinu - Molimo vas upisite odgovarajuci broj koji "
+"je manji ili tacan prema vasoj totalnoj memoriji (%s)."
+
+#: pages/user_email_add.php:142 pages/user_email_edit.php:197
+msgid "There is already a catch-all email account for this domain."
+msgstr "Vec postoji sveobuhvatni e-mail racun za ovu domenu."
+
+#: pages/user_email_add.php:197
+#, php-format
+msgid ""
+"The email account \"<b>%s</b>\" has been successfully created. Now you can "
+"edit alias addresses and redirects."
+msgstr ""
+"E-Mail racun \"<b>%s</b>\" je uspjesno napravljen. Sada možete uređivati "
+"alias adrese i preusmjeravanja."
+
+#: pages/user_email_add.php:199
+#, php-format
+msgid "The email account \"<b>%s</b>\" has been successfully created."
+msgstr "E-Mail adresa \"<b>%s</b>\" je uspjesno napravljena."
+
+#: pages/user_email_delete.php:124
+msgid "No email account could be deleted."
+msgstr "Nema e-mail racuna za brisanje."
+
+#: pages/user_email_delete.php:128
+msgid "The following email accounts has been deleted successfully:"
+msgstr "Sljedeci E-Mail racuni su uspjesno obrisani:"
+
+#: pages/user_email_edit.php:110
+msgid "The selected email account is invalid."
+msgstr "Odabran e-mail racun je netacan."
+
+#: pages/user_email_edit.php:238
+msgid "You entered an invalid alias address!"
+msgstr "Unijeli ste neispravnu alias adresu!"
+
+#: pages/user_email_edit.php:246
+msgid "The selected alias domain doesn't belong to your allowed email domains!"
+msgstr "Ova e-mail domena ne pripada vama!"
+
+#: pages/user_email_edit.php:270
+msgid ""
+"With the addresses in the alias list you will exceed the number of your "
+"available email addresses, please reduce the alias addresses."
+msgstr ""
+"Sa adresama na alias listi cete iskoristiti broj vasih dostupnih e-mail "
+"alias adrese, molimo vas da se smanjite alias adrese."
+
+#: pages/user_email_edit.php:287
+msgid "You entered an invalid email forwarding!"
+msgstr "Unijeli ste neispravnu e-mail za prosljedzivanje!"
+
+#: pages/user_email_edit.php:317
+msgid ""
+"Please enter a valid value for the spam score (value between 0 to 999.9)."
+msgstr ""
+"Unesite vazecu vrijednost za spam rezultat (vrijednost izmedzu 0 i 999.9)."
+
+#: pages/user_email_edit.php:452
+#, php-format
+msgid "The email account\"<b>%s</b>\" has been successfully updated."
+msgstr "E-Mail racun \"<b>%s</b>\" je uspjesno obnovljen."
+
+#: pages/user_ftp.php:67
+msgid "You have reached the maximum number of your available FTP users."
+msgstr "Vi ste iskoristili maksimalni broj mogucih FTP korisnika."
+
+#: pages/user_ftp.php:74 pages/user_ftp.php:163
+msgid "The home directory must be a subfolder of /www/ or /files/."
+msgstr "Korisnicka direktorija mora biti jedna podmapa od /www/ ili /files/."
+
+#: pages/user_ftp.php:90
+#, php-format
+msgid "The username \"%s\" is already in use."
+msgstr "Korisnicko Ime \"%s\" vec postoji."
+
+#: pages/user_ftp.php:115
+#, php-format
+msgid "The FTP user \"<b>%s</b>\" has been created successfully."
+msgstr "FTP korisnik \"<b>%s</b>\" je uspjesno napravljen."
+
+#: pages/user_ftp.php:128
+msgid ""
+"The setting up of your account has not yet been fully completed. Please try "
+"again in a few moments."
+msgstr ""
+"Pravljenje vaseg naloga nije jos podpuno zavrseno. Molimo vas pokusajte za "
+"nekoliko trenutaka."
+
+#: pages/user_ftp.php:131 pages/user_ftp.php:206
+msgid "The home directory contains illegal characters."
+msgstr "Korisnicka direktorija sadrzava neispravne znakove."
+
+#: pages/user_ftp.php:194
+#, php-format
+msgid "The FTP user \"<b>%s</b>\" has been updated successfully."
+msgstr "FTP korisnik\"<b>%s</b>\" je uspjesno obnovljen."
+
+#: pages/user_ftp.php:286
+msgid "The following FTP users were deleted successfully:"
+msgstr "Sljedeci FTP korisnici bice obrisani:"
+
+#: pages/user_index.php:50
+msgid "In a few moments the directory listing will be <b>deactivated</b>."
+msgstr "Za nekoliko trenutaka popis direktorija ce biti <b>deaktiviran</ b>."
+
+#: pages/user_index.php:54
+msgid "In a few moments the directory listing will be <b>activated</b>."
+msgstr "Za nekoliko trenutaka popis direktorija ce biti <b>aktiviran</ b>."
+
+#: pages/user_mysql_add.php:53
+msgid "You have already reached the maximum number of your MySQL databases."
+msgstr "Vi ste iskoristili maksimalni broj mogucih MySQL Baza Podataka."
+
+#: pages/user_mysql_add.php:86
+#, php-format
+msgid "The database username \"%s\" is invalid."
+msgstr "Korisnicko ime baze podataka \"%s\" je netacno."
+
+#: pages/user_mysql_add.php:91
+#, php-format
+msgid "The database name \"%s\" is invalid."
+msgstr "Ime baze podataka \"%s\" je netacno."
+
+#: pages/user_mysql_add.php:98
+#, php-format
+msgid "The database user \"%s\" already exists."
+msgstr "Korisnik baze podataka \"%s\" vec postoji."
+
+#: pages/user_mysql_add.php:102
+#, php-format
+msgid "The database name \"%s\" already exists."
+msgstr "Ime baze podataka \"%s\" vec postoji."
+
+#: pages/user_mysql_add.php:143
+#, php-format
+msgid "The database \"<b>%s</b>\" has been successfully added."
+msgstr "Baza podataka \"<b>%s</b>\" je uspjesno dodana."
+
+#: pages/user_mysql_delete.php:126
+msgid "The following databases have been deleted successfully:"
+msgstr "Sljedece baze podataka su obrisane uspjesno:"
+
+#: pages/user_mysql_delete.php:133
+msgid "No database could be deleted."
+msgstr "Nije obrisana ni jedna baza podataka."
+
+#: pages/user_mysql_edit.php:61 pages/user_mysql_edit.php:89
+msgid "The database does not exist."
+msgstr "Baza podataka nepostoji."
+
+#: pages/user_mysql_edit.php:121
+#, php-format
+msgid "The database \"<b>%s</b>\" has been successfully modified."
+msgstr "Baza Podatala  \"<b>%s</b>\"  je uspjesno obnovljena."
+
+#: pages/user_scheduledtasks_delete.php:119
+msgid "The selected scheduled tasks were successfully removed."
+msgstr "Izabrani planirani zadaci su uspjesno obrisani."
+
+#: pages/user_scheduledtasks_edit.php:99
+msgid ""
+"You have already reached your maximum number of allowed scheduled tasks."
+msgstr "Vec ste dostigli svoj maksimalni broj dozvoljenih planiranih zadataka."
+
+#: pages/user_scheduledtasks_edit.php:159
+msgid "The scheduled task has been successfully added."
+msgstr "Planirani zadatak je uspjesno dodan."
+
+#: pages/user_scheduledtasks_edit.php:161
+msgid "The scheduled task has been successfully updated."
+msgstr "Planirani zadatak je uspjesno izmjenut."
+
+#: pages/user_scheduledtasks_edit.php:169
+msgid "Invalid input for field \"Command\"."
+msgstr "Neispravan upis za polje \"Naredba\"."
+
+#: pages/user_scheduledtasks_edit.php:172
+msgid "Invalid input for field \"Schedule\"."
+msgstr "Neispravan upis za polje \"Raspored\"."
+
+#: pages/user_scheduledtasks_edit.php:175
+msgid "Invalid input for field \"Email\"."
+msgstr "Neispravan upis za polje \"E-Mail\"."
+
+#: pages/user_webstats.php:43
+msgid ""
+"You use the web statistics for the first time.<br>In order to make the "
+"statistics only available to you alone, it is important that you first "
+"<u>set a password for access</u>.<br>Use the password change option below. "
+"The password can be changed later, as often as you want."
+msgstr ""
+"Vi koristite web statistike prvi put.<br>Kako bi napravili web statistike "
+"pristupne samo za vas, potrebno je da u prvom koraku <u>napravite lozinku za "
+"pristup</u>.<br>Koristite opciju za mjenjanje lozinke ispod. Lozinku mozete "
+"kasnije izmjenuti koliko god puta vi to zelite."
+
+#: pages/user_webstats.php:80
+msgid ""
+"There are currently no statistics for your domains. Please try again later."
+msgstr "Trenutno nema statistike za vase domene. Molimo vas pokusajte kasnije."
+
+#: pages/user_webstats.php:124
+msgid ""
+"The password for accessing your web statistics was changed successfully."
+msgstr "Lozinka za pristup web statistikama je uspjesno obnovljena."
+
+#~ msgid ""
+#~ "Your email address must have at least one character and should only "
+#~ "contain letters, numbers and the special characters \"-\", \"_\" and \"."
+#~ "\". Special characters can not be at the beginning or at the end of the "
+#~ "email address."
+#~ msgstr ""
+#~ "Vasa E-Mail adresa mora zadrzati najmanje jedan znak i smije samo "
+#~ "zadrzati slova, brojeve i posebne znakove \"-\", \"_\" and \".\". Posebni "
+#~ "znakovi nesmiju biti na pocetku a ni na kraju od E-Mail adrese."
+
+#~ msgid "The default index page was reset to default"
+#~ msgstr "Zadana index stranica ce biti resetovana na zadano"
+
+#~ msgid "Let's Encrypt subscriber agreement URL seems not correct."
+#~ msgstr "Let's Encrypt pretplatnicki ugovor URL izgleda da nije u redu."
+
+#~ msgid ""
+#~ "Your license is currently in grace period. The reason is usually that "
+#~ "there is no connection to the license server. Please try to update the "
+#~ "license manually using the license manager page, or contact our support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Vasa licenca se nalazi u fazi tolerisanja. Razlog tome moze da bude da "
+#~ "niste spojeni na server sa licencama. Molimo vas obnovite licencu rucno "
+#~ "preko Licenc menadzer stranice, ili se obratite nasem osoblju za podrsku."
+
+#, fuzzy
+#~| msgid ""
+#~| "The notifications email address for traffic limit exceedance is invalid."
+#~ msgid "The notifications email address for SSL notifications is invalid."
+#~ msgstr ""
+#~ "E-Mail adresa za obavjestenja  za prekoracenja ogranicenja protok "
+#~ "podataka je nevazeci."
+
+#~ msgid "The white label settings have been successfully reseted!"
+#~ msgstr "White label podesavanja su uspjesno resetovana!"
+
+#~ msgid "Invalid input in the input field \"Disk space\"."
+#~ msgstr "Nevazeci podaci u polju \"Disk Prostor\"."
+
+#~ msgid "Invalid input in the input field \"Traffic\"."
+#~ msgstr "Nevazeci podaci u polju \"Protok\"."
+
+#~ msgid "Invalid input in the input field \"Subdomains\"."
+#~ msgstr "Nevazeci podaci u polju \"Subdomena\"."
+
+#~ msgid "Invalid input in the input field \"FTP users\"."
+#~ msgstr "Nevazeci podaci u polju \"FTP Korisnici\"."
+
+#~ msgid "Invalid input in the input field \"MySQL-DBs\"."
+#~ msgstr "Nevazeci podaci u polju \"MySQL-Baze Podataka\"."
+
+#~ msgid "Invalid input in the input field \"Email accounts \"."
+#~ msgstr "Nevazeci podaci u polju \"E-Mail nalozi\"."
+
+#~ msgid "Invalid input in the input field \"Email addresses\"."
+#~ msgstr "Nevazeci podaci u polju \"E-Mail adrese\"."
+
+#~ msgid "Invalid input in the input field \"Scheduled Tasks\"."
+#~ msgstr "Nevazeci podaci u polju \"Planirani Zadaci\"."
+
+#~ msgid "Invalid input in the input field \"memory_limit\"."
+#~ msgstr "Nevazeci podaci u polju \"memory_limit\"."
+
+#~ msgid ""
+#~ "Invalid input in the input field \"max_execution_time / idle-timeout\"."
+#~ msgstr "Nevazeci podaci u polju \"max_execution_time / idle-timeout\"."
+
+#~ msgid "Invalid input in the input field \"post_max_size\"."
+#~ msgstr "Nevazeci podaci u polju \"post_max_size\"."
+
+#~ msgid "Invalid input in the input field \"upload_max_filesize\"."
+#~ msgstr "Nevazeci podaci u polju \"upload_max_filesize\"."
+
+#~ msgid "Invalid input in the input field \"disable_functions\"."
+#~ msgstr "Nevazeci podaci u polju \"disable_functions\"."
+
+#~ msgid "Invalid input in the input field \"Additional PHP settings\"."
+#~ msgstr "Nevazeci podaci u polju \"Additional PHP settings\"."
+
+#~ msgid "Invalid input in the input field \"pm.max_children\"."
+#~ msgstr "Nevazeci podaci u polju \"pm.max_children\"."
+
+#~ msgid "Invalid input in the input field \"pm.max_requests\"."
+#~ msgstr "Nevazeci podaci u polju \"pm.max_requests\"."
+
+#~ msgid "Invalid input in the input field \"pm.min_spare_servers\"."
+#~ msgstr "Nevazeci podaci u polju \"pm.min_spare_servers\"."
+
+#~ msgid "Invalid input in the input field \"pm.max_spare_servers\"."
+#~ msgstr "Nevazeci podaci u polju \"pm.max_spare_servers\"."

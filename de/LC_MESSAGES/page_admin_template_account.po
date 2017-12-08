@@ -1,0 +1,54 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminTemplateAccount\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1436
+msgid "Account templates"
+msgstr "Konto-Vorlagen"
+
+#: functions/functions.translationStrings.php:1437
+msgid "Add account template"
+msgstr "Konto-Vorlage hinzufügen"
+
+#: functions/functions.translationStrings.php:1438
+msgid "Name"
+msgstr "Name"
+
+#: functions/functions.translationStrings.php:1439
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: functions/functions.translationStrings.php:1440
+msgid "Label of account template"
+msgstr "Bezeichnung der Konto-Vorlage"
+
+#: functions/functions.translationStrings.php:1441
+msgid "Limits"
+msgstr "Begrenzungen"
+
+#: functions/functions.translationStrings.php:1442
+msgid "Services"
+msgstr "Dienste"
+
+#: functions/functions.translationStrings.php:1443
+msgid "Backup"
+msgstr "Backup"
+
+#: functions/functions.translationStrings.php:1444
+msgid "SSL settings"
+msgstr "SSL-Einstellungen"

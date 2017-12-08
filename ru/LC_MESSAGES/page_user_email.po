@@ -1,0 +1,250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userEmail\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:997
+msgid ""
+"Here you can set up and manage email addresses.<br><br>For each email "
+"account you can assign additional alternative email addresses (aliases) and "
+"setup forwarding to other email addresses.<br><br>To edit <b>email aliases</"
+"b>, <b>forwarding</b> and <b>protection</b> for an email account, click on "
+"the edit icon in the row of the desired email account."
+msgstr ""
+"Здесь вы можете создавать E-mail адреса и управлять ими.<br><br>Для каждого "
+"E-mail-аккаунта вы можете создать псевдонимы(алиасы) и настраивать функцию "
+"перенаправления почты.<br><br>Для редактирования <b>e-mail-алиасов</b>, "
+"<b>почтовых перенаправлений</b> и <b>защиты</b> для почтового аккаунта "
+"нажмите на кнопку редактирования напротив выбранного E-mail-аккаунта."
+
+#: functions/functions.translationStrings.php:1000
+msgid "You are currently using:"
+msgstr "You are currently using:"
+
+#: functions/functions.translationStrings.php:1001
+msgid "Email account"
+msgstr "Email account"
+
+#: functions/functions.translationStrings.php:1002
+#, fuzzy
+msgid "Email accounts"
+msgstr "Количество e-mail-аккаунтов"
+
+#: functions/functions.translationStrings.php:1003
+msgid "Mailbox size"
+msgstr "Размер почтового ящика"
+
+#: functions/functions.translationStrings.php:1004
+#, fuzzy
+msgid "Redirection account"
+msgstr "Добавить E-mail-аккаунт"
+
+#: functions/functions.translationStrings.php:1005
+msgid "Forwarding"
+msgstr "Пересылка"
+
+#: functions/functions.translationStrings.php:1006
+#, fuzzy
+msgid "Forward to"
+msgstr "Пересылка"
+
+#: functions/functions.translationStrings.php:1007
+msgid ""
+"Separate multiple email addresses by space, comma, semicolon or newline from "
+"each other.<br><br>Please note, if you use an external email address, not "
+"managed by this server, you may need to whitelist this server in the SPF "
+"(Sender Policy Framework) settings of the external server."
+msgstr ""
+"в случае с несколькими адресами разделяйте их запятой, точкой с запятой, "
+"пробелом или указывайте по одному в каждой строчке.<br><br>Обратите внимание "
+"на то, что если вы используете внешний адрес электронной почты, возможно, "
+"потребуется настроить SPF для удаленного сервера."
+
+#: functions/functions.translationStrings.php:1008
+msgid "Protection"
+msgstr "Защита"
+
+#: functions/functions.translationStrings.php:1009
+msgid "Greylisting"
+msgstr "Грейлистинг"
+
+#: functions/functions.translationStrings.php:1010
+msgid "Catch-all?"
+msgstr "Адрес по умолчанию"
+
+#: functions/functions.translationStrings.php:1011
+msgid "Add email account"
+msgstr "Добавить E-mail-аккаунт"
+
+#: functions/functions.translationStrings.php:1012
+msgid "Server"
+msgstr "Сервер"
+
+#: functions/functions.translationStrings.php:1013
+msgid "Port for STARTTLS"
+msgstr "Порт для STARTTLS"
+
+#: functions/functions.translationStrings.php:1014
+msgid "Port for SSL/TLS"
+msgstr "Порт для SSL/TLS"
+
+#: functions/functions.translationStrings.php:1015
+msgid "IMAP"
+msgstr "IMAP"
+
+#: functions/functions.translationStrings.php:1016
+msgid "POP3"
+msgstr "POP3"
+
+#: functions/functions.translationStrings.php:1017
+msgid "SMTP"
+msgstr "SMTP"
+
+#: functions/functions.translationStrings.php:1018
+msgid "Inbox"
+msgstr "Входящие"
+
+#: functions/functions.translationStrings.php:1019
+msgid "Outbox"
+msgstr "Исходящие"
+
+#: functions/functions.translationStrings.php:1020
+msgid "Connection information"
+msgstr "Настройки подключения"
+
+#: functions/functions.translationStrings.php:1021
+msgid "If available, you can use, your own SSL protected domain as well."
+msgstr "Вы можете использовать ваш собственный SSL сертификат для домена."
+
+#: functions/functions.translationStrings.php:1022
+msgid "Activate catch-all"
+msgstr "Использовать адрес по умолчанию"
+
+#: functions/functions.translationStrings.php:1023
+#, fuzzy
+msgid ""
+"If this option is enabled, then all emails addressed to any recipient within "
+"this domain, which aren't associated with another mail account will be "
+"\"caught\" by this mail account.<br>Please note, that virus and spam "
+"protection plus mail aliases will be disabled for this mail account.<br>Note "
+"also, that you will receive a higher number of spam, phishing and malware "
+"emails."
+msgstr ""
+"Перенаправлять на этот e-mail все письма адресованные любому получателю для "
+"которого не было создано почтового ящика.<br>Обратите внимание, что при "
+"активации данного сервиса антивирус, а также защита от спама будет отключена."
+"<br>Вы можете получать большое количество спама, фишинга и вредоносных "
+"сообщений."
+
+#: functions/functions.translationStrings.php:1026
+msgid "Mailbox quota"
+msgstr "Максимальный размер ящика"
+
+#: functions/functions.translationStrings.php:1027
+msgid "Other size"
+msgstr "Другой размер"
+
+#: functions/functions.translationStrings.php:1028
+msgid ""
+"After setting up the email account call up the page for managing <b>alias "
+"addresses</b>, <b>forwarding</b> and <b>security measures</b>"
+msgstr ""
+"После создания E-mail-аккаунта перейдите на страницу для управления "
+"<b>псевдонимами</b>, <b>перенаправлением почты</b> и <b>защитой</b>"
+
+#: functions/functions.translationStrings.php:1029
+msgid "Email account settings"
+msgstr "Настройки почтовых аккаунтов"
+
+#: functions/functions.translationStrings.php:1030
+msgid "Alias addresses"
+msgstr "Псевдонимы"
+
+#: functions/functions.translationStrings.php:1031
+msgid ""
+"Email aliases are alternative email addresses which are associated to an "
+"email account. All emails sent to an alias, will be received by the primary "
+"address."
+msgstr ""
+"E-mail-псевдонимы это альтернативные названия для почтого ящика. Все письма, "
+"отправляемые на них, попадают на основной E-mail."
+
+#: functions/functions.translationStrings.php:1032
+#, fuzzy
+msgid ""
+"Here you can set email forwarding to one or more email addresses. If the "
+"field \"Save email on the server\" is marked, the redirected emails will "
+"also be saved on this server."
+msgstr ""
+"Здесь вы можете задать перенаправление почты на один или несколько E-mail-"
+"адресов. Если выбрано \"Сохранять почту на сервере\", пересылаемые письма "
+"также будут сохраняться на сервере."
+
+#: functions/functions.translationStrings.php:1033
+msgid "Add this alias address"
+msgstr "Добавить этот псевдоним"
+
+#: functions/functions.translationStrings.php:1034
+#, fuzzy
+msgid "Remove alias address"
+msgstr "Удалить псевдоним"
+
+#: functions/functions.translationStrings.php:1035
+msgid "Save emails in mailbox"
+msgstr "Сохранять электронные письма в почтовом ящике"
+
+#: functions/functions.translationStrings.php:1036
+msgid "Examine incoming emails for viruses"
+msgstr "Проверять входящие письма на вирусы"
+
+#: functions/functions.translationStrings.php:1037
+#, fuzzy
+msgid ""
+"Examine incoming emails for spam / spam score <small>(values 0 - 999,9)</"
+"small>"
+msgstr ""
+"Проверять входящие письма на количестве набранных спам-очков "
+"<small>(значение 0-999,9)</small>"
+
+#: functions/functions.translationStrings.php:1038
+#, fuzzy
+msgid "Spam score"
+msgstr "Количество спам-очков"
+
+#: functions/functions.translationStrings.php:1039
+msgid "Invalid email address"
+msgstr "Не верный email"
+
+#: functions/functions.translationStrings.php:1041
+msgid "Alias email already exists"
+msgstr "Алиас уже существует"
+
+#: functions/functions.translationStrings.php:1042
+msgid "The alias address you entered already exists for this mailbox."
+msgstr "Введенный вами адиас для данного почтового ящика уже используется."
+
+#: functions/functions.translationStrings.php:1043
+msgid "alternatively"
+msgstr "альтернативно"
+
+#~ msgid ""
+#~ "Are you sure, that you want to delete the following email accounts, "
+#~ "including all aliases and redirects?"
+#~ msgstr ""
+#~ "Вы уверены, что хотите удалить следующие E-mail-аккаунты, включая их "
+#~ "псевдонимы и адреса для пересылки писем?"

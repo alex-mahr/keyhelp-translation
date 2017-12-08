@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userScheduledTasks\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1100
+msgid ""
+"Using scheduled tasks you can automate certain commands or scripts.<br>The "
+"job will then run automatically at the time / date / interval specified by "
+"you."
+msgstr ""
+"Использование запланированных задач позволяет автоматизировать некторое "
+"процессы и задачи и выполнять их в указанное время."
+
+#: functions/functions.translationStrings.php:1101
+msgid "Scheduled tasks"
+msgstr "Запланированные задачи"
+
+#: functions/functions.translationStrings.php:1102
+msgid "Add task"
+msgstr "Добавить задачу"
+
+#: functions/functions.translationStrings.php:1103
+msgid "Command"
+msgstr "Команда"
+
+#: functions/functions.translationStrings.php:1104
+msgid "Schedule"
+msgstr "График"
+
+#: functions/functions.translationStrings.php:1105
+msgid "Email for notification"
+msgstr "Email для уведомлений"
+
+#: functions/functions.translationStrings.php:1106
+msgid "on"
+msgstr "в"
+
+#: functions/functions.translationStrings.php:1107
+msgid "day of month"
+msgstr "день месяца"
+
+#: functions/functions.translationStrings.php:1108
+msgid "at"
+msgstr "в"
+
+#: functions/functions.translationStrings.php:1109
+msgid "minutes"
+msgstr "минуты"
+
+#: functions/functions.translationStrings.php:1110
+msgid "o'clock"
+msgstr "часы"
+
+#~ msgid "Are you sure you want to delete the following scheduled task?"
+#~ msgstr "Вы уверены, что хотите удалить следующую запланированное задание?"

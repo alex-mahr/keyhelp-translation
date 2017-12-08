@@ -1,0 +1,448 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello Ita\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2;_n:1,2;_en:1,2;_pgettext:1c,2;"
+"_p:1c,2;_ep:1c,2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: install\n"
+"X-Poedit-SearchPath-1: core/Helper/CliControl.php\n"
+
+#: install/install.php:73
+msgid "Your operating system is not supported."
+msgstr "Sistema operativo non supportato."
+
+#: install/install.php:77
+msgid ""
+"One or more required components of the installation are not yet installed, "
+"please run \"installkeyhelp.sh\"."
+msgstr ""
+"Uno o più componenti necessari per l'installazione non sono ancora "
+"installati, si prega di eseguire \"installkeyhelp.sh\"."
+
+#: install/install.php:81
+msgid ""
+"Unable to find a valid quota mountpoint. You have to make sure that there is "
+"a \"/\" - mountpoint in your \"/etc/fstab\". Visit https://community.keyhelp."
+"de and ask for help or contact KeyHelp Support Team."
+msgstr ""
+"Impossibile trovare un mountpoint quote valido. È necessario assicurarsi che "
+"ci sia un \"/\" - punto di montaggio in \"/ etc/fstab\". Visita https://"
+"community.keyhelp.de e chiedere aiuto o contattare il Team di supporto "
+"KeyHelp."
+
+#: install/install.php:85
+msgid ""
+"Unable to get IPs. Please configure the network interface of this server."
+msgstr ""
+"Impossibile ottenere IPs. Si prega di configurare l'interfaccia di rete di "
+"questo server."
+
+#: install/install.php:128
+msgid "Unable to connect to the already existing MySQL database."
+msgstr "Impossibile connettersi al database MySQL già esistente."
+
+#: install/install.php:174
+msgid "This program installs KeyHelp on your server."
+msgstr "Questo programma installa KeyHelp sul vostro server."
+
+#: install/install.php:176
+#, php-format
+msgid "Usage: php %s [OPTION] ..."
+msgstr "Uso: php %s [OPTION] ..."
+
+#: install/install.php:178
+msgid "General:"
+msgstr "Generale:"
+
+#: install/install.php:179
+msgid "Displays this help."
+msgstr "Visualizza questa finestra di aiuto."
+
+#: install/install.php:180
+msgid "Installation will be executed without further questions."
+msgstr "L'installazione verrà eseguita senza ulteriori domande."
+
+#: install/install.php:181
+msgid "Prevent the reboot at the end of the installation."
+msgstr "Impedire il riavvio al termine dell'installazione."
+
+#: install/install.php:182
+msgid ""
+"After installation, sends a notification to the specified email address."
+msgstr ""
+"Dopo l'installazione, invia una notifica all'indirizzo email specificato."
+
+#: install/install.php:183
+msgid "Sets the default language of KeyHelp and its components."
+msgstr ""
+
+#: install/install.php:184
+msgid "Logs everything, also sensitive data like passwords etc.."
+msgstr "Registra tutto, anche i dati sensibili come le password, ecc..."
+
+#: install/install.php:186
+msgid "Install data:"
+msgstr "Dati di installazione:"
+
+#: install/install.php:187
+msgid "The 'Fully-Qualified-Domain-Name' (FQDN), eg. 'keyhelp.example.com'."
+msgstr ""
+"Il 'Fully-Qualified-Domain-Name' (FQDN), ad esmpio 'keyhelp.example.com'."
+
+#: install/install.php:188
+#, php-format
+msgid "Admin account: Login name  for KeyHelp Panel (min. %s characters)."
+msgstr ""
+"Account amministratore: Nome di login per il pannello KeyHelp (min. %s "
+"caratteri)."
+
+#: install/install.php:189
+#, php-format
+msgid "Admin account: Password for KeyHelp Panel (min. %s characters)."
+msgstr ""
+"Account amministratore: Password per il pannello KeyHelp (min. %s caratteri)."
+
+#: install/install.php:190
+msgid "Admin account: Email address / Email address for auto generated emails."
+msgstr ""
+"Account amministratore: Indirizzo email / indirizzo email per messaggi di "
+"posta elettronica generati automaticamente."
+
+#: install/install.php:196
+msgid "Version mismatch between pre-install script and KeyHelp main installer."
+msgstr ""
+"Mancata corrispondenza di versione tra script di pre-installazione e "
+"programma di installazione principale KeyHelp."
+
+#: install/install.php:208
+#, php-format
+msgid "Unknown parameter \"%s\""
+msgstr "Parametro sconosciuto \"%s\"."
+
+#: install/install.php:256
+#, php-format
+msgid "Invalid value for parameter \"%s\""
+msgstr "Valore invalido per il parametro \"%s\"."
+
+#: install/install.php:274
+#, fuzzy, php-format
+msgid "This program will install %s on your server."
+msgstr "Questo programma installa KeyHelp sul vostro server."
+
+#: install/install.php:281
+msgid "Please attend the following important notices"
+msgstr "Per favore, attieniti a questi passaggi importanti"
+
+#: install/install.php:285
+msgid "Backup your important data, before you proceed."
+msgstr "Backup dei dati importanti, prima di procedere."
+
+#: install/install.php:289
+msgid ""
+"The installation should be performed on a clean server with configured "
+"network interface."
+msgstr ""
+"L'installazione deve essere eseguita su un server pulito con interfaccia di "
+"rete configurata."
+
+#: install/install.php:296
+msgid "There is already an existing KeyHelp Installation on this server."
+msgstr ""
+
+#: install/install.php:297
+msgid ""
+"It is not advised to reinstall an already running KeyHelp system, so you "
+"better start all over again with a clean operating system."
+msgstr ""
+
+#: install/install.php:298
+msgid ""
+"If you still want to go on, please note: The KeyHelp database gets "
+"completely reset during installation, but all system user accounts created "
+"with KeyHelp and all files will stay untouched. So you either have to delete "
+"all user accounts via KeyHelp before reinstalling, or import a prior created "
+"backup of the KeyHelp database after reinstalling."
+msgstr ""
+
+#: install/install.php:306
+msgid "Available actions"
+msgstr "Azioni disponibili"
+
+#: install/install.php:307
+msgid "Choose action"
+msgstr "Scegliere azione"
+
+#: install/install.php:313
+msgid "Next page"
+msgstr "Pagina successiva"
+
+#: install/install.php:314 install/install.php:376
+msgid "Quit install"
+msgstr "Uscire dall'installazione"
+
+#: install/install.php:358
+#, fuzzy
+msgid "Here you can customize installation parameters."
+msgstr "Qui avete la possibilità di personalizzare l'installazione"
+
+#: install/install.php:360
+msgid "Server data"
+msgstr "Dati del server"
+
+#: install/install.php:361 install/install.php:393
+msgid "Server domain (FQDN)"
+msgstr "Dominio del server (FQDN)"
+
+#: install/install.php:363
+msgid "Administrator account"
+msgstr "Account amministratore"
+
+#: install/install.php:364
+msgid "Username"
+msgstr "Nome utente"
+
+#: install/install.php:365 install/install.php:849 install/install.php:852
+msgid "Password"
+msgstr "Password"
+
+#: install/install.php:366
+msgid "Email address"
+msgstr "Indirizzo email"
+
+#: install/install.php:368
+msgid "Misc"
+msgstr "Varie"
+
+#: install/install.php:369
+msgid "Notification after finishing"
+msgstr "Notifica dopo aver terminato"
+
+#: install/install.php:369
+msgid "No"
+msgstr "No"
+
+#: install/install.php:374
+msgid "Start install"
+msgstr "Inizio installazione"
+
+#: install/install.php:375
+msgid "Edit data"
+msgstr "Modifica dati"
+
+#: install/install.php:394 install/install.php:472
+msgid "Please enter a valid domain."
+msgstr "Ti preghiamo di inserire un dominio valido."
+
+#: install/install.php:402
+msgid "Administrator account - username"
+msgstr "Account amministratore - nome utente"
+
+#: install/install.php:403
+#, php-format
+msgid "Please enter a valid username (min. %d characters)."
+msgstr "Inserire un nome utente valido (min. %d caratteri)"
+
+#: install/install.php:411
+msgid "Administrator account - password"
+msgstr "Account amministratore - password"
+
+#: install/install.php:412
+#, php-format
+msgid "Your password must be at least %d characters long."
+msgstr "La password deve essere almeno %d caratteri."
+
+#: install/install.php:420
+msgid "Administrator account - email address"
+msgstr "Account amministratore - indirizzo email"
+
+#: install/install.php:421 install/install.php:476
+msgid "Please enter a valid email address."
+msgstr "Ti preghiamo di inserire un indirizzo emeail valido."
+
+#: install/install.php:443
+msgid "Email address for notification or hit [Enter]"
+msgstr "Indirizzo per la notifica email o premete [Enter]"
+
+#: install/install.php:453
+msgid ""
+"Please enter a valid email address (or hit [Enter], for 'no notification')."
+msgstr ""
+"Inserisci un indirizzo email valido (o premete [Enter], per «nessuna "
+"notifica»)."
+
+#: install/install.php:492
+msgid ""
+"The server domains could not be determined, please specify the parameter."
+msgstr ""
+"Il dominio del server non può essere determinato, si prega di specificare il "
+"parametro."
+
+#: install/install.php:496
+msgid ""
+"The email address of the admin account could not be determined, please "
+"specify the parameter."
+msgstr ""
+"L'indirizzo email dell'account admin non può essere determinato, si prega di "
+"specificare il parametro."
+
+#: install/install.php:772
+msgid "Installation is running"
+msgstr "L'installazione è in esecuzione"
+
+#: install/install.php:839
+msgid "For access via PhpMyAdmin use username \"mysqladmin\" instead."
+msgstr "Per l'accesso tramite PhpMyAdmin utilizzare username \"mysqladmin\"."
+
+#: install/install.php:843 install/install.php:844
+msgid "Login Information"
+msgstr "Informazioni di accesso"
+
+#: install/install.php:846
+msgid "URL"
+msgstr "URL"
+
+#: install/install.php:848 install/install.php:851
+msgid "Login"
+msgstr "Accesso"
+
+#: install/install.php:865
+msgid "KeyHelp Installation"
+msgstr "Installazione KeyHelp"
+
+#: install/install.php:871
+msgid "KeyHelp has been successfully installed."
+msgstr "KeyHelp è stato installato correttamente."
+
+#: install/install.php:873
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"The installing of KeyHelp on the server <b>%1$s</b> has just been <font "
+"color=\"green\"><b>successfully</b></font> completed.\n"
+"\n"
+"You will find your KeyHelp panel at:\n"
+"\n"
+"- <a href=\"%2$s\">%2$s</a>\n"
+"- <a href=\"%3$s\">%3$s</a>\n"
+"\n"
+"You will find your login information on your server in the file: \"%4$s\""
+msgstr ""
+"Ciao!\n"
+"\n"
+"L'installazione di KeyHelp sul server <b>%1$s</b> è stata <font color=\"green"
+"\"><b>correttamente</b></font> completata.\n"
+"\n"
+"Troverete il vostro pannello di KeyHelp presso: - <a href=\"%2$s\">%2$s</a> "
+"- <a href=\"%3$s\">%3$s</a> troverete le informazioni di login sul server "
+"nel file: \"%4$s\""
+
+#: install/install.php:886
+msgid "KeyHelp was installed, but errors occurred."
+msgstr "KeyHelp è stato installato, ma si sono verificati errori."
+
+#: install/install.php:888
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"The installing of KeyHelp on the server <b>%1$s</b> has just been "
+"completed.\n"
+"\n"
+"<font color=\"red\"><b>However, some setup steps could not be performed "
+"without errors</b></font>\n"
+"\n"
+"For more information, see the log file in \"%2$s\"\n"
+"\n"
+"You will find your login information on your server in the file: \"%3$s\""
+msgstr ""
+"Ciao!\n"
+"\n"
+"L'installazione di KeyHelp sul server <b>%1$s</b> è appena stata "
+"completata.\n"
+"\n"
+"<font color=\"red\"><b>Tuttavia, alcuni passaggi di installazione sono "
+"avvenuti producendo errori</b></font>\n"
+"\n"
+"Per ulteriori informazioni, vedere il file di registro in \"%2$s\" troverete "
+"le informazioni di login sul server nel file: \"%3$s\""
+
+#: install/install.php:920
+msgid "Installation finished successfully!"
+msgstr "Installazione terminata con successo!"
+
+#: install/install.php:926
+msgid "During the Installation, errors occurred!"
+msgstr "Durante l'installazione, si sono verificati errori!"
+
+#: install/install.php:927
+#, php-format
+msgid "Please check the content of the log file in \"%s\"."
+msgstr "Si prega di controllare il contenuto del file di log \"%s\"."
+
+#: install/install.php:931
+#, php-format
+msgid "You will find your login information in \"%s\""
+msgstr "Troverete le informazioni di login in \"%s\""
+
+#: install/install.php:945
+msgid "ATTENTION"
+msgstr "ATTENZIONE"
+
+#: install/install.php:946
+msgid "The system will reboot in a few seconds (Cancel with CRTL+C)."
+msgstr "Il sistema verrà riavviato in pochi secondi (Annulla con CRTL + C)."
+
+#~ msgid "Overrides a previously installed version of KeyHelp."
+#~ msgstr ""
+#~ "Esegue l'override di una versione precedentemente installata di KeyHelp."
+
+#~ msgid "Runs the installation in selected language."
+#~ msgstr "Esegue l'installazione nella lingua selezionata."
+
+#, fuzzy
+#~ msgid ""
+#~ "There is already a KeyHelp installation on this server. Please run the "
+#~ "installer with \"--force\" to overwrite existing data."
+#~ msgstr ""
+#~ "C'è già un'installazione di KeyHelp su questo server. Si prega di "
+#~ "eseguire il programma di installazione con \"..--forza\" per "
+#~ "sovrascrivere dati esistenti."
+
+#~ msgid ""
+#~ "This program will install <highlight>KeyHelp %1$s</highlight> on your "
+#~ "server."
+#~ msgstr ""
+#~ "Questo programma installerà <highlight>KeyHelp %1$s</highlight> sul tuo "
+#~ "server."
+
+#~ msgid ""
+#~ "An installation on a server, which already runs a KeyHelp panel can cause "
+#~ "data loss."
+#~ msgstr ""
+#~ "Un'installazione su un server, che gestisce già un pannello KeyHelp può "
+#~ "causare perdita di dati."
+
+#~ msgid "Error"
+#~ msgstr "Errore"
+
+#~ msgid "Your Administration-Panel"
+#~ msgstr "Il tuo pannello di amministrazione"
+
+#~ msgid "This application requires root privileges."
+#~ msgstr "Questa applicazione richiede i privilegi di root."
+
+#, fuzzy
+#~ msgid "This application requires to be run in CLI mode."
+#~ msgstr "Questa applicazione deve essere eseguita in modalità CLI."

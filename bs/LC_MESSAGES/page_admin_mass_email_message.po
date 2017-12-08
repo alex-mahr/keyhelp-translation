@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminMassEmailMessage\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1184
+msgid "Mass Email Message"
+msgstr "Masovna E-Mail Poruka"
+
+#: functions/functions.translationStrings.php:1185
+msgid "Send mass email message"
+msgstr "Posalji masovnu E-mail poruku"
+
+#: functions/functions.translationStrings.php:1186
+msgid "Send email"
+msgstr "Posalji E-Mail"
+
+#: functions/functions.translationStrings.php:1187
+msgid "Subject"
+msgstr "Naslov"
+
+#: functions/functions.translationStrings.php:1188
+msgid "Message text"
+msgstr "Text poruke"
+
+#: functions/functions.translationStrings.php:1189
+msgid "To"
+msgstr "Na"
+
+#: functions/functions.translationStrings.php:1190
+msgid "From"
+msgstr "Od"
+
+#: functions/functions.translationStrings.php:1191
+msgid ""
+"<nobr><i>Email address</i></nobr> or <nobr><i>Name &lt;EMAIL ADDRESS&gt;</"
+"i></nobr>"
+msgstr ""
+"<nobr><i>E-Mail adresa</i></nobr> ili <nobr><i>Ime &lt;E-MAIL ADRESA&gt;</"
+"i></nobr>"
+
+#: functions/functions.translationStrings.php:1192
+msgid "Users"
+msgstr "Korisnici"
+
+#: functions/functions.translationStrings.php:1193
+msgid "Administrators"
+msgstr "Administratori"
+
+#: functions/functions.translationStrings.php:1194
+msgid "Accounts without email address"
+msgstr "Nalozi bez E-Mail adrese"

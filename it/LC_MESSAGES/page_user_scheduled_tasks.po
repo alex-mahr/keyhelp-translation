@@ -1,0 +1,72 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userScheduledTasks\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1100
+msgid ""
+"Using scheduled tasks you can automate certain commands or scripts.<br>The "
+"job will then run automatically at the time / date / interval specified by "
+"you."
+msgstr ""
+"Utilizzando operazioni pianificate è possibile automatizzare determinati "
+"comandi o script.<br>Il job verrà poi eseguito automaticamente al momento / "
+"data / intervallo specificato dall'utente."
+
+#: functions/functions.translationStrings.php:1101
+msgid "Scheduled tasks"
+msgstr "Attività pianificate"
+
+#: functions/functions.translationStrings.php:1102
+msgid "Add task"
+msgstr "Aggiungi attività"
+
+#: functions/functions.translationStrings.php:1103
+msgid "Command"
+msgstr "Comando"
+
+#: functions/functions.translationStrings.php:1104
+msgid "Schedule"
+msgstr "Programma"
+
+#: functions/functions.translationStrings.php:1105
+msgid "Email for notification"
+msgstr "Email per notifica"
+
+#: functions/functions.translationStrings.php:1106
+msgid "on"
+msgstr "on"
+
+#: functions/functions.translationStrings.php:1107
+msgid "day of month"
+msgstr "giorno del mese"
+
+#: functions/functions.translationStrings.php:1108
+msgid "at"
+msgstr "il / alle"
+
+#: functions/functions.translationStrings.php:1109
+msgid "minutes"
+msgstr "minuti"
+
+#: functions/functions.translationStrings.php:1110
+msgid "o'clock"
+msgstr "in punto"
+
+#~ msgid "Are you sure you want to delete the following scheduled task?"
+#~ msgstr ""
+#~ "Sei sicuro di che voler eliminare la seguente operazione pianificata?"

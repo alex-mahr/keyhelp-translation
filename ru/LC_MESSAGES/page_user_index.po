@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:778
+msgid "Overview"
+msgstr "Основная информация"
+
+#: functions/functions.translationStrings.php:779
+msgid "Total"
+msgstr "Всего"
+
+#: functions/functions.translationStrings.php:780
+msgid "Account Information"
+msgstr "Информация об аккаунте"
+
+#: functions/functions.translationStrings.php:781
+msgid "Main domain(s)"
+msgstr "Основной домен(ы)"
+
+#: functions/functions.translationStrings.php:782
+msgid "Emails"
+msgstr "Email"
+
+#: functions/functions.translationStrings.php:783
+msgid "MySQL-DBs"
+msgstr "Базы данных MySQL"
+
+#: functions/functions.translationStrings.php:784
+msgid "Webspace"
+msgstr "Дисковое пространство"
+
+#: functions/functions.translationStrings.php:785
+msgid "Disk space"
+msgstr "Обьем диска"
+
+#: functions/functions.translationStrings.php:786
+msgid "Please note, what happens, when your disk space is 100&#37; used up:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:787
+msgid "- You can not upload more data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:788
+msgid "- You can not receive emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:789
+msgid "- Your database privileges will be restricted"
+msgstr ""
+
+#: functions/functions.translationStrings.php:790
+msgid "Email address for automatic server messages"
+msgstr "E-mail адрес для оповещений"
+
+#: functions/functions.translationStrings.php:791
+msgid ""
+"- If you ever forget your password, you can request a new one using this "
+"email address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:792
+msgid ""
+"- Administrators can send you messages to indicate possible maintenance etc."
+msgstr ""
+
+#: functions/functions.translationStrings.php:793
+msgid ""
+"- Warning emails will be sent if only 10&#37; of your maximum available disk "
+"space is left"
+msgstr ""
+
+#: functions/functions.translationStrings.php:794
+msgid "Change now"
+msgstr "Изменить сейчас"
+
+#: functions/functions.translationStrings.php:795
+msgid "MySQL databases"
+msgstr "Базы данных MySQL"
+
+#: functions/functions.translationStrings.php:796
+msgid "Email addresses"
+msgstr "E-mail адреса"
+
+#: functions/functions.translationStrings.php:797
+msgid "Mailboxes"
+msgstr "Почтовые ящики"
+
+#: functions/functions.translationStrings.php:798
+msgid "Scheduled tasks"
+msgstr "Запланированные задачи"
+
+#: functions/functions.translationStrings.php:799
+msgid "Activated services / privileges"
+msgstr "Активированные сервисы / привелегии"
+
+#: functions/functions.translationStrings.php:800
+msgid "Directory listing"
+msgstr "Список каталогов"
+
+#: functions/functions.translationStrings.php:801
+msgid ""
+"If this option is enabled the files located in a web folder are shown as "
+"file lists in the browser even if there is no index file (e.g. index.html, "
+"index.php)."
+msgstr ""
+"Если опция включена, файлы отображаются в виде списка, даже если нет index "
+"файла."
+
+#: functions/functions.translationStrings.php:802
+msgid "Current state: Enabled"
+msgstr "Текущее состояние: Включено"
+
+#: functions/functions.translationStrings.php:803
+msgid "Current state: Disabled"
+msgstr "Текущее состояние: Выключено"
+
+#: functions/functions.translationStrings.php:804
+msgid "(current / maximum - in percent)"
+msgstr "(занято / всего - в процентах)"
+
+#: functions/functions.translationStrings.php:805
+msgid "(current / maximum)"
+msgstr "(занято / всего)"
+
+#: functions/functions.translationStrings.php:806
+msgid "Absolute path to your home directory"
+msgstr "Абсолютный путь до домашней директории"
+
+#: functions/functions.translationStrings.php:807
+msgid "Consumed traffic this month"
+msgstr "Трафик использованый за этот месяц"
+
+#: functions/functions.translationStrings.php:808
+msgid "Total traffic"
+msgstr "Трафик всего"
+
+#: functions/functions.translationStrings.php:809
+msgid "No main domains have been assigned to you."
+msgstr ""
+
+#: functions/functions.translationStrings.php:810
+msgid "This domain has been disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:811
+msgid "DISABLED"
+msgstr ""
+
+#~ msgid ""
+#~ "Please note, if your disk space reaches 100%:<br>- you can not upload "
+#~ "more data<br>- you can not receive emails<br>- your database rights will "
+#~ "be limited"
+#~ msgstr ""
+#~ "Если диск будет заполнен на 100%:<br>- вы не сможете загружать файлы<br>- "
+#~ "вы не будете получать письма<br>- база данных не сможет выполнять запись"
+
+#~ msgid ""
+#~ "- If you ever forget your password, you can request a new one using this "
+#~ "email address.<br>- Administrators can send you messages to indicate "
+#~ "possible maintenance etc.<br>- Warning emails will be sent if only "
+#~ "10&#37; of your maximum available memory space is available."
+#~ msgstr ""
+#~ "- Если ваш пароль будет утерян, вы сможете его восстановить с помощью "
+#~ "указанного e-mail.<br>- вы сможете получать предупреждения о работах на "
+#~ "сервере.<br>- вы сможете получать предупреждения об оставшихся 10% "
+#~ "дискового пространства."

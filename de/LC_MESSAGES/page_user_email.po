@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userEmail\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:997
+msgid ""
+"Here you can set up and manage email addresses.<br><br>For each email "
+"account you can assign additional alternative email addresses (aliases) and "
+"setup forwarding to other email addresses.<br><br>To edit <b>email aliases</"
+"b>, <b>forwarding</b> and <b>protection</b> for an email account, click on "
+"the edit icon in the row of the desired email account."
+msgstr ""
+"Hier können Sie E-Mail-Adressen einrichten und verwalten.<br><br>Für jedes E-"
+"Mail-Konto können Sie zusätzliche alternative E-Mail-Adressen (Aliase) "
+"vergeben und Weiterleitungen an andere E-Mail-Adressen einrichten.<br><br>Um "
+"<b>E-Mail-Aliase</b>, <b>Weiterleitungen</b> und <b>Schutzmaßnahmen</b> für "
+"ein E-Mail-Konto zu bearbeiten, klicken Sie auf das Bearbeiten-Symbol in der "
+"Zeile des gewünschten E-Mail-Konto."
+
+#: functions/functions.translationStrings.php:1000
+msgid "You are currently using:"
+msgstr "Sie verwenden derzeit:"
+
+#: functions/functions.translationStrings.php:1001
+msgid "Email account"
+msgstr "E-Mail-Konto"
+
+#: functions/functions.translationStrings.php:1002
+msgid "Email accounts"
+msgstr "E-Mail-Konten"
+
+#: functions/functions.translationStrings.php:1003
+msgid "Mailbox size"
+msgstr "Postfachgröße"
+
+#: functions/functions.translationStrings.php:1004
+msgid "Redirection account"
+msgstr "Weiterleitungskonto"
+
+#: functions/functions.translationStrings.php:1005
+msgid "Forwarding"
+msgstr "Weiterleitungen"
+
+#: functions/functions.translationStrings.php:1006
+msgid "Forward to"
+msgstr "Weiterleiten zu"
+
+#: functions/functions.translationStrings.php:1007
+msgid ""
+"Separate multiple email addresses by space, comma, semicolon or newline from "
+"each other.<br><br>Please note, if you use an external email address, not "
+"managed by this server, you may need to whitelist this server in the SPF "
+"(Sender Policy Framework) settings of the external server."
+msgstr ""
+"Trennen Sie mehrere E-Mail-Adressen durch Leerzeichen, Komma, Semikolon oder "
+"Zeilenumbruch voneinander.<br><br>Bitte beachten Sie, wenn Sie eine externe, "
+"nicht von diesem Server verwaltete E-Mail-Adresse verwenden, müssen Sie "
+"gegebenenfalls diesen Server in den SPF (Sender Policy Framework) "
+"Einstellungen des externen Servers whitelisten."
+
+#: functions/functions.translationStrings.php:1008
+msgid "Protection"
+msgstr "Schutzmaßnahmen"
+
+#: functions/functions.translationStrings.php:1009
+msgid "Greylisting"
+msgstr "Greylisting"
+
+#: functions/functions.translationStrings.php:1010
+msgid "Catch-all?"
+msgstr "Catch-All?"
+
+#: functions/functions.translationStrings.php:1011
+msgid "Add email account"
+msgstr "E-Mail Konto hinzufügen"
+
+#: functions/functions.translationStrings.php:1012
+msgid "Server"
+msgstr "Server"
+
+#: functions/functions.translationStrings.php:1013
+msgid "Port for STARTTLS"
+msgstr "Port für STARTTLS"
+
+#: functions/functions.translationStrings.php:1014
+msgid "Port for SSL/TLS"
+msgstr "Port für SSL/TLS"
+
+#: functions/functions.translationStrings.php:1015
+msgid "IMAP"
+msgstr "IMAP"
+
+#: functions/functions.translationStrings.php:1016
+msgid "POP3"
+msgstr "POP3"
+
+#: functions/functions.translationStrings.php:1017
+msgid "SMTP"
+msgstr "SMTP"
+
+#: functions/functions.translationStrings.php:1018
+msgid "Inbox"
+msgstr "Posteingang"
+
+#: functions/functions.translationStrings.php:1019
+msgid "Outbox"
+msgstr "Postausgang"
+
+#: functions/functions.translationStrings.php:1020
+msgid "Connection information"
+msgstr "Verbindungsinformationen"
+
+#: functions/functions.translationStrings.php:1021
+msgid "If available, you can use, your own SSL protected domain as well."
+msgstr ""
+"Hier ist, sofern vorhanden, auch Ihre per SSL gesicherte Domain zulässig."
+
+#: functions/functions.translationStrings.php:1022
+msgid "Activate catch-all"
+msgstr "Catch-All aktivieren"
+
+#: functions/functions.translationStrings.php:1023
+msgid ""
+"If this option is enabled, then all emails addressed to any recipient within "
+"this domain, which aren't associated with another mail account will be "
+"\"caught\" by this mail account.<br>Please note, that virus and spam "
+"protection plus mail aliases will be disabled for this mail account.<br>Note "
+"also, that you will receive a higher number of spam, phishing and malware "
+"emails."
+msgstr ""
+"Wenn aktiv, laufen in diesem Konto alle E-Mails zusammen, die an beliebige "
+"Empfänger innerhalb einer Domain adressiert sind, für die kein Postfach "
+"angelegt wurde.<br>Beachten Sie das für dieses Konto Viren und "
+"Spamschutzmaßnahmen, sowie Alias-Adressen deaktiviert werden.<br>Beachten "
+"Sie außerdem, dass Sie einer erhöhten Anzahl an Spam-, Phishing- und "
+"Schadsoftware-E-Mails ausgesetzt sein werden."
+
+#: functions/functions.translationStrings.php:1026
+msgid "Mailbox quota"
+msgstr "Mailboxgröße"
+
+#: functions/functions.translationStrings.php:1027
+msgid "Other size"
+msgstr "Andere Größe"
+
+#: functions/functions.translationStrings.php:1028
+msgid ""
+"After setting up the email account call up the page for managing <b>alias "
+"addresses</b>, <b>forwarding</b> and <b>security measures</b>"
+msgstr ""
+"Nach dem Anlegen des E-Mail-Kontos, Seite zum Verwalten von <b>Alias-"
+"Adressen</b>, <b>Weiterleitungen</b> und <b>Schutzmaßnahmen</b> aufrufen"
+
+#: functions/functions.translationStrings.php:1029
+msgid "Email account settings"
+msgstr "E-Mail-Konto-Einstellungen"
+
+#: functions/functions.translationStrings.php:1030
+msgid "Alias addresses"
+msgstr "Alias Adressen"
+
+#: functions/functions.translationStrings.php:1031
+msgid ""
+"Email aliases are alternative email addresses which are associated to an "
+"email account. All emails sent to an alias, will be received by the primary "
+"address."
+msgstr ""
+"E-Mail-Aliase sind alternative E-Mail-Adressen die einem E-Mail-Konto "
+"zugeordnet sind. Alle E-Mails, die zu einem Alias geschickt werden, werden "
+"von der primären Adresse empfangen."
+
+#: functions/functions.translationStrings.php:1032
+msgid ""
+"Here you can set email forwarding to one or more email addresses. If the "
+"field \"Save email on the server\" is marked, the redirected emails will "
+"also be saved on this server."
+msgstr ""
+"Hier können Sie E-Mail Weiterleitungen zu einer oder mehrerer E-Mail-"
+"Adressen festlegen. Wenn das Feld \"E-Mails auf Server speichern\" markiert "
+"ist, werden die weitergeleiteten E-Mails zusätzlich auch auf diesem Server "
+"gespeichert."
+
+#: functions/functions.translationStrings.php:1033
+msgid "Add this alias address"
+msgstr "Diese Alias-Adresse hinzufügen"
+
+#: functions/functions.translationStrings.php:1034
+msgid "Remove alias address"
+msgstr "Alias-Adresse entfernen"
+
+#: functions/functions.translationStrings.php:1035
+msgid "Save emails in mailbox"
+msgstr "E-Mails im Postfach speichern"
+
+#: functions/functions.translationStrings.php:1036
+msgid "Examine incoming emails for viruses"
+msgstr "Eingehende E-Mails auf Viren untersuchen"
+
+#: functions/functions.translationStrings.php:1037
+msgid ""
+"Examine incoming emails for spam / spam score <small>(values 0 - 999,9)</"
+"small>"
+msgstr ""
+"Eingehende E-Mails auf Spam untersuchen / Spamscore <small>(Werte 0 - "
+"999,9)</small>"
+
+#: functions/functions.translationStrings.php:1038
+msgid "Spam score"
+msgstr "Spam-Score"
+
+#: functions/functions.translationStrings.php:1039
+msgid "Invalid email address"
+msgstr "Ungültige E-Mail-Adresse"
+
+#: functions/functions.translationStrings.php:1041
+msgid "Alias email already exists"
+msgstr "Alias-Adresse existiert bereits"
+
+#: functions/functions.translationStrings.php:1042
+msgid "The alias address you entered already exists for this mailbox."
+msgstr ""
+"Die von Ihnen eingegebene Alias-Adresse existiert bereits für dieses "
+"Postfach."
+
+#: functions/functions.translationStrings.php:1043
+msgid "alternatively"
+msgstr "alternativ"

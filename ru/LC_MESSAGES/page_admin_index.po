@@ -1,0 +1,164 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:125
+msgid "Overview"
+msgstr "Основная информация"
+
+#: functions/functions.translationStrings.php:126
+msgid "General information"
+msgstr "Общая информация"
+
+#: functions/functions.translationStrings.php:127
+msgid "MySQL databases"
+msgstr "Базы данных MySQL"
+
+#: functions/functions.translationStrings.php:128
+msgid "User accounts"
+msgstr "Учетные записи"
+
+#: functions/functions.translationStrings.php:129
+msgid "Email addresses"
+msgstr "E-mail адреса"
+
+#: functions/functions.translationStrings.php:130
+msgid "Mailboxes"
+msgstr "Почтовые ящики"
+
+#: functions/functions.translationStrings.php:131
+msgid "Scheduled tasks"
+msgstr "Запланированные задачи"
+
+#: functions/functions.translationStrings.php:132
+msgid "Administration panel"
+msgstr "Админ. панель"
+
+#: functions/functions.translationStrings.php:133
+msgid "Installed version"
+msgstr "Текущая версия"
+
+#: functions/functions.translationStrings.php:134
+msgid "Latest version"
+msgstr "Последняя версия"
+
+#: functions/functions.translationStrings.php:135
+msgid "See history of changes"
+msgstr "История изменений"
+
+#: functions/functions.translationStrings.php:136
+msgid "Automatic panel updates have been disabled!"
+msgstr " Автоматическое обновление панели было выключено!"
+
+#: functions/functions.translationStrings.php:137
+msgid "Panel tasks"
+msgstr "Задачи панели"
+
+#: functions/functions.translationStrings.php:138
+msgid "Label"
+msgstr "Имя"
+
+#: functions/functions.translationStrings.php:139
+msgid "Last run"
+msgstr "Последний запуск"
+
+#: functions/functions.translationStrings.php:140
+msgid "System overview"
+msgstr "Обзор системы"
+
+#: functions/functions.translationStrings.php:141
+msgid "Server time"
+msgstr "Время сервера"
+
+#: functions/functions.translationStrings.php:142
+msgid "System uptime"
+msgstr "Uptime сервера"
+
+#: functions/functions.translationStrings.php:143
+msgid "CPU usage"
+msgstr "Нагрузка на CPU"
+
+#: functions/functions.translationStrings.php:144
+msgid "Hard disk usage"
+msgstr "Использование диска"
+
+#: functions/functions.translationStrings.php:145
+msgid "Memory usage"
+msgstr "Использование памяти"
+
+#: functions/functions.translationStrings.php:146
+msgid "Swap usage"
+msgstr "Использование swap"
+
+#: functions/functions.translationStrings.php:147
+#, fuzzy
+msgid "IP address(es)"
+msgstr "IP-адреса"
+
+#: functions/functions.translationStrings.php:148
+msgid "Hostname"
+msgstr "Хостнейм"
+
+#: functions/functions.translationStrings.php:149
+msgid "CPU"
+msgstr "CPU"
+
+#: functions/functions.translationStrings.php:150
+msgid "Operating system"
+msgstr "Операционная система"
+
+#: functions/functions.translationStrings.php:151
+#, fuzzy
+msgid "Web server"
+msgstr "Веб-сервер"
+
+#: functions/functions.translationStrings.php:152
+msgid "PHP version"
+msgstr "Версия PHP"
+
+#: functions/functions.translationStrings.php:153
+msgid "MySQL version"
+msgstr "Версия MySQL"
+
+#: functions/functions.translationStrings.php:154
+msgid "FTP server"
+msgstr "FTP сервер"
+
+#: functions/functions.translationStrings.php:155
+msgid "Database administration"
+msgstr "Администратор баз данных"
+
+#: functions/functions.translationStrings.php:156
+msgid "Webmail"
+msgstr "Веб-почта"
+
+#: functions/functions.translationStrings.php:157
+msgid "News"
+msgstr "новости"
+
+#: functions/functions.translationStrings.php:158
+msgid "Traffic this month"
+msgstr "Месячный трафик"
+
+#: functions/functions.translationStrings.php:159
+msgid "Notes"
+msgstr "Примечания"
+
+#~ msgid "Warning"
+#~ msgstr "Предупреждение"

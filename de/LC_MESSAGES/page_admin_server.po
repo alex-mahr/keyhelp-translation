@@ -1,0 +1,465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminServer\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:437
+msgid "Settings / Server"
+msgstr "Einstellungen / Server"
+
+#: functions/functions.translationStrings.php:438
+msgid "Support Access"
+msgstr "Support Zugang"
+
+#: functions/functions.translationStrings.php:439
+msgid ""
+"If the following option is enabled, you grant SSH access to your server to "
+"the KeyHelp support team. If problems occur with your server, the support "
+"team will be able to assist you with the solution promptly.<br>The access by "
+"the support team is only for the purpose of solving the problem and only "
+"with an appropriate order by yourself."
+msgstr ""
+"Ist die folgende Option aktiviert, gewähren Sie dem KeyHelp-Support-Team bei "
+"Bedarf SSH Zugriff auf Ihren Server. Sollten Probleme mit Ihrem Server "
+"auftreten, ist das Support-Team somit in der Lage Sie zeitnah bei der Lösung "
+"zu unterstützen.<br>Der Zugriff durch das Support-Team erfolgt "
+"ausschließlich zum Zweck der Problemlösung und nur mit entsprechendem "
+"Auftrag Ihrerseits."
+
+#: functions/functions.translationStrings.php:440
+msgid "Enable support access?"
+msgstr "Support Zugang aktivieren?"
+
+#: functions/functions.translationStrings.php:441
+msgid "Backup settings"
+msgstr "Backup-Einstellungen"
+
+#: functions/functions.translationStrings.php:442
+msgid ""
+"The settings listed below only affects the backups for user accounts."
+"<br>Backups of administrative users are not affected and can be used "
+"regardless of the settings."
+msgstr ""
+"Die hier aufgeführten Optionen beeinflussen nur die Backups der "
+"Benutzeraccounts.<br>Das Backup der administrativen Benutzer ist hiervon "
+"nicht betroffen und kann ungeachtet der getroffenen Einstellungen benutzt "
+"werden."
+
+#: functions/functions.translationStrings.php:444
+msgid "Enable local repositories"
+msgstr "Lokale Repositorys aktivieren"
+
+#: functions/functions.translationStrings.php:445
+msgid ""
+"If disabled, storing backups in the local repositories (on this server) is "
+"prohibited.<br><br>The local repositories are located inside the folders \"/"
+"backup/server/\" and \"/backup/users/&lt;USERNAME&gt;/\"."
+msgstr ""
+"Wenn deaktiviert, wird das Ablegen von Backups in den lokalen Repositorys "
+"(auf diesem Server) untersagt.<br><br>Die lokalen Repositorys befinden sich "
+"in den Ordnern \"/backup/server/\" sowie \"/backup/users/&lt;"
+"BENUTZERNAME&gt;/\"."
+
+#: functions/functions.translationStrings.php:447
+msgid "Maximum number of files per local repository"
+msgstr "Maximale Dateianzahl je lokalen Repository"
+
+#: functions/functions.translationStrings.php:448
+msgid ""
+"To save disk space, you can limit the number of files in the local "
+"repository, the old backup files are removed for this purpose.<br><br>The "
+"value \"0\" / empty means \"no limit\".<br>Attention, this setting can "
+"cause, that no more disk space is available for other data."
+msgstr ""
+"Um Speicherplatz zu sparen, können Sie die Anzahl der Dateien im lokalen "
+"Repository begrenzen, die alte Backup Dateien werden hierfür gelöscht."
+"<br><br>Der Wert \"0\" / leer bedeutet \"Keine Einschränkung\".<br>ACHTUNG, "
+"diese Einstellung kann dazu führen, das kein Speicherplatz mehr für andere "
+"Daten zur Verfügung steht."
+
+#: functions/functions.translationStrings.php:451
+msgid "RAM-Disk for temporary files"
+msgstr "RAM-Disk für temporäre Dateien"
+
+#: functions/functions.translationStrings.php:452
+msgid ""
+"If this option is enabled, temporary files are written to RAM instead to the "
+"hard drive.<br>Please note that if only a small amount of memory is "
+"available, this option can make little sense.<br>While swapping a highly "
+"filled temporary directory to RAM, it can block needed memory, which ends in "
+"swapping and larger hard drive activity."
+msgstr ""
+"Ist diese Option aktiviert, werden die temporären Dateien in den RAM anstatt "
+"auf die Festplatte geschrieben.<br>Bitte beachten Sie, dass wenn nur eine "
+"geringe Menge an Arbeitsspeicher zur Verfügung steht, diese Option wenig "
+"sinnvoll sein kann.<br>Bei der Auslagerung eines stark gefüllten temporären "
+"Verzeichnis in den RAM kann dieser gegebenenfalls benötigten Speicher "
+"blockieren, was in Swapping und größerer Festplattenaktivität endet."
+
+#: functions/functions.translationStrings.php:455
+msgid "Enabled for directories"
+msgstr "Aktiviert für Ordner"
+
+#: functions/functions.translationStrings.php:456
+msgid "Prevent script execution"
+msgstr "Scriptausführung verhindern"
+
+#: functions/functions.translationStrings.php:457
+msgid ""
+"Malicious scripts can install themselves in temporary folders and cause "
+"damage from there. <br>If this option is enabled, script execution for this "
+"folder will be prevented."
+msgstr ""
+"Schadscripte können sich im temporären Ordner einnisten und von dort aus "
+"Schaden anrichten.<br>Ist diese Option aktiv, wird die Ausführung von "
+"Scripten in diesem Ordner verhindert."
+
+#: functions/functions.translationStrings.php:458
+msgid "RAM-Disk size"
+msgstr "Größe der RAM-Disk"
+
+#: functions/functions.translationStrings.php:459
+msgid "Email addresses for server domain"
+msgstr "E-Mail-Adressen für Server-Domain"
+
+#: functions/functions.translationStrings.php:460
+msgid ""
+"Here you can specify, what should happen to emails, that are sent to the "
+"default email addresses (according to RFC2142) of the server domain.<br>If "
+"enabled, all emails being sent to the following addresses, will be forwarded "
+"to the specified destination email address."
+msgstr ""
+"Hier können Sie festlegen, was mit den E-Mails geschehen soll, die an die "
+"Standard E-Mail-Adressen (nach RFC2142) der Server-Domain gesendet werden."
+"<br>Wenn aktiv, werden alle E-Mails, die an folgende Adressen gesendet "
+"werden, an die angegebene Ziel E-Mail-Adresse weitergeleitet."
+
+#: functions/functions.translationStrings.php:461
+msgid "Enable forwarding?"
+msgstr "Weiterleitung aktivieren?"
+
+#: functions/functions.translationStrings.php:462
+msgid "Destination email address for forwarding"
+msgstr "Ziel E-Mail-Adresse der Weiterleitung"
+
+#: functions/functions.translationStrings.php:463
+msgid ""
+"Please note, if you use an external email address, not managed by this "
+"server, you may need to whitelist this server in the SPF (Sender Policy "
+"Framework) settings of the external server."
+msgstr ""
+"Bitte beachten Sie, wenn Sie eine externe, nicht von diesem Server "
+"verwaltete E-Mail-Adresse verwenden, müssen Sie gegebenenfalls diesen Server "
+"in den SPF (Sender Policy Framework) Einstellungen des externen Servers "
+"whitelisten."
+
+#: functions/functions.translationStrings.php:464
+msgid "Web server ports"
+msgstr "Webserver Ports"
+
+#: functions/functions.translationStrings.php:465
+msgid ""
+"Here you can specify the ports on to the Apache web server is listening to - "
+"necessary configuration files are written according to the ports listed "
+"below.<br>This option is useful if you, for example, would like to use "
+"another web server alongside the existing Apache web server."
+msgstr ""
+"Hier können Sie die Ports festlegen, auf denen der Apache-Webserver lauscht "
+"- notwendige Konfigurationsdateien werden entsprechend mit den unten "
+"angegebenen Ports geschrieben.<br>Diese Option ist dann interessant, wenn "
+"Sie z.B. einen weiteren Webserver neben dem vorhandenen Apache Webserver "
+"betreiben wollen."
+
+#: functions/functions.translationStrings.php:467
+msgid ""
+"Use this option only if you know what you are doing.<br>Wrong settings can "
+"lead to the non-availability of KeyHelp and all managed domains."
+msgstr ""
+"Verwenden Sie diese Option nur, wenn Sie wissen, was Sie tun.<br>Falsche "
+"Angaben können zur Nichterreichbarkeit von KeyHelp und aller verwalteten "
+"Domains führen."
+
+#: functions/functions.translationStrings.php:468
+msgid "A user-defined port must be in the port range 1024 - 65535."
+msgstr "Ein benutzerdefinierter Port muss im Portbereich 1024 - 65535 liegen."
+
+#: functions/functions.translationStrings.php:469
+msgid "Edit port settings"
+msgstr "Port-Einstellungen bearbeiten"
+
+#: functions/functions.translationStrings.php:470
+msgid "Edit mode"
+msgstr "Bearbeitungsmodus"
+
+#: functions/functions.translationStrings.php:471
+msgid "HTTP port"
+msgstr "HTTP-Port"
+
+#: functions/functions.translationStrings.php:472
+msgid "HTTPS port"
+msgstr "HTTPS-Port"
+
+#: functions/functions.translationStrings.php:473
+msgid "Default"
+msgstr "Standard"
+
+#: functions/functions.translationStrings.php:474
+msgid "Antivirus scanner"
+msgstr "Antivirus-Scanner"
+
+#: functions/functions.translationStrings.php:475
+msgid ""
+"Although computer viruses on Linux servers play only a minor role for "
+"example in comparison to Windows systems, they can indeed be abused for the "
+"spread of (Windows) viruses."
+msgstr ""
+"Auch wenn Computerviren auf Linux Servern nur eine geringe Rolle im "
+"Vergleich zu z.B. Windows Systemen spielen, so können Sie durchaus zur "
+"Verbreitung von (Windows-) Viren missbraucht werden."
+
+#: functions/functions.translationStrings.php:476
+msgid ""
+"Viruses can be placed on the server by for example exploitation of "
+"vulnerabilities in the software used (Exploits) or by user uploads."
+msgstr ""
+"Viren können zum Beispiel durch Ausnutzen von Schwachstellen verwendeter "
+"Software oder durch Benutzer-Uploads auf Server platziert werden."
+
+#: functions/functions.translationStrings.php:477
+msgid ""
+"Past scan protocols can be viewed under <a href=\"?"
+"page=admin_logs_panel_tasks&logfile=cronjob/avscan.log\">Panel Tasks Logs</"
+"a> (avscan.log)."
+msgstr ""
+"Zurückliegende Scanprotokolle können unter <a href=\"?"
+"page=admin_logs_panel_tasks\">Panel-Aufgaben-Logs</a> eingesehen werden "
+"(avscan.log)"
+
+#: functions/functions.translationStrings.php:478
+msgid ""
+"The quarantine directory is located under \"/var/spool/clamav/quarantine/\"."
+msgstr ""
+"Das Quarantäneverzeichnis befindet sich unter \"/var/spool/clamav/quarantine/"
+"\"."
+
+#: functions/functions.translationStrings.php:479
+msgid "Enable antivirus scanner?"
+msgstr "Antivirus-Scanner aktivieren?"
+
+#: functions/functions.translationStrings.php:480
+msgid "Action on infection"
+msgstr "Aktion bei Infektionen"
+
+#: functions/functions.translationStrings.php:481
+msgid "No action (report only)"
+msgstr "Keine Aktion (Nur melden)"
+
+#: functions/functions.translationStrings.php:482
+msgid "Move infection to quarantine"
+msgstr "Infektion in Quarantäne verschieben"
+
+#: functions/functions.translationStrings.php:483
+msgid "Delete infection (WARNING!)"
+msgstr "Infektion löschen (ACHTUNG!)"
+
+#: functions/functions.translationStrings.php:484
+msgid "Notification email address"
+msgstr "E-Mail-Adresse für Benachrichtigung"
+
+#: functions/functions.translationStrings.php:485
+msgid ""
+"If infections are found / errors occur, the scan log is sent to this email "
+"address."
+msgstr ""
+"Sollten Infektionen gefunden werden / Fehler auftreten, wird das "
+"Scanprotokoll an diese E-Mail-Adresse gesendet."
+
+#: functions/functions.translationStrings.php:486
+msgid "If no email is set, notification will be sent to the admin accounts."
+msgstr ""
+"Wenn keine E-Mail angegeben ist, wird die Benachrichtigung an die Admin-"
+"Accounts gesendet."
+
+#: functions/functions.translationStrings.php:487
+msgid "Send scan log, even if no infections have been found"
+msgstr "Scanprotokoll senden, auch wenn keine Infektionen gefunden wurden"
+
+#: functions/functions.translationStrings.php:488
+msgid "Scan the following directories"
+msgstr "Zu untersuchende Verzeichnisse"
+
+#: functions/functions.translationStrings.php:489
+msgid ""
+"Define the directory paths which should be examined during a virus check."
+"<br>Separate multiple paths by space, comma, semicolon or newline from each "
+"other."
+msgstr ""
+"Legen Sie hier die Ordner-Pfade fest, die bei einer Virenprüfung untersucht "
+"werden sollen.<br>Trennen Sie mehrere Pfade durch Leerzeichen, Komma, "
+"Semikolon oder Zeilenumbruch voneinander."
+
+#: functions/functions.translationStrings.php:490
+msgid "Compression rate"
+msgstr "Kompressionsrate"
+
+#: functions/functions.translationStrings.php:491
+msgid ""
+"You can reduce the duration of the backup process at the expense of the "
+"resulting file size by choosing a faster compression method.<br>\"No "
+"Compression\" is the fastest option."
+msgstr ""
+"Sie können die Dauer des Backup-Prozesses auf Kosten der resultierenden "
+"Dateigröße reduzieren, indem Sie eine schnellere Komprimierungsmethode "
+"auswählen. <br> \"Keine Kompression\" ist die schnellste Option."
+
+#: functions/functions.translationStrings.php:493
+msgid "Multithreading"
+msgstr "Multithreading"
+
+#: functions/functions.translationStrings.php:494
+msgid ""
+"If you have a multiprocessor or multicore system, you can get a speed "
+"increase with this switch."
+msgstr ""
+"Wenn Sie ein Multiprozessor- oder Multicore-System haben, können Sie mit "
+"diesem Schalter eine Geschwindigkeitserhöhung erreichen."
+
+#: functions/functions.translationStrings.php:495
+msgid "No compression"
+msgstr "Keine Kompression"
+
+#: functions/functions.translationStrings.php:496
+msgid "Fastest compression"
+msgstr "Schnellste Kompression"
+
+#: functions/functions.translationStrings.php:497
+msgid "Fast compression"
+msgstr "Schnelle Kompression"
+
+#: functions/functions.translationStrings.php:498
+msgid "Normal compression"
+msgstr "Normale Kompression"
+
+#: functions/functions.translationStrings.php:499
+msgid "Maximum compression"
+msgstr "Maximale Kompression"
+
+#: functions/functions.translationStrings.php:500
+msgid "Ultra compression"
+msgstr "Ultra Kompression"
+
+#: functions/functions.translationStrings.php:501
+msgid "Hostname"
+msgstr "Hostname"
+
+#: functions/functions.translationStrings.php:502
+msgid ""
+"Here you can change the hostname of this server and therewith the domain, on "
+"which you can access KeyHelp."
+msgstr ""
+"Hier können Sie den Hostnamen dieses Servers und damit die Domain ändern, "
+"mit der Sie auf KeyHelp zugreifen können."
+
+#: functions/functions.translationStrings.php:503
+msgid ""
+"Please ensure, that the new hostname is reachable, before you change this "
+"setting."
+msgstr ""
+"Bitte stellen Sie sicher, dass der neue Hostname erreichbar ist, bevor Sie "
+"diese Einstellung ändern."
+
+#: functions/functions.translationStrings.php:504
+msgid ""
+"Here you can find a backup of all config files which were changed in \"/home/"
+"keyhelp/keyhelp.backup/before_hostname_change/*\"."
+msgstr ""
+"Hier finden Sie eine Sicherung aller geänderten Konfigurationsdateien \"/"
+"home/keyhelp/keyhelp.backup/before_hostname_change/*\"."
+
+#: functions/functions.translationStrings.php:505
+msgid "Please note: Custom DNS settings will not be changed!"
+msgstr ""
+"Bitte beachten Sie: Benutzerdefinierte DNS-Einstellungen werden nicht "
+"geändert!"
+
+#: functions/functions.translationStrings.php:506
+msgid "Renaming of hostname is scheduled:"
+msgstr "Umbenennen des Hostnamens ist eingeplant:"
+
+#: functions/functions.translationStrings.php:507
+msgid "Default PHP version of the operating system"
+msgstr "Standard-PHP-Version des Betriebssystems"
+
+#: functions/functions.translationStrings.php:509
+msgid "PHP interpreter"
+msgstr "PHP-Interpreter"
+
+#: functions/functions.translationStrings.php:510
+msgid "Customer can choose interpreter version for"
+msgstr "Der Kunde kann die Interpreter-Version wählen für"
+
+#: functions/functions.translationStrings.php:511
+msgid "Main domains only"
+msgstr "Nur Hauptdomains"
+
+#: functions/functions.translationStrings.php:512
+msgid "Resource saving"
+msgstr "Ressourcensparend"
+
+#: functions/functions.translationStrings.php:513
+msgid "Main domains and subdomains"
+msgstr "Hauptdomains und Subdomains"
+
+#: functions/functions.translationStrings.php:514
+msgid "Installed PHP interpreters"
+msgstr "Installierte PHP-Interpreter"
+
+#: functions/functions.translationStrings.php:515
+msgid "Additional available PHP interpreters"
+msgstr "Zusätzlich verfügbare PHP-Interpreter"
+
+#: functions/functions.translationStrings.php:516
+msgid "Version"
+msgstr "Version"
+
+#: functions/functions.translationStrings.php:517
+msgid "Selectable by customer"
+msgstr "Vom Kunden wählbar"
+
+#: functions/functions.translationStrings.php:518
+msgid "Auto update enabled"
+msgstr "Auto-Aktualisierung aktiviert"
+
+#: functions/functions.translationStrings.php:519
+msgid "Uninstall"
+msgstr "Deinstallieren"
+
+#: functions/functions.translationStrings.php:520
+msgid "Install now"
+msgstr "Jetzt installieren"
+
+#: functions/functions.translationStrings.php:521
+msgid "Uninstall scheduled"
+msgstr "Deinstallation geplant"
+
+#: functions/functions.translationStrings.php:522
+msgid "Install scheduled"
+msgstr "Installation geplant"
+
+#: functions/functions.translationStrings.php:523
+msgid "Errors"
+msgstr "Fehler"

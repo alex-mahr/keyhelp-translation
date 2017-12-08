@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminTemplateAccount\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1436
+msgid "Account templates"
+msgstr "Modelli di account"
+
+#: functions/functions.translationStrings.php:1437
+msgid "Add account template"
+msgstr "Aggiungi un modello di account"
+
+#: functions/functions.translationStrings.php:1438
+msgid "Name"
+msgstr "Nome"
+
+#: functions/functions.translationStrings.php:1439
+msgid "Label"
+msgstr "Etichetta"
+
+#: functions/functions.translationStrings.php:1440
+msgid "Label of account template"
+msgstr "Etichetta del modello di account"
+
+#: functions/functions.translationStrings.php:1441
+msgid "Limits"
+msgstr "Limiti"
+
+#: functions/functions.translationStrings.php:1442
+msgid "Services"
+msgstr "Servizi"
+
+#: functions/functions.translationStrings.php:1443
+msgid "Backup"
+msgstr "Backup"
+
+#: functions/functions.translationStrings.php:1444
+msgid "SSL settings"
+msgstr "Impostazioni SSL"
+
+#~ msgid "Are you sure you want to delete the selected template?"
+#~ msgstr "Sei sicuro di voler eliminare il modello selezionato?"

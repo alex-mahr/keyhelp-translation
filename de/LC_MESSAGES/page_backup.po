@@ -1,0 +1,336 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __backup\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1311
+msgid "Backup"
+msgstr "Backup"
+
+#: functions/functions.translationStrings.php:1312
+msgid "Recent backup tasks"
+msgstr "Aktuelle Backup Aufgaben"
+
+#: functions/functions.translationStrings.php:1313
+msgid "Started on"
+msgstr "Gestartet am"
+
+#: functions/functions.translationStrings.php:1314
+msgid "Status"
+msgstr "Status"
+
+#: functions/functions.translationStrings.php:1315
+msgid "Destination repository"
+msgstr "Ziel Repository"
+
+#: functions/functions.translationStrings.php:1316
+msgid "Startup type"
+msgstr "Start-Typ"
+
+#: functions/functions.translationStrings.php:1317
+msgid "Create a backup"
+msgstr "Backup erstellen"
+
+#: functions/functions.translationStrings.php:1318
+msgid ""
+"Here you can start a backup process.<br>After finishing, the backup archive "
+"will be stored in the repository you selected."
+msgstr ""
+"Hier können Sie einen Backup Prozess starten.<br>Nach Abschluss des Vorgangs "
+"wird das fertige Backup Archiv in dem von Ihnen gewählten Repository "
+"abgelegt."
+
+#: functions/functions.translationStrings.php:1320
+msgid "Schedule a backup"
+msgstr "Backup planen"
+
+#: functions/functions.translationStrings.php:1321
+msgid ""
+"Here you can schedule regularly performed backup tasks.<br>The backup "
+"process runs automatically, at the time you specified."
+msgstr ""
+"Hier können Sie regelmäßig durchzuführende Backup Aufgaben planen.<br>Der "
+"Backup Prozess wird automatisch, immer zu der von Ihnen festgelegten Zeit "
+"durchgeführt."
+
+#: functions/functions.translationStrings.php:1323
+msgid "Local repository"
+msgstr "Lokales Repository"
+
+#: functions/functions.translationStrings.php:1324
+msgid "Remote repository"
+msgstr "Remote Repository"
+
+#: functions/functions.translationStrings.php:1325
+msgid ""
+"Here you get an overview of your created backups, located on this server (= "
+"Local repository), or on the remote server (= Remote Repository) specified "
+"by you.<br>You can also download your backups to your personal computer, or "
+"remove files from your repositories."
+msgstr ""
+"Hier erhalten Sie eine Übersicht über Ihre erstellten Backups, die sich auf "
+"diesem Server (= Lokales Repository),<br> oder auf dem von Ihnen "
+"festgelegten externen Server (= Remote Repository) befinden.<br>Weiterhin "
+"können Sie Backups auf Ihren privaten Computer herunterladen, oder Daten aus "
+"Ihren Repositorys entfernen."
+
+#: functions/functions.translationStrings.php:1326
+msgid "Remote server settings"
+msgstr "Remote Server Einstellungen"
+
+#: functions/functions.translationStrings.php:1327
+msgid ""
+"Here you can specify an external server on which your backups are to be "
+"stored."
+msgstr ""
+"Hier können Sie einen externen Server festlegen, auf dem Ihre Backups "
+"abgelegt werden sollen."
+
+#: functions/functions.translationStrings.php:1328
+msgid "Backup content"
+msgstr "Backup Inhalt"
+
+#: functions/functions.translationStrings.php:1329
+msgid ""
+"Full user backup (home directories, databases, emails),<br>full server "
+"backup (KeyHelp, /etc/*, /root/*, /var/cron/spool/*, all databases)"
+msgstr ""
+"Vollständiges User Backup (Homeverzeichnisse, Datenbanken, E-Mails),"
+"<br>Vollständiges Server Backup (KeyHelp, /etc/*, /root/*, /var/cron/spool/"
+"*, alle Datenbanken)"
+
+#: functions/functions.translationStrings.php:1331
+msgid "Full backup"
+msgstr "Vollständiges Backup"
+
+#: functions/functions.translationStrings.php:1332
+msgid "Here you can specify where the backup archive will be stored."
+msgstr ""
+"Legen Sie hier fest, wo das fertige Backup Archiv gespeichert werden soll."
+
+#: functions/functions.translationStrings.php:1333
+msgid "The administrator has prohibited to store local backups."
+msgstr "Der Administrator hat das Ablegen von lokalen Backups untersagt."
+
+#: functions/functions.translationStrings.php:1334
+msgid "There are no remote connection settings stored."
+msgstr "Es wurden noch keine Remote Verbindungseinstellungen hinterlegt."
+
+#: functions/functions.translationStrings.php:1335
+msgid "Email address for notification"
+msgstr "E-Mail-Adresse für Benachrichtigung"
+
+#: functions/functions.translationStrings.php:1336
+msgid ""
+"If an error occur during backup, a message to will be send to this email "
+"address."
+msgstr ""
+"Sollte während des Backups ein Fehler auftreten, wird ein Hinweis an diese E-"
+"Mail-Adresse gesendet."
+
+#: functions/functions.translationStrings.php:1337
+msgid "Notify also in case of success"
+msgstr "Auch im Erfolgsfall benachrichtigen"
+
+#: functions/functions.translationStrings.php:1338
+msgid "Password protection (optional)"
+msgstr "Passwortschutz (optional)"
+
+#: functions/functions.translationStrings.php:1339
+msgid ""
+"For security reasons, we recommend protecting your backup with a password, "
+"especially if your backup contains sensitive data.<br>Note that you can not "
+"restore the backup without the password!"
+msgstr ""
+"Aus Sicherheitsgründen empfehlen wir Ihr Backup mit einem Passwort zu "
+"schützen, insbesondere wenn Ihr Backup sensible Daten enthält.<br>Beachten "
+"Sie jedoch, dass Sie das Backup ohne dieses Passwort nicht wiederherstellen "
+"können!"
+
+#: functions/functions.translationStrings.php:1340
+msgid "This field can be left blank, if the value has already been saved."
+msgstr ""
+"Dieses Feld kann leer gelassen werden, sofern der Wert bereits gespeichert "
+"wurde."
+
+#: functions/functions.translationStrings.php:1341
+msgid "This backup task is enabled"
+msgstr "Diese Backup Aufgabe ist aktiviert"
+
+#: functions/functions.translationStrings.php:1342
+msgid "Start backup at this time"
+msgstr "Backup zu dieser Uhrzeit starten"
+
+#: functions/functions.translationStrings.php:1343
+msgid "Use format HH:mm"
+msgstr "Angabe im Format HH:mm"
+
+#: functions/functions.translationStrings.php:1344
+msgid "Backup interval"
+msgstr "Backup Intervall"
+
+#: functions/functions.translationStrings.php:1345
+msgid "Maximum number of files in repository"
+msgstr "Maximale Dateianzahl im Repository"
+
+#: functions/functions.translationStrings.php:1346
+msgid ""
+"To save disk space, you can limit the number of files in the chosen "
+"repository, the old backup files are removed for this purpose. <br> The "
+"value \"0\" / empty means \"no limit\"."
+msgstr ""
+"Um Speicherplatz zu sparen, können Sie die Anzahl der Dateien im gewählten "
+"Repository begrenzen, die alte Backup Dateien werden hierfür gelöscht."
+"<br><br>Der Wert \"0\" / leer bedeutet \"Keine Einschränkung\"."
+
+#: functions/functions.translationStrings.php:1347
+msgid "Enable encryption"
+msgstr "Verschlüsselung aktiviert"
+
+#: functions/functions.translationStrings.php:1348
+msgid "Reset settings"
+msgstr "Einstellungen zurücksetzen"
+
+#: functions/functions.translationStrings.php:1349
+msgid "Are you sure, you want to reset the saved settings?"
+msgstr ""
+"Sind Sie sicher, dass Sie gespeicherten Einstellungen zurücksetzen möchten?"
+
+#: functions/functions.translationStrings.php:1350
+msgid "View"
+msgstr "Ansicht"
+
+#: functions/functions.translationStrings.php:1351
+msgid "Creation date"
+msgstr "Erstellungsdatum"
+
+#: functions/functions.translationStrings.php:1352
+msgid "Filename"
+msgstr "Dateiname"
+
+#: functions/functions.translationStrings.php:1353
+msgid "Size"
+msgstr "Größe"
+
+#: functions/functions.translationStrings.php:1354
+msgid "Delete selected files"
+msgstr "Markierte Dateien löschen"
+
+#: functions/functions.translationStrings.php:1355
+msgid "Are you sure, you want to delete the selected files?"
+msgstr "Sind Sie sicher, dass Sie die ausgewählten Dateien löschen wollen?"
+
+#: functions/functions.translationStrings.php:1356
+msgid "Remote server"
+msgstr "Remote Server"
+
+#: functions/functions.translationStrings.php:1357
+msgid ""
+"Enter the host name or the IP address of the server.<br>If port is empty, "
+"the default port for this protocol is used."
+msgstr ""
+"Geben Sie den Hostname oder IP-Adresse des Servers an.<br>Wenn Port "
+"freigelassen wird, wird der Standard-Port für das gewählte Protokoll "
+"verwendet."
+
+#: functions/functions.translationStrings.php:1359
+msgid "Port"
+msgstr "Port"
+
+#: functions/functions.translationStrings.php:1360
+msgid "Protocol"
+msgstr "Protokoll"
+
+#: functions/functions.translationStrings.php:1361
+msgid "Use FTPS"
+msgstr "Verwende FTPS"
+
+#: functions/functions.translationStrings.php:1362
+msgid "FTP over SSL, short FTPS, is a method to encrypt the FTP protocol."
+msgstr ""
+"FTP über SSL, kurz FTPS, ist eine Methode zur Verschlüsselung des FTP-"
+"Protokolls."
+
+#: functions/functions.translationStrings.php:1363
+msgid "Use passive mode"
+msgstr "Verwende Passiv-Modus"
+
+#: functions/functions.translationStrings.php:1364
+msgid ""
+"This option should be selected if because of a firewall no connection to the "
+"remote server can be established."
+msgstr ""
+"Diese Option sollte gewählt werden, wenn aufgrund einer Firewall keine "
+"Verbindung zum Remote Server aufgebaut werden kann."
+
+#: functions/functions.translationStrings.php:1365
+msgid "Use public / private key authentication"
+msgstr "Benutze Public/Private-Key Authentifizierung"
+
+#: functions/functions.translationStrings.php:1366
+msgid "Directory on the server"
+msgstr "Verzeichnis auf dem Server"
+
+#: functions/functions.translationStrings.php:1367
+msgid "Login name"
+msgstr "Login Name"
+
+#: functions/functions.translationStrings.php:1368
+msgid "Public key"
+msgstr "Public-Key"
+
+#: functions/functions.translationStrings.php:1369
+msgid "Copy to clipboard"
+msgstr "In Zwischenablage kopieren"
+
+#: functions/functions.translationStrings.php:1370
+msgid "Remove key pair"
+msgstr "Schlüsselpaar entfernen"
+
+#: functions/functions.translationStrings.php:1371
+msgid "There is no public key. You must create a new key pair first."
+msgstr ""
+"Es existiert noch kein Public-Key. Sie müssen zuerst ein neues Schlüsselpaar "
+"erstellen."
+
+#: functions/functions.translationStrings.php:1372
+msgid "Create key pair"
+msgstr "Erstelle Schlüsselpaar"
+
+#: functions/functions.translationStrings.php:1373
+msgid "Test connection"
+msgstr "Verbindung testen"
+
+#: functions/functions.translationStrings.php:1374
+msgid "Generating ..."
+msgstr "Generierung läuft ..."
+
+#: functions/functions.translationStrings.php:1375
+msgid "Test now"
+msgstr "Jetzt testen"
+
+#: functions/functions.translationStrings.php:1376
+msgid "Connecting ..."
+msgstr "Verbinde ..."
+
+#: functions/functions.translationStrings.php:1377
+msgid "Everything okay!"
+msgstr "Alles okay!"
+
+#: functions/functions.translationStrings.php:1378
+msgid "An error has occurred:"
+msgstr "Ein Fehler ist aufgetreten:"

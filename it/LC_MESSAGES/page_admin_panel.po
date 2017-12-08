@@ -1,0 +1,371 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminPanel\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:353
+msgid "Panel Settings (KeyHelp)"
+msgstr "Configurazione pannello (KeyHelp)"
+
+#: functions/functions.translationStrings.php:354
+msgid "Appearance"
+msgstr "Aspetto"
+
+#: functions/functions.translationStrings.php:355
+msgid "Account settings"
+msgstr "Impostazioni account"
+
+#: functions/functions.translationStrings.php:356
+msgid "Theme"
+msgstr "Tema"
+
+#: functions/functions.translationStrings.php:357
+msgid "Maximum number of login attempts"
+msgstr "Numero massimo di tentativi di login"
+
+#: functions/functions.translationStrings.php:358
+msgid ""
+"Number of failed login attempts for a user account, after the login is "
+"temporarily disabled."
+msgstr ""
+"Numero di tentativi di login per un account utente, dopodiché il login è "
+"temporaneamente disabilitato."
+
+#: functions/functions.translationStrings.php:359
+msgid "Expiration time for unsuccessful login attempts"
+msgstr "Tempo di scadenza per tentativi di accesso non riuscito"
+
+#: functions/functions.translationStrings.php:360
+msgid "Unsuccessful logins attempts expire after this time.<br>(In seconds)"
+msgstr ""
+"Tentativi di login non riuscito scadono dopo questo tempo.<br>(In secondi)"
+
+#: functions/functions.translationStrings.php:361
+msgid "Session validity"
+msgstr "Validità di sessione"
+
+#: functions/functions.translationStrings.php:362
+msgid ""
+"Validity of the session until the user is automatically logged out due to "
+"inactivity.<br>(In seconds)"
+msgstr ""
+"Validità della sessione fino a quando l'utente viene automaticamente "
+"disconnesso a causa di inattività.<br>(In secondi)"
+
+#: functions/functions.translationStrings.php:363
+msgid "Prefix of the virtual FTP user"
+msgstr "Prefisso dell'utente FTP virtuale"
+
+#: functions/functions.translationStrings.php:364
+msgid "Prefix MySQL user / database"
+msgstr "Prefisso utente MySQL / database"
+
+#: functions/functions.translationStrings.php:365
+msgid "Passwords"
+msgstr "Passwords"
+
+#: functions/functions.translationStrings.php:366
+msgid "Password minimum length"
+msgstr "Lunghezza minima della password"
+
+#: functions/functions.translationStrings.php:367
+msgid "Password complexity"
+msgstr "Complessità delle password"
+
+#: functions/functions.translationStrings.php:368
+msgid "The password must consist of at least one of the following characters."
+msgstr "La password deve contenere almeno uno dei seguenti caratteri."
+
+#: functions/functions.translationStrings.php:369
+#, fuzzy
+msgid "Characters [a-zA-Z]"
+msgstr "Caratteri minuscoli [a-z]"
+
+#: functions/functions.translationStrings.php:370
+msgid "Lowercase characters [a-z]"
+msgstr "Caratteri minuscoli [a-z]"
+
+#: functions/functions.translationStrings.php:371
+msgid "Uppercase characters [A-Z]"
+msgstr "Caratteri maiuscoli [A-Z]"
+
+#: functions/functions.translationStrings.php:372
+msgid "Digits [0-9]"
+msgstr "Numeri [0-9]"
+
+#: functions/functions.translationStrings.php:373
+msgid "Special characters"
+msgstr "Caratteri speciali"
+
+#: functions/functions.translationStrings.php:374
+msgid "Length of the automatically generated password"
+msgstr "Lunghezza della password generata automaticamente"
+
+#: functions/functions.translationStrings.php:375
+#, fuzzy
+msgid "Databases"
+msgstr "Database MySQL"
+
+#: functions/functions.translationStrings.php:376
+msgid "Custom user / database names"
+msgstr "Nomi utente / database personalizzati"
+
+#: functions/functions.translationStrings.php:377
+#, fuzzy
+msgid "Allows users to assign own MySQL/MariaDB user and database names."
+msgstr ""
+"Consente agli utenti di assegnare nomi personalizzati per un utente MySQL / "
+"database."
+
+#: functions/functions.translationStrings.php:378
+#, fuzzy
+msgid "Custom FTP usernames"
+msgstr "Nomi utente / database personalizzati"
+
+#: functions/functions.translationStrings.php:379
+#, fuzzy
+msgid "Allows users to assign own FTP usernames."
+msgstr ""
+"Consente agli utenti di assegnare nomi personalizzati per un utente MySQL / "
+"database."
+
+#: functions/functions.translationStrings.php:380
+msgid "Enabled"
+msgstr "Abilita"
+
+#: functions/functions.translationStrings.php:381
+msgid "Tools - phpMyAdmin"
+msgstr "Strumenti - phpMyAdmin"
+
+#: functions/functions.translationStrings.php:382
+msgid "Tools - Webmail"
+msgstr "Strumenti - Webmail"
+
+#: functions/functions.translationStrings.php:383
+msgid "Webmail client"
+msgstr "Client webmail"
+
+#: functions/functions.translationStrings.php:384
+msgid "The change of the client usually takes 1 minute."
+msgstr "La modifica del client richiede solitamente 1 minuto."
+
+#: functions/functions.translationStrings.php:385
+msgid "Target-URL for panel navigation"
+msgstr "URL di destinazione per il pannello di navigazione"
+
+#: functions/functions.translationStrings.php:386
+msgid "Product name"
+msgstr "Nome del prodotto"
+
+#: functions/functions.translationStrings.php:387
+msgid "Support URL"
+msgstr "URL supporto"
+
+#: functions/functions.translationStrings.php:388
+msgid "Plugins"
+msgstr "Plugins"
+
+#: functions/functions.translationStrings.php:389
+msgid "A comma-separated list of enabled Roundcube plugins."
+msgstr "Un elenco delimitato da virgole dei plugin abilitati di Roundcube."
+
+#: functions/functions.translationStrings.php:390
+#, fuzzy
+msgid "Specify a valid URL, starting with \"http://...\" or \"https://...\"."
+msgstr ""
+"Specificare un URL valido, che inizia con \"http://...\" o \" https://... \"."
+
+#: functions/functions.translationStrings.php:391
+msgid "Others"
+msgstr "Altri"
+
+#: functions/functions.translationStrings.php:392
+msgid "Administrator email"
+msgstr "E-mail amministratore"
+
+#: functions/functions.translationStrings.php:393
+msgid ""
+"Will be used as sender address for automatic generated emails (e.g. new user "
+"was created, etc.)."
+msgstr ""
+"Verrà utilizzato come indirizzo del mittente per le mail automatiche "
+"generate (ad es. creazione nuovo utente, ecc.)."
+
+#: functions/functions.translationStrings.php:394
+msgid "SSL certificates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:395
+#: functions/functions.translationStrings.php:409
+msgid "Notification email address"
+msgstr "Indirizzo email di notifica"
+
+#: functions/functions.translationStrings.php:396
+msgid ""
+"Notifications concerning SSL certificates, will get send to this Email,"
+"<br>including problems encountered while renewing of Let's Encrypt "
+"certificates and expiration warnings of normal, currently used SSL "
+"certificates."
+msgstr ""
+
+#: functions/functions.translationStrings.php:398
+msgid "If no email is set, notification will be sent to the admin accounts."
+msgstr ""
+
+#: functions/functions.translationStrings.php:399
+msgid "Certificate expiration notification"
+msgstr ""
+
+#: functions/functions.translationStrings.php:400
+msgid ""
+"If enabled, you will receive a notification the specified number of days in "
+"advance to the expiration date."
+msgstr ""
+
+#: functions/functions.translationStrings.php:401
+msgid "Let's Encrypt"
+msgstr "Let's Encrypt"
+
+#: functions/functions.translationStrings.php:402
+msgid "Environment"
+msgstr "Ambiente"
+
+#: functions/functions.translationStrings.php:403
+msgid ""
+"The test environment generates invalid certificates, but is suitable for "
+"testing and settings and functionality.<br>When changing the environment, it "
+"may be necessary to removing existing certificates in /etc/ssl/keyhelp/"
+"letsencrypt/."
+msgstr ""
+"L'ambiente di test genera  certificati non validi, ma è adatto per test, "
+"impostazioni e funzionalità.<br>Quando si cambia l'ambiente, può essere "
+"necessario rimuovere i certificati esistenti in/etc/ssl/keyhelp/"
+"letsencrypt /."
+
+#: functions/functions.translationStrings.php:404
+msgid "Country"
+msgstr "Nazione"
+
+#: functions/functions.translationStrings.php:405
+msgid "The country, which is used in the CSR for requested certificates."
+msgstr "Il paese, che è usato nel CSR per i certificati richiesti."
+
+#: functions/functions.translationStrings.php:406
+msgid "State / province / region"
+msgstr "Stato / provincia / regione"
+
+#: functions/functions.translationStrings.php:407
+msgid "The state, which is used in the CSR for requested certificates."
+msgstr "Lo stato, che viene utilizzato nel CSR per i certificati richiesti."
+
+#: functions/functions.translationStrings.php:408
+msgid "Traffic limit exceedance"
+msgstr "Superamento del limite di traffico"
+
+#: functions/functions.translationStrings.php:410
+#, fuzzy
+msgid ""
+"Sends a notification to the email address given here as soon as the traffic "
+"of a user exceeds the set limit in the current month."
+msgstr ""
+"Inviare una notifica all'indirizzo e-mail indicato qui appena il traffico di "
+"un utente supera il limite impostato nel mese corrente.<br>(Se questo campo "
+"è vuoto, nessuna notifica verrà inviata)."
+
+#: functions/functions.translationStrings.php:411
+msgid "If this field is empty, no notification will be sent."
+msgstr ""
+
+#: functions/functions.translationStrings.php:412
+msgid "Show Keyweb AG product recommendations"
+msgstr "Visualizza  prodotti KeyWeb AG raccomandati"
+
+#: functions/functions.translationStrings.php:413
+msgid "Behavior of the webmail.* subdomain"
+msgstr "Comportamento del sottodominio webmail.*"
+
+#: functions/functions.translationStrings.php:414
+msgid ""
+"For each domain created with KeyHelp there is automatically also a subdomain "
+"\"webmail.&lt;DOMAIN NAME&gt;\" available.<br>Here you can specify what "
+"should happen when a access this domain."
+msgstr ""
+"Per ogni dominio creato con KeyHelp viene creato automaticamente anche un "
+"sottodominio \"webmail.&lt;DOMAIN NAME&gt;\".<br>Qui è possibile specificare "
+"cosa accade quando si accede a questo dominio."
+
+#: functions/functions.translationStrings.php:415
+msgid "Redirection"
+msgstr "Reindirizzamento"
+
+#: functions/functions.translationStrings.php:416
+msgid ""
+"The user is redirected to the web mailer within the KeyHelp domain. The "
+"domain name in the address bar is hereby changed."
+msgstr ""
+"L'utente viene reindirizzato per il mailer web all'interno del dominio "
+"KeyHelp. Con la presente viene modificato il nome di dominio nella barra "
+"degli indirizzi."
+
+#: functions/functions.translationStrings.php:417
+msgid "Keep domain name"
+msgstr "Mantieni il nome di dominio"
+
+#: functions/functions.translationStrings.php:418
+msgid ""
+"In the address bar the domain name remains the same. An insecure access via "
+"http:// will be redirected to a secure https:// connection."
+msgstr ""
+"Nella barra degli indirizzi il dominio resta lo stesso. Un accesso non "
+"sicuro via http:// verrà reindirizzato verso un https:// sicuro."
+
+#: functions/functions.translationStrings.php:419
+msgid "Keep domain name <span class=\"text-danger\">(insecure)</span>"
+msgstr ""
+"Mantenere il nome di dominio <span class=\"text-danger\">(non sicuro)</span>"
+
+#: functions/functions.translationStrings.php:420
+msgid ""
+"In the address bar the domain name remains the same.<br>WARNING, the "
+"insecure access via http:// is possible!"
+msgstr ""
+"Nella barra del dominio degli indirizzi il nome rimane lo stesso."
+"<br>ATTENZIONE, l'accesso non sicuro tramite http:// è possibile!"
+
+#: functions/functions.translationStrings.php:421
+msgid "Send 'Mailbox has been setup successfully' email"
+msgstr ""
+
+#: functions/functions.translationStrings.php:422
+msgid ""
+"When a user creates a new mailbox, an automated email is sent to the new "
+"email address to ensure, the mailbox has been setup successfully."
+msgstr ""
+
+#~ msgid "Let's Encrypt subscriber agreement"
+#~ msgstr "Termini di servizio per Let's Encrypt"
+
+#~ msgid ""
+#~ "URL of the subscriber agreement currently in effect.<br>The current "
+#~ "version can be found at <a href=\"https://letsencrypt.org/repository/\" "
+#~ "target=\"_blank\">https://letsencrypt.org/repository/</a>.<br>(Empty for "
+#~ "default setting)"
+#~ msgstr ""
+#~ "URL del contratto di sottoscrizione attualmente in vigore.<br>La versione "
+#~ "attuale può essere trovata alla <a href=\"https://letsencrypt.org/"
+#~ "repository/\" target=\"_blank\">https://letsencrypt.org/repository/</a>."
+#~ "<br>(Vuoto per impostazione predefinita)"

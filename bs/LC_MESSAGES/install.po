@@ -1,0 +1,647 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp (Install)\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2;_n:1,2;_en:1,2;_pgettext:1c,2;"
+"_p:1c,2;_ep:1c,2\n"
+"X-Poedit-Basepath: /home/alex/Arbeitsfläche/Keyhelp/000_keyhelp/install\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: install.php:73
+msgid "Your operating system is not supported."
+msgstr "Vas Operativni Sistem nije podrzan."
+
+#: install.php:77
+msgid ""
+"One or more required components of the installation are not yet installed, "
+"please run \"installkeyhelp.sh\"."
+msgstr ""
+"Jedna ili vise od glavnih komponenti iz ove instalacije nisu instalirane, "
+"molimo vas pokrenite \"installkeyhelp.sh\"."
+
+#: install.php:81
+msgid ""
+"Unable to find a valid quota mountpoint. You have to make sure that there is "
+"a \"/\" - mountpoint in your \"/etc/fstab\". Visit https://community.keyhelp."
+"de and ask for help or contact KeyHelp Support Team."
+msgstr ""
+"Nije moguce pronaci ispravan Quota-Mountpoint vi morate biti sigurni da "
+"postoji jedan \"/\" - Mountpoint u vasem \"/etc/fstab\". Posjetite https://"
+"community.keyhelp.de za pomoc ili kontaktirajte KeyHelp Pomocni Tim."
+
+#: install.php:85
+msgid ""
+"Unable to get IPs. Please configure the network interface of this server."
+msgstr ""
+"Nije moguce pronaci IP adrese. Molimo vas konfigurirajte mreznu karticu od "
+"ovog servera."
+
+#: install.php:128
+msgid "Unable to connect to the already existing MySQL database."
+msgstr "Nije moguce konektovanje na vec postojecu MySQL Bazu Podataka."
+
+#: install.php:174
+msgid "This program installs KeyHelp on your server."
+msgstr "Ovaj program ce instalirati KeyHelp na vas server."
+
+#: install.php:176
+#, php-format
+msgid "Usage: php %s [OPTION] ..."
+msgstr "Upotreba: php %s [OPTION] ..."
+
+#: install.php:178
+msgid "General:"
+msgstr "Osnovno:"
+
+#: install.php:179
+msgid "Displays this help."
+msgstr "Pokazi ovu pomoc."
+
+#: install.php:180
+msgid "Installation will be executed without further questions."
+msgstr "Instalacija ce biti zavrsena bez ikakvih narednih pitanja."
+
+#: install.php:181
+msgid "Prevent the reboot at the end of the installation."
+msgstr "Zaustavi novo pokretanje Servera na kraju instalacije."
+
+#: install.php:182
+msgid ""
+"After installation, sends a notification to the specified email address."
+msgstr "Nakon instalacije. salje poruku na odredjenu E-Mail adresu."
+
+#: install.php:183
+msgid "Sets the default language of KeyHelp and its components."
+msgstr ""
+
+#: install.php:184
+msgid "Logs everything, also sensitive data like passwords etc.."
+msgstr "Zapisuje sve, isto i vazne podatke kao Lozinke itd. ..."
+
+#: install.php:186
+msgid "Install data:"
+msgstr "Podaci instalacije:"
+
+#: install.php:187
+msgid "The 'Fully-Qualified-Domain-Name' (FQDN), eg. 'keyhelp.example.com'."
+msgstr "Ono 'Puno-Kvalificirano-Ime-Domene' (FQDN), npr. 'keyhelp.primjer.ba'."
+
+#: install.php:188
+#, php-format
+msgid "Admin account: Login name  for KeyHelp Panel (min. %s characters)."
+msgstr "Admin nalog: Korisnicko ime za KeyHelp Panel (najm. %s znakova)."
+
+#: install.php:189
+#, php-format
+msgid "Admin account: Password for KeyHelp Panel (min. %s characters)."
+msgstr "Admin nalog: Lozinka za KeyHelp Panel (najm. %s znakova)."
+
+#: install.php:190
+msgid "Admin account: Email address / Email address for auto generated emails."
+msgstr ""
+"Admin nalog: E-Mail adresa / E-Mail adresa za automaski generisane E-Mailove."
+
+#: install.php:196
+msgid "Version mismatch between pre-install script and KeyHelp main installer."
+msgstr ""
+"Nepoklapa se verzija sa pre instalacijskom skriptom i sa glavnom KeyHelp "
+"instalacijskom skriptom."
+
+#: install.php:208
+#, php-format
+msgid "Unknown parameter \"%s\""
+msgstr "Nepoznati Parametari \"%s\""
+
+#: install.php:256
+#, php-format
+msgid "Invalid value for parameter \"%s\""
+msgstr "Neispravna vrijednost za parametar \"%s\""
+
+#: install.php:274
+#, fuzzy, php-format
+msgid "This program will install %s on your server."
+msgstr "Ovaj program ce instalirati KeyHelp na vas server."
+
+#: install.php:281
+msgid "Please attend the following important notices"
+msgstr "Molimo vas obratite paznju na sljedecu vaznu obavijest"
+
+#: install.php:285
+msgid "Backup your important data, before you proceed."
+msgstr ""
+"Osigurajte vas datoteke, prije nego sto nastavite dalje sa instalacijom."
+
+#: install.php:289
+msgid ""
+"The installation should be performed on a clean server with configured "
+"network interface."
+msgstr ""
+"Instalacija bi trebala biti pokrenuta na cistom serveru sa konfiguriranom "
+"mreznom karticom."
+
+#: install.php:296
+msgid "There is already an existing KeyHelp Installation on this server."
+msgstr ""
+
+#: install.php:297
+msgid ""
+"It is not advised to reinstall an already running KeyHelp system, so you "
+"better start all over again with a clean operating system."
+msgstr ""
+
+#: install.php:298
+msgid ""
+"If you still want to go on, please note: The KeyHelp database gets "
+"completely reset during installation, but all system user accounts created "
+"with KeyHelp and all files will stay untouched. So you either have to delete "
+"all user accounts via KeyHelp before reinstalling, or import a prior created "
+"backup of the KeyHelp database after reinstalling."
+msgstr ""
+
+#: install.php:306
+msgid "Available actions"
+msgstr "Dostupne Opcije"
+
+#: install.php:307
+msgid "Choose action"
+msgstr "Odaberi akciju"
+
+#: install.php:313
+msgid "Next page"
+msgstr "Slijedeca stranica"
+
+#: install.php:314 install.php:376
+msgid "Quit install"
+msgstr "Prekini instalaciju"
+
+#: install.php:358
+#, fuzzy
+msgid "Here you can customize installation parameters."
+msgstr "Ovdje imate mogucnost da podesite vasu instalaciju"
+
+#: install.php:360
+msgid "Server data"
+msgstr "Server podaci"
+
+#: install.php:361 install.php:393
+msgid "Server domain (FQDN)"
+msgstr "Server domena (FQDN)"
+
+#: install.php:363
+msgid "Administrator account"
+msgstr "Administrator nalog"
+
+#: install.php:364
+msgid "Username"
+msgstr "Korisnicko Ime"
+
+#: install.php:365 install.php:849 install.php:852
+msgid "Password"
+msgstr "Lozinka"
+
+#: install.php:366
+msgid "Email address"
+msgstr "E-Mail adresa"
+
+#: install.php:368
+msgid "Misc"
+msgstr "Ostalo"
+
+#: install.php:369
+msgid "Notification after finishing"
+msgstr "Obavijest nakon zavrsetka"
+
+#: install.php:369
+msgid "No"
+msgstr "Ne"
+
+#: install.php:374
+msgid "Start install"
+msgstr "Pokreni instalaciju"
+
+#: install.php:375
+msgid "Edit data"
+msgstr "Izmjeni podatke"
+
+#: install.php:394 install.php:472
+msgid "Please enter a valid domain."
+msgstr "Molimo vas unesite ispravnu domenu."
+
+#: install.php:402
+msgid "Administrator account - username"
+msgstr "Administrator nalog - Korisnicko ime"
+
+#: install.php:403
+#, php-format
+msgid "Please enter a valid username (min. %d characters)."
+msgstr "Molimo vas unesite ispravno korisnicko ime (najmanje. %d znakova)."
+
+#: install.php:411
+msgid "Administrator account - password"
+msgstr "Administrator nalog - Lozinka"
+
+#: install.php:412
+#, php-format
+msgid "Your password must be at least %d characters long."
+msgstr "Vasa lozinka mora biti najmanje %d znakova duga."
+
+#: install.php:420
+msgid "Administrator account - email address"
+msgstr "Administrator nalog - E-Mail adresa"
+
+#: install.php:421 install.php:476
+msgid "Please enter a valid email address."
+msgstr "Molimo vas unesite ispravnu E-Mail adresu."
+
+#: install.php:443
+msgid "Email address for notification or hit [Enter]"
+msgstr "E-Mail adresa za obavjestavanje ili stisni [Enter]"
+
+#: install.php:453
+msgid ""
+"Please enter a valid email address (or hit [Enter], for 'no notification')."
+msgstr ""
+"Molimo vas unesite ispravnu E-Mail adresu (ili stisni [Enter], za 'ne "
+"obavijestavanje')."
+
+#: install.php:492
+msgid ""
+"The server domains could not be determined, please specify the parameter."
+msgstr "Nije moguce pronaci domene, molimo vas odredite parametar."
+
+#: install.php:496
+msgid ""
+"The email address of the admin account could not be determined, please "
+"specify the parameter."
+msgstr ""
+"E-Mail adresa od Admin naloga nije pronadjena molimo vas odredite parametar."
+
+#: install.php:772
+msgid "Installation is running"
+msgstr "Instalacija je u toku"
+
+#: install.php:839
+msgid "For access via PhpMyAdmin use username \"mysqladmin\" instead."
+msgstr "Za pristup sa phpMyAdmin koristite korisnicko ime \"mysqladmin\"."
+
+#: install.php:843 install.php:844
+msgid "Login Information"
+msgstr "Informacije za Prijavu"
+
+#: install.php:846
+msgid "URL"
+msgstr "URL"
+
+#: install.php:848 install.php:851
+msgid "Login"
+msgstr "Prijava"
+
+#: install.php:865
+msgid "KeyHelp Installation"
+msgstr "KeyHelp instalacija"
+
+#: install.php:871
+msgid "KeyHelp has been successfully installed."
+msgstr "KeyHelp je uspjesno instaliran."
+
+#: install.php:873
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"The installing of KeyHelp on the server <b>%1$s</b> has just been <font "
+"color=\"green\"><b>successfully</b></font> completed.\n"
+"\n"
+"You will find your KeyHelp panel at:\n"
+"\n"
+"- <a href=\"%2$s\">%2$s</a>\n"
+"- <a href=\"%3$s\">%3$s</a>\n"
+"\n"
+"You will find your login information on your server in the file: \"%4$s\""
+msgstr ""
+"Pozdrav!\n"
+"\n"
+"Instalacija KeyHelp na server <b>%1$s</b> je <font color=\"green"
+"\"><b>uspjesno</b></font> zavrsena.\n"
+"\n"
+"Vi se mozete prijaviti na KeyHelp panel sa:\n"
+"\n"
+"- <a href=\"%2$s\">%2$s</a>\n"
+"- <a href=\"%3$s\">%3$s</a>\n"
+"\n"
+"Vi mozete naci informacije za prijavu u fajlu: \"%4$s\""
+
+#: install.php:886
+msgid "KeyHelp was installed, but errors occurred."
+msgstr "KeyHelp je instaliran, ali je se pojavila greska tokom instalacije."
+
+#: install.php:888
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"The installing of KeyHelp on the server <b>%1$s</b> has just been "
+"completed.\n"
+"\n"
+"<font color=\"red\"><b>However, some setup steps could not be performed "
+"without errors</b></font>\n"
+"\n"
+"For more information, see the log file in \"%2$s\"\n"
+"\n"
+"You will find your login information on your server in the file: \"%3$s\""
+msgstr ""
+"Pozdrav!\n"
+"\n"
+"Instalacija KeyHelp <b>%1$s</b> je zavrsena.\n"
+"\n"
+"<font color=\"red\"><b>Medzutim, neki setup koraci se nisu mogli zavrsiti "
+"bez greski</b></font>\n"
+"\n"
+"Za vise informacija, pogledajte log fajl: \"%2$s\"\n"
+"\n"
+"Vi mozete naci informacije za prijavu u fajlu: \"%3$s\""
+
+#: install.php:920
+msgid "Installation finished successfully!"
+msgstr "Instalacija uspjesno zavrsena!"
+
+#: install.php:926
+msgid "During the Installation, errors occurred!"
+msgstr "Povodom instalacije su se pojavile greske!"
+
+#: install.php:927
+#, php-format
+msgid "Please check the content of the log file in \"%s\"."
+msgstr "Molimo vas provijerite sadrzaj u log fajlu \"%s\"."
+
+#: install.php:931
+#, php-format
+msgid "You will find your login information in \"%s\""
+msgstr "Vi mozete naci informacije za prijavu u fajlu: \"%s\""
+
+#: install.php:945
+msgid "ATTENTION"
+msgstr "UPOZORENJE"
+
+#: install.php:946
+msgid "The system will reboot in a few seconds (Cancel with CRTL+C)."
+msgstr "Sistem ce se ponovo pokrenuti za nekoliko sekundi (Prekini sa CRTL+C)."
+
+#~ msgid "Overrides a previously installed version of KeyHelp."
+#~ msgstr "Prepisi postojecu instaliranu verziju od KeyHelp."
+
+#~ msgid "Runs the installation in selected language."
+#~ msgstr "Pocinje instalaciju na odabranom jeziku."
+
+#~ msgid ""
+#~ "There is already a KeyHelp installation on this server. Please run the "
+#~ "installer with \"--force\" to overwrite existing data."
+#~ msgstr ""
+#~ "Vec postoji jedna KeyHelp instalacija na ovom Serveru. Molimo vas "
+#~ "pokrenite installer sa \"--force\" za prepisivanja postojecih podataka."
+
+#~ msgid ""
+#~ "This program will install <highlight>KeyHelp %1$s</highlight> on your "
+#~ "server."
+#~ msgstr ""
+#~ "Ovaj program ce instalirati <highlight>KeyHelp %1$s</highlight> na vas "
+#~ "server."
+
+#~ msgid ""
+#~ "An installation on a server, which already runs a KeyHelp panel can cause "
+#~ "data loss."
+#~ msgstr ""
+#~ "Svaka instalacija na serveru, koja vec ima KeyHelp panel moze dovesti do "
+#~ "toga da izgubite datoteke."
+
+#~ msgid "Error"
+#~ msgstr "Greska"
+
+#~ msgid "Your Administration-Panel"
+#~ msgstr "Vas Administracijonski-Panel"
+
+#~ msgid "This application requires root privileges."
+#~ msgstr "Ova aplikacije zahtjeva root privilegije."
+
+#~ msgid "This application requires to be run in CLI mode."
+#~ msgstr "Ova aplikacija zahtjeva da bude pokrenuta u CLI Modusu."
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %1$s [OPTION] ...\n"
+#~ "\n"
+#~ "General:\n"
+#~ "  --help                         Displays this help.\n"
+#~ "  --non-interactive              Installation will be executed without "
+#~ "further questions.\n"
+#~ "  --no-reboot                    At the end of the installation no reboot "
+#~ "is performed.\n"
+#~ "  --force                        Overrides a previously installed version "
+#~ "of KeyHelp.\n"
+#~ "  --notification=<EMAIL ADDRESS> After installation, sends a notification "
+#~ "to the specified email address.\n"
+#~ "  --language=<LANGUAGE CODE>     Runs the installation in selected "
+#~ "language.\n"
+#~ "\n"
+#~ "Install data:\n"
+#~ "  --server-fqdn=<SERVER DOMAIN>  The 'Fully-Qualified-Domain-"
+#~ "Name' (FQDN), eg. 'keyhelp.example.com'.\n"
+#~ "  --admin-username=<USERNAME>    Admin account: Login name  for KeyHelp "
+#~ "Panel (min. %2$s characters).\n"
+#~ "  --admin-password=<PASSWORD>    Admin account: Password for KeyHelp "
+#~ "Panel (min. %3$s characters).\n"
+#~ "  --admin-email=<EMAIL ADDRESS>  Admin account: Email address / Email "
+#~ "address for auto generated emails."
+#~ msgstr ""
+#~ "Ovaj program ce instalirati KeyHelp na vasem serveru.\n"
+#~ "\n"
+#~ "Upotreba: php %1$s [OPTION] ...\n"
+#~ "\n"
+#~ "Osnovno:\n"
+#~ "  --help                         Prikazuje ovu pomoc.\n"
+#~ "  --non-interactive              Instalacija ce se zavrsiti bez ikakvih "
+#~ "pitanja.\n"
+#~ "  --no-reboot                    Na kraju instalacije ponovo pokretanje "
+#~ "systema nije pozeljeno.\n"
+#~ "  --force                        Ponistava prethodne instalacije od "
+#~ "KeyHelp.\n"
+#~ "  --notification=<E-MAIL ADRESA> Nakon instalacije, salje poruku na "
+#~ "odabranu E-Mail adresu.\n"
+#~ "  --language=<JEZICNI KOD>       Pokrece instalaciju u odabranom jeziku.\n"
+#~ "\n"
+#~ "Podaci Instalacije:\n"
+#~ "  --server-fqdn=<SERVERSKA DOMENA>   Ono 'Puno-Kvalificirano-Ime-"
+#~ "Domene' (FQDN), npr. 'keyhelp.primjer.ba'.\n"
+#~ "  --admin-username=<KORISNICKO IME>  Admin nalog: Korisnicko ime za "
+#~ "KeyHelp Panel (najm. %2$s znakova).\n"
+#~ "  --admin-password=<LOZINKA>         Admin nalog: Lozinka za KeyHelp "
+#~ "Panel (najm. %3$s znakova).\n"
+#~ "  --admin-email=<E-MAIL ADRESA>      Admin nalog: E-Mail adresa / E-Mail "
+#~ "adresa za automaski generisane E-Mailove."
+
+#~ msgid ""
+#~ "- The database was already installed, the root password has not been "
+#~ "changed -"
+#~ msgstr ""
+#~ "- Baza podataka je uspjesno instalirana, root lozinka nije promijenuta -"
+
+#~ msgid ""
+#~ "Unable to find a valid quota mountpoint, please contact KeyHelp Support "
+#~ "Team or visit https://community.keyhelp.de."
+#~ msgstr ""
+#~ "Nije moguce naci validan Quota-Mountpoint, molimo vas kontaktirajte "
+#~ "KeyHelp Support ili posjetite https://community.keyhelp.de."
+
+#~ msgid "This script only runs in CLI mode."
+#~ msgstr "Ova skripta se samo pokrece u CLI mode."
+
+#~ msgid "This script must be run by root."
+#~ msgstr "Ovu skriptu moze samo root korisnik pokrenuti."
+
+#~ msgid "KeyHelp was installed, but errors occured."
+#~ msgstr "KeyHelp je instaliran, ali je se pojavila greska tokom instalacije."
+
+#~ msgid "During the Installation, errors occured!"
+#~ msgstr "Povodom instalacije su se pojavile greske!"
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %1$s [OPTION] ...\n"
+#~ "\n"
+#~ "General:\n"
+#~ "  --help                          Displays this help.\n"
+#~ "  --non-interactive               Installation will be executed without "
+#~ "further questions.\n"
+#~ "  --no-reboot                     At the end of the installation no "
+#~ "reboot is performed.\n"
+#~ "  --force                         Overrides a previously installed "
+#~ "version of KeyHelp.\n"
+#~ "  --notification=E-MAIL-ADRESSE   After installation, sends a "
+#~ "notification to the specified email address.\n"
+#~ "\n"
+#~ "Install data:\n"
+#~ "  --server-fqdn=SERVER-DOMAIN     The 'Fully-Qualified-Domain-"
+#~ "Name' (FQDN), eg. 'keyhelp.example.com'.\n"
+#~ "  --admin-username=BENUTZERNAME   Admin account: Login name  for KeyHelp "
+#~ "Panel (min. %2$s characters).\n"
+#~ "  --admin-password=PASSWORT       Admin account: Password for KeyHelp "
+#~ "Panel (min. %3$s characters).\n"
+#~ "  --admin-email=E-MAIL-ADRESSE    Admin account: Email address / Email "
+#~ "adresse for auto generated emails."
+#~ msgstr ""
+#~ "Ovaj program installira KeyHelp na vas server.\n"
+#~ "\n"
+#~ "Usage: php %1$s [OPTION] ...\n"
+#~ "\n"
+#~ "Osnovno:\n"
+#~ "  --help                          Prikaziva vam Pomoc.\n"
+#~ "  --non-interactive               Instalacija ce biti zavrsena bez "
+#~ "ikakvih pitanja.\n"
+#~ "  --no-reboot                     Server se na kraju instalacije nece sam "
+#~ "ponovo pokrenuti.\n"
+#~ "  --force                         Forsira novu instalaciju od KeyHelp.\n"
+#~ "  --notification=E-MAIL-ADRESSE   Nakon instalacije ce te dobiti poruku "
+#~ "na odabranu E-Mail adresu\n"
+#~ "\n"
+#~ "Podaci Instalacije:\n"
+#~ "  --server-fqdn=SERVER-DOMAIN     'Fully-Qualified-Domain-Name' (FQDN), "
+#~ "npr. 'keyhelp.primjer.ba'.\n"
+#~ "  --admin-username=BENUTZERNAME   Admin Nalog: Ime za prijavu  na KeyHelp "
+#~ "Panel (najmanje. %2$s karaktera).\n"
+#~ "  --admin-password=PASSWORT       Admin Nalog: Lozinka za prijavu na "
+#~ "KeyHelp Panel (najmanje. %3$s karaktera).\n"
+#~ "  --admin-email=E-MAIL-ADRESSE    Admin Nalog: E-Mail adresa / E-Mail "
+#~ "adresa za automaski generisane E-Mailove."
+
+#~ msgid ""
+#~ "One or more major components of the installation are not yet installed, "
+#~ "please run \"keyhel-installer.sh\"."
+#~ msgstr ""
+#~ "Jedna ili vise od glavnih komponenti iz ove instalacije nisu instalirane, "
+#~ "molimo vas pokrenite \"keyhel-installer.sh\"."
+
+#~ msgid "Server domain (FQND)"
+#~ msgstr "Server domena (FQDN)"
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %s k[OPTION] ..."
+#~ msgstr ""
+#~ "tttththj,hg\n"
+#~ "\n"
+#~ "ghjghjsdfdsfhsdjsdfsdhfsdff7"
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %1$s OPTION] ...\n"
+#~ "\n"
+#~ "General:\n"
+#~ "  --help                          Displays this help.\n"
+#~ "  --non-interactive               Installation will be executed without "
+#~ "further questions.\n"
+#~ "  --no-reboot                     At the end of the installation no "
+#~ "reboot is performed."
+#~ msgstr "uio"
+
+#~ msgid "Hello"
+#~ msgstr "Pozdrav"
+
+#~ msgid "World"
+#~ msgstr "Svijete"
+
+#~ msgid "second"
+#~ msgid_plural "seconds"
+#~ msgstr[0] "Sekund"
+#~ msgstr[1] "Sekunde"
+#~ msgstr[2] "Sekunde"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "Minut"
+#~ msgstr[1] "Minute"
+#~ msgstr[2] "Minute"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "Sat"
+#~ msgstr[1] "Sati"
+#~ msgstr[2] "Sati"
+
+#~ msgctxt "comment"
+#~ msgid "Mark as spam"
+#~ msgstr "Kao Spam oznaciti"
+
+#~ msgctxt "comment"
+#~ msgid "No spam"
+#~ msgstr "Nije spam"
+
+#~ msgctxt "comment"
+#~ msgid "Delete"
+#~ msgstr "Obrisi"
+
+#~ msgid "You are %s year old."
+#~ msgid_plural "You are %s years old"
+#~ msgstr[0] "Vi ste %s godina star"
+#~ msgstr[1] "Vi ste %s godina stari"
+#~ msgstr[2] "Vi ste %s godina stari"
+
+#~ msgid "String with notes"
+#~ msgstr "String uz napomenu"
+
+#~ msgid "Hello world!"
+#~ msgstr "Pozdrav svijete!"

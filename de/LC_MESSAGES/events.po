@@ -1,0 +1,1350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _event\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: _misc/old/admin_dnseditor_edit.php:88 _misc/old/dns_editor.php:102
+#: pages/dns_editor.php:148
+msgid "The zone has been reset to default records."
+msgstr "Die Zone wurde auf Standard-Records zurückgesetzt."
+
+#: _misc/old/admin_dnseditor_edit.php:226 _misc/old/dns_editor.php:240
+#: pages/dns_editor.php:314
+msgid "Invalid SOA-timings."
+msgstr "Ungültige SOA-Timings."
+
+#: _misc/old/admin_dnseditor_edit.php:257 _misc/old/dns_editor.php:271
+#: pages/dns_editor.php:357
+#, php-format
+msgid "Record %s) You did not fill out all input fields."
+msgstr "Record %s) Es wurden nicht alle Eingabefelder ausgefüllt."
+
+#: _misc/old/admin_dnseditor_edit.php:263 _misc/old/dns_editor.php:277
+#, php-format
+msgid "Record %s) Invalid Time-To-Live value."
+msgstr "Record %s) Ungültige Time-To-Live Angabe."
+
+#: _misc/old/admin_dnseditor_edit.php:270
+#: _misc/old/admin_dnseditor_edit.php:275
+#: _misc/old/admin_dnseditor_edit.php:281 _misc/old/dns_editor.php:284
+#: _misc/old/dns_editor.php:289 _misc/old/dns_editor.php:295
+#, php-format
+msgid ""
+"Record %1$s) The data field contains for a <b>%2$s-Record</b> invalid data."
+msgstr ""
+"Record %1$s) Das Datenfeld enthält für einen <b>%2$s-Record</b> ungültige "
+"Daten."
+
+#: _misc/old/admin_dnseditor_edit.php:289 _misc/old/dns_editor.php:303
+#: pages/dns_editor.php:392
+#, php-format
+msgid "Record %s) Invalid Record type."
+msgstr "Record %s) Ungültiger Record-Typ."
+
+#: _misc/old/admin_dnseditor_edit.php:323 _misc/old/dns_editor.php:337
+msgid "Syntax check failed, please check your entries!"
+msgstr "Syntaxüberprüfung fehlgeschlagen, Bitte überprüfen Sie Ihre Eingaben!"
+
+#: _misc/old/admin_dnseditor_edit.php:347 _misc/old/dns_editor.php:361
+#: pages/dns_editor.php:484
+msgid "The zone has been edit successfully."
+msgstr "Die Zone wurde erfolgreich bearbeitet."
+
+#: _misc/old/license/admin_license_index.php:58
+#: _misc/old/license/admin_license_install.php:49
+msgid "Could not establish a connection to the license update service."
+msgstr "Es konnte keine Verbindung zum Lizenz-Update-Dienst aufgebaut werden."
+
+#: _misc/old/license/admin_license_index.php:77
+msgid "Your license is up to date."
+msgstr "Ihre Lizenz ist auf dem neusten Stand."
+
+#: _misc/old/license/admin_license_index.php:84
+msgid "The license was renewed successfully."
+msgstr "Ihre Lizenz wurde erfolgreich aktualisiert."
+
+#: _misc/old/license/admin_license_index.php:86
+msgid "An error occurred while renewing the license."
+msgstr "Es ist ein Fehler beim Aktualisieren Ihrer Lizenz aufgetreten."
+
+#: _misc/old/license/admin_license_index.php:93
+#: _misc/old/license/admin_license_install.php:67
+#, php-format
+msgid "The license server reports an error: \"%s\""
+msgstr "Der Lizenzserver meldet einen Fehler: \"%s\""
+
+#: _misc/old/license/admin_license_install.php:42
+#, php-format
+msgid "The license with the key \"%s\" is already installed."
+msgstr "Die Lizenz mit dem Lizenzschlüssel \"%s\" ist bereits installiert."
+
+#: _misc/old/license/admin_license_install.php:59
+msgid "The license was installed successfully."
+msgstr "Ihre Lizenz wurde erfolgreich installiert."
+
+#: _misc/old/license/admin_license_install.php:61
+msgid "An error occurred while installing the license."
+msgstr "Es ist ein Fehler beim Installieren Ihrer Lizenz aufgetreten."
+
+#: _misc/old/license/admin_license_remove.php:44
+msgid "The license was removed successfully."
+msgstr "Ihre Lizenz wurde erfolgreich entfernt."
+
+#: _misc/old/license/admin_license_remove.php:46
+msgid "An error occurred while removing the license."
+msgstr "Es ist ein Fehler beim Entfernen Ihrer Lizenz aufgetreten."
+
+#: functions/functions.main.php:1734 functions/functions.main.php:1807
+msgid "The password you entered does not match the password confirmation!"
+msgstr "Das eingegebene Passwort passt nicht zur Wiederholung!"
+
+#: functions/functions.main.php:1783 functions/functions.main.php:1852
+msgid "The required password complexity was not fulfilled."
+msgstr "Die geforderte Passwort-Komplexität wurde nicht erfüllt."
+
+#: functions/functions.translationStrings.php:1040
+#: pages/admin_accounts_admin_add.php:81
+#: pages/admin_accounts_admin_edit.php:126
+#: pages/admin_accounts_user_add.php:226 pages/admin_accounts_user_edit.php:278
+#: pages/admin_mass_email_message.php:84 pages/admin_sslcerts_add.php:125
+#: pages/admin_template_email_add.php:137
+#: pages/admin_template_email_edit.php:119 pages/backup_create_backup.php:85
+#: pages/backup_scheduled_backup.php:153 pages/profile.php:80
+#: pages/user_email_add.php:106
+msgid "The entered email address is invalid."
+msgstr "Die eingegebene E-Mail-Adresse ist ungültig."
+
+#: index.php:250
+msgid "Version mismatch - Please contact your administrator."
+msgstr "Versionskonflikt - Bitte kontaktieren Sie Ihren Administrator."
+
+#: index.php:318
+msgid "Your account is not fully set up - some functions are limited."
+msgstr ""
+"Ihr Account ist noch nicht vollständig eingerichtet - einige Funktionen "
+"stehen nur eingeschränkt zur Verfügung."
+
+#: pages/admin_accounts_admin_add.php:60
+#: pages/admin_accounts_admin_edit.php:105
+msgid "Please enter a valid username."
+msgstr "Bitte geben Sie einen gültigen Benutzernamen an."
+
+#: pages/admin_accounts_admin_add.php:67
+#: pages/admin_accounts_admin_edit.php:112
+msgid "There is already a user with this name."
+msgstr "Es existiert bereits ein Nutzer mit diesem Namen."
+
+#: pages/admin_accounts_admin_add.php:101
+#, php-format
+msgid "The administrator \"<b>%s</b>\" has been successfully created."
+msgstr "Der Administrator \"<b>%s</b>\" wurde erfolgreich angelegt."
+
+#: pages/admin_accounts_admin_delete.php:94
+#: pages/admin_accounts_admin_edit.php:72
+msgid "Insufficient user privileges."
+msgstr "Unzureichende Benutzerrechte."
+
+#: pages/admin_accounts_admin_delete.php:156
+#: pages/admin_accounts_user_delete.php:190
+#: pages/admin_accounts_user_edit.php:250
+msgid "The deleting of the demo accounts is not allowed in the KeyHelp demo!"
+msgstr "Das Löschen der Demo-Accounts ist in der KeyHelp-Demo nicht erlaubt!"
+
+#: pages/admin_accounts_admin_delete.php:161
+msgid "The following administrator accounts were successfully deleted:"
+msgstr "Die folgenden Administrator-Konten wurden gelöscht:"
+
+#: pages/admin_accounts_admin_edit.php:94
+msgid "The editing of this user in not allowed in the KeyHelp demo!"
+msgstr "Das Editieren dieses Benutzers in in der KeyHelp-Demo nicht erlaubt!"
+
+#: pages/admin_accounts_admin_edit.php:150
+#, php-format
+msgid "The administrator account \"<b>%s</b>\" has been updated."
+msgstr "Das Administratorkonto \"<b>%s</b>\" wurde aktualisiert."
+
+#: pages/admin_accounts_user_add.php:196
+#, php-format
+msgid "Please enter a valid username with up to %s characters in lowercase."
+msgstr ""
+"Bitte geben Sie einen gültigen Benutzernamen mit maximal %s Zeichen in "
+"Kleinbuchstaben an."
+
+#: pages/admin_accounts_user_add.php:201
+msgid "The username is already in use (in the database or on the server)."
+msgstr "Der Benutzer existiert bereits (in der Datenbank oder auf dem Server)."
+
+#: pages/admin_accounts_user_add.php:213
+msgid "The subdomain already exists."
+msgstr "Die Subdomain existiert bereits."
+
+#: pages/admin_accounts_user_add.php:232
+msgid "You have not entered email address to receive the login information."
+msgstr ""
+"Sie haben keine E-Mail-Adresse für die Zusendung der Login-Daten eingegeben."
+
+#: pages/admin_accounts_user_add.php:300 pages/admin_accounts_user_edit.php:347
+#, php-format
+msgid "Invalid input in the input field \"%s\"."
+msgstr "Ungültige Angabe im Eingabe-Feld \"%s\"."
+
+#: pages/admin_accounts_user_add.php:301 pages/admin_accounts_user_edit.php:348
+#, php-format
+msgid "Invalid input in the additional options field \"%s\"."
+msgstr "Ungültige Angabe im Zusätzliche-Optionen-Feld \"%s\"."
+
+#: pages/admin_accounts_user_add.php:302 pages/admin_accounts_user_edit.php:349
+#, php-format
+msgid "Invalid input in the PHP setting field \"%s\"."
+msgstr "Ungültige Angabe im PHP-Einstellungs-Feld \"%s\"."
+
+#: pages/admin_accounts_user_add.php:303 pages/admin_accounts_user_edit.php:350
+#, php-format
+msgid "Invalid input in the PHP-FPM setting field \"%s\"."
+msgstr "Ungültige Angabe im PHP-Einstellungs-Feld \"%s\"."
+
+#: pages/admin_accounts_user_add.php:334 pages/admin_accounts_user_edit.php:381
+#: pages/admin_template_account_add.php:133
+#: pages/admin_template_account_edit.php:192
+msgid "You can not allow additional FTP users, if FTP is deactivated."
+msgstr "Sie können keine FTP-Benutzer erlauben, wenn FTP deaktiviert ist."
+
+#: pages/admin_accounts_user_add.php:340 pages/admin_accounts_user_edit.php:387
+#: pages/admin_template_account_add.php:138
+#: pages/admin_template_account_edit.php:197
+msgid ""
+"You can not allow email addresses, without having at least one email account."
+msgstr ""
+"Sie können keine E-Mail-Adressen erlauben, ohne mindestens ein E-Mail-Konto."
+
+#: pages/admin_accounts_user_add.php:346 pages/admin_accounts_user_edit.php:393
+#: pages/admin_template_account_add.php:143
+#: pages/admin_template_account_edit.php:202
+msgid "The disk space must be at least 1 MB."
+msgstr "Der Speicherplatz muss mindestens 1 MB betragen."
+
+#: pages/admin_accounts_user_add.php:355 pages/admin_accounts_user_edit.php:401
+msgid ""
+"The value of \"pm.min_spare_servers\" may not be greater than \"pm."
+"max_spare_servers\"."
+msgstr ""
+"Der Wert für \"pm.min_spare_servers\" darf nicht größer als \"pm."
+"max_spare_servers\" sein."
+
+#: pages/admin_accounts_user_add.php:361 pages/admin_accounts_user_edit.php:407
+msgid ""
+"The values of \"pm.min_spare_servers\" and \"pm.max_spare_servers\" may not "
+"be greater than \"pm.max_children\"."
+msgstr ""
+"Die Werte von \"pm.min_spare_servers\" und \"pm.max_spare_servers\" dürfen "
+"nicht größer als \"pm.max_children\" sein."
+
+#: pages/admin_accounts_user_add.php:367 pages/admin_accounts_user_edit.php:413
+msgid "Invalid IP for PHP-FPM status page IP restriction."
+msgstr "Ungültige IP für PHP-FPM-Statusseiten IP-Beschränkung."
+
+#: pages/admin_accounts_user_add.php:482
+#, php-format
+msgid ""
+"The user \"<b>%s</b>\" has been successfully created. In a few moments, the "
+"account can be used."
+msgstr ""
+"Der Benutzer \"<b>%s</b>\" wurde erfolgreich angelegt. In wenigen "
+"Augenblicken kann das Konto benutzt werden."
+
+#: pages/admin_accounts_user_delete.php:195
+msgid ""
+"The following user accounts will be deleted completely in a few moments:"
+msgstr ""
+"Die folgenden Benutzeraccounts werden in wenigen Augenblicken vollständig "
+"gelöscht:"
+
+#: pages/admin_accounts_user_edit.php:256
+msgid "The suspending of the demo accounts is not allowed in the KeyHelp demo!"
+msgstr "Das Sperren der Demo-Accounts ist in der KeyHelp-Demo nicht erlaubt!"
+
+#: pages/admin_accounts_user_edit.php:261 pages/forgotpw.php:62
+#: pages/profile.php:141
+msgid ""
+"The change of passwords of demo accounts is not allowed in the KeyHelp demo!"
+msgstr ""
+"Die Änderung von Passwörter der Demo-Accounts ist in der KeyHelp-Demo nicht "
+"erlaubt!"
+
+#: pages/admin_accounts_user_edit.php:577
+#, php-format
+msgid "The user \"<b>%s</b>\" will be completely updated in a few moments."
+msgstr ""
+"Der Benutzer \"<b>%s</b>\" wird in wenigen Augenblicken vollständig "
+"aktualisiert."
+
+#: pages/admin_accounts_user_edit.php:581
+#, php-format
+msgid "The user \"<b>%s</b>\" has been updated completely."
+msgstr "Der Benutzer \"<b>%s</b>\" wurde vollständig aktualisiert."
+
+#: pages/admin_active_sessions.php:108
+msgid "The selected sessions got terminated."
+msgstr "Die ausgewählten Sessions wurden beendet."
+
+#: pages/admin_domain_add.php:123
+msgid "Please select a valid main domain."
+msgstr "Bitte wählen Sie eine gültige Hauptdomain."
+
+#: pages/admin_domain_add.php:146
+msgid "Please choose a valid user."
+msgstr "Bitte wählen Sie einen gültigen Benutzer aus."
+
+#: pages/admin_domain_add.php:430
+msgid "One or more domains contain errors:"
+msgstr "Eine oder mehrere Domains sind fehlerhaft:"
+
+#: pages/admin_domain_add.php:440
+msgid "Error in associated main domain"
+msgstr "Fehler in der zugehörigen Hauptdomain"
+
+#: pages/admin_domain_add.php:443
+msgid "Domain name is invalid."
+msgstr "Der Domainname ist ungültig."
+
+#: pages/admin_domain_add.php:446
+msgid "Domain name already exisits."
+msgstr "Der Domainname existiert bereits."
+
+#: pages/admin_domain_delete.php:124 pages/user_domain_delete.php:126
+msgid "The following domains were deleted successfully:"
+msgstr "Folgende Domains wurden erfolgreich gelöscht:"
+
+#: pages/admin_domain_delete.php:130 pages/user_domain_delete.php:121
+msgid "No domain could be deleted."
+msgstr "Es konnte keine Domain gelöscht werden."
+
+#: pages/admin_domain_edit.php:64 pages/admin_domain_edit.php:180
+#: pages/user_domain_edit.php:63 pages/user_domain_edit.php:201
+msgid "The selected domain does not exist."
+msgstr "Die gewählte Domain existiert nicht."
+
+#: pages/admin_domain_edit.php:189 pages/user_domain_edit.php:263
+msgid ""
+"Let's Encrypt currently does not support internationalized domain names."
+msgstr ""
+"Internationalisierte Domain Namen werden derzeit noch nicht von Let's "
+"Encrypt unterstützt."
+
+#: pages/admin_domain_edit.php:195 pages/user_domain_edit.php:269
+msgid "Let's Encrypt currently does not support wildcard domain names."
+msgstr "Let's Encrypt unterstützt derzeit keine Wildcard-Domainnamen."
+
+#: pages/admin_domain_edit.php:202
+msgid "You have selected none of the existing certificates."
+msgstr "Sie haben keines der vorhanden Zertifikate ausgewählt."
+
+#: pages/admin_domain_edit.php:372 pages/user_domain_edit.php:390
+#, php-format
+msgid "The domain \"<b>%s</b>\" has been successfully updated."
+msgstr "Die Domain \"<b>%s</b>\" wurde erfolgreich aktualisiert."
+
+#: pages/admin_firewall.php:88
+msgid "You cannot save this rule set while it is in applying process."
+msgstr ""
+"Sie können diesen Regelsatz nicht speichern, während er sich bei im "
+"Anwendungsprozess befindet."
+
+#: pages/admin_firewall.php:95
+msgid ""
+"You cannot apply this rule set, while there is another rule set in applying "
+"process."
+msgstr ""
+"Sie können diesen Regelsatz nicht anwenden, solange sich ein anderer "
+"Regelsatz im Anwendungsprozess befindet."
+
+#: pages/admin_firewall.php:107
+msgid "The rule set could not be saved because of previous errors."
+msgstr ""
+"Der Regelsatz konnte aufgrund vorangegangener Fehler nicht gespeichert "
+"werden."
+
+#: pages/admin_firewall.php:126
+msgid "The current rule set cannot be saved directly."
+msgstr "Der aktuelle Regelsatz kann nicht direkt gespeichert werden."
+
+#: pages/admin_firewall.php:127
+#, php-format
+msgid ""
+"Instead, a copy including your changes was created and saved as \"<b>%s</b>"
+"\"."
+msgstr ""
+"Stattdessen wurde eine Kopie mit Ihren Änderungen erstellt und als \"<b>%s</"
+"b>\" gespeichert."
+
+#: pages/admin_firewall.php:133
+#, php-format
+msgid "Rule set \"<b>%s</b>\" was saved successfully."
+msgstr "Regelsatz \"<b>%s</b>\" wurde erfolgreich gespeichert."
+
+#: pages/admin_firewall.php:146
+msgid "Applying firewall rules is not allowed in the KeyHelp demo!"
+msgstr ""
+"Das Anwenden von Firewall-Regeln ist in der KeyHelp-Demo nicht erlaubt!"
+
+#: pages/admin_firewall.php:177
+msgid "You cannot delete this rule set while it is in applying process."
+msgstr ""
+"Sie können diesen Regelsatz nicht löschen, während er sich bei im "
+"Anwendungsprozess befindet."
+
+#: pages/admin_firewall.php:182
+#, php-format
+msgid "Rule set \"<b>%s</b>\" was deleted successfully."
+msgstr "Regelsatz \"<b>%s</b>\" wurde erfolgreich gelöscht."
+
+#: pages/admin_firewall.php:199
+msgid "The settings have been saved successfully."
+msgstr "Die Einstellungen wurden erfolgreich gespeichert."
+
+#: pages/admin_firewall.php:205
+msgid "Current rule sets are requested to reload. (This may take a moment.)"
+msgstr ""
+"Neuladen der aktuelle Regelsätze angefordert. (Dies kann einen Moment "
+"dauern.)"
+
+#: pages/admin_firewall.php:280
+msgid "Cannot create new draft. Imported rule set to be imported is invalid."
+msgstr ""
+"Kann keinen neuen Entwurf erstellen. Der zu importierende Regelsatz ist "
+"ungültig."
+
+#: pages/admin_firewall.php:305
+#, php-format
+msgid "New draft \"<b>%s</b>\" was created successfully."
+msgstr "Neuer Entwurf  \"<b>%s</b>\" wurde erfolgreich erstellt."
+
+#: pages/admin_firewall.php:334
+#, php-format
+msgid "Rule set \"<b>%s</b>\" is in applying process."
+msgstr "Regelsatz \"<b>%s</b>\" befindet sich im Anwendungsprozess."
+
+#: pages/admin_firewall.php:339
+msgid "Anti lockout check is enabled!"
+msgstr "Anti-Lockout Überprüfung ist aktiv!"
+
+#: pages/admin_firewall.php:342
+msgid "Please stay on this page, until checking is finished."
+msgstr "Bitte bleiben Sie auf dieser Seite, bis die Prüfung beendet ist."
+
+#: pages/admin_firewall.php:345
+msgid ""
+"Changes will now get undone, please wait one minute, then you can access "
+"this page again."
+msgstr ""
+"Änderungen werden nun rückgängig gemacht, bitte warten Sie eine Minute, dann "
+"können Sie diese Seite wieder aufrufen."
+
+#: pages/admin_firewall.php:414
+#, php-format
+msgid "The rule set \"<b>%s</b> was applied successfully."
+msgstr "Der Regelsatz \"<b>%s</b>\" wurde erfolgreich angewendet."
+
+#: pages/admin_firewall.php:419 pages/admin_firewall.php:428
+#, php-format
+msgid "Error occurred while trying to apply rule set \"<b>%s</b>\"."
+msgstr "Beim Anwenden des Regelsatz \"<b>%s</b>\" ist ein Fehler aufgetreten."
+
+#: pages/admin_firewall.php:421
+msgid "It seems you have locked yourself out of the server."
+msgstr "Es scheint, Sie haben sich vom Server ausgesperrt."
+
+#: pages/admin_firewall.php:423
+msgid "The previous rules have been restored."
+msgstr "Die bisherigen Regeln wurden wiederhergestellt."
+
+#: pages/admin_mailqueue.php:48
+msgid "The selected email queue records have been deleted."
+msgstr "Die ausgewählten E-Mail-Warteschlagen-Einträge wurden gelöscht."
+
+#: pages/admin_mailqueue.php:55
+msgid "All emails from queue have been deleted."
+msgstr "Alle E-Mails der Warteschlange wurden gelöscht."
+
+#: pages/admin_mass_email_message.php:78 pages/admin_sslcerts_add.php:100
+#: pages/admin_sslcerts_add.php:222 pages/admin_sslcerts_add.php:250
+#: pages/admin_sslcerts_edit.php:151 pages/admin_sslcerts_edit.php:173
+#: pages/admin_sslcerts_edit.php:194
+msgid "Please fill out all required fields."
+msgstr "Bitte füllen Sie alle erforderlichen Eingabefelder aus."
+
+#: pages/admin_mass_email_message.php:109
+msgid ""
+"There are no recipients defined. / The selected recipients have no email "
+"address stored."
+msgstr ""
+"Es wurden keine Empfänger festgelegt. / Bei den gewählten Empfängern ist "
+"keine E-Mail-Adresse hinterlegt."
+
+#: pages/admin_mass_email_message.php:151
+#, php-format
+msgid "The message has been sent to %s recipient(s)."
+msgstr "Die Email wurde erfolgreich an %s Empfänger versendet."
+
+#: pages/admin_mass_email_message.php:162
+#, php-format
+msgid ""
+"While sending emails to the following recipients, an error occurred.<br><br>"
+"%s"
+msgstr "Beim E-Mail-Versand an folgende Empfänger trat ein Fehler auf.<br>%s"
+
+#: pages/admin_panel.php:167 pages/admin_template_email_add.php:80
+#: pages/admin_whitelabel_edit.php:72 pages/profile.php:87
+msgid "You have selected an invalid language."
+msgstr "Sie haben eine ungültige Sprache ausgewählt."
+
+#: pages/admin_panel.php:174
+msgid "The value for maximum login attempts is invalid."
+msgstr "Die Angabe der maximalen Loginversuche ist ungültig."
+
+#: pages/admin_panel.php:179
+msgid "The value for the login deactivation time is invalid."
+msgstr "Die Angabe der Login-Deaktivierungszeit ist ungültig."
+
+#: pages/admin_panel.php:184
+msgid ""
+"The period of validity of the session is invalid. (Enter a value of at least "
+"60 seconds.)"
+msgstr ""
+"Die Angabe der Gültigkeitsdauer der Session ist ungültig. (Geben Sie einen "
+"Wert von mindestens 60 Sekunden an.)"
+
+#: pages/admin_panel.php:191
+msgid "The value of the minimum password length is invalid."
+msgstr "Die Angabe der Passwort-Mindestlänge ist ungültig."
+
+#: pages/admin_panel.php:196
+msgid "The value of the length for generated passwords is invalid."
+msgstr "Die Angabe der Länge von generierten Passwörtern ist ungültig."
+
+#: pages/admin_panel.php:210
+msgid "The email address for traffic-limit-exceeded notifications is invalid."
+msgstr ""
+"Die Emailadresse für Benachrichtigungen bei Traffic-Limit-Überschreitung ist "
+"ungültig."
+
+#: pages/admin_panel.php:217
+msgid "The email address for SSL certificate notifications is invalid."
+msgstr "Die E-Mail-Adresse für SSL-Zertifikat-Benachrichtigungen ist ungültig."
+
+#: pages/admin_panel.php:226
+msgid "Demo mode restriction: Only Let's Encrypt test environment allowed."
+msgstr "Demo-Modus Einschränkung: Nur Let's Encrypt Test Umgebung erlaubt."
+
+#: pages/admin_panel.php:235
+msgid "Let's Encrypt state may not be empty."
+msgstr "Let's Encrypt Staat darf nicht leer sein."
+
+#: pages/admin_panel.php:242
+msgid "The URL to the tool \"PhpMyAdmin\" is invalid."
+msgstr "Die URL zum Tool \"PhpMyAdmin\" ist ungültig."
+
+#: pages/admin_panel.php:250
+msgid "The URL to the webmail client is invalid."
+msgstr "Die URL zum Webmail Client ist ungültig."
+
+#: pages/admin_panel.php:283 pages/admin_panel.php:314
+msgid "The webmail configuration could not be updated."
+msgstr "Die Webmail Konfiguration konnte nicht aktualisiert werden."
+
+#: pages/admin_panel.php:333
+msgid "The value of the administrator email address is invalid."
+msgstr "Die Angabe der Administrator-E-Mail-Adresse ist ungültig."
+
+#: pages/admin_panel.php:390
+msgid "The panel settings have been updated successfully."
+msgstr "Die Panel-Einstellungen wurden erfolgreich aktualisiert."
+
+#: pages/admin_panel_tasks.php:167
+msgid "Invalid form data."
+msgstr "Ungültige Formular Daten."
+
+#: pages/admin_panel_tasks.php:187
+msgid "Settings have been updated successfully."
+msgstr "Die Einstellungen wurden erfolgreich aktualisiert."
+
+#: pages/admin_server.php:196
+msgid "Changing the hostname is not allowed in the KeyHelp demo!"
+msgstr "Das Ändern des Hostnames ist in der KeyHelp-Demo nicht erlaubt!"
+
+#: pages/admin_server.php:209
+msgid "The specified hostname is not valid. Please enter a valid FQDN."
+msgstr ""
+"Der angegebene Hostnamen ist nicht gültig. Bitte geben Sie einen gültigen "
+"FQDN an."
+
+#: pages/admin_server.php:250
+msgid "Please input a valid number for the RAM-Disk size."
+msgstr "Bitte geben Sie eine gültige Zahl für die Größe der RAM-Disk an."
+
+#: pages/admin_server.php:253
+msgid "Please choose a valid unit type for the RAM-Disk size."
+msgstr "Bitte wählen Sie eine gültige Einheit für die Größe der RAM-Disk."
+
+#: pages/admin_server.php:257
+msgid "Please input a valid percentage between 0 and 100."
+msgstr "Bitte geben Sie eine gültige Prozentzahl von 0 - 100 an."
+
+#: pages/admin_server.php:282
+msgid ""
+"Please enter a valid email address for forwarding or leave this field empty."
+msgstr ""
+"Bitte geben Sie eine gültige E-Mail-Adresse für die Weiterleitung an, oder "
+"lassen Sie dieses Feld leer."
+
+#: pages/admin_server.php:288
+msgid "Please enter a valid email address for forwarding."
+msgstr "Bitte geben Sie eine gültige E-Mail-Adresse für die Weiterleitung an."
+
+#: pages/admin_server.php:312
+msgid "Invalid webserver port range."
+msgstr "Ungültige Webserver Portbereich."
+
+#: pages/admin_server.php:399
+msgid ""
+"Please enter a valid email address for antivirus scanner notification or "
+"leave this field empty."
+msgstr ""
+"Bitte geben Sie eine gültige E-Mail-Adresse für die Antivirus-Scanner-"
+"Benachrichtigung an, oder lassen Sie dieses Feld leer."
+
+#: pages/admin_server.php:426
+msgid ""
+"The server settings have been successfully saved and are available in a few "
+"seconds."
+msgstr ""
+"Die Server-Einstellungen wurden erfolgreich gespeichert und stehen in "
+"wenigen Augenblicken zur Verfügung."
+
+#: pages/admin_services.php:139
+msgid "The service has been successfully stopped."
+msgstr "Der Dienst wurde erfolgreich beendet."
+
+#: pages/admin_services.php:143
+msgid "The service has been successfully started."
+msgstr "Der Dienst wurde erfolgreich gestartet."
+
+#: pages/admin_services.php:148
+msgid ""
+"Sorry, the operation could not be performed correctly. (Permissions correct?)"
+msgstr ""
+"Leider konnte die Operation nicht korrekt durchgeführt werden. "
+"(Berechtigungen korrekt?)"
+
+#: pages/admin_sslcerts_add.php:106
+msgid "The transmitted key length is invalid."
+msgstr "Die übermittelte Schlüssellänge ist ungültig."
+
+#: pages/admin_sslcerts_add.php:112
+msgid "The transmitted country is invalid."
+msgstr "Das übermittelte Land ist ungültig."
+
+#: pages/admin_sslcerts_add.php:118
+msgid "Please enter a valid domain!"
+msgstr "Bitte geben Sie eine gültige Domain an!"
+
+#: pages/admin_sslcerts_add.php:132
+msgid ""
+"Please choose whether a CSR (Certificate Signing Request) or a self-signed "
+"certificate will be created!"
+msgstr ""
+"Bitte wählen Sie, ob eine CSR (Certificate Signing Request) oder ein Selbst-"
+"Signiertes Zertifikat erstellt werden soll!"
+
+#: pages/admin_sslcerts_add.php:277
+msgid "The uploaded private key is invalid."
+msgstr "Der hochgeladene Private Key ist ungültig."
+
+#: pages/admin_sslcerts_add.php:281 pages/admin_sslcerts_edit.php:222
+msgid "The uploaded certificate is invalid."
+msgstr "Das hochgeladene Zertifikat ist ungültig."
+
+#: pages/admin_sslcerts_add.php:307 pages/admin_sslcerts_edit.php:246
+msgid "The uploaded CA-certificat is invalid."
+msgstr "Der hochgeladene CA-Zertifikat ist ungültig."
+
+#: pages/admin_sslcerts_add.php:326 pages/admin_sslcerts_edit.php:335
+msgid "The certificate chain seems to be faulty."
+msgstr "Die Zertifikatskette scheint fehlerhaft."
+
+#: pages/admin_sslcerts_add.php:339 pages/admin_sslcerts_edit.php:277
+msgid "Invalid combination of private key and certificate."
+msgstr "Ungültige Kombination von Private Key und Zertifikat."
+
+#: pages/admin_sslcerts_add.php:362 pages/admin_sslcerts_edit.php:157
+msgid "The selected certificate name is already in use."
+msgstr "Der gewählte Zertifikatsname wird bereits verwendet."
+
+#: pages/admin_sslcerts_add.php:379 pages/admin_sslcerts_edit.php:289
+#, php-format
+msgid "The certificate repository \"%s\" does not exist or is not readable."
+msgstr ""
+"Das Zertifikatsrepository \"%s\" existiert nicht, oder ist nicht lesbar."
+
+#: pages/admin_sslcerts_add.php:439
+msgid ""
+"The certificate request (CSR) has been successfully created. In order to "
+"obtain a valid certificate, now you submit this CSR to a certificate "
+"authority:"
+msgstr ""
+"Die Zertifikatsanfrage (CSR) wurden erfolgreich angelegt. Um ein gültiges "
+"Zertifikat zu erhalten, übermittelns Sie diese CSR nun an eine "
+"Zertifizierungsstelle:"
+
+#: pages/admin_sslcerts_add.php:441
+msgid ""
+"The SSL certificate has been added successfully. To use the certificate, you "
+"must assign it to the corresponding domain (under general> domains> domain "
+"edit)."
+msgstr ""
+"Das SSL-Zertifikat wurde erfolgreich hinzugefügt. Um das Zertifikat zu "
+"verwenden, müssen Sie es der entsprechenden Domain zuweisen (unter Allgemein "
+"> Domains > Domain bearbeiten)."
+
+#: pages/admin_sslcerts_delete.php:171
+msgid "The following SSL certificates has been deleted successfully:"
+msgstr "Folgende SSL-Zertifikate wurde erfolgreich gelöscht:"
+
+#: pages/admin_sslcerts_delete.php:178
+msgid "No SSL certificate could be deleted."
+msgstr "Es konnte kein SSL-Zertifikat gelöscht werden."
+
+#: pages/admin_sslcerts_edit.php:51 pages/admin_sslcerts_edit.php:144
+msgid "The selected SSL certificate does not exist."
+msgstr "Das gewählte SSL-Zertifikat existiert nicht."
+
+#: pages/admin_sslcerts_edit.php:165 pages/admin_sslcerts_edit.php:338
+#: pages/admin_sslcerts_index.php:81
+msgid "The SSL certificate has been updated successfully."
+msgstr "Das SSL-Zertifikat wurde erfolgreich aktualisiert."
+
+#: pages/admin_sslcerts_index.php:39
+msgid ""
+"Changing the server service certificates is not allowed in the KeyHelp demo!"
+msgstr ""
+"Das Ändern der Serverdienst-Zertifikate ist in der KeyHelp-Demo nicht "
+"erlaubt!"
+
+#: pages/admin_template_account_add.php:106
+#: pages/admin_template_account_edit.php:161
+msgid "Please choose a name for the template."
+msgstr "Bitte geben Sie eine Bezeichnung für die Vorlage an."
+
+#: pages/admin_template_account_add.php:127
+#: pages/admin_template_account_edit.php:186
+msgid "There already exists an account template with this name."
+msgstr "Es existiert bereits eine Konto-Vorlage mit diesem Namen."
+
+#: pages/admin_template_account_add.php:186
+msgid "The account template has been successfully added."
+msgstr "Die Konto-Vorlage wurde erfolgreich hinzugefügt."
+
+#: pages/admin_template_account_delete.php:118
+msgid "The following account template have been deleted successfully:"
+msgstr "Folgende Konto-Vorlagen wurde erfolgreich gelöscht:"
+
+#: pages/admin_template_account_delete.php:125
+msgid "No account template could be deleted."
+msgstr "Es konnte keine Konto-Vorlage gelöscht werden."
+
+#: pages/admin_template_account_edit.php:249
+msgid "The account template has been successfully updated."
+msgstr "Die Konto-Vorlage wurde erfolgreich aktualisiert."
+
+#: pages/admin_template_default_index.php:47
+#: pages/admin_template_default_index.php:59
+msgid "The changes were applied successfully"
+msgstr "Die Änderungen wurden erfolgreich übernommen."
+
+#: pages/admin_template_email_add.php:85
+msgid "The selected action is invalid."
+msgstr "Die gewählte Aktion ist ungültig."
+
+#: pages/admin_template_email_add.php:101
+msgid "There already exists a template in the selected language and action."
+msgstr "Es existiert bereits eine Vorlage in der gewählten Sprache und Aktion."
+
+#: pages/admin_template_email_add.php:106
+#: pages/admin_template_email_edit.php:88
+msgid "Please enter a subject."
+msgstr "Bitte geben Sie einen Betreff ein."
+
+#: pages/admin_template_email_add.php:111
+#: pages/admin_template_email_edit.php:93
+msgid "Please enter an email text."
+msgstr "Bitte geben Sie einen E-Mail-Text ein."
+
+#: pages/admin_template_email_add.php:158
+msgid "The email template has been successfully added."
+msgstr "Die E-Mailvorlage wurde erfolgreich hinzugefügt."
+
+#: pages/admin_template_email_delete.php:122
+msgid "The following email templates have been deleted successfully."
+msgstr "Folgende E-Mailvorlagen wurde erfolgreich gelöscht:"
+
+#: pages/admin_template_email_delete.php:126
+msgid "No email template could be deleted."
+msgstr "Es konnte keine E-Mailvorlage gelöscht werden."
+
+#: pages/admin_template_email_edit.php:140
+msgid "The email template has been successfully updated."
+msgstr "Die E-Mailvorlage wurde erfolgreich aktualisiert."
+
+#: pages/admin_whitelabel_edit.php:169 pages/admin_whitelabel_import.php:40
+#: pages/backup_create_backup.php:75 pages/backup_scheduled_backup.php:139
+msgid "This function is not available in the KeyHelp demo version."
+msgstr "Diese Funktion ist in der KeyHelp Demo nicht verfügbar."
+
+#: pages/admin_whitelabel_edit.php:178
+msgid "The entered product name is too long (max. 20 characters)."
+msgstr "Der eingegebene Produktname ist zu lang (max. 20 Zeichen)."
+
+#: pages/admin_whitelabel_edit.php:200 pages/admin_whitelabel_import.php:49
+msgid "An error occurred while uploading data."
+msgstr "Beim Dateiupload sind Fehler aufgetreten."
+
+#: pages/admin_whitelabel_edit.php:215
+msgid "The file could not be saved on the server due to lack of permissions."
+msgstr ""
+"Die Datei konnte aufgrund fehlender Berechtigungen nicht auf dem Server "
+"gespeichert werden."
+
+#: pages/admin_whitelabel_edit.php:230
+msgid "The data entered under \"Help Links\" could not be applied correctly."
+msgstr ""
+"Die eingegebenen Daten unter dem Punkt \"Hilfe-Links\" konnten nicht korrekt "
+"übernommen werden."
+
+#: pages/admin_whitelabel_edit.php:251
+msgid ""
+"Please fill out all fields under \"Help Links\" or select \"Hide menu item"
+"\" / \"Reset settings\"."
+msgstr ""
+"Bitte füllen Sie alle Felder unter dem Punkt \"Hilfe-Links\" aus, oder "
+"wählen Sie \"Menüpunkt ausblenden\" / \"Einstellungen zurücksetzen\"."
+
+#: pages/admin_whitelabel_edit.php:306
+msgid "The white label settings have been successfully saved!"
+msgstr "Die Whitelabel Einstellungen wurden erfolgreich gespeichert!"
+
+#: pages/admin_whitelabel_import.php:60
+msgid "The settings have been successfully imported."
+msgstr "Die Einstellungen wurden erfolgreich importiert."
+
+#: pages/admin_whitelabel_import.php:64
+#, php-format
+msgid "An error occurred while importing: %s"
+msgstr "Beim Importieren sind Fehler aufgetreten: %s"
+
+#: pages/admin_whitelabel_index.php:61
+msgid "The white label settings have been reset successfully!"
+msgstr "Die Whitelabel Einstellungen wurden erfolgreich zurückgesetzt!"
+
+#: pages/backup_create_backup.php:89 pages/backup_scheduled_backup.php:163
+msgid "Please select a destination repository."
+msgstr "Bitte wählen Sie ein Ziel Repository."
+
+#: pages/backup_create_backup.php:106
+msgid "The backup task has been successfully scheduled."
+msgstr "Die Backup Aufgabe wurde erfolgreich eingeplant."
+
+#: pages/backup_remote_settings.php:70 pages/backup_scheduled_backup.php:240
+msgid "The settings have been reset successfully!"
+msgstr "Die Einstellungen wurden erfolgreich zurückgesetzt."
+
+#: pages/backup_remote_settings.php:108
+#, php-format
+msgid ""
+"During testing the remote connection errors have occurred.<br>Error message: "
+"%s"
+msgstr ""
+"Beim Testen der Remote Verbindung sind Fehler aufgetreten.<br>Fehlermeldung: "
+"%s"
+
+#: pages/backup_remote_settings.php:111 pages/backup_scheduled_backup.php:227
+msgid "The settings have been saved successfully!"
+msgstr "Die Einstellungen wurden erfolgreich gespeichert."
+
+#: pages/backup_repository.php:88
+msgid "There are no remote connection settings stored."
+msgstr "Es wurden noch keine Remote Verbindungseinstellungen hinterlegt."
+
+#: pages/backup_repository.php:107 pages/backup_repository.php:130
+msgid "The selected files have been deleted."
+msgstr "Die ausgewählten Dateien wurden gelöscht."
+
+#: pages/backup_repository.php:114
+#, php-format
+msgid ""
+"The connection to the remote server could not be established.<br>Error "
+"message: %s"
+msgstr ""
+"Die Verbindung zum Remote Server konnte nicht hergestellt werden."
+"<br>Fehlermeldung: %s"
+
+#: pages/backup_scheduled_backup.php:145
+msgid "Please select a valid backup start time in the format HH:mm."
+msgstr "Bitte wählen Sie eine gültige Backup Start-Uhrzeit im Format HH:mm."
+
+#: pages/backup_scheduled_backup.php:159
+msgid "Please select a valid backup interval."
+msgstr "Bitte wählen Sie ein gültiges Backup Intervall."
+
+#: pages/dns_editor.php:299
+msgid "Invalid primary nameserver."
+msgstr "Ungültiger primärer Nameserver."
+
+#: pages/dns_editor.php:305
+msgid "Invalid domain admin email."
+msgstr "Ungültige Domain Admin E-Mail."
+
+#: pages/dns_editor.php:398
+#, php-format
+msgid ""
+"Record %1$s) The data field contains invalid data for a <b>%2$s-Record</b>."
+msgstr ""
+"Record %1$s) Das Datenfeld enthält für einen <b>%2$s-Record</b> ungültige "
+"Daten."
+
+#: pages/dns_editor.php:439
+msgid "Syntax check failed, please check your records!"
+msgstr "Syntaxüberprüfung fehlgeschlagen, bitte überprüfen Sie Ihre Eingaben!"
+
+#: pages/forgotpw.php:53
+msgid "The user does not exist or does not match to the email address."
+msgstr "Der Benutzer existiert nicht oder passt nicht zur E-Mail-Adresse."
+
+#: pages/forgotpw.php:56
+msgid "The email could not be sent, please contact your administrator."
+msgstr ""
+"Die E-Mail konnte nicht gesendet werden, bitte kontaktieren Sie Ihren "
+"Administrator."
+
+#: pages/forgotpw.php:59
+msgid ""
+"Your password reset link appears to be invalid. Please request a new link "
+"below."
+msgstr ""
+"Ihr Passwort-Reset-Link scheint ungültig zu sein. Bitte fordern Sie unten "
+"einen neuen Link an."
+
+#: pages/login.php:48
+msgid "The username / password you entered is incorrect."
+msgstr "Der angegebene Benutzername / Passwort ist falsch."
+
+#: pages/login.php:51
+msgid "Your account has been suspended."
+msgstr "Ihr Account wurde gesperrt."
+
+#: pages/login.php:55
+msgid ""
+"Due to too many failed login attempts this account was temporarily suspended."
+msgstr ""
+"Aufgrund zu vieler fehlgeschlagener Anmeldeversuche wurde dieser Account "
+"vorübergehend gesperrt."
+
+#: pages/login.php:56
+#, php-format
+msgid "Please try again in %s seconds."
+msgstr "Bitte versuchen Sie es in %s Sekunden noch einmal."
+
+#: pages/login.php:60
+msgid "You have successfully logged out."
+msgstr "Sie haben sich erfolgreich ausgeloggt."
+
+#: pages/login.php:63
+msgid "Your session has expired, please sign in again!"
+msgstr "Ihre Session ist abgelaufen, bitte melden Sie sich erneut an!"
+
+#: pages/login.php:66
+msgid "An email with instructions, how to reset your password has been sent!"
+msgstr ""
+"Eine E-Mail mit Anleitung, wie Sie Ihr Passwort zurücksetzen können, wurde "
+"gesendet!"
+
+#: pages/login.php:69
+msgid "Your password has been updated."
+msgstr "Ihr Passwort wurde aktualisiert."
+
+#: pages/profile.php:128
+msgid "The entered current password was incorrect."
+msgstr "Das eingegebene, aktuelle Passwort war nicht korrekt."
+
+#: pages/profile.php:253
+msgid "Your profile has been updated successfully."
+msgstr "Ihr Profil wurde erfolgreich aktualisiert."
+
+#: pages/user_dirprotection.php:78
+msgid "The combination of username and path already exists."
+msgstr "Die Kombination aus Benutzernamen und Pfad existiert bereits."
+
+#: pages/user_dirprotection.php:107 pages/user_dirprotection.php:177
+#: pages/user_ftp.php:121 pages/user_ftp.php:200
+#: pages/user_scheduledtasks_edit.php:178
+msgid "An unknown error occurred."
+msgstr "Ein unbekannter Fehler ist aufgetreten."
+
+#: pages/user_dirprotection.php:116 pages/user_dirprotection.php:186
+msgid "The realm title contains illegal characters."
+msgstr "Der Bereichstitel beinhaltet ungültige Zeichen."
+
+#: pages/user_dirprotection.php:119
+msgid "The username contains illegal characters."
+msgstr "Der Benutzername beinhaltet ungültige Zeichen."
+
+#: pages/user_dirprotection.php:122
+msgid "The path contains illegal characters."
+msgstr "Der Pfad beinhaltet ungültige Zeichen."
+
+#: pages/user_dirprotection.php:126 pages/user_dirprotection.php:190
+#: pages/user_ftp.php:135 pages/user_ftp.php:210
+#, php-format
+msgid "An error occurred - Error ID: %s"
+msgstr "Ein Fehler ist aufgetreten - Fehler ID: %s"
+
+#: pages/user_dirprotection.php:267
+msgid ""
+"The following directory protections have been removed successfully. The "
+"changes take effect in a few moments."
+msgstr ""
+"Die folgenden Verzeichnis-Schutzvorkehrungen wurden erfolgreich entfernt. "
+"Die Änderungen werden in wenigen Augenblicken wirksam."
+
+#: pages/user_dirprotection.php:271 pages/user_ftp.php:288
+msgid "Unable to delete."
+msgstr "Löschen nicht möglich."
+
+#: pages/user_domain_add.php:80
+msgid ""
+"No main domain was assigned to you, so you can not create any subdomains."
+msgstr ""
+"Ihnen wurde noch keine Haupt-Domain zugewiesen, somit können Sie auch noch "
+"keine Subdomains anlegen."
+
+#: pages/user_domain_add.php:96
+msgid "You have reached the maximum number of your available subdomains."
+msgstr ""
+"Sie haben bereits die maximale Anzahl der Ihnen zur Verfügung stehenden "
+"Subdomains erreicht."
+
+#: pages/user_domain_add.php:113
+msgid "The selected domain is invalid."
+msgstr "Die gewählte Domain ist ungültig."
+
+#: pages/user_domain_add.php:136
+msgid ""
+"Please enter a valid domain. Use only letters and numbers. Hyphens and dots "
+"are allowed if they do not follow each other. Points and hyphens shall not "
+"be used at the beginning and at the end."
+msgstr ""
+"Bitte geben Sie eine gültige Domain an. Verwenden Sie nur Buchstaben und "
+"Ziffern. Bindestriche und Punkte sind erlaubt, wenn Sie nicht aufeinander "
+"folgen. Punkte und Bindestriche dürfen nicht am Anfang und nicht am Ende "
+"verwendet werden."
+
+#: pages/user_domain_add.php:147
+#, php-format
+msgid "The domain \"<b>%s</b>\" already exists!"
+msgstr "Die Domain \"<b>%s</b>\" existiert bereits!"
+
+#: pages/user_domain_add.php:173 pages/user_domain_add.php:182
+#: pages/user_domain_edit.php:225 pages/user_domain_edit.php:234
+msgid ""
+"Please enter a valid path or a valid URL (including HTTP redirection code)!"
+msgstr ""
+"Bitte geben Sie einen gültigen Pfad oder eine gültige URL (inkl. HTTP-"
+"Weiterleitungscode) an!"
+
+#: pages/user_domain_edit.php:275
+msgid "Let's Encrypt doesn't work with domain redirects."
+msgstr "Let's Encrypt funktioniert nicht bei Domain-Weiterleitungen."
+
+#: pages/user_email_add.php:53
+msgid "The administrator has not been assigned an email domain to you."
+msgstr "Ihnen wurde vom Administrator noch keine E-Mail-Domain zugewiesen."
+
+#: pages/user_email_add.php:83
+msgid ""
+"You have already reached the maximum number of your available email accounts."
+msgstr ""
+"Sie haben bereits die maximale Anzahl der Ihnen zur Verfügung stehenden E-"
+"Mail-Konten erreicht."
+
+#: pages/user_email_add.php:88
+msgid ""
+"You have already reached the maximum number of your available email "
+"addresses."
+msgstr ""
+"Sie haben bereits die maximale Anzahl der Ihnen zur Verfügung stehenden E-"
+"Mail-Adressen erreicht."
+
+#: pages/user_email_add.php:99
+msgid "This email domain does not belong to you."
+msgstr "Diese E-Mail-Domain gehört Ihnen nicht."
+
+#: pages/user_email_add.php:114
+msgid "This email address already exists."
+msgstr "Diese E-Mail-Adresse existiert bereits."
+
+#: pages/user_email_add.php:131 pages/user_email_edit.php:208
+#, php-format
+msgid ""
+"Invalid mailbox size. Please enter a valid number that is less / equal than "
+"your total memory (%s)."
+msgstr ""
+"Ungültige Mailboxgröße - Bitte geben Sie eine gültige Zahl an, die kleiner / "
+"gleich Ihrem Gesamtspeicher (%s) ist."
+
+#: pages/user_email_add.php:142 pages/user_email_edit.php:197
+msgid "There is already a catch-all email account for this domain."
+msgstr "Es existiert bereits ein Catch-All E-Mailkonto für diese Domain."
+
+#: pages/user_email_add.php:197
+#, php-format
+msgid ""
+"The email account \"<b>%s</b>\" has been successfully created. Now you can "
+"edit alias addresses and redirects."
+msgstr ""
+"Das E-Mailkonto \"<b>%s</b>\" wurde erfolgreich angelegt. Sie können nun "
+"Alias-Adressen und Weiterleitungen bearbeiten."
+
+#: pages/user_email_add.php:199
+#, php-format
+msgid "The email account \"<b>%s</b>\" has been successfully created."
+msgstr "Das E-Mailkonto \"<b>%s</b>\" wurde erfolgreich angelegt."
+
+#: pages/user_email_delete.php:124
+msgid "No email account could be deleted."
+msgstr "Es konnte kein E-Mail-Konto gelöscht werden."
+
+#: pages/user_email_delete.php:128
+msgid "The following email accounts has been deleted successfully:"
+msgstr "Folgende E-Mail-Konten wurde erfolgreich gelöscht:"
+
+#: pages/user_email_edit.php:110
+msgid "The selected email account is invalid."
+msgstr "Das gewählte E-Mail-Konto ist ungültig."
+
+#: pages/user_email_edit.php:238
+msgid "You entered an invalid alias address!"
+msgstr "Sie haben eine ungültige Alias-Adresse angegeben!"
+
+#: pages/user_email_edit.php:246
+msgid "The selected alias domain doesn't belong to your allowed email domains!"
+msgstr ""
+"Die ausgewählte Alias-Domain gehört nicht zu Ihren erlaubten E-Mail-Domains!"
+
+#: pages/user_email_edit.php:270
+msgid ""
+"With the addresses in the alias list you will exceed the number of your "
+"available email addresses, please reduce the alias addresses."
+msgstr ""
+"Mit den Adressen in der Alias-Liste werden Sie die Anzahl der Ihnen zur "
+"Verfügung stehenden E-Mail-Adressen überschreiten, bitte reduzieren Sie die "
+"Alias-Adressen."
+
+#: pages/user_email_edit.php:287
+msgid "You entered an invalid email forwarding!"
+msgstr "Sie haben eine ungültige E-Mail Weiterleitung angegeben!"
+
+#: pages/user_email_edit.php:317
+msgid ""
+"Please enter a valid value for the spam score (value between 0 to 999.9)."
+msgstr ""
+"Bitte geben Sie einen gültigen Wert für die Spam-Score an (Werte zwischen 0 "
+"- 999,9)."
+
+#: pages/user_email_edit.php:452
+#, php-format
+msgid "The email account\"<b>%s</b>\" has been successfully updated."
+msgstr "Das E-Mail-Konto \"<b>%s</b>\" wurde erfolgreich aktualisiert."
+
+#: pages/user_ftp.php:67
+msgid "You have reached the maximum number of your available FTP users."
+msgstr ""
+"Sie haben bereits die maximale Anzahl der erlaubten FTP-Benutzer erreicht."
+
+#: pages/user_ftp.php:74 pages/user_ftp.php:163
+msgid "The home directory must be a subfolder of /www/ or /files/."
+msgstr ""
+"Das Home-Verzeichnis muss ein Unterordner von <b>/www/</b> oder <b>/files/</"
+"b> sein."
+
+#: pages/user_ftp.php:90
+#, php-format
+msgid "The username \"%s\" is already in use."
+msgstr "Der Benutzername \"%s\" existiert bereits."
+
+#: pages/user_ftp.php:115
+#, php-format
+msgid "The FTP user \"<b>%s</b>\" has been created successfully."
+msgstr "Der FTP-Benutzer \"<b>%s</b>\" wurde erfolgreich angelegt."
+
+#: pages/user_ftp.php:128
+msgid ""
+"The setting up of your account has not yet been fully completed. Please try "
+"again in a few moments."
+msgstr ""
+"Ihr Benutzeraccount wurde noch nicht vollständig eingerichtet. Bitte "
+"versuchen Sie es wenigen Augenblicken noch einmal."
+
+#: pages/user_ftp.php:131 pages/user_ftp.php:206
+msgid "The home directory contains illegal characters."
+msgstr "Das Home-Verzeichnis beinhaltet ungültige Zeichen."
+
+#: pages/user_ftp.php:194
+#, php-format
+msgid "The FTP user \"<b>%s</b>\" has been updated successfully."
+msgstr "Der FTP-Benutzer \"<b>%s</b>\" wurde erfolgreich aktualisiert."
+
+#: pages/user_ftp.php:286
+msgid "The following FTP users were deleted successfully:"
+msgstr "Die folgenden FTP-Benutzer wurden erfolgreich gelöscht:"
+
+#: pages/user_index.php:50
+msgid "In a few moments the directory listing will be <b>deactivated</b>."
+msgstr "Das Directory Listing wird in wenigen Augenblicken <b>deaktiviert</b>."
+
+#: pages/user_index.php:54
+msgid "In a few moments the directory listing will be <b>activated</b>."
+msgstr "Das Directory Listing wird in wenigen Augenblicken <b>aktiviert</b>."
+
+#: pages/user_mysql_add.php:53
+msgid "You have already reached the maximum number of your MySQL databases."
+msgstr ""
+"Sie haben bereits die maximale Anzahl Ihrer MySQL Datenbanken erreicht."
+
+#: pages/user_mysql_add.php:86
+#, php-format
+msgid "The database username \"%s\" is invalid."
+msgstr "Der Datenbank-Benutzername \"%s\" ist ungültig."
+
+#: pages/user_mysql_add.php:91
+#, php-format
+msgid "The database name \"%s\" is invalid."
+msgstr "Der Datenbank-Name \"%s\" ist ungültig."
+
+#: pages/user_mysql_add.php:98
+#, php-format
+msgid "The database user \"%s\" already exists."
+msgstr "Der Datenbank-Benutzer \"%s\" existiert bereits."
+
+#: pages/user_mysql_add.php:102
+#, php-format
+msgid "The database name \"%s\" already exists."
+msgstr "Der Datenbank-Name \"%s\" existiert bereits."
+
+#: pages/user_mysql_add.php:143
+#, php-format
+msgid "The database \"<b>%s</b>\" has been successfully added."
+msgstr "Die Datenbank \"<b>%s</b>\" wurde erfolgreich hinzugefügt."
+
+#: pages/user_mysql_delete.php:126
+msgid "The following databases have been deleted successfully:"
+msgstr "Folgende Datenbanken wurde erfolgreich gelöscht:"
+
+#: pages/user_mysql_delete.php:133
+msgid "No database could be deleted."
+msgstr "Es konnte keine Datenbank gelöscht werden."
+
+#: pages/user_mysql_edit.php:61 pages/user_mysql_edit.php:89
+msgid "The database does not exist."
+msgstr "Die Datenbank existiert nicht."
+
+#: pages/user_mysql_edit.php:121
+#, php-format
+msgid "The database \"<b>%s</b>\" has been successfully modified."
+msgstr "Die Datenbank \"<b>%s</b>\" wurde erfolgreich bearbeitet."
+
+#: pages/user_scheduledtasks_delete.php:119
+msgid "The selected scheduled tasks were successfully removed."
+msgstr "Die ausgewählte geplante Aufgaben wurden erfolgreich entfernt."
+
+#: pages/user_scheduledtasks_edit.php:99
+msgid ""
+"You have already reached your maximum number of allowed scheduled tasks."
+msgstr ""
+"Sie haben bereits die maximale Anzahl der erlaubten geplanten Aufgaben "
+"erreicht."
+
+#: pages/user_scheduledtasks_edit.php:159
+msgid "The scheduled task has been successfully added."
+msgstr "Die geplante Aufgabe wurde erfolgreich hinzugefügt."
+
+#: pages/user_scheduledtasks_edit.php:161
+msgid "The scheduled task has been successfully updated."
+msgstr "Die geplante Aufgabe wurde erfolgreich aktualisiert."
+
+#: pages/user_scheduledtasks_edit.php:169
+msgid "Invalid input for field \"Command\"."
+msgstr "Ungültige Angabe im Feld \"Befehl\"."
+
+#: pages/user_scheduledtasks_edit.php:172
+msgid "Invalid input for field \"Schedule\"."
+msgstr "Ungültige Angabe im Feld \"Zeitplan\"."
+
+#: pages/user_scheduledtasks_edit.php:175
+msgid "Invalid input for field \"Email\"."
+msgstr "Ungültige Angabe im Feld \"E-Mail\"."
+
+#: pages/user_webstats.php:43
+msgid ""
+"You use the web statistics for the first time.<br>In order to make the "
+"statistics only available to you alone, it is important that you first "
+"<u>set a password for access</u>.<br>Use the password change option below. "
+"The password can be changed later, as often as you want."
+msgstr ""
+"Sie verwenden die Webstatistik das erste Mal.<br>Um die Statistik nur Ihnen "
+"allein zugänglich zu machen, ist es wichtig, dass Sie <u>zuerst ein Passwort "
+"für den Zugriff festlegen</u>.<br>Nutzen Sie dazu die unten aufgeführte "
+"Möglichkeit zur Passwortänderung. Das Passwort können Sie später beliebig "
+"oft ändern."
+
+#: pages/user_webstats.php:80
+msgid ""
+"There are currently no statistics for your domains. Please try again later."
+msgstr ""
+"Es liegen noch keine Statistiken zu Ihren Domains vor. Bitte versuchen Sie "
+"es später noch einmal."
+
+#: pages/user_webstats.php:124
+msgid ""
+"The password for accessing your web statistics was changed successfully."
+msgstr "Das Zugriffspasswort für Ihre Webstatistik wurde erfolgreich geändert."
+
+#~ msgid ""
+#~ "Your email address must have at least one character and should only "
+#~ "contain letters, numbers and the special characters \"-\", \"_\" and \"."
+#~ "\". Special characters can not be at the beginning or at the end of the "
+#~ "email address."
+#~ msgstr ""
+#~ "Ihre E-Mail-Adresse muss aus mindestens einem Zeichen bestehen und darf "
+#~ "nur Buchstaben, Zahlen sowie die Sonderzeichen \"-\", \"_\" und \".\" "
+#~ "enthalten. Sonderzeichen dürfen nicht am Anfang oder am Ende der E-Mail-"
+#~ "Adresse stehen."
+
+#~ msgid "The default index page was reset to default"
+#~ msgstr ""
+#~ "Die Standard Index Seite wurde auf Standardeinstellungen zurückgesetzt."
+
+#~ msgid "Let's Encrypt subscriber agreement URL seems not correct."
+#~ msgstr "Let's Encrypt Teilnahmevereinbarungs-URL scheint nicht korrekt."

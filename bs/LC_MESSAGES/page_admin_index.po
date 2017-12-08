@@ -1,0 +1,163 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:125
+msgid "Overview"
+msgstr "Pregled"
+
+#: functions/functions.translationStrings.php:126
+msgid "General information"
+msgstr "Osnovne informacije"
+
+#: functions/functions.translationStrings.php:127
+msgid "MySQL databases"
+msgstr "MySQl Baze Podataka"
+
+#: functions/functions.translationStrings.php:128
+msgid "User accounts"
+msgstr "Korisnicki nalozi"
+
+#: functions/functions.translationStrings.php:129
+msgid "Email addresses"
+msgstr "E-Mail adrese"
+
+#: functions/functions.translationStrings.php:130
+msgid "Mailboxes"
+msgstr "Mailboxovi"
+
+#: functions/functions.translationStrings.php:131
+msgid "Scheduled tasks"
+msgstr "Planirani zadaci"
+
+#: functions/functions.translationStrings.php:132
+msgid "Administration panel"
+msgstr "Administracijski Panel"
+
+#: functions/functions.translationStrings.php:133
+msgid "Installed version"
+msgstr "Instalirana verzija"
+
+#: functions/functions.translationStrings.php:134
+msgid "Latest version"
+msgstr "Zadnja verzija"
+
+#: functions/functions.translationStrings.php:135
+msgid "See history of changes"
+msgstr "Pogledaj historiju promjena"
+
+#: functions/functions.translationStrings.php:136
+msgid "Automatic panel updates have been disabled!"
+msgstr "Automatski panel obnovljavanja su onemogucena!"
+
+#: functions/functions.translationStrings.php:137
+msgid "Panel tasks"
+msgstr "Panel zadaci"
+
+#: functions/functions.translationStrings.php:138
+msgid "Label"
+msgstr "Etiketa"
+
+#: functions/functions.translationStrings.php:139
+msgid "Last run"
+msgstr "Zadnje pokretanje"
+
+#: functions/functions.translationStrings.php:140
+msgid "System overview"
+msgstr "Pregled systema"
+
+#: functions/functions.translationStrings.php:141
+msgid "Server time"
+msgstr "Vrijeme Servera"
+
+#: functions/functions.translationStrings.php:142
+msgid "System uptime"
+msgstr "System upaljen od"
+
+#: functions/functions.translationStrings.php:143
+msgid "CPU usage"
+msgstr "Upotreba od CPU"
+
+#: functions/functions.translationStrings.php:144
+msgid "Hard disk usage"
+msgstr "Upotreba HDD"
+
+#: functions/functions.translationStrings.php:145
+msgid "Memory usage"
+msgstr "Upotreba Memorije"
+
+#: functions/functions.translationStrings.php:146
+msgid "Swap usage"
+msgstr "Swap Upotreba"
+
+#: functions/functions.translationStrings.php:147
+msgid "IP address(es)"
+msgstr "IP addresa(e)"
+
+#: functions/functions.translationStrings.php:148
+msgid "Hostname"
+msgstr "Hostname"
+
+#: functions/functions.translationStrings.php:149
+msgid "CPU"
+msgstr "CPU"
+
+#: functions/functions.translationStrings.php:150
+msgid "Operating system"
+msgstr "Operativni system"
+
+#: functions/functions.translationStrings.php:151
+#, fuzzy
+msgid "Web server"
+msgstr "Webserver"
+
+#: functions/functions.translationStrings.php:152
+msgid "PHP version"
+msgstr "PHP verzija"
+
+#: functions/functions.translationStrings.php:153
+msgid "MySQL version"
+msgstr "MySQL verzija"
+
+#: functions/functions.translationStrings.php:154
+msgid "FTP server"
+msgstr "FTP server"
+
+#: functions/functions.translationStrings.php:155
+msgid "Database administration"
+msgstr "Administracija Baze Podataka"
+
+#: functions/functions.translationStrings.php:156
+msgid "Webmail"
+msgstr "Webmail"
+
+#: functions/functions.translationStrings.php:157
+msgid "News"
+msgstr "Novosti"
+
+#: functions/functions.translationStrings.php:158
+msgid "Traffic this month"
+msgstr "Protok Podataka ovog mjeseca"
+
+#: functions/functions.translationStrings.php:159
+msgid "Notes"
+msgstr "Zapisi"
+
+#~ msgid "Warning"
+#~ msgstr "Upozorenje"

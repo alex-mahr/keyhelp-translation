@@ -1,0 +1,189 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminPanelTasks\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:603
+msgid "Panel Tasks Intervals"
+msgstr "Panel zadaci intervali"
+
+#: functions/functions.translationStrings.php:604
+msgid "Last run"
+msgstr "Zadnje pokretanje"
+
+#: functions/functions.translationStrings.php:605
+msgid "Activated?"
+msgstr "Aktivirano?"
+
+#: functions/functions.translationStrings.php:606
+msgid "Interval"
+msgstr "Intervali"
+
+#: functions/functions.translationStrings.php:607
+msgid "Time frame"
+msgstr "Vremenski  Prostor"
+
+#: functions/functions.translationStrings.php:608
+msgid "from"
+msgstr "od"
+
+#: functions/functions.translationStrings.php:609
+msgid "till"
+msgstr "u"
+
+#: functions/functions.translationStrings.php:610
+msgid "o'clock"
+msgstr "sati"
+
+#: functions/functions.translationStrings.php:611
+msgid "every"
+msgstr "svaki"
+
+#: functions/functions.translationStrings.php:612
+msgid "Perform updates"
+msgstr "Izvrsi obnovljavanja"
+
+#: functions/functions.translationStrings.php:613
+msgid ""
+"Performs tasks, that have been commissioned through the administration panel."
+"<br>For example creating a new user, writing configuration files etc."
+msgstr ""
+"Izvrsava zadatke, koje su napravljene sa strane administratorskog panela."
+"<br>Kao naprimjer pravljenje novog korisnika, pisanje konfiguracijskih "
+"fajlova itd."
+
+#: functions/functions.translationStrings.php:615
+msgid "Calculate disk space"
+msgstr "Obracunaj prostor na disku"
+
+#: functions/functions.translationStrings.php:616
+msgid "Calculates the disk space consumed by user accounts."
+msgstr "Obracunaje prostor na disku zauzet sa strane korisnickih naloga."
+
+#: functions/functions.translationStrings.php:617
+msgid "Update statistics"
+msgstr "Obnovi statistike"
+
+#: functions/functions.translationStrings.php:618
+msgid "Updates the traffic usage and the web statistics of user accounts."
+msgstr ""
+"Obnovljava upotrebu protoka podataka i web statistike od korisnickih naloga."
+
+#: functions/functions.translationStrings.php:619
+msgid "Perform automatic panel updates"
+msgstr "Izvrsava automaska panel obnovljavanja"
+
+#: functions/functions.translationStrings.php:620
+msgid ""
+"Keeps the administration panel up to date and installs newer versions as "
+"they are released."
+msgstr "Odrzava panel i instalira najnovije verzije cim prije budu dostupne."
+
+#: functions/functions.translationStrings.php:621
+msgid "Keep server services up to date"
+msgstr "Odrzava servise na najnovijem stanju"
+
+#: functions/functions.translationStrings.php:622
+msgid ""
+"Installs, if available, newer, improved versions of services/packages, which "
+"are already installed on the server.<br>(apt-get update & apt-get upgrade)"
+msgstr ""
+"Instalira ako je dostupno najnovije verzija od servisa koje koristi ovaj "
+"administrativni panel.<br>(apt-get update & apt-get upgrade)"
+
+#: functions/functions.translationStrings.php:624
+msgid "Session data cleanup"
+msgstr "Ciscenje sesija"
+
+#: functions/functions.translationStrings.php:625
+msgid ""
+"Deletes unused PHP sessions from the temporary folder of the user accounts."
+msgstr ""
+"Brise vise nepotrebne sesije od PHP Interpretera sa strane korisnickih "
+"naloga."
+
+#: functions/functions.translationStrings.php:626
+msgid "Antivirus scanner"
+msgstr "Antivirus skener"
+
+#: functions/functions.translationStrings.php:627
+msgid "Performs a virus check."
+msgstr "Izvrsava skeniranje protiv virusa."
+
+#: functions/functions.translationStrings.php:628
+#: functions/functions.translationStrings.php:631
+#: functions/functions.translationStrings.php:635
+msgid "You can configure it here:"
+msgstr "Vi to mozete podesiti ovdje:"
+
+#: functions/functions.translationStrings.php:628
+#: functions/functions.translationStrings.php:635
+msgid "Settings >> Server"
+msgstr "Podesavanja >> Servera"
+
+#: functions/functions.translationStrings.php:629
+msgid "Maintenance of SSL certificates"
+msgstr "Odrzavanje SSl Zertifikata"
+
+#: functions/functions.translationStrings.php:630
+msgid ""
+"Checks if SSL certificates are going to expire, performs Let's Encrypt "
+"certificate update and other SSL related maintenance work."
+msgstr ""
+"Provjerava dali zertifikati isticu i priprema obnovljavanje Let's Encrypt "
+"zertifikata kao i ostala SSL odrzavanja."
+
+#: functions/functions.translationStrings.php:631
+msgid "Settings >> Panel Settings"
+msgstr "Podesavanja >> Panel Podesavanja"
+
+#: functions/functions.translationStrings.php:632
+msgid "Repository update"
+msgstr "Repozitorij obnovljavanje"
+
+#: functions/functions.translationStrings.php:633
+msgid ""
+"This job is responsible for receiving and updating packages, which are "
+"located inside KeyHelp's own repository."
+msgstr ""
+"Ovaj posao odrzava repozitorij od KeyHelp koje su samo potrebne ovom "
+"administrativnom panelu."
+
+#: functions/functions.translationStrings.php:634
+msgid "E.g. update of the optional PHP interpreter packages."
+msgstr "Kao naprimjer obnovljavanje dodatnih PHP Interpretera."
+
+#~ msgid "SSL certificate maintenance"
+#~ msgstr "SSL zertifikat podesavanja"
+
+#~ msgid ""
+#~ "You can configure it here: <a href=\"index.php?page=admin_server"
+#~ "\">Settings >> Server</a>"
+#~ msgstr ""
+#~ "Vi to mozete podesiti ovdje: <a href=\"index.php?page=admin_server"
+#~ "\">Podesavanja >> Servera</a>"
+
+#~ msgid ""
+#~ "You can configure it here: <a href=\"index.php?page=admin_panel"
+#~ "\">Settings >> Panel Settings</a>"
+#~ msgstr ""
+#~ "Vi to mozete podesiti ovdje: <a href=\"index.php?page=admin_server"
+#~ "\">Podesavanja >> Panel Podesavanja</a>"
+
+#~ msgid "Let's Encrypt certificate update"
+#~ msgstr "Let's Encrypt zertifikat obnova"

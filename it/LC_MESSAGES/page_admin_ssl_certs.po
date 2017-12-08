@@ -1,0 +1,242 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminSslCerts\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:538
+msgid "Available SSL certificates"
+msgstr "Certificati SSL disponibili"
+
+#: functions/functions.translationStrings.php:539
+msgid "Add SSL certificate"
+msgstr "Aggiungi certificato SSL"
+
+#: functions/functions.translationStrings.php:540
+msgid "Name"
+msgstr "Nome"
+
+#: functions/functions.translationStrings.php:541
+msgid "Define certificate for server services"
+msgstr "Definire il certificato per i servizi server"
+
+#: functions/functions.translationStrings.php:542
+msgid "KeyHelp - web interface"
+msgstr "Interfaccia web - KeyHelp"
+
+#: functions/functions.translationStrings.php:543
+msgid "Email"
+msgstr "Email"
+
+#: functions/functions.translationStrings.php:544
+msgid "FTP"
+msgstr "FTP"
+
+#: functions/functions.translationStrings.php:545
+msgid "Webmail subdomain"
+msgstr "Webmail sottodominio"
+
+#: functions/functions.translationStrings.php:546
+msgid "Private key"
+msgstr "Chiave privata"
+
+#: functions/functions.translationStrings.php:547
+msgid "Valid till"
+msgstr "Valido fino a"
+
+#: functions/functions.translationStrings.php:548
+msgid "CSR"
+msgstr "CSR"
+
+#: functions/functions.translationStrings.php:549
+msgid "Certificate"
+msgstr "Certificato"
+
+#: functions/functions.translationStrings.php:550
+msgid "CA certificate"
+msgstr "Certificato CA"
+
+#: functions/functions.translationStrings.php:551
+msgid "Used"
+msgstr "Usato"
+
+#: functions/functions.translationStrings.php:552
+msgid "Generate certificate by KeyHelp"
+msgstr "Genera un certificato usando KeyHelp"
+
+#: functions/functions.translationStrings.php:553
+msgid "Upload certificate files"
+msgstr "Carica file certificato"
+
+#: functions/functions.translationStrings.php:554
+msgid "Upload certificate as text"
+msgstr "Carica il certificato come txt"
+
+#: functions/functions.translationStrings.php:555
+msgid ""
+"<b>Use this form when you generate a certificate request, or if you want to "
+"create a self-signed certificate.</b><br>- a certificate request (CSR) "
+"contains information about your domain indicated on the form, that you can "
+"send to a certification center. Then, a certificate will be issued, that you "
+"can add to this certificate via upload.<br>- instead of a certificate "
+"authority a self-signed certificate will be signed by the creator himself. "
+"Such a certificate allows the use of SSL, but it is considered less reliable "
+"and less secure.<br><br>Please avoid the use of special characters and "
+"umlauts  at the input and describe them if possible."
+msgstr ""
+"<b> Utilizza questo modulo quando generi una richiesta di certificato o se "
+"desideri creare un certificato auto-firmato. </ B> <br> - una richiesta di "
+"certificato (CSR) contiene informazioni sul tuo dominio indicato nel modulo "
+"ed è possibile inviarlo ad un centro di certificazione. Quindi verrà "
+"rilasciato un certificato che puoi aggiungere a questo certificato tramite "
+"il caricamento. <br> - al posto di un'autorità di certificazione un "
+"certificato autofirmato verrà firmato dal creatore stesso. Tale certificato "
+"consente l'utilizzo di SSL, ma è considerato meno affidabile e meno sicuro. "
+"<br> <br> Vi preghiamo di evitare l'uso di caratteri speciali e umlaut "
+"all'ingresso e descriverli se possibile."
+
+#: functions/functions.translationStrings.php:559
+msgid ""
+"<b>Use this form if you want to upload a certificate using the file "
+"components (*.key, *.crt, *-ca.crt).</b>"
+msgstr ""
+"<b>Utilizzare questo modulo se si desidera caricare un certificato "
+"utilizzando i componenti di file (*.key, *.crt, *-ca.crt).</b>"
+
+#: functions/functions.translationStrings.php:560
+msgid ""
+"<b>Use this form, if you want to upload the certificate components (*.key, *."
+"crt, *-ca.crt) as text.</b><br>Copy the content of the relevant file into "
+"the appropriate panel."
+msgstr ""
+"<b>Utilizzare questo modulo, se si desidera caricare i componenti di "
+"certificato (*.key, *.crt, ca.crt) come testo.</b><br>Copiare il contenuto "
+"del file appropriato nel riquadro appropriato."
+
+#: functions/functions.translationStrings.php:562
+msgid "Choose form to create a certificate:"
+msgstr "Scegliere modulo per creare un certificato:"
+
+#: functions/functions.translationStrings.php:563
+msgid "Name of certificate"
+msgstr "Nome del certificato"
+
+#: functions/functions.translationStrings.php:564
+msgid "Key length"
+msgstr "Lunghezza chiave"
+
+#: functions/functions.translationStrings.php:565
+msgid "Rename"
+msgstr "Rinomina"
+
+#: functions/functions.translationStrings.php:566
+msgid "Bit"
+msgstr "Bit"
+
+#: functions/functions.translationStrings.php:567
+msgid "Country"
+msgstr "Nazione"
+
+#: functions/functions.translationStrings.php:568
+msgid "State / province / region"
+msgstr "Stato / provincia / regione"
+
+#: functions/functions.translationStrings.php:569
+msgid "Locality / city"
+msgstr "Località (città)"
+
+#: functions/functions.translationStrings.php:570
+msgid "Organization / company"
+msgstr "Organizzazione / azienda"
+
+#: functions/functions.translationStrings.php:571
+msgid "Department name in organization"
+msgstr "Nome del dipartimento nell'organizzazione"
+
+#: functions/functions.translationStrings.php:572
+msgid "Domain"
+msgstr "Dominio"
+
+#: functions/functions.translationStrings.php:573
+msgid ""
+"Enter the exact domain name, which must be protected by the certificate. The "
+"certificate is only valid for this input."
+msgstr ""
+"Immettere il nome di dominio esatto che deve essere protetto dal "
+"certificato. Il certificato è valido solo per questo dominio."
+
+#: functions/functions.translationStrings.php:574
+msgid "Email of the responsible person"
+msgstr "E-mail della persona responsabile"
+
+#: functions/functions.translationStrings.php:575
+msgid "What should to be created?"
+msgstr "Che cosa dovrebbe essere creato?"
+
+#: functions/functions.translationStrings.php:576
+msgid "Certificate request (CSR)"
+msgstr "Richiesta di certificato (CSR)"
+
+#: functions/functions.translationStrings.php:577
+msgid "Self-signed certificate"
+msgstr "Certificato autofirmato"
+
+#: functions/functions.translationStrings.php:578
+msgid "Validity"
+msgstr "Validità"
+
+#: functions/functions.translationStrings.php:579
+msgid "Validation period"
+msgstr "Periodo di convalida"
+
+#: functions/functions.translationStrings.php:580
+msgid "Properties of certificate"
+msgstr "Proprietà del certificato"
+
+#: functions/functions.translationStrings.php:581
+msgid "Certificate update via file upload"
+msgstr "Aggiornamento del certificato tramite upload di file"
+
+#: functions/functions.translationStrings.php:582
+msgid "Certificate update via text upload"
+msgstr "Aggiornamento del certificato tramite caricamento di testo"
+
+#: functions/functions.translationStrings.php:583
+msgid "Current contents of the certificate"
+msgstr "Contenuto corrente del certificato"
+
+#: functions/functions.translationStrings.php:584
+msgid "This component is not deposited"
+msgstr "Questo componente non è depositato"
+
+#: functions/functions.translationStrings.php:585
+msgid "Components"
+msgstr "Componenti"
+
+#: functions/functions.translationStrings.php:586
+msgid "Warning, this certificate is already in use!"
+msgstr "Attenzione, questo certificato è già in uso!"
+
+#: functions/functions.translationStrings.php:587
+msgid "Certificate Signing Request (CSR)"
+msgstr "Certificato di firma richiesta (CSR)"
+
+#: functions/functions.translationStrings.php:588
+msgid "Used for"
+msgstr "Utilizzati per"
+
+#~ msgid "Are you sure you want to delete the selected certificate?"
+#~ msgstr "Sicuro di voler cancellare il certificato selezionato?"

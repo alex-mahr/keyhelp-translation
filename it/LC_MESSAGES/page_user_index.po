@@ -1,0 +1,188 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:778
+msgid "Overview"
+msgstr "Panoramica"
+
+#: functions/functions.translationStrings.php:779
+msgid "Total"
+msgstr "Totale"
+
+#: functions/functions.translationStrings.php:780
+msgid "Account Information"
+msgstr "Informazioni Account"
+
+#: functions/functions.translationStrings.php:781
+msgid "Main domain(s)"
+msgstr "Dominio principale"
+
+#: functions/functions.translationStrings.php:782
+msgid "Emails"
+msgstr "Email"
+
+#: functions/functions.translationStrings.php:783
+msgid "MySQL-DBs"
+msgstr "MySQL-DBs"
+
+#: functions/functions.translationStrings.php:784
+msgid "Webspace"
+msgstr "Spazio web"
+
+#: functions/functions.translationStrings.php:785
+msgid "Disk space"
+msgstr "Spazio su disco"
+
+#: functions/functions.translationStrings.php:786
+msgid "Please note, what happens, when your disk space is 100&#37; used up:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:787
+msgid "- You can not upload more data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:788
+msgid "- You can not receive emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:789
+msgid "- Your database privileges will be restricted"
+msgstr ""
+
+#: functions/functions.translationStrings.php:790
+msgid "Email address for automatic server messages"
+msgstr ""
+"Indirizzo di posta elettronica impostato per i  messaggi automatici del "
+"server"
+
+#: functions/functions.translationStrings.php:791
+msgid ""
+"- If you ever forget your password, you can request a new one using this "
+"email address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:792
+msgid ""
+"- Administrators can send you messages to indicate possible maintenance etc."
+msgstr ""
+
+#: functions/functions.translationStrings.php:793
+msgid ""
+"- Warning emails will be sent if only 10&#37; of your maximum available disk "
+"space is left"
+msgstr ""
+
+#: functions/functions.translationStrings.php:794
+msgid "Change now"
+msgstr "Modifica adesso"
+
+#: functions/functions.translationStrings.php:795
+msgid "MySQL databases"
+msgstr "Database MySQL"
+
+#: functions/functions.translationStrings.php:796
+msgid "Email addresses"
+msgstr "Indirizzi Email"
+
+#: functions/functions.translationStrings.php:797
+msgid "Mailboxes"
+msgstr "Caselle di posta"
+
+#: functions/functions.translationStrings.php:798
+msgid "Scheduled tasks"
+msgstr "Attività pianificate"
+
+#: functions/functions.translationStrings.php:799
+msgid "Activated services / privileges"
+msgstr "Servizi / privilegi attivati"
+
+#: functions/functions.translationStrings.php:800
+msgid "Directory listing"
+msgstr "Directory Listing"
+
+#: functions/functions.translationStrings.php:801
+msgid ""
+"If this option is enabled the files located in a web folder are shown as "
+"file lists in the browser even if there is no index file (e.g. index.html, "
+"index.php)."
+msgstr ""
+"Se questa opzione è abilitata i file che si trovano in una cartella web "
+"vengono visualizzati come file vengono elencati nel browser anche se non "
+"esiste alcun file di indice (index. html, index. php)."
+
+#: functions/functions.translationStrings.php:802
+msgid "Current state: Enabled"
+msgstr "Stato attuale: abilitato"
+
+#: functions/functions.translationStrings.php:803
+msgid "Current state: Disabled"
+msgstr "Stato attuale: disabilitato"
+
+#: functions/functions.translationStrings.php:804
+msgid "(current / maximum - in percent)"
+msgstr "(corrente / massima - in percentuale)"
+
+#: functions/functions.translationStrings.php:805
+msgid "(current / maximum)"
+msgstr "(corrente / massima)"
+
+#: functions/functions.translationStrings.php:806
+msgid "Absolute path to your home directory"
+msgstr "Percorso assoluto alla home directory"
+
+#: functions/functions.translationStrings.php:807
+msgid "Consumed traffic this month"
+msgstr "Traffico consumato questo mese"
+
+#: functions/functions.translationStrings.php:808
+msgid "Total traffic"
+msgstr "Traffico totale generato"
+
+#: functions/functions.translationStrings.php:809
+msgid "No main domains have been assigned to you."
+msgstr ""
+
+#: functions/functions.translationStrings.php:810
+msgid "This domain has been disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:811
+msgid "DISABLED"
+msgstr ""
+
+#~ msgid ""
+#~ "Please note, if your disk space reaches 100%:<br>- you can not upload "
+#~ "more data<br>- you can not receive emails<br>- your database rights will "
+#~ "be limited"
+#~ msgstr ""
+#~ "Siete pregati di notare che se lo spazio su disco raggiunge il 100%:<br>-"
+#~ "non è possibile caricare ulteriori dati<br>-non è possibile ricevere "
+#~ "messaggi di posta elettronica<br>-i tuoi diritti di database sarnno "
+#~ "limitati"
+
+#~ msgid ""
+#~ "- If you ever forget your password, you can request a new one using this "
+#~ "email address.<br>- Administrators can send you messages to indicate "
+#~ "possible maintenance etc.<br>- Warning emails will be sent if only "
+#~ "10&#37; of your maximum available memory space is available."
+#~ msgstr ""
+#~ "-Se dimentichi la password, è possibile richiederne una nuova utilizzando "
+#~ "questo indirizzo email.<br>-Gli amministratori possono inviare messaggi "
+#~ "per indicare possibili manutenzione ecc.<br>-Avviso e-mail verranno "
+#~ "inviate se solo il 10% del vostro spazio su dico è disponibile."

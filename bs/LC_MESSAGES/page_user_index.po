@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:778
+msgid "Overview"
+msgstr "Pregled"
+
+#: functions/functions.translationStrings.php:779
+msgid "Total"
+msgstr "Ukupno"
+
+#: functions/functions.translationStrings.php:780
+msgid "Account Information"
+msgstr "Informacije o nalogu"
+
+#: functions/functions.translationStrings.php:781
+msgid "Main domain(s)"
+msgstr "E-Mail domena(e)"
+
+#: functions/functions.translationStrings.php:782
+msgid "Emails"
+msgstr "E-Mailovi"
+
+#: functions/functions.translationStrings.php:783
+msgid "MySQL-DBs"
+msgstr "MySQL - Baze Podataka"
+
+#: functions/functions.translationStrings.php:784
+msgid "Webspace"
+msgstr "Webprostor"
+
+#: functions/functions.translationStrings.php:785
+msgid "Disk space"
+msgstr "Prostor na disku"
+
+#: functions/functions.translationStrings.php:786
+msgid "Please note, what happens, when your disk space is 100&#37; used up:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:787
+msgid "- You can not upload more data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:788
+msgid "- You can not receive emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:789
+msgid "- Your database privileges will be restricted"
+msgstr ""
+
+#: functions/functions.translationStrings.php:790
+msgid "Email address for automatic server messages"
+msgstr "E-Mail adresa za automaske poruke"
+
+#: functions/functions.translationStrings.php:791
+msgid ""
+"- If you ever forget your password, you can request a new one using this "
+"email address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:792
+msgid ""
+"- Administrators can send you messages to indicate possible maintenance etc."
+msgstr ""
+
+#: functions/functions.translationStrings.php:793
+msgid ""
+"- Warning emails will be sent if only 10&#37; of your maximum available disk "
+"space is left"
+msgstr ""
+
+#: functions/functions.translationStrings.php:794
+msgid "Change now"
+msgstr "Promjeni sada"
+
+#: functions/functions.translationStrings.php:795
+msgid "MySQL databases"
+msgstr "MySQl Baze Podataka"
+
+#: functions/functions.translationStrings.php:796
+msgid "Email addresses"
+msgstr "E-Mail adrese"
+
+#: functions/functions.translationStrings.php:797
+msgid "Mailboxes"
+msgstr "Mailboxovi"
+
+#: functions/functions.translationStrings.php:798
+msgid "Scheduled tasks"
+msgstr "Planirani zadaci"
+
+#: functions/functions.translationStrings.php:799
+msgid "Activated services / privileges"
+msgstr "Servisi / Privilegije"
+
+#: functions/functions.translationStrings.php:800
+msgid "Directory listing"
+msgstr "Listovanje Direktorije"
+
+#: functions/functions.translationStrings.php:801
+msgid ""
+"If this option is enabled the files located in a web folder are shown as "
+"file lists in the browser even if there is no index file (e.g. index.html, "
+"index.php)."
+msgstr ""
+"Ako je omoguceno, fajlovi koji se nalaze u vasoj web mapi bice prikazani kao "
+"lista fajlova u pretrazivacu u slucaju ako nepostoji index fajl (kao na "
+"primjer: index.html ili index.php\n"
+"#  0 )."
+
+#: functions/functions.translationStrings.php:802
+msgid "Current state: Enabled"
+msgstr "Trenutno stanje: Omoguceno"
+
+#: functions/functions.translationStrings.php:803
+msgid "Current state: Disabled"
+msgstr "Trenutno stanje: Onemoguceno"
+
+#: functions/functions.translationStrings.php:804
+msgid "(current / maximum - in percent)"
+msgstr "(trenutno / maksimalno - u porcentima)"
+
+#: functions/functions.translationStrings.php:805
+msgid "(current / maximum)"
+msgstr "(trenutno / maksimalno)"
+
+#: functions/functions.translationStrings.php:806
+msgid "Absolute path to your home directory"
+msgstr "Absoulutni put do vase kucne direktorije"
+
+#: functions/functions.translationStrings.php:807
+msgid "Consumed traffic this month"
+msgstr "Protok Podataka ovog mjeseca"
+
+#: functions/functions.translationStrings.php:808
+msgid "Total traffic"
+msgstr "Totalni protok podataka"
+
+#: functions/functions.translationStrings.php:809
+msgid "No main domains have been assigned to you."
+msgstr ""
+
+#: functions/functions.translationStrings.php:810
+msgid "This domain has been disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:811
+msgid "DISABLED"
+msgstr ""
+
+#~ msgid ""
+#~ "Please note, if your disk space reaches 100%:<br>- you can not upload "
+#~ "more data<br>- you can not receive emails<br>- your database rights will "
+#~ "be limited"
+#~ msgstr ""
+#~ "Molimo vas imajte u vidu, ako dostignete 100% vaseg prostora na "
+#~ "disku<br>- nemozete uploadovati vise nista<br>- nemozete primati vise "
+#~ "emailova<br>- vasa prava na bazama podataka ce biti ogranicena"
+
+#~ msgid ""
+#~ "- If you ever forget your password, you can request a new one using this "
+#~ "email address.<br>- Administrators can send you messages to indicate "
+#~ "possible maintenance etc.<br>- Warning emails will be sent if only "
+#~ "10&#37; of your maximum available memory space is available."
+#~ msgstr ""
+#~ "- Ako ikad zaboravite lozinku, vi mozete zatraziti jednu novu koristeci "
+#~ "ovu E-Mail adresu.<br>- Administratori vam mogu slati E-Mails za potrebne "
+#~ "radove itd.<br>- Upozoravajuci E-Mailovi ce biti poslati samo ako je "
+#~ "10&#37; od vase dozvoljene memorije dostupno."

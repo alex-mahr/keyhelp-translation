@@ -1,0 +1,2973 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp (Panel)\n"
+"POT-Creation-Date: 2017-11-20 14:02+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2;_n:1,2;_en:1,2;_pgettext:1c,2;"
+"_p:1c,2;_ep:1c,2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: install\n"
+"X-Poedit-SearchPathExcluded-1: incl/vendor\n"
+"X-Poedit-SearchPathExcluded-2: _misc\n"
+"X-Poedit-SearchPathExcluded-3: _extern\n"
+"X-Poedit-SearchPathExcluded-4: theme\n"
+
+#: core/Cli/CliControl.php:166 core/pending/EventLogger.php:106
+#: incl/page/admin_logs_servermsg.php:54
+msgid "Error"
+msgstr "Greska"
+
+#: core/Cli/CliControl.php:214
+msgid "Your Administration-Panel"
+msgstr "Vas Administracijski-Panel"
+
+#: core/Cli/CliControl.php:242
+msgid "This application requires root privileges."
+msgstr "Ova aplikacija zahtjeva root privilegije."
+
+#: core/Cli/CliControl.php:255
+msgid "This application requires to be run in CLI mode."
+msgstr "Ova aplikacija zahtjeva da bude pokrenuta u CLI Modusu."
+
+#: core/Firewall/Iptables.php:406
+msgid "Invalid default policy"
+msgstr "Netacna zadana polisa"
+
+#: core/Firewall/Iptables.php:412 core/Firewall/Iptables.php:419
+#, php-format
+msgid "Required chain \"%s\" is missing"
+msgstr "Potrebni lanac \"%s\" nije dostupan"
+
+#: core/Firewall/Iptables.php:437
+msgid ""
+"Cannot find a rule with (jump-) action \"fail2ban\", this way fail2ban would "
+"not work."
+msgstr ""
+"Nije moguce pronaci pravilo sa jump- akcijom \"fail2ban\", ovim putem "
+"fail2ban nece raditi."
+
+#: core/Firewall/Iptables.php:445
+msgid "Invalid chain name"
+msgstr "Netacno ime lanca"
+
+#: core/Firewall/Iptables.php:484
+#, php-format
+msgid "Duplicate parameter \"%s\""
+msgstr "Duplizirani parametar \"%s\""
+
+#: core/Firewall/Iptables.php:501
+#, php-format
+msgid "Missing value for parameter \"%s\""
+msgstr "Nije dostupna potrebna vrijednost za parametar \"%s\""
+
+#: core/Firewall/Iptables.php:526 core/Firewall/Iptables.php:563
+#: core/Firewall/Iptables.php:576 core/Firewall/Iptables.php:590
+#: core/Firewall/Iptables.php:599
+#, php-format
+msgid "Missing parameter \"%s\""
+msgstr "Nepoznat parametar \"%s\""
+
+#: core/Firewall/Iptables.php:551
+#, php-format
+msgid "The parameter \"%1$s\" requires the jump action \"%2$s\""
+msgstr "Parametar \"%1$s\" zahtjeva preskok akcije \"%2$s\""
+
+#: core/Firewall/Iptables.php:580
+#, php-format
+msgid "Multiport needs \"--protocol\" with one of the following values: %s"
+msgstr ""
+"Multiport zahtjeva \"--protocol\" sa jednom od slijedecih vrijednosti: %s"
+
+#: core/Firewall/Iptables.php:608
+#, php-format
+msgid "Invalid value for parameter \"%s\""
+msgstr "Netacna vrijednost za parametar \"%s\""
+
+#: core/Firewall/Iptables.php:616
+#, php-format
+msgid "The parameters \"%s\" and \"%s\" cannot be used together"
+msgstr "Parametari \"%s\" i \"%s\" nemogu se koristiti zajedno"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:70 core/i18n/KeyhelpLocale.php:82
+msgid "Sunday"
+msgstr "Nedelja"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:71 core/i18n/KeyhelpLocale.php:83
+msgid "Monday"
+msgstr "Ponedeljak"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:72 core/i18n/KeyhelpLocale.php:84
+msgid "Tuesday"
+msgstr "Utorak"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:73 core/i18n/KeyhelpLocale.php:85
+msgid "Wednesday"
+msgstr "Srijeda"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:74 core/i18n/KeyhelpLocale.php:86
+msgid "Thursday"
+msgstr "Cetvrtak"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:75 core/i18n/KeyhelpLocale.php:87
+msgid "Friday"
+msgstr "Petak"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:76 core/i18n/KeyhelpLocale.php:88
+msgid "Saturday"
+msgstr "Subota"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:82
+msgid "Sun"
+msgstr "Ne"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:83
+msgid "Mon"
+msgstr "Po"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:84
+msgid "Tue"
+msgstr "Ut"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:85
+msgid "Wed"
+msgstr "Sr"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:86
+msgid "Thu"
+msgstr "Ce"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:87
+msgid "Fri"
+msgstr "Pe"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:88
+msgid "Sat"
+msgstr "Su"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:94 core/i18n/KeyhelpLocale.php:111
+msgid "January"
+msgstr "Januar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:95 core/i18n/KeyhelpLocale.php:112
+msgid "February"
+msgstr "Februar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:96 core/i18n/KeyhelpLocale.php:113
+msgid "March"
+msgstr "Mart"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:97 core/i18n/KeyhelpLocale.php:114
+msgid "April"
+msgstr "April"
+
+#. Translators: Month name
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:98 core/i18n/KeyhelpLocale.php:115
+msgid "May"
+msgstr "Maj"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:99 core/i18n/KeyhelpLocale.php:116
+msgid "June"
+msgstr "Juni"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:100 core/i18n/KeyhelpLocale.php:117
+msgid "July"
+msgstr "Juli"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:101 core/i18n/KeyhelpLocale.php:118
+msgid "August"
+msgstr "Avgust"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:102 core/i18n/KeyhelpLocale.php:119
+msgid "September"
+msgstr "Septembar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:103 core/i18n/KeyhelpLocale.php:120
+msgid "October"
+msgstr "Oktobar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:104 core/i18n/KeyhelpLocale.php:121
+msgid "November"
+msgstr "Novembar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:105 core/i18n/KeyhelpLocale.php:122
+msgid "December"
+msgstr "Decembar"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:111
+msgid "Jan"
+msgstr "Jan"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:112
+msgid "Feb"
+msgstr "Feb"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:113
+msgid "Mar"
+msgstr "Mar"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:114
+msgid "Apr"
+msgstr "Apr"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:116
+msgid "Jun"
+msgstr "Jun"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:117
+msgid "Jul"
+msgstr "Jul"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:118
+msgid "Aug"
+msgstr "Aug"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:119
+msgid "Sep"
+msgstr "Sep"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:120
+msgid "Oct"
+msgstr "Okt"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:121
+msgid "Nov"
+msgstr "Nov"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:122
+msgid "Dec"
+msgstr "Dec"
+
+#. Translators: Thousands separator for number formatting, default ","
+#: core/i18n/KeyhelpLocale.php:129
+msgid "_number_format_thousands_separator"
+msgstr "."
+
+#. Translators: Decimal separator for number formatting, default "."
+#: core/i18n/KeyhelpLocale.php:131
+msgid "_number_format_decimal_separator"
+msgstr ","
+
+#. Translators: Localized date format (short), see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:253 incl/page/admin_accounts_index.php:356
+#: incl/page/admin_accounts_index.php:364
+#, fuzzy
+msgid "M j, Y"
+msgstr "F j, Y"
+
+#. Translators: Localized date format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:256 incl/page/admin_domain_index.php:343
+#: incl/page/admin_sslcerts_edit.php:86 incl/page/admin_sslcerts_edit.php:87
+#: incl/page/admin_sslcerts_index.php:172
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#. Translators: Localized time + date format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:259 core/pending/AjaxRequest.php:220
+#: incl/page/admin_index.php:196 incl/page/admin_index.php:318
+#: incl/page/admin_logs_servermsg.php:99 incl/page/admin_mailqueue.php:109
+#: incl/page/admin_panel_tasks.php:114 incl/page/backup_index.php:90
+#: incl/page/backup_repository.php:189 index.php:504
+msgid "H:i:s - F j, Y"
+msgstr "H:i:s - d. F Y"
+
+#. Translators: Localized time + date format [short month], see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:262 incl/page/admin_accounts_index.php:121
+#: incl/page/admin_accounts_index.php:404
+#: incl/page/admin_active_sessions.php:87 incl/page/admin_traffic.php:106
+msgid "H:i:s - M j, Y"
+msgstr "H:i:s - M j, Y"
+
+#. Translators: Localized weekday + date + time format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:265 core/pending/AjaxRequest.php:556
+#: incl/page/admin_index.php:119
+msgid "l, F j, Y - H:i:s"
+msgstr "l, d. F Y - H:i:s"
+
+#: core/pending/AjaxRequest.php:112
+msgid "Unable to connect to update server."
+msgstr "Nemoguce konektovanje na update server."
+
+#: core/pending/AjaxRequest.php:118
+msgid "Your version is up to date."
+msgstr "Vasa verzija je na najnovijem stanju."
+
+#: core/pending/AjaxRequest.php:217
+msgid "No information available."
+msgstr "Informacije nisu dostupne."
+
+#: core/pending/AjaxRequest.php:740
+msgid "Export error - malformed data!"
+msgstr "Export greska - nakazani podaci!"
+
+#: core/pending/EventLogger.php:107
+msgid "Notice"
+msgstr "Obavijest"
+
+#: functions/functions.main.php:282
+#: functions/functions.translationStrings.php:47
+msgid "unlimited"
+msgstr "neograniceno"
+
+#: functions/functions.main.php:1442 incl/page/backup_create_backup.php:25
+#: incl/page/backup_index.php:24 incl/page/backup_remote_settings.php:24
+#: incl/page/backup_repository.php:25 incl/page/backup_scheduled_backup.php:25
+#: misc/navigation.php:76 misc/navigation.php:281
+msgid "Backup"
+msgstr "Backup"
+
+#: functions/functions.main.php:1443
+msgid "Panel Access"
+msgstr "Panel Pristup"
+
+#: functions/functions.main.php:1444
+msgid "Modify SSL Settings"
+msgstr "Izmjeni SSL Podesavanja"
+
+#: functions/functions.main.php:1445
+#, fuzzy
+msgid "DNS Editor"
+msgstr "Urednik DNS zona"
+
+#: functions/functions.main.php:1460
+msgid "Everything okay"
+msgstr "Sve je uredu"
+
+#: functions/functions.main.php:1463
+msgid "An error occurred"
+msgstr "Pojavila je se jedna greska"
+
+#: functions/functions.main.php:1467
+msgid "Processing"
+msgstr "U toku"
+
+#: functions/functions.main.php:1470
+msgid "Will be deleted"
+msgstr "Bit ce obrisan"
+
+#: functions/functions.main.php:1474
+msgid "Unknown status"
+msgstr "Nepoznato stanje"
+
+#: functions/functions.main.php:1485
+msgid "No Template / Default"
+msgstr "Bez sablona / Zadano"
+
+#: functions/functions.main.php:1524
+msgid "Failed to gather information from update server."
+msgstr "Nije moguce dobiti informacije sa update servera."
+
+#: functions/functions.main.php:1539
+msgid "Invalid HTTP status code received"
+msgstr "Primljen neispravan HTTP stanje code"
+
+#: functions/functions.main.php:1746 functions/functions.main.php:1815
+#: index.php:442
+#, php-format
+msgid "Minimum of %s character in length"
+msgstr "Najmanje %s znakova u duzini"
+
+#: functions/functions.main.php:1752 functions/functions.main.php:1821
+#: index.php:443
+#, fuzzy
+msgid "Minimum of one character [a-zA-Z]"
+msgstr "Najmanje jedno malo slovo [a-z]"
+
+#: functions/functions.main.php:1758 functions/functions.main.php:1827
+#: index.php:444
+msgid "Minimum of one lowercase character [a-z]"
+msgstr "Najmanje jedno malo slovo [a-z]"
+
+#: functions/functions.main.php:1764 functions/functions.main.php:1833
+#: index.php:445
+msgid "Minimum of one uppercase character [A-Z]"
+msgstr "Najmanje jedno veliko slovo [A-Z]"
+
+#: functions/functions.main.php:1770 functions/functions.main.php:1839
+#: index.php:446
+msgid "Minimum of one digit [0-9]"
+msgstr "Najmanje jedan broj [0-9]"
+
+#: functions/functions.main.php:1776 functions/functions.main.php:1845
+#: index.php:447
+msgid "Minimum of one special character"
+msgstr "Najmanje jedan poseban znak"
+
+#: functions/functions.main.php:2157
+msgid "Hourly ( at {minute} minutes )"
+msgstr "Casovno ( na {minute} Minuta )"
+
+#: functions/functions.main.php:2160
+msgid "Daily ( {hour}:{minute} o'clock )"
+msgstr "Dnevno ( {hour}:{minute} Sat )"
+
+#: functions/functions.main.php:2163
+msgid "Weekly ( {dayOfWeek} | {hour}:{minute} o'clock )"
+msgstr "Sedmicno ( {dayOfWeek} | {hour}:{minute} Sat )"
+
+#: functions/functions.main.php:2166
+msgid "Monthly ( on {dayOfMonth} | {hour}:{minute} o'clock )"
+msgstr "Mjesecno ( na {dayOfMonth} | {hour}:{minute} Sat)"
+
+#: functions/functions.main.php:2169
+msgid "Yearly ( {month} {dayOfMonth} | {hour}:{minute} o'clock )"
+msgstr "Godisnje ( {month} {dayOfMonth} | {hour}:{minute} Sat)"
+
+#: functions/functions.main.php:2238 incl/page/admin_sslcerts_add.php:58
+msgid "Day(s)"
+msgstr "Dan(a)"
+
+#: functions/functions.main.php:2522 incl/page/admin_domain_index.php:312
+#: incl/page/user_domain_index.php:145
+msgid "OS default"
+msgstr "OS zadano"
+
+#: functions/functions.main.php:2532
+msgid "Like main domain"
+msgstr "Kao glavna domena"
+
+#: functions/functions.main.php:2562
+msgid "Error, not executable"
+msgstr "Greska, nije izvrsno"
+
+#: functions/functions.main.php:3110
+#, php-format
+msgid ""
+"The support of your operating system was discontinued by the operating "
+"system manufacturer in %s."
+msgstr ""
+"Podrska vaseg operativnog systema je prekinuta od strane proizvodzaca "
+"operativnog systema u %s."
+
+#: functions/functions.main.php:3111
+msgid ""
+"It has reached its end-of-life status and will not receive any further "
+"system updates."
+msgstr ""
+"Dostignuto je kraj-zivota stanje i nece primati vise buduce sigurnosna "
+"obnovljavanja."
+
+#: functions/functions.main.php:3112 functions/functions.main.php:3118
+msgid "We recommend upgrading to a newer operating system version."
+msgstr "Mi vam preporucujemo obnovljavanje na noviji operativni system."
+
+#: functions/functions.main.php:3116
+#, php-format
+msgid ""
+"The support of your operating system is discontinued by the operating system "
+"manufacturer in %s."
+msgstr ""
+"Podrska vaseg operativnog systema je prekinuta od strane proizvodzaca "
+"operativnog systema u %s."
+
+#: functions/functions.main.php:3117
+msgid ""
+"It will reach its end-of-life status and will not receive any further system "
+"updates."
+msgstr ""
+"Dostignut ce kraj-zivota stanje i nece primati vise buduce sigurnosna "
+"obnovljavanja."
+
+#: functions/functions.main.php:3125
+msgid ""
+"Please don't upgrade your OS manually. We have prepared a script and a step-"
+"by-step instruction, how to perform the upgrade."
+msgstr ""
+"Molimo vas nemojte obnovljavati vas Operativni System rucno. Mi smo "
+"pripremili skriptu i korak-po-korak upustvo, kako izvrisiti obnovljavanje "
+"Operativnog Systema."
+
+#: functions/functions.main.php:3129
+msgid "Further information:"
+msgstr "Daljne Informacije:"
+
+#: functions/functions.main.php:3140
+msgid "Please ask your support for further instructions."
+msgstr "Molimo vas pitajte vasu podrsku za daljne informacije."
+
+#: functions/functions.main.php:3748
+msgid "Google Analytics has been disabled!"
+msgstr "Google Analytics je onemogucen!"
+
+#: functions/functions.main.php:3789
+msgid ""
+"Enjoyed KeyHelp? Request your <a href=\"https://www.keyhelp.de/en/"
+"#installation\" target=\"_blank\">install guide</a> now!"
+msgstr ""
+"Svidja vam se KeyHelp? Zatrazite vase <a href=\"https://www.keyhelp.de/en/"
+"#installation\" target=\"_blank\">Uputstvo za Instalaciju</a> odma!"
+
+#: functions/functions.main.php:3804
+msgid "Data privacy"
+msgstr "Sigurnost Podataka"
+
+#: functions/functions.main.php:3806
+msgid "Visitors statistics (Google Analytics)"
+msgstr "Statistike posjetioca (Google Analytics)"
+
+#: functions/functions.main.php:3807
+msgid ""
+"This website uses Google Analytics, a web analysis service of Google Inc. "
+"(“Google”). Google Analytics uses so-called “Cookies”, which are text files "
+"that are stored on your computer and which enable the analysis of your use "
+"of a website. The information produced by the Cookie about your use of said "
+"website is usually transmitted to a Google server in the USA where they are "
+"stored. In the event of an IP anonymisation on this website your IP address "
+"is first shortened by Google in EU member states or in other contracting "
+"states which are party to the Agreement on the European Economic Area. Only "
+"in exceptional cases is the full IP address transmitted to a Google server "
+"in the USA where it is then shortened. On behalf of the operator of this "
+"website Google will use this information in order to analyse your use of the "
+"website, to compile reports about the website’s activities and in order to "
+"bring further services connected with the use of the website and the "
+"internet for the operator of the website. The IP address that was "
+"transmitted by your browser as part of Google Analytics is not merged with "
+"any other data from Google."
+msgstr ""
+"Ova web stranica koristi Google Analytics, Usluga za web analizu od Google "
+"Inc. ( \"Google\"). Google Analytics koristi takozvane \"Cookies"
+"\" (kolacice), koji su tekstualne datoteke, koje su pohranjene na vasem "
+"racunalu i koje omogucavaju analizu vaseg korisenja ove web stranice. "
+"Informacije producirane od kolacica govore o vasoj upotrebi ove web "
+"stranica. Informacije se obicno prenose na Google Server u SAD-u, gdje su "
+"pohranjeni. U slucaju anonimiziranja vase IP na ovom sajtu, IP adresa prvo "
+"skracena prebacuje se na Google u zemljama koji su clanovi Evropske Unije "
+"ili drugih ugovornih drzava koje su stranke Sporazuma od Evropske Unije. "
+"Samo u izuzetnim slucajevima se puna IP adresa prenosi na Google server u "
+"SAD, gdje se onda skrati. U ime vlasnika ove web stranice ce Google "
+"koristiti ove informacije kako bi se analiziralo vase koristenje ove web "
+"stranice, za sastavljanje izvjestaja o aktivnostima na ovoj web stranici i "
+"kako bi se donijeli daljnje usluge u vezi sa upotrebom ove web stranice. IP "
+"adresa, koju prenosi vas preglednik kao dio Google Analytics nije spojena sa "
+"bilo kojim drugim uslugama od Google."
+
+#: functions/functions.main.php:3808
+msgid "Opt-Out for visitors statistics"
+msgstr "Opt-Out za statistike posjetioca"
+
+#: functions/functions.main.php:3809
+msgid ""
+"You can prevent the storage of Cookies by setting your browser software "
+"accordingly; we would like to point out, however, that if you do so you may "
+"not be able to use all the functions of this website to their full extent. "
+"You can prevent Google Analytics tracking by clicking on the following link. "
+"An opt-out-Cookie is put in place that prevents any future tracking of your "
+"data when visiting the respective website: <a href=\"javascript:"
+"gaOptout()\">Deactivate Google Analytics</a>"
+msgstr ""
+"Mozete sprijeciti Google Analytics za pracenje vase aktivnosti na ovoj Web "
+"stranici klikom na sljedeci link. Bice stavljen Opt-out kolacic koji "
+"sprecava buduce pracenje vasih podataka kada posjetite ovu web stranicu. <a "
+"href=\"javascript:gaOptout()\">Deaktiviraj Google Analytics</a>"
+
+#: functions/functions.main.php:3810
+msgid ""
+"More information on usage terms and data protection can be found <a href="
+"\"http://www.google.com/analytics/terms/gb.html\" target=\"_blank\">here</a> "
+"or <a href=\"https://support.google.com/analytics/answer/6004245?hl=en-GB\" "
+"target=\"_blank\">here</a>. We would like to point out that on this website "
+"Google Analytics was extended by the code „anonymizeIp();“ to safeguard the "
+"anonymized collecting of IP addresses, the so-called IP masking."
+msgstr ""
+"Vise informacija o uslovima upotrebe i zastite podataka mozte naci <a href="
+"\"http://www.google.com/analytics/terms/gb.html\" target=\"_blank\">ovdje</"
+"a> ili <a href=\"https://support.google.com/analytics/answer/6004245?hl=en-GB"
+"\" target=\"_blank\">ovdje</a>. Zeljeli bismo naglasiti da ova web stranica "
+"koristi „anonymizeIp();“ kod koji omogucava anonimno prikupljanje IP adresa, "
+"(tzv. IP-Masking)."
+
+#: functions/functions.main.php:3811
+msgid ""
+"Plus we use Google Analytics to evaluate data from AdWords and DoubleClick "
+"cookies to produce and evaluate statistics. Should you not consent to this, "
+"you can deactivate these in <a href=\"http://www.google.com/settings/ads/"
+"onweb/?hl=en\" target=\"_blank\">ad settings</a>."
+msgstr ""
+"Mi koristimo Google Analytics i za procjenu podataka iz AdWords i duplih "
+"kolacica za statisticke svrhe. Ako ne zelite ovo, mozete to preko <a href="
+"\"http://www.google.com/settings/ads/onweb/?hl=bs\" target=\"_blank"
+"\">Menedzera za Postavke Oglasa</a> onemoguciti."
+
+#: functions/functions.main.php:3813
+msgid "Close window"
+msgstr "Zatvori Prozor"
+
+#: functions/functions.translationStrings.php:35
+#: incl/page/admin_accounts_admin_delete.php:107
+#: incl/page/admin_domain_delete.php:96 incl/page/user_email_index.php:133
+msgid "Yes"
+msgstr "Da"
+
+#: functions/functions.translationStrings.php:36
+#: incl/page/admin_accounts_admin_delete.php:107
+#: incl/page/admin_domain_delete.php:96 incl/page/user_email_index.php:133
+msgid "No"
+msgstr "Nein"
+
+#: functions/functions.translationStrings.php:37
+msgid "Okay"
+msgstr "Uredu"
+
+#: functions/functions.translationStrings.php:38
+msgid "Cancel"
+msgstr "Prekini"
+
+#: functions/functions.translationStrings.php:39
+msgid "Password"
+msgstr "Passwort"
+
+#: functions/functions.translationStrings.php:40
+msgid "Confirm password"
+msgstr "Potvrdi Lozinku"
+
+#: functions/functions.translationStrings.php:41
+msgid "Password doesn't match confirmation"
+msgstr "Lozinka se nepoklapa sa povrdom"
+
+#: functions/functions.translationStrings.php:42
+msgid "Suggest password"
+msgstr "Preporucena Lozinka"
+
+#: functions/functions.translationStrings.php:43
+msgid "Generate password"
+msgstr "Generiraj Lozinku"
+
+#: functions/functions.translationStrings.php:44
+msgid "Options"
+msgstr "Opcije"
+
+#: functions/functions.translationStrings.php:45
+msgid "This field must be filled out!"
+msgstr "Ovo polje mora biti ispunjeno!"
+
+#: functions/functions.translationStrings.php:46
+msgid "(leave blank to keep current password)"
+msgstr "(Ostavite prazno da zadrzite sadasnju lozinku)"
+
+#: functions/functions.translationStrings.php:48
+msgid "Delete selection"
+msgstr "Obrisi odabrano"
+
+#: functions/functions.translationStrings.php:49
+#: incl/page/admin_accounts_index.php:140
+msgid "Username"
+msgstr "Korisnicko Ime"
+
+#: functions/functions.translationStrings.php:50
+msgid "Logged in as"
+msgstr "Prijavljeni kao"
+
+#: functions/functions.translationStrings.php:51
+msgid "Log out"
+msgstr "Odjava"
+
+#: functions/functions.translationStrings.php:52
+msgid "Folder explorer"
+msgstr "Pretrazivac mapa"
+
+#: functions/functions.translationStrings.php:53 index.php:449
+msgid "Open folder explorer"
+msgstr "Otvori istrazivac mapa"
+
+#: functions/functions.translationStrings.php:54 index.php:448
+msgid "Close folder explorer"
+msgstr "Zatvori istrazivac mapa"
+
+#: functions/functions.translationStrings.php:55
+#: incl/page/admin_domain_add.php:25 incl/page/admin_domain_delete.php:24
+#: incl/page/admin_domain_edit.php:26 incl/page/admin_domain_index.php:25
+#: incl/page/user_domain_add.php:24 incl/page/user_domain_delete.php:24
+#: incl/page/user_domain_edit.php:27 incl/page/user_domain_index.php:25
+#: incl/page/user_domain_logs.php:24 misc/navigation.php:41
+#: misc/navigation.php:45 misc/navigation.php:231 misc/navigation.php:235
+msgid "Domains"
+msgstr "Domene"
+
+#: functions/functions.translationStrings.php:56
+#: incl/page/admin_accounts_user_add.php:258
+#: incl/page/admin_accounts_user_edit.php:305
+msgid "Subdomains"
+msgstr "Subdomene"
+
+#: functions/functions.translationStrings.php:57
+#: incl/page/admin_accounts_user_add.php:259
+#: incl/page/admin_accounts_user_edit.php:306
+msgid "FTP users"
+msgstr "FTP korisnici"
+
+#: functions/functions.translationStrings.php:58
+msgid "No entries available"
+msgstr "Nikakvi upisi dostupni"
+
+#: functions/functions.translationStrings.php:59
+msgid "Description"
+msgstr "Opis"
+
+#: functions/functions.translationStrings.php:60
+msgid "Email address"
+msgstr "E-Mail adresa"
+
+#: functions/functions.translationStrings.php:61
+msgid "Language"
+msgstr "Jezik"
+
+#: functions/functions.translationStrings.php:62
+msgid "Is enabled"
+msgstr "Je omogucen"
+
+#: functions/functions.translationStrings.php:63
+msgid ""
+"Please confirm the deletion of the displayed elements by activating the "
+"following checkbox."
+msgstr ""
+
+#: functions/functions.translationStrings.php:64
+#, fuzzy
+msgid "Confirmation"
+msgstr "Zugangsdaten"
+
+#: functions/functions.translationStrings.php:65
+#, fuzzy
+msgid "Delete"
+msgstr "Löschen"
+
+#: functions/functions.translationStrings.php:66
+msgid "ATTENTION"
+msgstr "ACHTUNG"
+
+#: functions/functions.translationStrings.php:67
+msgid "WARNING"
+msgstr ""
+
+#: functions/functions.translationStrings.php:69
+msgid "Back to overview"
+msgstr "Nazad na pregled"
+
+#: functions/functions.translationStrings.php:70
+msgid "Save"
+msgstr "Sacuaj"
+
+#: functions/functions.translationStrings.php:71
+#, fuzzy
+msgid "Continue"
+msgstr "Kontakt Ime"
+
+#: functions/functions.translationStrings.php:72
+#, fuzzy
+msgid "Reset to default"
+msgstr "OS zadano"
+
+#: functions/functions.translationStrings.php:79
+msgid "JavaScript is disabled"
+msgstr "JavaScript je nedostupan"
+
+#: functions/functions.translationStrings.php:80
+msgid ""
+"Please activate JavaScript in the settings of your browser or use a browser "
+"which supports JavaScript."
+msgstr ""
+"Molimo vas aktivirajte JavaScript u vasem Pretrazivacu ili koristite "
+"Pretrazivac koji podrzava JavaScript."
+
+#: functions/functions.translationStrings.php:81
+msgid "Login"
+msgstr "Prijava"
+
+#: functions/functions.translationStrings.php:82
+msgid "Forgot password?"
+msgstr "Zaboravili ste Lozinku?"
+
+#: functions/functions.translationStrings.php:83
+msgid "Back to login"
+msgstr "Nazad na prijavu"
+
+#: functions/functions.translationStrings.php:84
+#: functions/functions.translationStrings.php:91
+msgid "Reset password"
+msgstr "Resetuj lozinku"
+
+#: functions/functions.translationStrings.php:85
+msgid "Sorry,<br>but the requested domain is not available."
+msgstr "Zao nam je,<br> ali trazena domena nije dostupna."
+
+#: functions/functions.translationStrings.php:86
+msgid ""
+"Due to maintenance the administration interface is temporarily not available."
+"<br><br>Please try again in a few minutes."
+msgstr ""
+"Zbog odrzavanja je Aministracija trenutno nedostupna.<br><br>Molimo vas "
+"pokusajte za nekoliko minuta."
+
+#: functions/functions.translationStrings.php:87
+msgid "Please enter your username and email address."
+msgstr "Molimo vas unesite korisnicko ime i e-mail adresu."
+
+#: functions/functions.translationStrings.php:88
+msgid ""
+"You will receive an email with instructions, how to reset your password."
+msgstr ""
+"Molimo vas unesite vase Korisnicko Ime i E-Mail adresu i mi cemo vam poslati "
+"uputstvo kako vratiti vasu lozinku."
+
+#: functions/functions.translationStrings.php:89
+msgid "Request email"
+msgstr "Zatrazi e-mail"
+
+#: functions/functions.translationStrings.php:90
+msgid "Enter your new password below."
+msgstr "Unesite vasu novu lozinku ispod."
+
+#: functions/functions.translationStrings.php:98
+msgid "Profile Settings"
+msgstr "Podesavanja Profila"
+
+#: functions/functions.translationStrings.php:99
+msgid "Account settings"
+msgstr "Podesavanja Naloga"
+
+#: functions/functions.translationStrings.php:100
+msgid "Current password"
+msgstr "Trenutna lozinka"
+
+#: functions/functions.translationStrings.php:101
+msgid "Contact data"
+msgstr "Kontakt podaci"
+
+#: functions/functions.translationStrings.php:102 incl/page/profile.php:234
+msgid "First name"
+msgstr "Ime"
+
+#: functions/functions.translationStrings.php:103 incl/page/profile.php:235
+msgid "Last name"
+msgstr "Prezime"
+
+#: functions/functions.translationStrings.php:104 incl/page/profile.php:236
+msgid "Company"
+msgstr "Firma"
+
+#: functions/functions.translationStrings.php:105 incl/page/profile.php:237
+msgid "Telephone"
+msgstr "Telefon"
+
+#: functions/functions.translationStrings.php:106 incl/page/profile.php:238
+msgid "Address"
+msgstr "Adresa"
+
+#: functions/functions.translationStrings.php:107 incl/page/profile.php:239
+msgid "City"
+msgstr "Grad"
+
+#: functions/functions.translationStrings.php:108 incl/page/profile.php:240
+msgid "Zip code"
+msgstr "Postanski broj"
+
+#: functions/functions.translationStrings.php:736
+#: functions/functions.translationStrings.php:761
+#: functions/functions.translationStrings.php:785
+#: functions/functions.translationStrings.php:808
+#: functions/functions.translationStrings.php:835
+msgid "System Logs & Status"
+msgstr "Sistem Logovi & Stanje"
+
+#: functions/functions.translationStrings.php:1673
+msgid "KeyHelp Demo"
+msgstr "KeyHelp Demo"
+
+#: functions/functions.translationStrings.php:1674
+msgid "Please be aware that this demo is being reset every hour!"
+msgstr "Molimo vas imaje na umu da se ova Demo verzija resetuje svaki sat!"
+
+#: functions/functions.translationStrings.php:1675
+msgid "Administration area"
+msgstr "Administratorsko podrucije"
+
+#: functions/functions.translationStrings.php:1676
+msgid "User area"
+msgstr "Korisnicko Podrucije"
+
+#: incl/cronjob/jobs/statistic.php:368
+#, php-format
+msgid "Traffic usage of user \"%s\" exceeded the limit"
+msgstr "Protok podataka od korisnika \"%s\" je dostiglo odredjen limit"
+
+#: incl/cronjob/jobs/statistic.php:370
+#, php-format
+msgid ""
+"The traffic usage of a user on server \"%s\" exceeded the limit.\n"
+"\n"
+"User: %s\n"
+"Usage: %s\n"
+"Limit: %s\n"
+msgstr ""
+"Protok podataka od korisnika na serveru \"%s\" je dostiglo odredjen limit.\n"
+"\n"
+"Korisnik: %s\n"
+"Potreba: %s\n"
+"Limit: %s\n"
+
+#: incl/cronjob/mastercronjob.php:209
+#, fuzzy
+msgid "Your KeyHelp Installation has been updated"
+msgstr "KeyHelp Installation"
+
+#: incl/cronjob/mastercronjob.php:212
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"Your KeyHelp Installation on server \"%1$s\" has been updated to Version "
+"%2$s.\n"
+"\n"
+"An overview of all changes of the version can be found here: <a href=\"%3$s"
+"\">%3$s</a>"
+msgstr ""
+
+#: incl/cronjob/mastercronjob.php:226 incl/page/admin_index.php:133
+msgid "Please note"
+msgstr "Imajte na umu"
+
+#: incl/page/admin_accounts_admin_add.php:25
+#: incl/page/admin_accounts_admin_delete.php:25
+#: incl/page/admin_accounts_admin_edit.php:25
+#: incl/page/admin_accounts_index.php:26
+#: incl/page/admin_accounts_user_delete.php:24
+#: incl/page/admin_accounts_user_edit.php:25 misc/navigation.php:30
+msgid "User Administration"
+msgstr "Korisnicka Administracija"
+
+#: incl/page/admin_accounts_admin_add.php:25
+msgid "Add Administrator"
+msgstr "Dodaj Administratora"
+
+#: incl/page/admin_accounts_admin_delete.php:25
+#: incl/page/admin_accounts_index.php:108
+msgid "Delete Administrator"
+msgstr "Obrisi Administratora"
+
+#: incl/page/admin_accounts_admin_edit.php:25
+#: incl/page/admin_accounts_index.php:107
+msgid "Edit Administrator"
+msgstr "Izmjeni Administratora"
+
+#: incl/page/admin_accounts_index.php:119
+msgid "User is main administrator"
+msgstr "Korisnik je glavni administrator"
+
+#: incl/page/admin_accounts_index.php:141
+msgid "Contact name"
+msgstr "Kontakt Ime"
+
+#: incl/page/admin_accounts_index.php:142
+msgid "Domain"
+msgstr "Domena"
+
+#: incl/page/admin_accounts_index.php:210
+#, php-format
+msgid "Disk space: <b>%s</b> (used) / <b>%s</b> (allocated)"
+msgstr "Prostor na disku: <b>%s</b> (zauzeto) / <b>%s</b> (dodijeljeno)"
+
+#: incl/page/admin_accounts_index.php:339 incl/page/admin_domain_index.php:265
+msgid "Note"
+msgstr "Zapis"
+
+#: incl/page/admin_accounts_index.php:345 incl/page/admin_services.php:174
+#: incl/page/admin_services.php:175 incl/page/admin_services.php:176
+msgid "No action available"
+msgstr "Nijedna akcija dostupna.´´"
+
+#: incl/page/admin_accounts_index.php:349
+msgid "Login as this user"
+msgstr "Prijavi se kao ovaj korisnik"
+
+#: incl/page/admin_accounts_index.php:350
+#: incl/page/admin_accounts_user_edit.php:25 incl/page/admin_traffic.php:299
+msgid "Edit User"
+msgstr "Izmjeni Korisnika"
+
+#: incl/page/admin_accounts_index.php:351
+#: incl/page/admin_accounts_user_delete.php:24
+msgid "Delete User"
+msgstr "Obrisi Korisnika"
+
+#: incl/page/admin_accounts_index.php:356
+#, fuzzy, php-format
+msgid "Will get deleted: %s"
+msgstr "Bit ce obrisan"
+
+#: incl/page/admin_accounts_index.php:360
+msgid "Will get unsuspended"
+msgstr ""
+
+#: incl/page/admin_accounts_index.php:364
+#, php-format
+msgid "Will get suspended: %s"
+msgstr ""
+
+#: incl/page/admin_accounts_index.php:368
+msgid "Changing suspension date..."
+msgstr ""
+
+#: incl/page/admin_accounts_user_add.php:173
+#, php-format
+msgid "Create the subdomain <strong>&lt;USERNAME&gt;.%s</strong>."
+msgstr "Napravi subdomenu  <strong>&lt;KORISNICKO IME&gt;.%s</strong>."
+
+#: incl/page/admin_accounts_user_delete.php:152
+msgid "Email addresses"
+msgstr "E-Mail adrese"
+
+#: incl/page/admin_accounts_user_delete.php:152
+msgid "Mailboxes"
+msgstr "Mailboxovi"
+
+#: incl/page/admin_active_sessions.php:75
+#, fuzzy
+msgid "Main Administrator"
+msgstr "Izmjeni Administratora"
+
+#: incl/page/admin_active_sessions.php:76
+#, fuzzy
+msgid "Administrator"
+msgstr "Dodaj Administratora"
+
+#: incl/page/admin_active_sessions.php:77
+msgid "User"
+msgstr "Benutzer"
+
+#: incl/page/admin_domain_add.php:25 incl/page/user_domain_add.php:24
+msgid "Add Domain"
+msgstr "Dodaj domenu"
+
+#: incl/page/admin_domain_add.php:78
+msgid "Please select a main domain"
+msgstr "Molimo vas unesite vazecu domenu"
+
+#: incl/page/admin_domain_add.php:87
+msgid "Please select a user"
+msgstr "Molimo vas odaberite korisnika"
+
+#: incl/page/admin_domain_add.php:418
+#, fuzzy
+msgid "The following domains were successfully created."
+msgstr "Domena \"<b>%s</b>\" je uspjesno napravljena."
+
+#: incl/page/admin_domain_delete.php:24 incl/page/admin_domain_index.php:323
+#: incl/page/user_domain_delete.php:24 incl/page/user_domain_index.php:158
+msgid "Delete Domain"
+msgstr "Obrisi Domenu"
+
+#: incl/page/admin_domain_edit.php:26 incl/page/admin_domain_index.php:322
+#: incl/page/user_domain_edit.php:27 incl/page/user_domain_index.php:153
+msgid "Edit Domain"
+msgstr "Izmjeni Domenu"
+
+#: incl/page/admin_domain_edit.php:81 incl/page/user_domain_edit.php:76
+msgid "-- No certifactes available --"
+msgstr "-- Nema dostupnih certifikata --"
+
+#: incl/page/admin_domain_edit.php:83
+msgid "-- Select a certificate --"
+msgstr "-- Odaberi jedan certifikat--"
+
+#: incl/page/admin_domain_edit.php:117 incl/page/user_domain_edit.php:111
+msgid "All subdomains"
+msgstr "Sve subdomene"
+
+#: incl/page/admin_domain_edit.php:123 incl/page/user_domain_edit.php:117
+msgid "-- No subdomains for this domain --"
+msgstr "-- Nema subdomeni za ovu domenu --"
+
+#: incl/page/admin_domain_edit.php:128 incl/page/user_domain_edit.php:122
+msgid "Seconds"
+msgstr "Sekunde"
+
+#: incl/page/admin_domain_edit.php:129 incl/page/admin_panel_tasks.php:43
+#: incl/page/user_domain_edit.php:123
+msgid "Minutes"
+msgstr "Minute"
+
+#: incl/page/admin_domain_edit.php:130 incl/page/admin_panel_tasks.php:44
+#: incl/page/user_domain_edit.php:124
+msgid "Hours"
+msgstr "Sati"
+
+#: incl/page/admin_domain_edit.php:131 incl/page/admin_panel_tasks.php:45
+#: incl/page/user_domain_edit.php:125
+msgid "Days"
+msgstr "Dani"
+
+#: incl/page/admin_domain_index.php:256 incl/page/user_domain_index.php:93
+msgid "This domain has been disabled"
+msgstr "Ova domena je zakljucana"
+
+#: incl/page/admin_domain_index.php:256 incl/page/user_domain_index.php:93
+msgid "DISABLED"
+msgstr "ONEMOGUCENO"
+
+#: incl/page/admin_domain_index.php:278 incl/page/user_domain_index.php:108
+msgid "Let's Encrypt Certificate"
+msgstr "Let's Encrypt certifikat"
+
+#: incl/page/admin_domain_index.php:283 incl/page/user_domain_index.php:113
+#, php-format
+msgid "SSL Certificate: %s"
+msgstr "SSL certifikati: %s"
+
+#: incl/page/admin_domain_index.php:294 incl/page/user_domain_index.php:124
+msgid "All requests to http:// will be redirected to https://."
+msgstr "Svi zahtjevi sa http:// ce biti preusmjereni na https://."
+
+#: incl/page/admin_domain_index.php:303 incl/page/user_domain_index.php:133
+msgid "Declare web browsers should only interact via HTTPS."
+msgstr "Zahtjevaj od web preglednika da samo preko HTTPS komuniciraju."
+
+#: incl/page/admin_domain_index.php:329 incl/page/user_domain_index.php:166
+msgid "Edit DNS zone | Custom zone file active"
+msgstr "Uredi DNS zonu. | Vlastita zona datoteka aktivna"
+
+#: incl/page/admin_domain_index.php:331 incl/page/user_domain_index.php:170
+msgid "Edit DNS zone | Default zone file active"
+msgstr "Uredi DNS zonu. | Standartna datoteka zone aktivna"
+
+#: incl/page/admin_firewall.php:328 incl/page/admin_index.php:89
+#: incl/page/admin_index.php:140 incl/page/admin_index.php:168
+msgid "Dismiss this message"
+msgstr "Odbiji ovu poruku"
+
+#: incl/page/admin_index.php:82
+#, fuzzy
+msgid "During the KeyHelp Installation errors occured!"
+msgstr "Während der Installation sind Fehler aufgetreten!"
+
+#: incl/page/admin_index.php:83
+msgid ""
+"Your KeyHelp Installation may not work as expected, as long as the reasons "
+"for these errors are not fixed."
+msgstr ""
+
+#: incl/page/admin_index.php:84
+#, php-format
+msgid "Problems occurred while installing the following modules: %s"
+msgstr ""
+
+#: incl/page/admin_index.php:85
+#, fuzzy, php-format
+msgid "Please check the install log file at \"%s\""
+msgstr "Bitte prüfen Sie den Inhalt der Log-Datei unter \"%s\"."
+
+#: incl/page/admin_index.php:113
+msgid "Update notes"
+msgstr "Update biljeske"
+
+#: incl/page/admin_index.php:121
+#, php-format
+msgid "KeyHelp was updated to version %s."
+msgstr "KeyHelp je obnovljen na verziju %s."
+
+#: incl/page/admin_index.php:226 incl/page/admin_index.php:266
+msgid "Cores"
+msgstr "Cores"
+
+#: incl/page/admin_index.php:258
+#, php-format
+msgid "%s Day(s), %s Hour(s), %s Minute(s), %s Second(s)"
+msgstr "%s Dan(a), %s Sat(i), %s Minut(a), %s Sekund(i)"
+
+#: incl/page/admin_index.php:280
+msgid "Usage"
+msgstr "Upotreba"
+
+#: incl/page/admin_index.php:281
+msgid "Free"
+msgstr "Slobodno"
+
+#: incl/page/admin_index.php:282
+msgid "Used"
+msgstr "Zauzeto"
+
+#: incl/page/admin_index.php:283
+msgid "Total"
+msgstr "Ukupno"
+
+#: incl/page/admin_index.php:311
+#, php-format
+msgid "Admins: %1$s | Users: %2$s"
+msgstr "Administratora: %1$s | Korisnika: %2$s"
+
+#: incl/page/admin_logs_apacheserverstatus.php:32
+msgid "disabled"
+msgstr "zakljucano"
+
+#: incl/page/admin_logs_apacheserverstatus.php:35
+#, php-format
+msgid "After %s second"
+msgid_plural "After %s seconds"
+msgstr[0] "Nakon %s Sekund"
+msgstr[1] "Nakon %s Sekundi"
+msgstr[2] "Nakon %s Sekunda"
+
+#: incl/page/admin_logs_servermsg.php:51
+msgid "All"
+msgstr "Sve"
+
+#: incl/page/admin_logs_servermsg.php:52
+msgid "Info"
+msgstr "Informacija"
+
+#: incl/page/admin_logs_servermsg.php:53
+msgid "Warning"
+msgstr "Upozorenje"
+
+#: incl/page/admin_mailqueue.php:69
+#, php-format
+msgid ""
+"Attention! There are more than %s records in queue! There is possible some "
+"issues with spam messages."
+msgstr ""
+"Paznja! Ima vise od %s e-mailova na redu! Moguce je da dodje do problema sa "
+"spamom."
+
+#: incl/page/admin_mailqueue.php:77
+#, php-format
+msgid "Messages in queue: %s"
+msgstr "Poruke na redu: %s"
+
+#: incl/page/admin_panel.php:84
+msgid "Test environment"
+msgstr "Test Okolina"
+
+#: incl/page/admin_panel.php:85
+msgid "Live environment"
+msgstr "Javna Okolina"
+
+#: incl/page/admin_panel.php:94
+msgid "No notification"
+msgstr "Nema obavjestenja"
+
+#: incl/page/admin_panel.php:99
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Dan"
+msgstr[1] "Dani"
+msgstr[2] "Dani"
+
+#: incl/page/admin_panel_tasks.php:101
+msgid "Show log file"
+msgstr "Prikazi log datoteku"
+
+#: incl/page/admin_panel_tasks.php:120
+msgid "Start task now"
+msgstr "Pocni zadatak sad"
+
+#: incl/page/admin_panel_tasks.php:120
+msgid "Task queued"
+msgstr "Zadatak je spremljen"
+
+#: incl/page/admin_server.php:74
+msgid "(of physical RAM)"
+msgstr "(od fizickog RAM)"
+
+#: incl/page/admin_server.php:130
+#, php-format
+msgid "Used %s time"
+msgid_plural "Used %s times"
+msgstr[0] "Korisceno %s put"
+msgstr[1] "Korisceno %s puta"
+msgstr[2] "Korisceno %s puta"
+
+#: incl/page/admin_services.php:161
+msgid "Service is running"
+msgstr "Servis je pokrenut"
+
+#: incl/page/admin_services.php:162
+msgid "Service is already running"
+msgstr "Servis je vec pokrenut"
+
+#: incl/page/admin_services.php:163
+msgid "Stop Service"
+msgstr "Stopiraj servis"
+
+#: incl/page/admin_services.php:164
+msgid "Restart Service"
+msgstr "Ponovo pokreni servis"
+
+#: incl/page/admin_services.php:167 incl/page/admin_services.php:170
+msgid "Service is not running"
+msgstr "Servis nije pokrenut"
+
+#: incl/page/admin_services.php:168
+msgid "Start Service"
+msgstr "Pokreni servis"
+
+#: incl/page/admin_services.php:169
+msgid "Service has already been stopped"
+msgstr "Servis je vec stopiran"
+
+#: incl/page/admin_services.php:173
+msgid "The status could not be determined"
+msgstr "Stanje se nije moglo utvrditi"
+
+#: incl/page/admin_services.php:183 incl/page/admin_services.php:189
+msgid "This service is vital for the administration panel, no action allowed"
+msgstr ""
+"Ovaj servis je od vitalnog znacaja za administratorski panel, nikakva akcija "
+"nije dozvoljena"
+
+#: incl/page/admin_sslcerts_add.php:24 incl/page/admin_sslcerts_delete.php:25
+#: incl/page/admin_sslcerts_edit.php:25 incl/page/admin_sslcerts_index.php:25
+#: misc/navigation.php:96
+msgid "SSL Certificates"
+msgstr "SSl Zertifikati"
+
+#: incl/page/admin_sslcerts_add.php:24
+msgid "Add Certificate"
+msgstr "Dodaj certifikat"
+
+#: incl/page/admin_sslcerts_add.php:59
+msgid "Year(s)"
+msgstr "Godina(u)"
+
+#: incl/page/admin_sslcerts_delete.php:25
+msgid "Delete Certificate"
+msgstr "Obrisi certifikat"
+
+#: incl/page/admin_sslcerts_edit.php:25
+msgid "Edit Certificate"
+msgstr "Izmjeni certifikat"
+
+#: incl/page/admin_sslcerts_edit.php:94 incl/page/admin_sslcerts_index.php:175
+msgid "Expired"
+msgstr "Isteklo"
+
+#: incl/page/admin_sslcerts_edit.php:96 incl/page/admin_sslcerts_index.php:177
+msgid "Expires soon"
+msgstr "Istice uskoro"
+
+#: incl/page/admin_sslcerts_index.php:101
+msgid "Let's Encrypt certificate"
+msgstr "Let's Encrypt certifikat"
+
+#: incl/page/admin_sslcerts_index.php:136
+msgid "Edit SSL Certificate"
+msgstr "Izmjeni SSL certifikat"
+
+#: incl/page/admin_sslcerts_index.php:137
+msgid "Delete SSL Certificate"
+msgstr "Obrisi SSL certifikat"
+
+#: incl/page/admin_sslcerts_index.php:151
+#, php-format
+msgid "Protected Services: %s"
+msgstr "Osigurani servisi: %s"
+
+#: incl/page/admin_template_account_add.php:25
+#: incl/page/admin_template_account_delete.php:25
+#: incl/page/admin_template_account_edit.php:25
+#: incl/page/admin_template_account_index.php:25 misc/navigation.php:164
+msgid "Account Templates"
+msgstr "Nalog Sablone"
+
+#: incl/page/admin_template_account_add.php:25
+#: incl/page/admin_template_email_add.php:25
+msgid "Add Template"
+msgstr "Dodaj sablon"
+
+#: incl/page/admin_template_account_delete.php:25
+#: incl/page/admin_template_email_delete.php:25
+msgid "Delete Template"
+msgstr "Obrisi sablon"
+
+#: incl/page/admin_template_account_edit.php:25
+#: incl/page/admin_template_email_edit.php:25
+msgid "Edit Template"
+msgstr "Izmjeni sablon"
+
+#: incl/page/admin_template_account_index.php:39
+msgid "Edit Account Template"
+msgstr "Izmjeni sablon naloga"
+
+#: incl/page/admin_template_account_index.php:40
+msgid "Delete Account Template"
+msgstr "Obrisi sablon naloga"
+
+#: incl/page/admin_template_email_add.php:25
+#: incl/page/admin_template_email_delete.php:25
+#: incl/page/admin_template_email_edit.php:25
+#: incl/page/admin_template_email_index.php:25 misc/navigation.php:160
+msgid "Email Templates"
+msgstr "E-Mail Sablone"
+
+#: incl/page/admin_template_email_index.php:48
+msgid "Edit Email Template"
+msgstr "Izmjeni E-Mail sablon"
+
+#: incl/page/admin_template_email_index.php:49
+msgid "Delete Email Template"
+msgstr "Obrisi E-Mail sablon"
+
+#: incl/page/admin_traffic.php:106
+msgid "No data gathered yet"
+msgstr "Trenutno nikakvi podaci okupljeni"
+
+#: incl/page/admin_whitelabel_edit.php:25
+#: incl/page/admin_whitelabel_import.php:24
+#: incl/page/admin_whitelabel_index.php:25 misc/navigation.php:85
+msgid "White Label"
+msgstr "White Label"
+
+#: incl/page/admin_whitelabel_edit.php:25
+msgid "Edit Settings"
+msgstr "Izmjeni podesavanja"
+
+#: incl/page/admin_whitelabel_edit.php:143
+#, php-format
+msgid "White label settings for language \"%s\""
+msgstr "White label podesavanja za jezik \"%s\""
+
+#: incl/page/admin_whitelabel_import.php:24
+msgid "Import Settings"
+msgstr "Importiraj podesavanja"
+
+#: incl/page/admin_whitelabel_index.php:93
+msgid "Edit White Label Settings"
+msgstr "Izmjeni white label podesavanja"
+
+#: incl/page/admin_whitelabel_index.php:94
+msgid "Reset White Label Settings"
+msgstr "Vrati white label podesavanja"
+
+#: incl/page/backup_create_backup.php:25
+msgid "Create A Backup"
+msgstr "Napravi sigurnosnu kopiju"
+
+#: incl/page/backup_index.php:43
+msgid "Local"
+msgstr "Lokalno"
+
+#: incl/page/backup_index.php:45
+msgid "Remote"
+msgstr "Daljinsko"
+
+#: incl/page/backup_index.php:47 incl/page/backup_index.php:59
+#: incl/page/backup_index.php:79 incl/page/backup_index.php:85
+msgid "Undefined"
+msgstr "Nedefinirano"
+
+#: incl/page/backup_index.php:53
+msgid "Manually"
+msgstr "Rucno"
+
+#: incl/page/backup_index.php:54
+msgid "Started by user"
+msgstr "Pokrenuto sa strane korisnika"
+
+#: incl/page/backup_index.php:56
+msgid "Automatically"
+msgstr "Automaski"
+
+#: incl/page/backup_index.php:57
+msgid "Scheduled backup"
+msgstr "Planirana sigurnosna kopija"
+
+#: incl/page/backup_index.php:66
+msgid "Starts soon"
+msgstr "Pocinje uskoro"
+
+#. Translators: The "%%" is for escaping purpose and result into one "%"
+#: incl/page/backup_index.php:72
+#, php-format
+msgid "Processing (Progress: %u %%)"
+msgstr "U toku  (Napredak: %u %%)"
+
+#: incl/page/backup_index.php:76
+msgid "Finished successfully"
+msgstr "Uspjesno zavrseno"
+
+#: incl/page/backup_index.php:80
+#, php-format
+msgid "Canceled (Error: %s)"
+msgstr "Prekinuto (Greska: %s)"
+
+#: incl/page/backup_index.php:101
+msgid "Are you looking for a suitable storage space for your backups?"
+msgstr ""
+"Dali ste u potragi za jako dobrim i jednostavnim prostorom za vase backups?"
+
+#: incl/page/backup_index.php:102
+msgid "How about KeyDisc, the flexible cloud storage?"
+msgstr "Kako bi bilo sa KeyDisc, jednostavna i jako fleksibilan cloud prostor?"
+
+#: incl/page/backup_remote_settings.php:24
+msgid "Remote Server Settings"
+msgstr "Podesavanja za udaljeni server"
+
+#: incl/page/backup_repository.php:25
+msgid "Repository"
+msgstr "Izvor"
+
+#: incl/page/backup_repository.php:184
+msgid "Download"
+msgstr "Preuzmi"
+
+#: incl/page/backup_repository.php:201
+#, php-format
+msgid "(Files: %1$s | Size: %2$s)"
+msgstr "(Fajlova: %1$s | Velicina: %2$s)"
+
+#: incl/page/backup_scheduled_backup.php:25
+msgid "Schedule A Backup"
+msgstr "Planirana sigurnosna kopija"
+
+#: incl/page/backup_scheduled_backup.php:50
+#: incl/page/user_scheduledtasks_edit.php:49
+msgid "Daily"
+msgstr "Dnevno"
+
+#: incl/page/backup_scheduled_backup.php:51
+#: incl/page/user_scheduledtasks_edit.php:50
+msgid "Weekly"
+msgstr "Sedmicno"
+
+#: incl/page/backup_scheduled_backup.php:127
+#, php-format
+msgid ""
+"The file limit for the local repository has been set to %s by the "
+"administrator."
+msgstr "Limit za lokalnu kopiju je podesen na %s sa strane administratora."
+
+#: incl/page/dns_editor.php:25 misc/navigation.php:49 misc/navigation.php:240
+msgid "DNS Zone Editor"
+msgstr "Urednik DNS zona"
+
+#: incl/page/dns_editor.php:81
+msgid "Modified"
+msgstr ""
+
+#: incl/page/forgotpw.php:185
+msgid "Click the following link to set a new password."
+msgstr "Kliknite slijedeci link da postavite novu Lozinku."
+
+#: incl/page/login.php:77
+msgid "Profile setting"
+msgstr "Podesavanja Profila"
+
+#: incl/page/profile.php:220
+msgid "A user has changed its contact data"
+msgstr "Jedan korisnik je promjenio svoje kontakt podatke"
+
+#: incl/page/profile.php:221
+msgid "Server"
+msgstr "Server"
+
+#: incl/page/profile.php:223
+#, php-format
+msgid "The user \"%s\" has changed its contact data."
+msgstr "Korisnik \"%s\" je promjenio svoje kontakt podatke."
+
+#: incl/page/profile.php:226
+msgid "Previously stored data:"
+msgstr "Prethodno sacuvani podaci:"
+
+#: incl/page/profile.php:227
+msgid "New data:"
+msgstr "Novi podaci:"
+
+#: incl/page/user_dirprotection.php:24 misc/navigation.php:276
+msgid "Directory Protection"
+msgstr "Zastita Direktorije"
+
+#: incl/page/user_dirprotection.php:58
+msgid "Add Directory Protection"
+msgstr "Dodaj zastitu direktorije"
+
+#: incl/page/user_dirprotection.php:99
+#, php-format
+msgid ""
+"The directory protection for the directory <b>%s</b> has been successfully "
+"created and is available in a few moments."
+msgstr ""
+"Zastita Direktorije za Direktoriju <b>%s</b> je uspjesno napravljena i bice "
+"dostupna za nekoliko trenutaka."
+
+#: incl/page/user_dirprotection.php:137 incl/page/user_dirprotection.php:330
+msgid "Edit Directory Protection"
+msgstr "Izmjeni zastitu direktorije"
+
+#: incl/page/user_dirprotection.php:169
+#, php-format
+msgid ""
+"The directory protection for the directory <b>%s</b> has been successfully "
+"updated. The changes take effect in a few moments."
+msgstr ""
+"Zastita Direktorije za Direktoriju <b>%s</b> je uspjesno izmjenuta i bice "
+"dostupna za nekoliko trenutaka."
+
+#: incl/page/user_dirprotection.php:210 incl/page/user_dirprotection.php:331
+msgid "Delete Directory Protection"
+msgstr "Obrisi zastitu direktorije"
+
+#: incl/page/user_dirprotection.php:326
+msgid "The title for this directory is not unique"
+msgstr "Naslov za ovu direktoriju nije jedinstven"
+
+#: incl/page/user_domain_add.php:223
+#, php-format
+msgid "The domain \"<b>%s</b>\" has been successfully created."
+msgstr "Domena \"<b>%s</b>\" je uspjesno napravljena."
+
+#: incl/page/user_domain_add.php:226
+msgid "You can now modify the security settings."
+msgstr "Sada mozete mijenjati sigurnosne postavke."
+
+#: incl/page/user_domain_edit.php:153
+msgid "Limitations of current panel version:"
+msgstr "Ogranicenja za trenutno panel verziju:"
+
+#: incl/page/user_domain_edit.php:154
+msgid ""
+"When changing to <b>No Certificate</b> / <b>Let's Encrypt</b> you can't "
+"change back to this certificate without the help of an administrator."
+msgstr ""
+"Kada promjenite na <b>Bez certifikata</b> / <b>Let's Encrypt</b> vi se "
+"nemozete jednostavno vratiti na ovaj certifikat bez pomoci od administratora."
+
+#: incl/page/user_domain_index.php:50
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential subdomains."
+msgstr ""
+"Vi trenutno koristite <strong>%1$s</strong> od <strong>%2$s</strong> mogucih "
+"subdomeni."
+
+#: incl/page/user_domain_logs.php:24
+#, fuzzy
+msgid "Web Server Logs"
+msgstr "Webserver Logovi"
+
+#: incl/page/user_email_add.php:24 incl/page/user_email_delete.php:24
+#: incl/page/user_email_edit.php:24 incl/page/user_email_index.php:24
+#: misc/navigation.php:251
+msgid "Email Addresses"
+msgstr "E-Mail Adrese"
+
+#: incl/page/user_email_add.php:24
+msgid "Add Email Account"
+msgstr "Dodaj E-Mail nalog"
+
+#: incl/page/user_email_delete.php:24 incl/page/user_email_index.php:106
+msgid "Delete Email Account"
+msgstr "Obrisi E-Mail nalog"
+
+#: incl/page/user_email_edit.php:24 incl/page/user_email_index.php:105
+msgid "Edit Email Account"
+msgstr "Izmjeni E-Mail nalog"
+
+#: incl/page/user_email_edit.php:172
+#, php-format
+msgid "Default ( %s MB )"
+msgstr "Zadano ( %s MB )"
+
+#: incl/page/user_email_index.php:38
+#, php-format
+msgid ""
+"<strong>%1$s</strong> of <strong>%2$s</strong> potential email accounts."
+msgstr ""
+"<strong>%1$s</strong> od <strong>%2$s</strong> od mogucih E-Mail naloga."
+
+#: incl/page/user_email_index.php:39
+#, php-format
+msgid ""
+"<strong>%1$s</strong> of <strong>%2$s</strong> potential email addresses."
+msgstr "<strong>%1$s</strong> od <strong>%2$s</strong> mogucih E-Mail adresa."
+
+#: incl/page/user_email_index.php:80
+msgid "Greylisting"
+msgstr "Greylisting"
+
+#: incl/page/user_email_index.php:85
+msgid "Virus-Check"
+msgstr "Virus-Provjera"
+
+#: incl/page/user_email_index.php:90
+msgid "Spam-Check"
+msgstr "Spam-Provjera"
+
+#: incl/page/user_email_index.php:114 misc/navigation.php:147
+#: misc/navigation.php:299
+msgid "Webmail"
+msgstr "Webmail"
+
+#: incl/page/user_ftp.php:23
+msgid "FTP User"
+msgstr "FTP korisnik"
+
+#: incl/page/user_ftp.php:56
+msgid "Add FTP User"
+msgstr "Dodaj FTP korisnika"
+
+#: incl/page/user_ftp.php:146 incl/page/user_ftp.php:327
+msgid "Edit FTP User"
+msgstr "Izmjeni FTP korisnika"
+
+#: incl/page/user_ftp.php:230 incl/page/user_ftp.php:328
+msgid "Delete FTP User"
+msgstr "Obrisi FTP korisnika"
+
+#: incl/page/user_ftp.php:318
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential FTP users."
+msgstr ""
+"Vi trenutno koristite <strong>%1$s</strong> od <strong>%2$s</strong> mogucih "
+"FTP korisnika."
+
+#: incl/page/user_index.php:62
+msgid "ATTENTION - No email address has been set!"
+msgstr "UPOZORENJE - Nema podesenih E-Mail adresa!"
+
+#: incl/page/user_mysql_add.php:24 incl/page/user_mysql_delete.php:25
+#: incl/page/user_mysql_edit.php:24 incl/page/user_mysql_index.php:24
+#: misc/navigation.php:262
+msgid "MySQL Databases"
+msgstr "MySQl Baze Podataka"
+
+#: incl/page/user_mysql_add.php:24
+msgid "Add Database"
+msgstr "Dodaj Bazu Podataka"
+
+#: incl/page/user_mysql_delete.php:25 incl/page/user_mysql_index.php:58
+msgid "Delete Database"
+msgstr "Obrisi Bazu Podataka"
+
+#: incl/page/user_mysql_edit.php:24 incl/page/user_mysql_index.php:57
+msgid "Edit Database"
+msgstr "Izmjeni Bazu Podataka"
+
+#: incl/page/user_mysql_index.php:37
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential databases."
+msgstr ""
+"Vi trenutno koristite <strong>%1$s</strong> od <strong>%2$s</strong> mogucih "
+"bazi podataka."
+
+#: incl/page/user_mysql_index.php:63
+msgid "Database Administration"
+msgstr "Administracija Baze Podataka"
+
+#: incl/page/user_scheduledtasks_delete.php:24
+#: incl/page/user_scheduledtasks_edit.php:208
+#: incl/page/user_scheduledtasks_index.php:24 misc/navigation.php:272
+msgid "Scheduled Tasks"
+msgstr "Planirani zadaci"
+
+#: incl/page/user_scheduledtasks_delete.php:24
+#: incl/page/user_scheduledtasks_index.php:75
+msgid "Delete Task"
+msgstr "Obrisi zadatak"
+
+#: incl/page/user_scheduledtasks_edit.php:48
+msgid "Hourly"
+msgstr "Casovno"
+
+#: incl/page/user_scheduledtasks_edit.php:51
+msgid "Monthly"
+msgstr "Mjesecno"
+
+#: incl/page/user_scheduledtasks_edit.php:52
+msgid "Yearly"
+msgstr "Godisnje"
+
+#: incl/page/user_scheduledtasks_edit.php:53
+msgid "Cron style"
+msgstr "Cron Izgled"
+
+#: incl/page/user_scheduledtasks_edit.php:208
+msgid "Add Task"
+msgstr "Dodaj zadatak"
+
+#: incl/page/user_scheduledtasks_edit.php:208
+#: incl/page/user_scheduledtasks_index.php:74
+msgid "Edit Task"
+msgstr "Izmjeni zadatak"
+
+#: incl/page/user_scheduledtasks_edit.php:210
+#, php-format
+msgid ""
+"If you want to access a file from your home directory, you must use the "
+"absolute path:<br><strong>%s</strong>"
+msgstr ""
+"Ako zelite pristupiti datoteci iz vase kucne direktorije, morate koristiti "
+"apsolutni put:<br><strong>%s</strong>"
+
+#: incl/page/user_scheduledtasks_index.php:40
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential scheduled tasks."
+msgstr ""
+"Vi trenutno koristite <strong>%1$s</strong> od <strong>%2$s</strong> mogucih "
+"planiranih zadataka."
+
+#: incl/page/user_scheduledtasks_index.php:51
+msgid "Task is enabled"
+msgstr "Zadatak je omogucen"
+
+#: incl/page/user_scheduledtasks_index.php:53
+msgid "Task is disabled"
+msgstr "Zadatak je onemogucen"
+
+#: incl/page/user_scheduledtasks_index.php:58
+msgid "Invalid settings"
+msgstr "Neispravna podesavanja"
+
+#: incl/page/user_scheduledtasks_index.php:71
+msgid "Notification"
+msgstr "Obavjestenje nakon zavrsetka"
+
+#: index.php:450
+msgid ""
+"It seems that you have not yet taken over the selected directory path from "
+"directory explorer."
+msgstr ""
+"Cini se da jos niste preuzeli odabrani put direktorije iz istrazivaca mapa."
+
+#: index.php:451
+msgid "Do you still want to continue?"
+msgstr "Dali zelite nastaviti?"
+
+#: index.php:452
+msgid "User information"
+msgstr "Korisnicke Informacije"
+
+#: index.php:453
+msgid "Admin notes"
+msgstr "Admin zapis"
+
+#: index.php:454
+msgid "WARNING - This action will delete all existing emails for this domain."
+msgstr ""
+"UPOZORENJE - Ova akcija ce obrisati sve postojece E-Mailove za ovu Domenu."
+
+#: index.php:455
+msgid ""
+"WARNING - This action will delete all existing backups and backup settings "
+"of this user."
+msgstr ""
+"UPOZORENJE - Ova akcija ce obrisati sve sigurnosne kopije i podesavanja za "
+"sigurnosne kopije od ovog korisnika."
+
+#: misc/navigation.php:22 misc/navigation.php:217
+msgid "General"
+msgstr "Osnovno"
+
+#: misc/navigation.php:26 misc/navigation.php:220
+msgid "Overview"
+msgstr "Pregled"
+
+#: misc/navigation.php:34
+msgid "Traffic Statistic"
+msgstr "Statistika Protok Podataka"
+
+#: misc/navigation.php:56 misc/navigation.php:258
+msgid "Settings"
+msgstr "Podesavanja"
+
+#: misc/navigation.php:60
+msgid "Panel Settings"
+msgstr "Panel Podesavanja"
+
+#: misc/navigation.php:64
+msgid "Server Settings"
+msgstr "Server Podesavanja"
+
+#: misc/navigation.php:68
+msgid "Panel Tasks Intervals"
+msgstr "Panel zadaci intervali"
+
+#: misc/navigation.php:72
+msgid "Server Service Management"
+msgstr "Server Servis Menadzment"
+
+#: misc/navigation.php:92
+msgid "Security"
+msgstr "Sigurnost"
+
+#: misc/navigation.php:100
+msgid "Firewall"
+msgstr "Zastita"
+
+#: misc/navigation.php:107
+msgid "Logs & Status"
+msgstr "Logovi & Stanje"
+
+#: misc/navigation.php:111
+msgid "Server Messages"
+msgstr "Serverske Poruke"
+
+#: misc/navigation.php:115
+msgid "Apache Server Status"
+msgstr "Apache Server Stanje"
+
+#: misc/navigation.php:119
+msgid "Panel Tasks Logs"
+msgstr "Panel zadaci Logovi"
+
+#: misc/navigation.php:123
+msgid "Email Queue"
+msgstr "E-Mail red"
+
+#: misc/navigation.php:127
+msgid "Active Sessions"
+msgstr ""
+
+#: misc/navigation.php:134 misc/navigation.php:288
+msgid "Tools"
+msgstr "Alati"
+
+#: misc/navigation.php:140 misc/navigation.php:292
+msgid "PhpMyAdmin"
+msgstr "PhpMyAdmin"
+
+#: misc/navigation.php:156
+msgid "Templates"
+msgstr "Sablone"
+
+#: misc/navigation.php:168
+msgid "Default Index Page"
+msgstr "Standartna Pocetna Stranica"
+
+#: misc/navigation.php:175
+msgid "Miscellaneous"
+msgstr "Ostalo"
+
+#: misc/navigation.php:179
+msgid "Mass Email Message"
+msgstr "Masovna E-Mail poruka"
+
+#: misc/navigation.php:186 misc/navigation.php:308
+msgid "Help"
+msgstr "Pomoc"
+
+#: misc/navigation.php:190
+msgid "Support Forum"
+msgstr "Forum za Pomoc"
+
+#: misc/navigation.php:196
+msgid "Administrator Manual"
+msgstr "Administratorska Uputstva"
+
+#: misc/navigation.php:202
+msgid "User Manual"
+msgstr "Korisnicka Uputstva"
+
+#: misc/navigation.php:224
+msgid "Web Statistic"
+msgstr "Web Statistika"
+
+#: misc/navigation.php:247
+msgid "Email"
+msgstr "E-Mail"
+
+#: misc/navigation.php:267
+msgid "FTP Users"
+msgstr "FTP Korisnici"
+
+#: misc/navigation.php:311
+msgid "Manual"
+msgstr "Uputstvo"
+
+#~ msgid "Yes, I am sure"
+#~ msgstr "Da. Ja sam siguran"
+
+#~ msgid "License Management"
+#~ msgstr "Menadzment License"
+
+#~ msgid "Install New License"
+#~ msgstr "Instaliraj novu Licencu"
+
+#~ msgid "Remove Current License"
+#~ msgstr "Obrisi trenutno licencu"
+
+#~ msgid "Web server (Apache)"
+#~ msgstr "Web server (Apache)"
+
+#~ msgid "DNS server (Bind)"
+#~ msgstr "DNS server (Bind)"
+
+#~ msgid "PHP-FPM"
+#~ msgstr "PHP-FPM"
+
+#~ msgid "Database (MySQL/MariaDB)"
+#~ msgstr "Baza Podataka (MySQL/MariaDB)"
+
+#~ msgid "FTP server (Proftpd)"
+#~ msgstr "FTP server (Proftpd)"
+
+#~ msgid "Mail Transfer Agent (Postfix)"
+#~ msgstr "Mail Transfer Zastupnik (Postfix)"
+
+#~ msgid "Mail Delivery Agent (Dovecot)"
+#~ msgstr "Mail Isporuka Zastupnik (Dovecot)"
+
+#~ msgid "Amavis"
+#~ msgstr "Amavis"
+
+#~ msgid "Antispam (SpamAssassin)"
+#~ msgstr "Antispam (SpamAssassin)"
+
+#~ msgid "Antivirus (ClamAV)"
+#~ msgstr "Antivirus (ClamAV)"
+
+#~ msgid "Cron Daemon"
+#~ msgstr "Cron Demon"
+
+#~ msgid "Block IP address (Fail2ban)"
+#~ msgstr "Blokiraj IP adresu (Fail2ban)"
+
+#~ msgid "SSH"
+#~ msgstr "SSH"
+
+#~ msgid "Time Synchronization (NTP)"
+#~ msgstr "Vrijeme Siknorizacije (NTP)"
+
+#~ msgid "PHP-FPM - Additional PHP interpreter %s"
+#~ msgstr "PHP-FPM - Dodatni PHP Interpreter %s"
+
+#~ msgid "No main domains have been assigned to you."
+#~ msgstr "Nije vam ni jedna glavna Domena dodijeljena."
+
+#~ msgid "OS Standard"
+#~ msgstr "OS Standard"
+
+#, fuzzy
+#~| msgid "Subdomains"
+#~ msgid "Subdomain"
+#~ msgid_plural "Subdomains"
+#~ msgstr[0] "Subdomene"
+#~ msgstr[1] "Subdomene"
+#~ msgstr[2] "Subdomene"
+
+#~ msgid "Show subdomains"
+#~ msgstr "Prikazi Subdomene"
+
+#~ msgid "... show more"
+#~ msgstr "... prikazi vise"
+
+#~ msgid "Setup Date"
+#~ msgstr "Datum Instalacije"
+
+#~ msgid "Disk Space"
+#~ msgstr "Prostor na disku"
+
+#~ msgid "Webspace"
+#~ msgstr "Web prostor"
+
+#~ msgid "Emails"
+#~ msgstr "E-Mailovi"
+
+#~ msgid "Email Accounts"
+#~ msgstr "E-Mail nalozi"
+
+#~ msgid "Privileges"
+#~ msgstr "Privilegije"
+
+#~ msgid "Add User"
+#~ msgstr "Dodaj Korisnika"
+
+#~ msgid "This domain is not a subdomain."
+#~ msgstr "Ova Domena nije subdomena"
+
+#~ msgid "KeyHelp - Your Administration-Panel"
+#~ msgstr "KeyHelp - Vas Administracijiski-Panel"
+
+#~ msgid "Hide subdomains"
+#~ msgstr "Sakriji Subdomene"
+
+#~ msgid "Webmail (Roundcube)"
+#~ msgstr "Webmail (Roundcube)"
+
+#~ msgid "Default language"
+#~ msgstr "Standardsprache"
+
+#~ msgid "Role"
+#~ msgstr "Rolle"
+
+#~ msgid "Demo-Mode"
+#~ msgstr "Demo-Modus"
+
+#~ msgctxt "Button"
+#~ msgid "Send Mail"
+#~ msgstr "Mail Senden"
+
+#~ msgid "Invalid IP for PHP-FPM status page IP restriction."
+#~ msgstr "Neispravna IP za PHP-FPM stanje stranicu IP ogranicenje."
+
+#~ msgid ""
+#~ "Let's Encrypt currently does not support internationalized domain names."
+#~ msgstr ""
+#~ "Let's Encrypt trenutno ne podrzava internacionalizovana imena domene."
+
+#~ msgid "You have selected none of the existing certificates."
+#~ msgstr "Vi niste odabrali nijedan postojeci certifikat."
+
+#~ msgid "The selected email queue records have been deleted."
+#~ msgstr "Odabrana e-mail lista rekord je obrisana"
+
+#~ msgid "All emails from queue have been deleted."
+#~ msgstr "Svi e-mailovi sa reda su obrisani."
+
+#~ msgid "Demo mode restriction: Only Let's Encrypt test environment allowed."
+#~ msgstr "Demo modus ogranicenje: Samo Let's Encrypt test okolina dozvoljena."
+
+#~ msgid "Let's Encrypt state may not be empty."
+#~ msgstr "Let's Encrypt zemlja nemoze biti prazna."
+
+#~ msgid "Let's Encrypt subscriber agreement URL seems not correct."
+#~ msgstr "Let's Encrypt pretplatnicki ugovor URL izgleda da nije u redu."
+
+#~ msgid "Invalid form data."
+#~ msgstr "Netacni podaci u formularu."
+
+#~ msgid "Settings have been updated successfully."
+#~ msgstr "Podesavanja su uspjesno sacuvana"
+
+#~ msgid "Invalid webserver port range."
+#~ msgstr "Pogresni webserver port prostor."
+
+#~ msgid "The service has been successfully stopped."
+#~ msgstr "Servis je uspjesno stopiran."
+
+#~ msgid "The service has been successfully started."
+#~ msgstr "Servis je uspjesno pokrenut."
+
+#~ msgid ""
+#~ "Sorry, the operation could not be performed correctly. (Permissions "
+#~ "correct?)"
+#~ msgstr ""
+#~ "Izvinite, operacije nisu mogle biti zavrsene ispravno. (Dozvole tacne?)"
+
+#~ msgid "This function is not available in the KeyHelp demo version."
+#~ msgstr "Ova funkcija nije dostupna u KeyHelp demo verziji."
+
+#~ msgid "The combination of username and path already exists."
+#~ msgstr "Kombinacija od korisnickog imena i puta vec postoji."
+
+#~ msgid "An unknown error occurred."
+#~ msgstr "Jedna nepoznata greska se pojavila."
+
+#~ msgid "The realm title contains illegal characters."
+#~ msgstr "Naslov realm sadrzi nedozvoljene znakove."
+
+#~ msgid "The username contains illegal characters."
+#~ msgstr "Korisnicko Ime sadrzi nedozvoljene znakove."
+
+#~ msgid "The path contains illegal characters."
+#~ msgstr "Staza sadrzi nedozvoljene znakove."
+
+#~ msgid "An error occurred - Error ID: %s"
+#~ msgstr "Pojavila se je jedna greska - Greska ID: %s"
+
+#~ msgid ""
+#~ "The following directory protections have been removed successfully. The "
+#~ "changes take effect in a few moments.<br><b>%s</b>"
+#~ msgstr ""
+#~ "Slijedece zastite direktorija su uspjesno obrisane. Promjene ce biti "
+#~ "dostupne za nekoliko trenutaka. <br><b>%s</b>"
+
+#~ msgid "Unable to delete."
+#~ msgstr "Nije moguce brisanje."
+
+#~ msgid "Let's Encrypt doesn't work with with domain redirections"
+#~ msgstr "Let's Encrypt neradi sa preusmjeravanje domena"
+
+#~ msgid "You have reached the maximum number of your available FTP users."
+#~ msgstr "Vi ste iskoristili maksimalni broj mogucih FTP korisnika."
+
+#~ msgid "The home directory must be a subfolder of /www/ or /files/."
+#~ msgstr "Korisnicka direktorija mora biti jedna podmapa od /www/ ili /files/"
+
+#~ msgid "The FTP user \"<b>%s</b>\" has been created successfully."
+#~ msgstr "FTP korisnik \"<b>%s</b>\" je uspjesno napravljen."
+
+#~ msgid ""
+#~ "The setting up of your account has not yet been fully completed. Please "
+#~ "try again in a few moments."
+#~ msgstr ""
+#~ "Pravljenje vaseg naloga nije jos podpuno zavrseno. Molimo vas pokusajte "
+#~ "za nekoliko trenutaka."
+
+#~ msgid "The home directory contains illegal characters."
+#~ msgstr "Korisnicka direktorija sadrzava neispravne znakove"
+
+#~ msgid "The FTP user \"<b>%s</b>\" has been updated successfully."
+#~ msgstr "FTP korisnik\"<b>%s</b>\" je uspjesno obnovljen."
+
+#~ msgid "The following FTP users were deleted successfully:<br><b>%s</b>"
+#~ msgstr "Sljedeci FTP korisnici bice obrisani:<br><b>%s</b>"
+
+#~ msgid "The selected scheduled tasks were successfully removed."
+#~ msgstr "Izabrani planirani zadaci su uspjesno obrisani."
+
+#~ msgid ""
+#~ "You have already reached your maximum number of allowed scheduled tasks."
+#~ msgstr ""
+#~ "Vec ste dostigli svoj maksimalni broj dozvoljenih planiranih zadataka."
+
+#~ msgid "The scheduled task has been successfully added."
+#~ msgstr "Planirani zadatak je uspjesno dodan."
+
+#~ msgid "The scheduled task has been successfully updated."
+#~ msgstr "Planirani zadatak je uspjesno izmjenut."
+
+#~ msgid "Invalid input for field \"Command\"."
+#~ msgstr "Neispravan upis za polje \"Naredba\"."
+
+#~ msgid "Invalid input for field \"Schedule\"."
+#~ msgstr "Neispravan upis za polje \"Raspored\"."
+
+#~ msgid "Invalid input for field \"Email\"."
+#~ msgstr "Neispravan upis za polje \"E-Mail\"."
+
+#~ msgid "Version mismatch - Please contact your administrator."
+#~ msgstr "Verzije se nepoklapaju - Molimo vas kontaktirajte administratora."
+
+#~ msgid "Your account is not fully set up - some functions are limited."
+#~ msgstr "Vas nalog nije podpuno zavrsen - nekoliko funkcija su limitirane."
+
+#~ msgid ""
+#~ "Your license is currently in grace period. The reason is usually that "
+#~ "there is no connection to the license server. Please try to update the "
+#~ "license manually using the license manager page, or contact our support "
+#~ "personnel."
+#~ msgstr ""
+#~ "Vasa licenca se nalazi u fazi tolerisanja. Razlog tome moze da bude da "
+#~ "niste spojeni na server sa licencama. Molimo vas obnovite licencu rucno "
+#~ "preko Licenc menadzer stranice, ili se obratite nasem osoblju za podrsku."
+
+#~ msgid "The authname contains illegal characters."
+#~ msgstr "Kucna direktorija sadrzi nesipravne znakove."
+
+#~ msgid "IMAP/POP3 server (Dovecot)"
+#~ msgstr "IMAP/POP3 server (Dovecot)"
+
+#~ msgid "No action available."
+#~ msgstr "Nijedna akcija dostupna."
+
+#~ msgid "Edit administrator."
+#~ msgstr "Izmjeni administratora."
+
+#~ msgid "Delete administrator."
+#~ msgstr "Obrisi administratora."
+
+#~ msgid "Edit user."
+#~ msgstr "Izmjeni korisnika."
+
+#~ msgid "Delete user."
+#~ msgstr "Obrisi korisnika."
+
+#~ msgid "Edit domain."
+#~ msgstr "Izmjeni Domenu"
+
+#~ msgid "Delete domain."
+#~ msgstr "Obrisi Domenu"
+
+#~ msgid "Edit directory protection."
+#~ msgstr "Izmjeni zastitu mape."
+
+#~ msgid "Delete directory protection."
+#~ msgstr "Obrisi zastitu mape."
+
+#~ msgid "Edit email account."
+#~ msgstr "Izmjeni e-mail nalog."
+
+#~ msgid "Delete email account."
+#~ msgstr "Obrisi e-mail nalog"
+
+#~ msgid "Edit FTP user."
+#~ msgstr "Izmjeni FTP korisnika."
+
+#~ msgid "Delete FTP user."
+#~ msgstr "Obrisi FTP korisnika."
+
+#~ msgid "Edit database."
+#~ msgstr "Izmjeni Bazu Podataka"
+
+#~ msgid "Delete database."
+#~ msgstr "Obrisi Bazu Podataka."
+
+#~ msgid "An unknown error occured."
+#~ msgstr "Jedna nepoznata greska se pojavila."
+
+#~ msgid "Edit this task."
+#~ msgstr "Izmjeni ovaj zadatak."
+
+#~ msgid "Delete this task."
+#~ msgstr "Obrisi ovaj zadatak."
+
+#~ msgid "MySQL databases"
+#~ msgstr "MySQl Baze Podataka"
+
+#~ msgid "Scheduled tasks"
+#~ msgstr "Planirani zadaci"
+
+#~ msgid "An error occured - Error ID: %s"
+#~ msgstr "Pojavila se je jedna greska - Greska ID: %s"
+
+#~ msgid "SSL certificates"
+#~ msgstr "SSL certifikat"
+
+#~ msgid "Account templates"
+#~ msgstr "Nalog predlosci"
+
+#~ msgid "Email templates"
+#~ msgstr "E-Mail predlosci"
+
+#~ msgid "Directory protection"
+#~ msgstr "Zastita mape"
+
+#~ msgid "FTP user"
+#~ msgstr "FTP korisnik"
+
+#~ msgid "Test enviroment"
+#~ msgstr "Test okolina"
+
+#~ msgid "Live enviroment"
+#~ msgstr "Live okolina"
+
+#~ msgid "SMTP server (Postfix)"
+#~ msgstr "SMTP server (Postfix)"
+
+#~ msgid "Everything okay."
+#~ msgstr "Sve je uredu."
+
+#~ msgid "An error occurred."
+#~ msgstr "Pojavila je se jedna greska."
+
+#~ msgid "Processing."
+#~ msgstr "U toku."
+
+#~ msgid "Will be deleted."
+#~ msgstr "Bit ce obrisan."
+
+#~ msgid "Unknown status."
+#~ msgstr "Nepoznat status"
+
+#~ msgid "No template / Default"
+#~ msgstr "Bez sablone / Zadano"
+
+#~ msgid "Setup date"
+#~ msgstr "Datum Instalacije"
+
+#~ msgid "Disk space"
+#~ msgstr "Prostor na disku"
+
+#~ msgid "Email accounts"
+#~ msgstr "E-Mail nalozi"
+
+#~ msgid "Add administrator"
+#~ msgstr "Dodaj Administratora"
+
+#~ msgid "Delete administrator"
+#~ msgstr "Obrisi administratora"
+
+#~ msgid "Edit administrator"
+#~ msgstr "Izmjeni administratora"
+
+#~ msgid "User is main administrator."
+#~ msgstr "Korisnik je glavni administrator."
+
+#~ msgid "Diskspace: <b>%s</b> (used) / <b>%s</b> (allocated)"
+#~ msgstr "HDD Prostor: <b>%s</b> (zauzeto) / <b>%s</b> (dodijeljeno)"
+
+#~ msgid "Login as this user."
+#~ msgstr "Prijavi se kao ovaj korisnik."
+
+#~ msgid "Add user"
+#~ msgstr "Dodaj Korisnika"
+
+#~ msgid "Delete user"
+#~ msgstr "Obrisi korisnika"
+
+#~ msgid "Edit user"
+#~ msgstr "Izmjeni korisnika"
+
+#~ msgid "Add domain"
+#~ msgstr "Dodaj domenu"
+
+#~ msgid "Delete domain"
+#~ msgstr "Obrisi Domenu"
+
+#~ msgid "Edit domain"
+#~ msgstr "Izmjeni Domenu"
+
+#~ msgid "Edit DNS zone. | Default zone file active."
+#~ msgstr "Uredi DNS zonu. | Standartna datoteka zone aktivna."
+
+#~ msgid "Edit DNS zone. | Custom zone file active."
+#~ msgstr "Uredi DNS zonu. | Vlastita zona datoteka aktivna."
+
+#~ msgid "This domain has been disabled."
+#~ msgstr "Ova domena je zakljucana"
+
+#~ msgid "SSL certificate: %s"
+#~ msgstr "SSL certifikati: %s"
+
+#~ msgid "License management"
+#~ msgstr "Menadzment Licence"
+
+#~ msgid "Install new license"
+#~ msgstr "Instaliraj novu Licencu"
+
+#~ msgid "Remove current license"
+#~ msgstr "Obrisi trenutno licencu"
+
+#~ msgid "Service is running."
+#~ msgstr "Servis je pokrenut."
+
+#~ msgid "Service is not running."
+#~ msgstr "Servis nije pokrenut."
+
+#~ msgid "The status could not be determined."
+#~ msgstr "Status se nije mogao utvrditi."
+
+#~ msgid "Service is already running."
+#~ msgstr "Servis je vec pokrenut."
+
+#~ msgid "Stop service."
+#~ msgstr "Stopiraj servis."
+
+#~ msgid "Restart service."
+#~ msgstr "Ponovo pokreni servis."
+
+#~ msgid "Start service."
+#~ msgstr "Pokreni servis."
+
+#~ msgid "Service has already been stopped."
+#~ msgstr "Servis je vec stopiran."
+
+#~ msgid ""
+#~ "This service is vital for the administration panel, no action allowed."
+#~ msgstr ""
+#~ "Ovaj servis je od vitalnog znacaja za administratorski panel, nikakva "
+#~ "akcija nije dozvoljeno."
+
+#~ msgid "Add certificate"
+#~ msgstr "Dodaj certifikat"
+
+#~ msgid "Delete certificate"
+#~ msgstr "Obrisi certifikat"
+
+#~ msgid "Edit certificate"
+#~ msgstr "Izmjeni certifikat"
+
+#~ msgid "Edit SSL certificate."
+#~ msgstr "Izmjeni SSL certifikat"
+
+#~ msgid "Delete SSL certificate."
+#~ msgstr "Obrisi SSL certifikat"
+
+#~ msgid "Protected services: %s"
+#~ msgstr "Osigurani servisi: %s"
+
+#~ msgid "Add template"
+#~ msgstr "Dodaj predlozak"
+
+#~ msgid "Delete template"
+#~ msgstr "Obrisi predlozak"
+
+#~ msgid "Edit template"
+#~ msgstr "Izmjeni prelozak"
+
+#~ msgid "Edit account template."
+#~ msgstr "Izmjeni predlozak naloga."
+
+#~ msgid "Delete account template."
+#~ msgstr "Obrisi predlozak naloga."
+
+#~ msgid "Edit email template."
+#~ msgstr "Izmjeni e-mail prdlozak."
+
+#~ msgid "Delete email template."
+#~ msgstr "Obrisi e-mail predlozak."
+
+#~ msgid "Edit settings"
+#~ msgstr "Izmjeni podesavanja"
+
+#~ msgid "Import settings"
+#~ msgstr "Importiraj podesavanja"
+
+#~ msgid "Edit white label settings."
+#~ msgstr "Izmjeni white label podesavanja."
+
+#~ msgid "Reset white label settings"
+#~ msgstr "Vrati white label podesavanja."
+
+#~ msgid "Create a backup"
+#~ msgstr "Napravi sigurosnu kopiju."
+
+#~ msgid "Remote server settings"
+#~ msgstr "Podesavanja za udaljeni server,"
+
+#~ msgid "Schedule a backup"
+#~ msgstr "Planirano osiguravanje"
+
+#~ msgid "Add directory protection"
+#~ msgstr "Dodaj zastitu mape"
+
+#~ msgid "Delete directory protection"
+#~ msgstr "Obrisi zastitu mape"
+
+#~ msgid "Edit directory protection"
+#~ msgstr "Izmjeni zastitu mape"
+
+#~ msgid "The title for this directory is not unique."
+#~ msgstr "Naslov za ovu mapu nije jedinstven."
+
+#~ msgid "Add email account"
+#~ msgstr "Dodaj e-mail nalog"
+
+#~ msgid "Delete email account"
+#~ msgstr "Obrisi e-mail nalog"
+
+#~ msgid "Edit email account"
+#~ msgstr "Izmjeni e-mail nalog"
+
+#~ msgid "Add FTP user"
+#~ msgstr "Dodaj FTP korisnika"
+
+#~ msgid "Edit FTP user"
+#~ msgstr "Izmjeni FTP korisnika"
+
+#~ msgid "Delete FTP user"
+#~ msgstr "Obrisi FTP korisnika."
+
+#~ msgid "Add database"
+#~ msgstr "Dodaj Bazu Podataka"
+
+#~ msgid "Delete database"
+#~ msgstr "Obrisi Bazu Podataka"
+
+#~ msgid "Edit database"
+#~ msgstr "Izmjeni Bazu Podataka"
+
+#~ msgid "Delete task"
+#~ msgstr "Obrisi zadatak"
+
+#~ msgid "Add task"
+#~ msgstr "Dodaj zadatak"
+
+#~ msgid "Edit task"
+#~ msgstr "Izmjeni zadatak"
+
+#~ msgid "Task is enabled."
+#~ msgstr "Zadatak je omogucen."
+
+#~ msgid "Task is disabled."
+#~ msgstr "Zadatak je neomogucen."
+
+#~ msgid "Invalid settings."
+#~ msgstr "Neispravna podesavanja."
+
+#~ msgid "-- no SSL certificate --"
+#~ msgstr "-- bez SSL zertifikata --"
+
+#~ msgid "SSL certificates: %s"
+#~ msgstr "SSL zertifikati: %s"
+
+#~ msgid "Processing (Progress: %s %)"
+#~ msgstr "Obrada (Napredak: %s %)"
+
+#~ msgid "User name"
+#~ msgstr "Korisnicko ime"
+
+#~ msgid "Cronjobs Logs"
+#~ msgstr "Cronjobs Logovi"
+
+#~ msgid "Invalid input schedule settings."
+#~ msgstr "Ungültige Eingabe "
+
+#~ msgid "Manage Server Services"
+#~ msgstr "Server-Dienst-Verwaltung"
+
+#, fuzzy
+#~ msgid "Server messages"
+#~ msgstr "Servermeldungen"
+
+#~ msgid "System logs & Status"
+#~ msgstr "System-Logs & Status"
+
+#~ msgid "This script only runs in CLI mode."
+#~ msgstr "Dieses Script kann nur im CLI Modus ausgeführt werden."
+
+#~ msgid "This script must be run by root."
+#~ msgstr "Dieses Skript muss von root ausgeführt werden."
+
+#~ msgid "Your operating system is not supported."
+#~ msgstr "Ihr Betriebssystem wird nicht unterstüzt."
+
+#~ msgid ""
+#~ "One or more major components of the installation are not yet installed, "
+#~ "please run \"keyhel-installer.sh\"."
+#~ msgstr ""
+#~ "Ein oder mehrere wichtige Komponenten der Installation sind noch nicht "
+#~ "installiert, bitte führen Sie \"keyhel-installer.sh\" aus."
+
+#~ msgid ""
+#~ "Unable to find a valid quota mountpoint, please contact KeyHelp Support "
+#~ "Team or visit https://community.keyhelp.de."
+#~ msgstr ""
+#~ "Es wurde kein geeigneter Quota-Mountpoint gefunden, bitte kontaktieren "
+#~ "Sie den KeyHelp Support oder besuchen Sie https://community.keyhelp.de."
+
+#~ msgid ""
+#~ "Unable to get IPs. Please configure the network interface of this server."
+#~ msgstr ""
+#~ "Es konnten keine IPs ermittelt werden, bitte konfigurieren Sie das "
+#~ "Netzwerk Interface des Servers."
+
+#~ msgid "Unable to connect to the already existing MySQL database."
+#~ msgstr ""
+#~ "Es konnte keine Verbindung zur bereits installierten MySQL-Datenbank "
+#~ "aufgebaut werden."
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %1$s [OPTION] ...\n"
+#~ "\n"
+#~ "General:\n"
+#~ "  --help                          Displays this help.\n"
+#~ "  --non-interactive               Installation will be executed without "
+#~ "further questions.\n"
+#~ "  --no-reboot                     At the end of the installation no "
+#~ "reboot is performed.\n"
+#~ "  --force                         Overrides a previously installed "
+#~ "version of KeyHelp.\n"
+#~ "  --notification=E-MAIL-ADRESSE   After installation, sends a "
+#~ "notification to the specified email address.\n"
+#~ "\n"
+#~ "Install data:\n"
+#~ "  --server-fqdn=SERVER-DOMAIN     The 'Fully-Qualified-Domain-"
+#~ "Name' (FQDN), eg. 'keyhelp.example.com'.\n"
+#~ "  --admin-username=BENUTZERNAME   Admin account: Login name  for KeyHelp "
+#~ "Panel (min. %2$s characters).\n"
+#~ "  --admin-password=PASSWORT       Admin account: Password for KeyHelp "
+#~ "Panel (min. %3$s characters).\n"
+#~ "  --admin-email=E-MAIL-ADRESSE    Admin account: Email address / Email "
+#~ "adresse for auto generated emails."
+#~ msgstr ""
+#~ "Dieses Programm installiert KeyHelp auf Ihrem Server.\n"
+#~ "\n"
+#~ "Syntax: php %1$s [OPTION] ...\n"
+#~ "\n"
+#~ "Allgemein:\n"
+#~ "  --help                          Zeigt diese Hilfe an.\n"
+#~ "  --non-interactive               Installation wird ohne Rückfragen "
+#~ "ausgeführt.\n"
+#~ "  --no-reboot                     Am Ende der Installation wird kein "
+#~ "Reboot durchgeführt.\n"
+#~ "  --force                         Überschreibt eine bereits installierte "
+#~ "KeyHelp Version.\n"
+#~ "  --notification=E-MAIL-ADRESSE   Sendet nach Abschluss der Installation "
+#~ "eine E-Mail an die angegebene E-Mail Adresse.\n"
+#~ "\n"
+#~ "Installationsdaten:\n"
+#~ "  --server-fqdn=SERVER-DOMAIN     Der 'Voll-Qualifizierte-Domain-"
+#~ "Name' (FQDN), z.B. 'keyhelp.example.com'.\n"
+#~ "  --admin-username=BENUTZERNAME   Administratorkonto: Loginname für "
+#~ "KeyHelp Oberfläche (min. %2$s Zeichen).\n"
+#~ "  --admin-password=PASSWORT       Administratorkonto: Passwort für "
+#~ "KeyHelp Oberfläche (min. %3$s Zeichen).\n"
+#~ "  --admin-email=E-MAIL-ADRESSE    Administratorkonto: E-Mail Adresse / E-"
+#~ "Mail Adresse für automatisch generierte E-Mails."
+
+#~ msgid ""
+#~ "Version mismatch between pre-install script and KeyHelp main installer."
+#~ msgstr ""
+#~ "Versionsdiskrepanz zwischen Vorab-Installations-Script und KeyHelp "
+#~ "Hauptinstallation."
+
+#~ msgid ""
+#~ "There is already a KeyHelp installation on this server. Please run the "
+#~ "installer with \"--force\" to the overwrite existing data."
+#~ msgstr ""
+#~ "Es befindet sich bereits eine KeyHelp Installation auf diesem Server. "
+#~ "Bitte starten Sie den Installer mit \"--force\" um die bestehenden Daten "
+#~ "zu überschreiben."
+
+#~ msgid "Please attend the following important notices"
+#~ msgstr "Bitte beachten Sie die folgenden wichtigen Hinweise"
+
+#~ msgid "Backup your important data, before you proceed."
+#~ msgstr "Sichern Sie Ihre wichtigen Daten bevor sie weitermachen."
+
+#~ msgid ""
+#~ "The installation should be performed on a clean server with configured "
+#~ "network interface."
+#~ msgstr ""
+#~ "Die Installation sollte auf einem sauber aufgesetzten Betriebssystem  mit "
+#~ "konfiguriertem Netzwerk Interface durchgeführt werden."
+
+#~ msgid ""
+#~ "An installation on a server, which already runs a KeyHelp panel can cause "
+#~ "data loss."
+#~ msgstr ""
+#~ "Eine Installation auf einem bereits mit KeyHelp ausgestatteten System "
+#~ "kann zu Datenverlust führen."
+
+#~ msgid "Next page"
+#~ msgstr "Nächste Seite"
+
+#~ msgid "Quit install"
+#~ msgstr "Installation abbrechen"
+
+#~ msgid "Here you have the ability to customize installation"
+#~ msgstr "Hier haben Sie die Möglichkeit, Installationsdaten anzupassen"
+
+#~ msgid "Server domain (FQND)"
+#~ msgstr "Server Domain (FQDN)"
+
+#~ msgid "Misc"
+#~ msgstr "Sonstiges"
+
+#~ msgid "Start install"
+#~ msgstr "Installation starten"
+
+#~ msgid "Edit data"
+#~ msgstr "Daten bearbeiten"
+
+#~ msgid "Administrator account - username"
+#~ msgstr "Administrator Konto - Benutzername"
+
+#~ msgid "Please enter a valid username (min. %d characters)."
+#~ msgstr "Bitte geben Sie einen gültigen Benutzernamen ein (min. %d Zeichen)."
+
+#~ msgid "Administrator account - password"
+#~ msgstr "Administrator Konto - Passwort"
+
+#~ msgid "Your password must be at least %d characters long."
+#~ msgstr "Das Passwort muss mindestens %d Zeichen lang sein."
+
+#~ msgid "Administrator account - email address"
+#~ msgstr "Administrator Konto - E-Mail Adresse"
+
+#~ msgid "Email address for notification or hit [Enter]"
+#~ msgstr "E-Mail-Adresse für Benachrichtigung oder [Enter]"
+
+#~ msgid ""
+#~ "Please enter a valid email address (or hit [Enter], for 'no "
+#~ "notification')."
+#~ msgstr ""
+#~ "Bitte geben Sie eine gültige E-Mail-Adresse an (oder [Enter], für 'keine "
+#~ "Benachrichtigung')."
+
+#~ msgid ""
+#~ "The server domains could not be determined, please specify the parameter."
+#~ msgstr ""
+#~ "Die Server Domain konnte nicht ermittelt werden, bitte spezifizieren Sie "
+#~ "diesen Parameter."
+
+#~ msgid ""
+#~ "The email address of the admin account could not be determined, please "
+#~ "specify the parameter."
+#~ msgstr ""
+#~ "Die E-Mail Adresse des Administratorkontos konnte nicht ermittelt werden, "
+#~ "bitte spezifizieren Sie diesen Parameter an."
+
+#~ msgid "Installation is running"
+#~ msgstr "Installation wird durchgeführt"
+
+#~ msgid ""
+#~ "- The database was already installed, the root password has not been "
+#~ "changed -"
+#~ msgstr ""
+#~ "- Die Datenbank war bereits installiert, das root Passwort wurde nicht "
+#~ "verändert -"
+
+#~ msgid "URL"
+#~ msgstr "URL"
+
+#~ msgid ""
+#~ "Hello!\n"
+#~ "\n"
+#~ "The installing of KeyHelp on the server <b>%1$s</b> has just been "
+#~ "completed.\n"
+#~ "\n"
+#~ "<font color=\"red\"><b>However, some setup steps could not be performed "
+#~ "without errors</b></font>\n"
+#~ "\n"
+#~ "For more information, see the log file in \"%2$s\"\n"
+#~ "\n"
+#~ "You will find your login information on your server in the file: \"%3$s\""
+#~ msgstr ""
+#~ "Hallo!\n"
+#~ "\n"
+#~ "Die Installation von KeyHelp auf dem Server <b>%1$s</b> wurde soeben "
+#~ "abgeschlossen.\n"
+#~ "\n"
+#~ "<font color=\"red\"><b>Einige Setup-Schritte konnten jedoch nicht "
+#~ "fehlerfrei durchgeführt werden.</b></font>\n"
+#~ "\n"
+#~ "Weitere Informationen finden Sie in der Log-Datei unter \"%2$s\"\n"
+#~ "\n"
+#~ "Ihre Zugangsdaten finden Sie auf Ihrem Server in dieser Datei: \"%3$s\""
+
+#~ msgid ""
+#~ "Hello!\n"
+#~ "\n"
+#~ "The installing of KeyHelp on the server <b>%1$s</b> has just been <font "
+#~ "color=\"green\"><b>successfully</b></font> completed.\n"
+#~ "\n"
+#~ "You will find your KeyHelp panel at:\n"
+#~ "\n"
+#~ "- <a href=\"%2$s\">%2$s</a>\n"
+#~ "- <a href=\"%3$s\">%3$s</a>\n"
+#~ "\n"
+#~ "You will find your login information on your server in the file: \"%4$s\""
+#~ msgstr ""
+#~ "Hallo!\n"
+#~ "\n"
+#~ "Die Installation von KeyHelp auf dem Server <b>%1$s</b> wurde soeben "
+#~ "<font color=\"green\"><b>erfolgreich</b></font> abgeschlossen.\n"
+#~ "\n"
+#~ "Ihre KeyHelp Oberfläche erreichen Sie unter:\n"
+#~ "\n"
+#~ "- <a href=\"%2$s\">%2$s</a>\n"
+#~ "- <a href=\"%3$s\">%3$s</a>\n"
+#~ "\n"
+#~ "Ihre Zugangsdaten finden Sie auf Ihrem Server in dieser Datei: \"%4$s\""
+
+#~ msgid "Installation finished successfully!"
+#~ msgstr "Installation erfolgreich abgeschlossen!"
+
+#~ msgid "You will find your login information in \"%s\""
+#~ msgstr ""
+#~ "Ihre Zugangsdaten finden Sie auf Ihrem Server in dieser Datei: \"%s\""
+
+#~ msgid "The system will reboot in a few seconds (Cancel with CRTL+C)."
+#~ msgstr ""
+#~ "Das System wird in wenigen Augenblicken neu gestartet (Abbruch mit STRG"
+#~ "+C)."
+
+#~ msgid "Available actions"
+#~ msgstr "Verfügbare Aktionen"
+
+#~ msgid "Choose action"
+#~ msgstr "Aktion wählen"
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %s k[OPTION] ..."
+#~ msgstr ""
+#~ "tttththj,hg\n"
+#~ "\n"
+#~ "ghjghjsdfdsfhsdjsdfsdhfsdff7"
+
+#~ msgid ""
+#~ "This program installs KeyHelp on your server.\n"
+#~ "\n"
+#~ "Usage: php %1$s OPTION] ...\n"
+#~ "\n"
+#~ "General:\n"
+#~ "  --help                          Displays this help.\n"
+#~ "  --non-interactive               Installation will be executed without "
+#~ "further questions.\n"
+#~ "  --no-reboot                     At the end of the installation no "
+#~ "reboot is performed."
+#~ msgstr "uio"
+
+#~ msgid "Hello"
+#~ msgstr "Hallo"
+
+#~ msgid "World"
+#~ msgstr "Welt"
+
+#~ msgid "second"
+#~ msgid_plural "seconds"
+#~ msgstr[0] "Sekunde"
+#~ msgstr[1] "Sekunden"
+#~ msgstr[2] ""
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "Minute"
+#~ msgstr[1] "Minuten"
+#~ msgstr[2] ""
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "Stunde"
+#~ msgstr[1] "Stunden"
+#~ msgstr[2] ""
+
+#~ msgctxt "comment"
+#~ msgid "Mark as spam"
+#~ msgstr "Als Spam markieren"
+
+#~ msgctxt "comment"
+#~ msgid "No spam"
+#~ msgstr "Kein Spam"
+
+#~ msgid "You are %s year old."
+#~ msgid_plural "You are %s years old"
+#~ msgstr[0] "Sie sind %s Jahr alt"
+#~ msgstr[1] "Sie sind %s Jahre alt"
+#~ msgstr[2] ""
+
+#~ msgid "String with notes"
+#~ msgstr "Zeichenkette mit Bemerkung"
+
+#~ msgid "Hello world!"
+#~ msgstr "Hallo Welt!"

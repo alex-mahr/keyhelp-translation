@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminMassEmailMessage\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1184
+msgid "Mass Email Message"
+msgstr "Messaggio E-mail di massa"
+
+#: functions/functions.translationStrings.php:1185
+msgid "Send mass email message"
+msgstr "Spedire una email di massa"
+
+#: functions/functions.translationStrings.php:1186
+msgid "Send email"
+msgstr "Invia email"
+
+#: functions/functions.translationStrings.php:1187
+msgid "Subject"
+msgstr "Soggetto"
+
+#: functions/functions.translationStrings.php:1188
+msgid "Message text"
+msgstr "Testo del messaggio"
+
+#: functions/functions.translationStrings.php:1189
+msgid "To"
+msgstr "A"
+
+#: functions/functions.translationStrings.php:1190
+msgid "From"
+msgstr "Da"
+
+#: functions/functions.translationStrings.php:1191
+msgid ""
+"<nobr><i>Email address</i></nobr> or <nobr><i>Name &lt;EMAIL ADDRESS&gt;</"
+"i></nobr>"
+msgstr ""
+"<nobr><i>Indirizzo email</i></nobr> o <i>nome &lt;EMAIL ADDRESS&gt;</i> "
+"<nobr></nobr>"
+
+#: functions/functions.translationStrings.php:1192
+msgid "Users"
+msgstr "Utenti"
+
+#: functions/functions.translationStrings.php:1193
+msgid "Administrators"
+msgstr "Amministratori"
+
+#: functions/functions.translationStrings.php:1194
+msgid "Accounts without email address"
+msgstr "Account senza indirizzi email"

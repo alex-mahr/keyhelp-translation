@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userDirProtection\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:976
+msgid "Directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:977
+msgid "Title of the protected realm"
+msgstr ""
+
+#: functions/functions.translationStrings.php:978
+msgid "Password protected directories"
+msgstr ""
+
+#: functions/functions.translationStrings.php:979
+msgid "Add directory protection"
+msgstr ""
+
+#: functions/functions.translationStrings.php:980
+msgid ""
+"The directory \"<b>/</b>\" is your \"<b>www-directory</b>\" on the server. "
+"The directory \"<b>/example folder/</b>\" is a subfolder of your \"<b>www-"
+"directory</b>\". If the specified directory does not exist, it will be "
+"created automatically."
+msgstr ""
+
+#: functions/functions.translationStrings.php:981
+msgid "Directory protection settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:982
+msgid "Use selected directory"
+msgstr ""

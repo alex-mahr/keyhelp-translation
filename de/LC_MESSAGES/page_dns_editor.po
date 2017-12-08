@@ -1,0 +1,403 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __dnsEditor\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1209
+msgid "Do you really want to reset the DNS zone on default records?"
+msgstr "Wollen Sie die DNS-Zone wirklich auf Standard-Records zurücksetzen?"
+
+#: functions/functions.translationStrings.php:1210
+msgid "Back to search"
+msgstr "Zurück zur Suche"
+
+#: functions/functions.translationStrings.php:1211
+msgid "DNS-zone editor"
+msgstr "DNS-Zone Editor"
+
+#: functions/functions.translationStrings.php:1212
+#: functions/functions.translationStrings.php:1237
+#: functions/functions.translationStrings.php:1255
+#: functions/functions.translationStrings.php:1260
+#: functions/functions.translationStrings.php:1265
+#: functions/functions.translationStrings.php:1270
+#: functions/functions.translationStrings.php:1277
+#: functions/functions.translationStrings.php:1293
+msgid "Host"
+msgstr "Host"
+
+#: functions/functions.translationStrings.php:1213
+msgid "TTL"
+msgstr "TTL"
+
+#: functions/functions.translationStrings.php:1214
+msgid "Apply to all TTL values"
+msgstr "Für alle TTL-Werte übernehmen"
+
+#: functions/functions.translationStrings.php:1215
+msgid "Record type"
+msgstr "Record Type"
+
+#: functions/functions.translationStrings.php:1216
+msgid "Resource data"
+msgstr "Resource Data"
+
+#: functions/functions.translationStrings.php:1217
+msgid "(Primary nameserver)"
+msgstr "(Primärer Nameserver)"
+
+#: functions/functions.translationStrings.php:1218
+msgid "(Email of domain admin - format: user.domain.com.)"
+msgstr "(E-Mail des Domain Admin - Format: user.domain.de.)"
+
+#: functions/functions.translationStrings.php:1219
+#: functions/functions.translationStrings.php:1246
+msgid "Refresh"
+msgstr "Refresh"
+
+#: functions/functions.translationStrings.php:1220
+#: functions/functions.translationStrings.php:1248
+msgid "Retry"
+msgstr "Retry"
+
+#: functions/functions.translationStrings.php:1221
+#: functions/functions.translationStrings.php:1250
+msgid "Expire"
+msgstr "Expire"
+
+#: functions/functions.translationStrings.php:1222
+#: functions/functions.translationStrings.php:1252
+msgid "Minimum-TTL"
+msgstr "Minimum-TTL"
+
+#: functions/functions.translationStrings.php:1223
+msgid "Add record"
+msgstr "Record hinzufügen"
+
+#: functions/functions.translationStrings.php:1224
+msgid "Remove record"
+msgstr "Record entfernen"
+
+#: functions/functions.translationStrings.php:1225
+msgid "Select the domain whose DNS zone you want to edit."
+msgstr "Wählen Sie die Domain, deren DNS-Zone Sie editieren möchten"
+
+#: functions/functions.translationStrings.php:1226
+msgid "Search for domain name"
+msgstr "Suche nach Domainnamen"
+
+#: functions/functions.translationStrings.php:1227
+msgid "(* = Wildcard)"
+msgstr "(* = Wildcard)"
+
+#: functions/functions.translationStrings.php:1228
+msgid "Selection"
+msgstr "Auswahl"
+
+#: functions/functions.translationStrings.php:1229
+msgid "Record type explanation"
+msgstr "Hilfe zu den Record-Typen"
+
+#: functions/functions.translationStrings.php:1230
+msgid "Placeholder sign for the domain itself"
+msgstr "Platzhalter Zeichen für die Domäne selbst"
+
+#: functions/functions.translationStrings.php:1231
+msgid "Wildcard sign"
+msgstr "Wildcard Zeichen"
+
+#: functions/functions.translationStrings.php:1232
+msgid "Composition"
+msgstr "Aufbau"
+
+#: functions/functions.translationStrings.php:1233
+msgid "Example"
+msgstr "Beispiel"
+
+#: functions/functions.translationStrings.php:1234
+msgid "Class and record-type"
+msgstr "Klasse und Record-Typ"
+
+#: functions/functions.translationStrings.php:1235
+msgid ""
+"Specifies how long the record in a cache is valid (TTL = time to live, "
+"indication in seconds)."
+msgstr ""
+"Gibt an, wie lange der Record in einem Cache gültig ist (TTL = time to live, "
+"Angabe in Sekunden)."
+
+#: functions/functions.translationStrings.php:1236
+msgid ""
+"The SOA-record (SOA = start of authority) contains information for managing "
+"the zone and zone transfers"
+msgstr ""
+"Der SOA-Record (SOA = Start of Authority  = Beginn der Zuständigkeit) "
+"enthält Angaben zur Verwaltung der Zone und des Zonentransfers"
+
+#: functions/functions.translationStrings.php:1238
+msgid "Name of the zone"
+msgstr "Name der Zone"
+
+#: functions/functions.translationStrings.php:1239
+msgid "Primary nameserver"
+msgstr "Primärer Nameserver"
+
+#: functions/functions.translationStrings.php:1240
+msgid "The primary nameserve of the domain"
+msgstr "Der Primäre Nameserver der Domain"
+
+#: functions/functions.translationStrings.php:1241
+msgid "Email"
+msgstr "E-Mail"
+
+#: functions/functions.translationStrings.php:1242
+msgid ""
+"Email address of the responsible person of the zone (The sign \"@\" will be "
+"replaced by \".\", points in front of \"@\" will be replaced by \"\\.\")"
+msgstr ""
+"E-Mail-Adresse des Verantwortlichen für die Zone (Das \"@\" wird durch \".\" "
+"ersetzt, Punkte vor dem \"@\" werden durch \"\\.\" ersetzt)"
+
+#: functions/functions.translationStrings.php:1243
+msgid "Serial number"
+msgstr "Serialnummer"
+
+#: functions/functions.translationStrings.php:1244
+msgid "Must be incremented with each change of the zone"
+msgstr "Muss bei jeder Änderung der Zone inkrementiert werden"
+
+#: functions/functions.translationStrings.php:1245
+msgid ""
+"<i>This information is filled out automatically and need not be specified.</"
+"i>"
+msgstr ""
+"<i>Diese Angabe wird automatisch ausgefüllt und muss nicht angegeben werden."
+"</i>"
+
+#: functions/functions.translationStrings.php:1247
+msgid ""
+"Seconds distance, in which the slaves inquire whether anything has changed "
+"(as per Ripe-203: 86400 (24 hours))"
+msgstr ""
+"Sekundenabstand, in dem die Slaves anfragen, ob sich etwas geändert hat (lt. "
+"Ripe-203: 86400 (24 Stunden))"
+
+#: functions/functions.translationStrings.php:1249
+msgid ""
+"Seconds distance, in which the slave repeated if his master does not respond "
+"(as per. Ripe-203: 7200 (2 hours))"
+msgstr ""
+"Sekundenabstand, in denen ein Slave wiederholt, falls sein Master nicht "
+"antwortet (lt. Ripe-203: 7200 (2 Stunden))"
+
+#: functions/functions.translationStrings.php:1251
+msgid ""
+"Seconds distance, after a slave disables the zone when the master does not "
+"respond to a zone transfer request (as per Ripe-203: 3600000 (1000 hours))"
+msgstr ""
+"Sekundenabstand, nachdem ein Slave die Zone deaktiviert, wenn der Master auf "
+"einen Zonentransfer-Request nicht reagiert (lt. Ripe-203: 3600000 (1000 "
+"Stunden))"
+
+#: functions/functions.translationStrings.php:1253
+msgid "Negativ-Caching-TTL (as per Ripe-203: 172800 (2 days))"
+msgstr "Negativ-Caching-TTL (lt. Ripe-203: 172800 (2 Tage))"
+
+#: functions/functions.translationStrings.php:1254
+msgid "With an A resource record an IPv4 address is assigned to a DNS name."
+msgstr ""
+"Mit einem A Resource Record wird einem DNS-Namen eine IPv4-Adresse "
+"zugeordnet."
+
+#: functions/functions.translationStrings.php:1256
+#: functions/functions.translationStrings.php:1261
+#: functions/functions.translationStrings.php:1266
+msgid "Released name"
+msgstr "Veröffentlichter Name"
+
+#: functions/functions.translationStrings.php:1257
+msgid "IPv4 address"
+msgstr "IPv4 Adresse"
+
+#: functions/functions.translationStrings.php:1258
+msgid "The IPv4 address, under which the server is reachable"
+msgstr "Die IPv4 Adresse, unter der der Server erreichbar ist"
+
+#: functions/functions.translationStrings.php:1259
+msgid "With a AAAA resource record an IPv6 address is assigned to a DNS name."
+msgstr ""
+"Mit einem AAAA Resource Record wird einem DNS-Namen eine IPv6-Adresse "
+"zugeordnet."
+
+#: functions/functions.translationStrings.php:1262
+msgid "IPv6 address"
+msgstr "IPv6 Adresse"
+
+#: functions/functions.translationStrings.php:1263
+msgid "The IPv6 address, under which the server is reachable"
+msgstr "Die IPv6 Adresse, unter der der Server erreichbar ist"
+
+#: functions/functions.translationStrings.php:1264
+msgid ""
+"The CNAME-record (CNAME = canonical name) associates a name with the A/AAAA "
+"record to another domain. Instead of creating multiple A/AAAA records, you "
+"can create CNAMEs associated with an A record. Only the resource record must "
+"be modified by changing an IP and all by CNAME defined aliases refer also to "
+"the new IP."
+msgstr ""
+"Der CNAME-Record (CNAME = canonical name = anerkannter Name) verbindet einen "
+"Namen mit dem A/AAAA-Record einer anderen Domain. Anstatt mehrere A/AAAA-"
+"Records anzulegen, können Sie CNAMEs anlegen, die mit einem A Record "
+"verbunden sind. Beim Wechsel einer IP muss nun nur noch der Ressource Record "
+"geändert werden und alle per CNAME definierten Aliase verweisen ebenfalls "
+"zur neuen IP."
+
+#: functions/functions.translationStrings.php:1267
+msgid "Target"
+msgstr "Ziel"
+
+#: functions/functions.translationStrings.php:1268
+msgid "Target of the CNAME (domain-name)"
+msgstr "Ziel des CNAME (Domain-Name)"
+
+#: functions/functions.translationStrings.php:1269
+msgid ""
+"MX stand for \"Mail Exchange\" and indicates under which the address the "
+"responsible mail server is reachable. If multiple MX Records are available, "
+"the priority will decide."
+msgstr ""
+"MX steht für \"Mail Exchange\" und gibt an, unter welcher Adresse der "
+"zuständigen Mail-Server erreichbar ist. Wenn mehrere MX Records vorhanden "
+"sind, entscheidet die Priorität."
+
+#: functions/functions.translationStrings.php:1271
+msgid "Domain, for which the entry applies"
+msgstr "Domain, für welche der Eintrag gilt"
+
+#: functions/functions.translationStrings.php:1272
+#: functions/functions.translationStrings.php:1284
+msgid "Priority"
+msgstr "Priorität"
+
+#: functions/functions.translationStrings.php:1273
+msgid ""
+"Specifies the priority of records, lowest numerical value = highest priority"
+msgstr ""
+"Gibt die Priorität des Records an, niedrigster numerischer Wert = höchste "
+"Priorität"
+
+#: functions/functions.translationStrings.php:1274
+msgid "Mail-server"
+msgstr "Mail-Server"
+
+#: functions/functions.translationStrings.php:1275
+msgid "Name of mail server"
+msgstr "Name des Mailservers"
+
+#: functions/functions.translationStrings.php:1276
+msgid ""
+"With the help of the NS records you can specify which name server is "
+"officially responsible for the zone."
+msgstr ""
+"Mit Hilfe des NS-Records kann man festlegen, welche Nameserver für die Zone "
+"offiziell zuständig ist."
+
+#: functions/functions.translationStrings.php:1278
+msgid "Domain, for which the record applies"
+msgstr "Domain, für welche der Record gilt"
+
+#: functions/functions.translationStrings.php:1279
+#: functions/functions.translationStrings.php:1290
+msgid "Server"
+msgstr "Server"
+
+#: functions/functions.translationStrings.php:1280
+msgid "Name of the responsible nameserver for this domain"
+msgstr "Name des für diese Domäne zuständigen Nameservers"
+
+#: functions/functions.translationStrings.php:1281
+msgid ""
+"With the help of SRV records will be defined which services are provided "
+"under a domain / subdomain."
+msgstr ""
+"Mit Hilfe des SRV-Records wird festgelegt, welche Dienste unter einer "
+"Domain / Subdomain angeboten werden."
+
+#: functions/functions.translationStrings.php:1282
+msgid "Service"
+msgstr "Service"
+
+#: functions/functions.translationStrings.php:1283
+msgid "Service + protocol + domain"
+msgstr "Dienst + Protokoll + Domain"
+
+#: functions/functions.translationStrings.php:1285
+msgid ""
+"In case of several identical services, the lowest value takes precedence, "
+"lowest numerical value = highest priority"
+msgstr ""
+"Bei mehreren identischen Diensten, hat der niedrigste Wert Vorrang, "
+"niedrigster numerischer Wert = höchste Priorität"
+
+#: functions/functions.translationStrings.php:1286
+msgid "Weight"
+msgstr "Gewicht"
+
+#: functions/functions.translationStrings.php:1287
+msgid "Used for load balancing with identical priority"
+msgstr "Dient zur Lastverteilung bei identischer Priorität"
+
+#: functions/functions.translationStrings.php:1288
+msgid "Port"
+msgstr "Port"
+
+#: functions/functions.translationStrings.php:1289
+msgid "Port number"
+msgstr "Portnummer"
+
+#: functions/functions.translationStrings.php:1291
+msgid "Server, providing this service"
+msgstr "Server, der diesen Dienst bereitstellt"
+
+#: functions/functions.translationStrings.php:1292
+msgid ""
+"With the help of TXT records a freely definable text can be stored in a DNS "
+"zone."
+msgstr ""
+"Mit Hilfe des TXT-Records kann ein frei definierbarer Text in einer DNS-Zone "
+"abgelegt werden."
+
+#: functions/functions.translationStrings.php:1294
+msgid "The server domain"
+msgstr "Die Serverdomain"
+
+#: functions/functions.translationStrings.php:1295
+msgid "Text"
+msgstr "Text"
+
+#: functions/functions.translationStrings.php:1296
+msgid "Freely definable text"
+msgstr "Frei definierbarer Text"
+
+#~ msgid "Reset DNS settings"
+#~ msgstr "DNS-Einstellungen zurücksetzen"
+
+#~ msgid "Domain"
+#~ msgstr "Domain"
+
+#~ msgid "Open DNS-zone"
+#~ msgstr "DNS-Zone öffnen"

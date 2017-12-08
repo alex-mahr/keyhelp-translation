@@ -1,0 +1,2031 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-11-20 14:02+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2;_n:1,2;_en:1,2;_pgettext:1c,2;"
+"_p:1c,2;_ep:1c,2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: install\n"
+"X-Poedit-SearchPathExcluded-1: incl/vendor\n"
+"X-Poedit-SearchPathExcluded-2: _misc\n"
+"X-Poedit-SearchPathExcluded-3: _extern\n"
+"X-Poedit-SearchPathExcluded-4: theme\n"
+
+#: core/Cli/CliControl.php:166 core/pending/EventLogger.php:106
+#: incl/page/admin_logs_servermsg.php:54
+msgid "Error"
+msgstr "Fehler"
+
+#: core/Cli/CliControl.php:214
+msgid "Your Administration-Panel"
+msgstr "Ihr Administrations-Panel"
+
+#: core/Cli/CliControl.php:242
+msgid "This application requires root privileges."
+msgstr "Diese Anwendung erfordert Root-Privilegien."
+
+#: core/Cli/CliControl.php:255
+msgid "This application requires to be run in CLI mode."
+msgstr "Diese Anwendung muss im CLI-Modus ausgeführt werden."
+
+#: core/Firewall/Iptables.php:406
+msgid "Invalid default policy"
+msgstr "Ungültige Standardrichtlinie"
+
+#: core/Firewall/Iptables.php:412 core/Firewall/Iptables.php:419
+#, php-format
+msgid "Required chain \"%s\" is missing"
+msgstr "Erforderliche Kette \"%s\" fehlt"
+
+#: core/Firewall/Iptables.php:437
+msgid ""
+"Cannot find a rule with (jump-) action \"fail2ban\", this way fail2ban would "
+"not work."
+msgstr ""
+"Konnte keine Regel mit (Sprung-) Aktion \"fail2ban\" finden, auf diese Weise "
+"würde fail2ban nicht funktionieren."
+
+#: core/Firewall/Iptables.php:445
+msgid "Invalid chain name"
+msgstr "Ungültiger Kettenname"
+
+#: core/Firewall/Iptables.php:484
+#, php-format
+msgid "Duplicate parameter \"%s\""
+msgstr "Doppelter Parameter \"%s\""
+
+#: core/Firewall/Iptables.php:501
+#, php-format
+msgid "Missing value for parameter \"%s\""
+msgstr "Fehlender Wert für Parameter \"%s\""
+
+#: core/Firewall/Iptables.php:526 core/Firewall/Iptables.php:563
+#: core/Firewall/Iptables.php:576 core/Firewall/Iptables.php:590
+#: core/Firewall/Iptables.php:599
+#, php-format
+msgid "Missing parameter \"%s\""
+msgstr "Fehlender Parameter \"%s\""
+
+#: core/Firewall/Iptables.php:551
+#, php-format
+msgid "The parameter \"%1$s\" requires the jump action \"%2$s\""
+msgstr "Der Parameter \"%1$s\" benötigt die Sprung-Aktion \"%2$s\""
+
+#: core/Firewall/Iptables.php:580
+#, php-format
+msgid "Multiport needs \"--protocol\" with one of the following values: %s"
+msgstr "Multiport benötigt \"--protocol\" mit einem der folgenden Werte: %s"
+
+#: core/Firewall/Iptables.php:608
+#, php-format
+msgid "Invalid value for parameter \"%s\""
+msgstr "Ungültiger Wert für Parameter \"%s\""
+
+#: core/Firewall/Iptables.php:616
+#, php-format
+msgid "The parameters \"%s\" and \"%s\" cannot be used together"
+msgstr ""
+"Die Parameter \"%s\" und \"%s\" können nicht zusammen verwendet werden."
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:70 core/i18n/KeyhelpLocale.php:82
+msgid "Sunday"
+msgstr "Sonntag"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:71 core/i18n/KeyhelpLocale.php:83
+msgid "Monday"
+msgstr "Montag"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:72 core/i18n/KeyhelpLocale.php:84
+msgid "Tuesday"
+msgstr "Dienstag"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:73 core/i18n/KeyhelpLocale.php:85
+msgid "Wednesday"
+msgstr "Mittwoch"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:74 core/i18n/KeyhelpLocale.php:86
+msgid "Thursday"
+msgstr "Donnerstag"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:75 core/i18n/KeyhelpLocale.php:87
+msgid "Friday"
+msgstr "Freitag"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:76 core/i18n/KeyhelpLocale.php:88
+msgid "Saturday"
+msgstr "Samstag"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:82
+msgid "Sun"
+msgstr "So"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:83
+msgid "Mon"
+msgstr "Mo"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:84
+msgid "Tue"
+msgstr "Di"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:85
+msgid "Wed"
+msgstr "Mi"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:86
+msgid "Thu"
+msgstr "Do"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:87
+msgid "Fri"
+msgstr "Fr"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:88
+msgid "Sat"
+msgstr "Sa"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:94 core/i18n/KeyhelpLocale.php:111
+msgid "January"
+msgstr "Januar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:95 core/i18n/KeyhelpLocale.php:112
+msgid "February"
+msgstr "Februar"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:96 core/i18n/KeyhelpLocale.php:113
+msgid "March"
+msgstr "März"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:97 core/i18n/KeyhelpLocale.php:114
+msgid "April"
+msgstr "April"
+
+#. Translators: Month name
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:98 core/i18n/KeyhelpLocale.php:115
+msgid "May"
+msgstr "Mai"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:99 core/i18n/KeyhelpLocale.php:116
+msgid "June"
+msgstr "Juni"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:100 core/i18n/KeyhelpLocale.php:117
+msgid "July"
+msgstr "Juli"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:101 core/i18n/KeyhelpLocale.php:118
+msgid "August"
+msgstr "August"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:102 core/i18n/KeyhelpLocale.php:119
+msgid "September"
+msgstr "September"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:103 core/i18n/KeyhelpLocale.php:120
+msgid "October"
+msgstr "Oktober"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:104 core/i18n/KeyhelpLocale.php:121
+msgid "November"
+msgstr "November"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:105 core/i18n/KeyhelpLocale.php:122
+msgid "December"
+msgstr "Dezember"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:111
+msgid "Jan"
+msgstr "Jan"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:112
+msgid "Feb"
+msgstr "Feb"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:113
+msgid "Mar"
+msgstr "Mrz"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:114
+msgid "Apr"
+msgstr "Apr"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:116
+msgid "Jun"
+msgstr "Jun"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:117
+msgid "Jul"
+msgstr "Jul"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:118
+msgid "Aug"
+msgstr "Aug"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:119
+msgid "Sep"
+msgstr "Sep"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:120
+msgid "Oct"
+msgstr "Okt"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:121
+msgid "Nov"
+msgstr "Nov"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:122
+msgid "Dec"
+msgstr "Dez"
+
+#. Translators: Thousands separator for number formatting, default ","
+#: core/i18n/KeyhelpLocale.php:129
+msgid "_number_format_thousands_separator"
+msgstr "."
+
+#. Translators: Decimal separator for number formatting, default "."
+#: core/i18n/KeyhelpLocale.php:131
+msgid "_number_format_decimal_separator"
+msgstr ","
+
+#. Translators: Localized date format (short), see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:253 incl/page/admin_accounts_index.php:356
+#: incl/page/admin_accounts_index.php:364
+msgid "M j, Y"
+msgstr "j. M, Y"
+
+#. Translators: Localized date format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:256 incl/page/admin_domain_index.php:343
+#: incl/page/admin_sslcerts_edit.php:86 incl/page/admin_sslcerts_edit.php:87
+#: incl/page/admin_sslcerts_index.php:172
+msgid "F j, Y"
+msgstr "d. F Y"
+
+#. Translators: Localized time + date format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:259 core/pending/AjaxRequest.php:220
+#: incl/page/admin_index.php:196 incl/page/admin_index.php:318
+#: incl/page/admin_logs_servermsg.php:99 incl/page/admin_mailqueue.php:109
+#: incl/page/admin_panel_tasks.php:114 incl/page/backup_index.php:90
+#: incl/page/backup_repository.php:189 index.php:504
+msgid "H:i:s - F j, Y"
+msgstr "H:i:s - d. F Y"
+
+#. Translators: Localized time + date format [short month], see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:262 incl/page/admin_accounts_index.php:121
+#: incl/page/admin_accounts_index.php:404
+#: incl/page/admin_active_sessions.php:87 incl/page/admin_traffic.php:106
+msgid "H:i:s - M j, Y"
+msgstr "H:i:s - d. M Y"
+
+#. Translators: Localized weekday + date + time format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:265 core/pending/AjaxRequest.php:556
+#: incl/page/admin_index.php:119
+msgid "l, F j, Y - H:i:s"
+msgstr "l, d. F Y - H:i:s"
+
+#: core/pending/AjaxRequest.php:112
+msgid "Unable to connect to update server."
+msgstr "Verbindung zum Updateserver konnte nicht hergestellt werden."
+
+#: core/pending/AjaxRequest.php:118
+msgid "Your version is up to date."
+msgstr "Ihre Version ist aktuell."
+
+#: core/pending/AjaxRequest.php:217
+msgid "No information available."
+msgstr "Keine Informationen verfügbar."
+
+#: core/pending/AjaxRequest.php:740
+msgid "Export error - malformed data!"
+msgstr "Exportfehler - fehlerhafte Daten!"
+
+#: core/pending/EventLogger.php:107
+msgid "Notice"
+msgstr "Hinweis"
+
+#: functions/functions.main.php:282
+#: functions/functions.translationStrings.php:47
+msgid "unlimited"
+msgstr "unbegrenzt"
+
+#: functions/functions.main.php:1442 incl/page/backup_create_backup.php:25
+#: incl/page/backup_index.php:24 incl/page/backup_remote_settings.php:24
+#: incl/page/backup_repository.php:25 incl/page/backup_scheduled_backup.php:25
+#: misc/navigation.php:76 misc/navigation.php:281
+msgid "Backup"
+msgstr "Backup"
+
+#: functions/functions.main.php:1443
+msgid "Panel Access"
+msgstr "Panel Zugriff"
+
+#: functions/functions.main.php:1444
+msgid "Modify SSL Settings"
+msgstr "SSL Einstellungen bearbeiten"
+
+#: functions/functions.main.php:1445
+msgid "DNS Editor"
+msgstr "DNS-Editor"
+
+#: functions/functions.main.php:1460
+msgid "Everything okay"
+msgstr "Alles okay"
+
+#: functions/functions.main.php:1463
+msgid "An error occurred"
+msgstr "Ein Fehler ist aufgetreten"
+
+#: functions/functions.main.php:1467
+msgid "Processing"
+msgstr "In Bearbeitung"
+
+#: functions/functions.main.php:1470
+msgid "Will be deleted"
+msgstr "Wird gelöscht"
+
+#: functions/functions.main.php:1474
+msgid "Unknown status"
+msgstr "Unbekannter Status"
+
+#: functions/functions.main.php:1485
+msgid "No Template / Default"
+msgstr "Keine Vorlage / Standard"
+
+#: functions/functions.main.php:1524
+msgid "Failed to gather information from update server."
+msgstr "Es konnten keine Informationen vom Updateserver bezogen werden."
+
+#: functions/functions.main.php:1539
+msgid "Invalid HTTP status code received"
+msgstr "Ungültiger HTTP-Statuscode erhalten"
+
+#: functions/functions.main.php:1746 functions/functions.main.php:1815
+#: index.php:442
+#, php-format
+msgid "Minimum of %s character in length"
+msgstr "Mindestens %s Zeichen lang"
+
+#: functions/functions.main.php:1752 functions/functions.main.php:1821
+#: index.php:443
+msgid "Minimum of one character [a-zA-Z]"
+msgstr "Mindestens einen Buchstaben [a-zA-Z]"
+
+#: functions/functions.main.php:1758 functions/functions.main.php:1827
+#: index.php:444
+msgid "Minimum of one lowercase character [a-z]"
+msgstr "Mindestens einen Kleinbuchstaben [a-z]"
+
+#: functions/functions.main.php:1764 functions/functions.main.php:1833
+#: index.php:445
+msgid "Minimum of one uppercase character [A-Z]"
+msgstr "Mindestens einen Großbuchstaben [A-Z]"
+
+#: functions/functions.main.php:1770 functions/functions.main.php:1839
+#: index.php:446
+msgid "Minimum of one digit [0-9]"
+msgstr "Mindestens eine Ziffer [0-9]"
+
+#: functions/functions.main.php:1776 functions/functions.main.php:1845
+#: index.php:447
+msgid "Minimum of one special character"
+msgstr "Mindestens ein Sonderzeichen"
+
+#: functions/functions.main.php:2157
+msgid "Hourly ( at {minute} minutes )"
+msgstr "Stündlich ( bei {minute} Minuten )"
+
+#: functions/functions.main.php:2160
+msgid "Daily ( {hour}:{minute} o'clock )"
+msgstr "Täglich ( {hour}:{minute} Uhr )"
+
+#: functions/functions.main.php:2163
+msgid "Weekly ( {dayOfWeek} | {hour}:{minute} o'clock )"
+msgstr "Wöchentlich ( {dayOfWeek} | {hour}:{minute} Uhr )"
+
+#: functions/functions.main.php:2166
+msgid "Monthly ( on {dayOfMonth} | {hour}:{minute} o'clock )"
+msgstr "Monatlich ( am {dayOfMonth} | {hour}:{minute} Uhr )"
+
+#: functions/functions.main.php:2169
+msgid "Yearly ( {month} {dayOfMonth} | {hour}:{minute} o'clock )"
+msgstr "Jährlich ( {dayOfMonth} {month} | {hour}:{minute} Uhr )"
+
+#: functions/functions.main.php:2238 incl/page/admin_sslcerts_add.php:58
+msgid "Day(s)"
+msgstr "Tag(e)"
+
+#: functions/functions.main.php:2522 incl/page/admin_domain_index.php:312
+#: incl/page/user_domain_index.php:145
+msgid "OS default"
+msgstr "OS Standard"
+
+#: functions/functions.main.php:2532
+msgid "Like main domain"
+msgstr "Wie Hauptdomain"
+
+#: functions/functions.main.php:2562
+msgid "Error, not executable"
+msgstr "Fehler, nicht ausführbar"
+
+#: functions/functions.main.php:3110
+#, php-format
+msgid ""
+"The support of your operating system was discontinued by the operating "
+"system manufacturer in %s."
+msgstr ""
+"Die Unterstützung Ihres Betriebssystems wurde vom Betriebssystemhersteller "
+"im %s eingestellt."
+
+#: functions/functions.main.php:3111
+msgid ""
+"It has reached its end-of-life status and will not receive any further "
+"system updates."
+msgstr ""
+"Es hat seinen End-of-Life-Status erreicht und wird keine weiteren System-"
+"Updates erhalten."
+
+#: functions/functions.main.php:3112 functions/functions.main.php:3118
+msgid "We recommend upgrading to a newer operating system version."
+msgstr "Wir empfehlen ein Upgrade auf eine neuere Betriebssystemversion."
+
+#: functions/functions.main.php:3116
+#, php-format
+msgid ""
+"The support of your operating system is discontinued by the operating system "
+"manufacturer in %s."
+msgstr ""
+"Die Unterstützung Ihres Betriebssystems wird vom Betriebssystemhersteller im "
+"%s eingestellt."
+
+#: functions/functions.main.php:3117
+msgid ""
+"It will reach its end-of-life status and will not receive any further system "
+"updates."
+msgstr ""
+"Es wird seinen End-of-Life-Status erreichen und erhält keine weiteren System-"
+"Updates."
+
+#: functions/functions.main.php:3125
+msgid ""
+"Please don't upgrade your OS manually. We have prepared a script and a step-"
+"by-step instruction, how to perform the upgrade."
+msgstr ""
+"Bitte aktualisieren Sie Ihr Betriebssystem nicht manuell. Wir haben ein "
+"Skript und eine Schritt-für-Schritt-Anleitung vorbereitet, wie man das "
+"Upgrade durchführt."
+
+#: functions/functions.main.php:3129
+msgid "Further information:"
+msgstr "Weitere Informationen:"
+
+#: functions/functions.main.php:3140
+msgid "Please ask your support for further instructions."
+msgstr "Bitte fragen Sie Ihren Support für weitere Anweisungen."
+
+#: functions/functions.main.php:3748
+msgid "Google Analytics has been disabled!"
+msgstr "Google Analytics wurde deaktiviert!"
+
+#: functions/functions.main.php:3789
+msgid ""
+"Enjoyed KeyHelp? Request your <a href=\"https://www.keyhelp.de/en/"
+"#installation\" target=\"_blank\">install guide</a> now!"
+msgstr ""
+"Gefällt Ihnen KeyHelp? Jetzt <a href=\"https://www.keyhelp.de/de/"
+"#installation\" target=\"_blank\">Installationsanleitung</a> anfordern!"
+
+#: functions/functions.main.php:3804
+msgid "Data privacy"
+msgstr "Datenschutz"
+
+#: functions/functions.main.php:3806
+msgid "Visitors statistics (Google Analytics)"
+msgstr "Besucherstatistiken (Google Analytics)"
+
+#: functions/functions.main.php:3807
+msgid ""
+"This website uses Google Analytics, a web analysis service of Google Inc. "
+"(“Google”). Google Analytics uses so-called “Cookies”, which are text files "
+"that are stored on your computer and which enable the analysis of your use "
+"of a website. The information produced by the Cookie about your use of said "
+"website is usually transmitted to a Google server in the USA where they are "
+"stored. In the event of an IP anonymisation on this website your IP address "
+"is first shortened by Google in EU member states or in other contracting "
+"states which are party to the Agreement on the European Economic Area. Only "
+"in exceptional cases is the full IP address transmitted to a Google server "
+"in the USA where it is then shortened. On behalf of the operator of this "
+"website Google will use this information in order to analyse your use of the "
+"website, to compile reports about the website’s activities and in order to "
+"bring further services connected with the use of the website and the "
+"internet for the operator of the website. The IP address that was "
+"transmitted by your browser as part of Google Analytics is not merged with "
+"any other data from Google."
+msgstr ""
+"Diese Website benutzt Google Analytics, einen Webanalysedienst der Google "
+"Inc. („Google“). Google Analytics verwendet sog. „Cookies“, Textdateien, die "
+"auf Ihrem Computer gespeichert werden und die eine Analyse der Benutzung der "
+"Website durch Sie ermöglichen. Die durch den Cookie erzeugten Informationen "
+"über Ihre Benutzung dieser Website werden in der Regel an einen Server von "
+"Google in den USA übertragen und dort gespeichert. Im Falle der Aktivierung "
+"der IP-Anonymisierung auf dieser Webseite, wird Ihre IP-Adresse von Google "
+"jedoch innerhalb von Mitgliedstaaten der Europäischen Union oder in anderen "
+"Vertragsstaaten des Abkommens über den Europäischen Wirtschaftsraum zuvor "
+"gekürzt. Nur in Ausnahmefällen wird die volle IP-Adresse an einen Server von "
+"Google in den USA übertragen und dort gekürzt. Im Auftrag des Betreibers "
+"dieser Website wird Google diese Informationen benutzen, um Ihre Nutzung der "
+"Website auszuwerten, um Reports über die Websiteaktivitäten "
+"zusammenzustellen und um weitere mit der Websitenutzung und der "
+"Internetnutzung verbundene Dienstleistungen gegenüber dem Websitebetreiber "
+"zu erbringen. Die im Rahmen von Google Analytics von Ihrem Browser "
+"übermittelte IP-Adresse wird nicht mit anderen Daten von Google "
+"zusammengeführt."
+
+#: functions/functions.main.php:3808
+msgid "Opt-Out for visitors statistics"
+msgstr "Opt-Out für Besucherstatistiken"
+
+#: functions/functions.main.php:3809
+msgid ""
+"You can prevent the storage of Cookies by setting your browser software "
+"accordingly; we would like to point out, however, that if you do so you may "
+"not be able to use all the functions of this website to their full extent. "
+"You can prevent Google Analytics tracking by clicking on the following link. "
+"An opt-out-Cookie is put in place that prevents any future tracking of your "
+"data when visiting the respective website: <a href=\"javascript:"
+"gaOptout()\">Deactivate Google Analytics</a>"
+msgstr ""
+"Sie können die Erfassung durch Google Analytics verhindern, indem Sie auf "
+"folgenden Link klicken. Es wird ein Opt-Out-Cookie gesetzt, der die "
+"zukünftige Erfassung Ihrer Daten beim Besuch dieser Website verhindert: <a "
+"href=\"javascript:gaOptout()\">Google Analytics deaktivieren</a>"
+
+#: functions/functions.main.php:3810
+msgid ""
+"More information on usage terms and data protection can be found <a href="
+"\"http://www.google.com/analytics/terms/gb.html\" target=\"_blank\">here</a> "
+"or <a href=\"https://support.google.com/analytics/answer/6004245?hl=en-GB\" "
+"target=\"_blank\">here</a>. We would like to point out that on this website "
+"Google Analytics was extended by the code „anonymizeIp();“ to safeguard the "
+"anonymized collecting of IP addresses, the so-called IP masking."
+msgstr ""
+"Nähere Informationen zu Nutzungsbedingungen und Datenschutz finden Sie <a "
+"href=\"http://www.google.com/analytics/terms/de.html\" target=\"_blank"
+"\">hier</a> bzw. <a href=\"https://www.google.de/intl/de/policies/\" target="
+"\"_blank\">hier</a>. Wir weisen Sie darauf hin, dass auf dieser Website "
+"Google Analytics um den Code „anonymizeIp“ erweitert wurde, um eine "
+"anonymisierte Erfassung von IP-Adressen (sog. IP-Masking) zu gewährleisten."
+
+#: functions/functions.main.php:3811
+msgid ""
+"Plus we use Google Analytics to evaluate data from AdWords and DoubleClick "
+"cookies to produce and evaluate statistics. Should you not consent to this, "
+"you can deactivate these in <a href=\"http://www.google.com/settings/ads/"
+"onweb/?hl=en\" target=\"_blank\">ad settings</a>."
+msgstr ""
+"Wir nutzen Google Analytics zudem dazu, Daten aus AdWords und dem Double-"
+"Click-Cookie zu statistischen Zwecken auszuwerten. Sollten Sie dies nicht "
+"wünschen, können Sie dies über den <a href=\"http://www.google.com/settings/"
+"ads/onweb/?hl=de\" target=\"_blank\">Anzeigenvorgaben-Manager</a> "
+"deaktivieren."
+
+#: functions/functions.main.php:3813
+msgid "Close window"
+msgstr "Fenster schließen"
+
+#: functions/functions.translationStrings.php:35
+#: incl/page/admin_accounts_admin_delete.php:107
+#: incl/page/admin_domain_delete.php:96 incl/page/user_email_index.php:133
+msgid "Yes"
+msgstr "Ja"
+
+#: functions/functions.translationStrings.php:36
+#: incl/page/admin_accounts_admin_delete.php:107
+#: incl/page/admin_domain_delete.php:96 incl/page/user_email_index.php:133
+msgid "No"
+msgstr "Nein"
+
+#: functions/functions.translationStrings.php:37
+msgid "Okay"
+msgstr "Okay"
+
+#: functions/functions.translationStrings.php:38
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: functions/functions.translationStrings.php:39
+msgid "Password"
+msgstr "Passwort"
+
+#: functions/functions.translationStrings.php:40
+msgid "Confirm password"
+msgstr "Passwort wiederholen"
+
+#: functions/functions.translationStrings.php:41
+msgid "Password doesn't match confirmation"
+msgstr "Passwort passt nicht zur Wiederholung"
+
+#: functions/functions.translationStrings.php:42
+msgid "Suggest password"
+msgstr "Passwortvorschlag"
+
+#: functions/functions.translationStrings.php:43
+msgid "Generate password"
+msgstr "Passwort generieren"
+
+#: functions/functions.translationStrings.php:44
+msgid "Options"
+msgstr "Optionen"
+
+#: functions/functions.translationStrings.php:45
+msgid "This field must be filled out!"
+msgstr "Dieses Feld muss ausgefüllt werden!"
+
+#: functions/functions.translationStrings.php:46
+msgid "(leave blank to keep current password)"
+msgstr "(leer lassen, um aktuelles Passwort beizubehalten)"
+
+#: functions/functions.translationStrings.php:48
+msgid "Delete selection"
+msgstr "Auswahl löschen"
+
+#: functions/functions.translationStrings.php:49
+#: incl/page/admin_accounts_index.php:140
+msgid "Username"
+msgstr "Benutzername"
+
+#: functions/functions.translationStrings.php:50
+msgid "Logged in as"
+msgstr "Eingeloggt als"
+
+#: functions/functions.translationStrings.php:51
+msgid "Log out"
+msgstr "Ausloggen"
+
+#: functions/functions.translationStrings.php:52
+msgid "Folder explorer"
+msgstr "Verzeichnisexplorer"
+
+#: functions/functions.translationStrings.php:53 index.php:449
+msgid "Open folder explorer"
+msgstr "Verzeichnisexplorer öffnen"
+
+#: functions/functions.translationStrings.php:54 index.php:448
+msgid "Close folder explorer"
+msgstr "Verzeichnisexplorer schließen"
+
+#: functions/functions.translationStrings.php:55
+#: incl/page/admin_domain_add.php:25 incl/page/admin_domain_delete.php:24
+#: incl/page/admin_domain_edit.php:26 incl/page/admin_domain_index.php:25
+#: incl/page/user_domain_add.php:24 incl/page/user_domain_delete.php:24
+#: incl/page/user_domain_edit.php:27 incl/page/user_domain_index.php:25
+#: incl/page/user_domain_logs.php:24 misc/navigation.php:41
+#: misc/navigation.php:45 misc/navigation.php:231 misc/navigation.php:235
+msgid "Domains"
+msgstr "Domains"
+
+#: functions/functions.translationStrings.php:56
+#: incl/page/admin_accounts_user_add.php:258
+#: incl/page/admin_accounts_user_edit.php:305
+msgid "Subdomains"
+msgstr "Subdomains"
+
+#: functions/functions.translationStrings.php:57
+#: incl/page/admin_accounts_user_add.php:259
+#: incl/page/admin_accounts_user_edit.php:306
+msgid "FTP users"
+msgstr "FTP-Benutzer"
+
+#: functions/functions.translationStrings.php:58
+msgid "No entries available"
+msgstr "Keine Einträge vorhanden"
+
+#: functions/functions.translationStrings.php:59
+msgid "Description"
+msgstr "Beschreibung"
+
+#: functions/functions.translationStrings.php:60
+msgid "Email address"
+msgstr "E-Mail-Adresse"
+
+#: functions/functions.translationStrings.php:61
+msgid "Language"
+msgstr "Sprache"
+
+#: functions/functions.translationStrings.php:62
+msgid "Is enabled"
+msgstr "Ist aktiviert"
+
+#: functions/functions.translationStrings.php:63
+msgid ""
+"Please confirm the deletion of the displayed elements by activating the "
+"following checkbox."
+msgstr ""
+"Bitte bestätigen Sie die Löschung der angezeigten Elemente, indem Sie die "
+"folgende Checkbox aktivieren."
+
+#: functions/functions.translationStrings.php:64
+msgid "Confirmation"
+msgstr "Bestätigung"
+
+#: functions/functions.translationStrings.php:65
+msgid "Delete"
+msgstr "Löschen"
+
+#: functions/functions.translationStrings.php:66
+msgid "ATTENTION"
+msgstr "ACHTUNG"
+
+#: functions/functions.translationStrings.php:67
+msgid "WARNING"
+msgstr "WARNUNG"
+
+#: functions/functions.translationStrings.php:69
+msgid "Back to overview"
+msgstr "Zurück zur Übersicht"
+
+#: functions/functions.translationStrings.php:70
+msgid "Save"
+msgstr "Speichern"
+
+#: functions/functions.translationStrings.php:71
+msgid "Continue"
+msgstr "Weiter"
+
+#: functions/functions.translationStrings.php:72
+msgid "Reset to default"
+msgstr "Auf Standardeinstellung zurücksetzen"
+
+#: functions/functions.translationStrings.php:79
+msgid "JavaScript is disabled"
+msgstr "JavaScript ist deaktiviert"
+
+#: functions/functions.translationStrings.php:80
+msgid ""
+"Please activate JavaScript in the settings of your browser or use a browser "
+"which supports JavaScript."
+msgstr ""
+"Bitte aktivieren Sie JavaScript in den Einstellungen Ihres Browsers, oder "
+"benutzen Sie einen JavaScript fähigen Browser."
+
+#: functions/functions.translationStrings.php:81
+msgid "Login"
+msgstr "Anmelden"
+
+#: functions/functions.translationStrings.php:82
+msgid "Forgot password?"
+msgstr "Passwort vergessen?"
+
+#: functions/functions.translationStrings.php:83
+msgid "Back to login"
+msgstr "Zurück zum Login"
+
+#: functions/functions.translationStrings.php:84
+#: functions/functions.translationStrings.php:91
+msgid "Reset password"
+msgstr "Passwort zurücksetzen"
+
+#: functions/functions.translationStrings.php:85
+msgid "Sorry,<br>but the requested domain is not available."
+msgstr "Tut uns leid,<br>aber die angeforderte Domain ist nicht verfügbar."
+
+#: functions/functions.translationStrings.php:86
+msgid ""
+"Due to maintenance the administration interface is temporarily not available."
+"<br><br>Please try again in a few minutes."
+msgstr ""
+"Die Administrationsoberfläche ist aufgrund von Wartungsarbeiten "
+"vorübergehend nicht erreichbar.<br><br>Bitte versuchen Sie es in wenigen "
+"Minuten noch einmal."
+
+#: functions/functions.translationStrings.php:87
+msgid "Please enter your username and email address."
+msgstr "Bitte geben Sie Ihren Benutzernamen und Ihre E-Mail-Adresse ein."
+
+#: functions/functions.translationStrings.php:88
+msgid ""
+"You will receive an email with instructions, how to reset your password."
+msgstr ""
+"Sie erhalten eine E-Mail mit Anleitung, wie Sie Ihr Passwort zurücksetzen "
+"können."
+
+#: functions/functions.translationStrings.php:89
+msgid "Request email"
+msgstr "E-Mail anfordern"
+
+#: functions/functions.translationStrings.php:90
+msgid "Enter your new password below."
+msgstr "Geben Sie Ihr neues Passwort ein."
+
+#: functions/functions.translationStrings.php:98
+msgid "Profile Settings"
+msgstr "Profileinstellungen"
+
+#: functions/functions.translationStrings.php:99
+msgid "Account settings"
+msgstr "Account-Einstellungen"
+
+#: functions/functions.translationStrings.php:100
+msgid "Current password"
+msgstr "Aktuelles Passwort"
+
+#: functions/functions.translationStrings.php:101
+msgid "Contact data"
+msgstr "Kontaktdaten"
+
+#: functions/functions.translationStrings.php:102 incl/page/profile.php:234
+msgid "First name"
+msgstr "Vorname"
+
+#: functions/functions.translationStrings.php:103 incl/page/profile.php:235
+msgid "Last name"
+msgstr "Nachname"
+
+#: functions/functions.translationStrings.php:104 incl/page/profile.php:236
+msgid "Company"
+msgstr "Firma"
+
+#: functions/functions.translationStrings.php:105 incl/page/profile.php:237
+msgid "Telephone"
+msgstr "Telefon"
+
+#: functions/functions.translationStrings.php:106 incl/page/profile.php:238
+msgid "Address"
+msgstr "Adresse"
+
+#: functions/functions.translationStrings.php:107 incl/page/profile.php:239
+msgid "City"
+msgstr "Stadt"
+
+#: functions/functions.translationStrings.php:108 incl/page/profile.php:240
+msgid "Zip code"
+msgstr "Postleitzahl"
+
+#: functions/functions.translationStrings.php:736
+#: functions/functions.translationStrings.php:761
+#: functions/functions.translationStrings.php:785
+#: functions/functions.translationStrings.php:808
+#: functions/functions.translationStrings.php:835
+msgid "System Logs & Status"
+msgstr "System-Logs & Status"
+
+#: functions/functions.translationStrings.php:1673
+msgid "KeyHelp Demo"
+msgstr "KeyHelp Demo"
+
+#: functions/functions.translationStrings.php:1674
+msgid "Please be aware that this demo is being reset every hour!"
+msgstr "Bitte beachten Sie, dass die Demo zu jeder Stunde zurückgesetzt wird!"
+
+#: functions/functions.translationStrings.php:1675
+msgid "Administration area"
+msgstr "Administrationsbereich"
+
+#: functions/functions.translationStrings.php:1676
+msgid "User area"
+msgstr "Benutzerbereich"
+
+#: incl/cronjob/jobs/statistic.php:368
+#, php-format
+msgid "Traffic usage of user \"%s\" exceeded the limit"
+msgstr "Trafficverbrauch des Benutzers \"%s\" hat das Limit überschritten"
+
+#: incl/cronjob/jobs/statistic.php:370
+#, php-format
+msgid ""
+"The traffic usage of a user on server \"%s\" exceeded the limit.\n"
+"\n"
+"User: %s\n"
+"Usage: %s\n"
+"Limit: %s\n"
+msgstr ""
+"Der Trafficverbrauch eines Benutzers auf Server \"%s\" hat das Limit "
+"überschritten.\n"
+"\n"
+"Benutzer: %s\n"
+"Verbrauch: %s\n"
+"Limit: %s\n"
+
+#: incl/cronjob/mastercronjob.php:209
+msgid "Your KeyHelp Installation has been updated"
+msgstr "Ihre KeyHelp-Installation wurde aktualisiert"
+
+#: incl/cronjob/mastercronjob.php:212
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"Your KeyHelp Installation on server \"%1$s\" has been updated to Version "
+"%2$s.\n"
+"\n"
+"An overview of all changes of the version can be found here: <a href=\"%3$s"
+"\">%3$s</a>"
+msgstr ""
+"Hallo!\n"
+"\n"
+"Ihre KeyHelp-Installation auf dem Server \"%1$s\" wurde auf Version %2$s "
+"aktualisiert.\n"
+"\n"
+"Eine Übersicht aller Änderungen der Version finden Sie hier: <a href=\"%3$s"
+"\">%3$s</a>"
+
+#: incl/cronjob/mastercronjob.php:226 incl/page/admin_index.php:133
+msgid "Please note"
+msgstr "Bitte beachten Sie"
+
+#: incl/page/admin_accounts_admin_add.php:25
+#: incl/page/admin_accounts_admin_delete.php:25
+#: incl/page/admin_accounts_admin_edit.php:25
+#: incl/page/admin_accounts_index.php:26
+#: incl/page/admin_accounts_user_delete.php:24
+#: incl/page/admin_accounts_user_edit.php:25 misc/navigation.php:30
+msgid "User Administration"
+msgstr "Benutzerverwaltung"
+
+#: incl/page/admin_accounts_admin_add.php:25
+msgid "Add Administrator"
+msgstr "Administrator hinzufügen"
+
+#: incl/page/admin_accounts_admin_delete.php:25
+#: incl/page/admin_accounts_index.php:108
+msgid "Delete Administrator"
+msgstr "Administrator löschen"
+
+#: incl/page/admin_accounts_admin_edit.php:25
+#: incl/page/admin_accounts_index.php:107
+msgid "Edit Administrator"
+msgstr "Administrator bearbeiten"
+
+#: incl/page/admin_accounts_index.php:119
+msgid "User is main administrator"
+msgstr "Benutzer ist Hauptadministrator"
+
+#: incl/page/admin_accounts_index.php:141
+msgid "Contact name"
+msgstr "Kontaktname"
+
+#: incl/page/admin_accounts_index.php:142
+msgid "Domain"
+msgstr "Domain"
+
+#: incl/page/admin_accounts_index.php:210
+#, php-format
+msgid "Disk space: <b>%s</b> (used) / <b>%s</b> (allocated)"
+msgstr "Speicherplatz: <b>%s</b> (verwendet) / <b>%s</b> (zugewiesen)"
+
+#: incl/page/admin_accounts_index.php:339 incl/page/admin_domain_index.php:265
+msgid "Note"
+msgstr "Notiz"
+
+#: incl/page/admin_accounts_index.php:345 incl/page/admin_services.php:174
+#: incl/page/admin_services.php:175 incl/page/admin_services.php:176
+msgid "No action available"
+msgstr "Keine Aktion verfügbar"
+
+#: incl/page/admin_accounts_index.php:349
+msgid "Login as this user"
+msgstr "Als dieser Benutzer einloggen"
+
+#: incl/page/admin_accounts_index.php:350
+#: incl/page/admin_accounts_user_edit.php:25 incl/page/admin_traffic.php:299
+msgid "Edit User"
+msgstr "Benutzer bearbeiten"
+
+#: incl/page/admin_accounts_index.php:351
+#: incl/page/admin_accounts_user_delete.php:24
+msgid "Delete User"
+msgstr "Benutzer löschen"
+
+#: incl/page/admin_accounts_index.php:356
+#, php-format
+msgid "Will get deleted: %s"
+msgstr "Wird gelöscht: %s"
+
+#: incl/page/admin_accounts_index.php:360
+msgid "Will get unsuspended"
+msgstr "Wird entsperrt"
+
+#: incl/page/admin_accounts_index.php:364
+#, php-format
+msgid "Will get suspended: %s"
+msgstr "Wird gesperrt: %s"
+
+#: incl/page/admin_accounts_index.php:368
+msgid "Changing suspension date..."
+msgstr "Ändern des Sperrdatums..."
+
+#: incl/page/admin_accounts_user_add.php:173
+#, php-format
+msgid "Create the subdomain <strong>&lt;USERNAME&gt;.%s</strong>."
+msgstr "Legt die Subdomain <strong>&lt;BENUTZERNAME&gt;.%s</strong> an."
+
+#: incl/page/admin_accounts_user_delete.php:152
+msgid "Email addresses"
+msgstr "E-Mail-Adressen"
+
+#: incl/page/admin_accounts_user_delete.php:152
+msgid "Mailboxes"
+msgstr "Mailboxen"
+
+#: incl/page/admin_active_sessions.php:75
+msgid "Main Administrator"
+msgstr "Hauptadministrator"
+
+#: incl/page/admin_active_sessions.php:76
+msgid "Administrator"
+msgstr "Administrator"
+
+#: incl/page/admin_active_sessions.php:77
+msgid "User"
+msgstr "Benutzer"
+
+#: incl/page/admin_domain_add.php:25 incl/page/user_domain_add.php:24
+msgid "Add Domain"
+msgstr "Domain hinzufügen"
+
+#: incl/page/admin_domain_add.php:78
+msgid "Please select a main domain"
+msgstr "Bitte wählen Sie eine Hauptdomain aus"
+
+#: incl/page/admin_domain_add.php:87
+msgid "Please select a user"
+msgstr "Bitte wählen Sie einen Benutzer"
+
+#: incl/page/admin_domain_add.php:418
+msgid "The following domains were successfully created."
+msgstr "Die folgenden Domains wurden erfolgreich angelegt."
+
+#: incl/page/admin_domain_delete.php:24 incl/page/admin_domain_index.php:323
+#: incl/page/user_domain_delete.php:24 incl/page/user_domain_index.php:158
+msgid "Delete Domain"
+msgstr "Domain löschen"
+
+#: incl/page/admin_domain_edit.php:26 incl/page/admin_domain_index.php:322
+#: incl/page/user_domain_edit.php:27 incl/page/user_domain_index.php:153
+msgid "Edit Domain"
+msgstr "Domain bearbeiten"
+
+#: incl/page/admin_domain_edit.php:81 incl/page/user_domain_edit.php:76
+msgid "-- No certifactes available --"
+msgstr "-- Keine Zertifikate verfügbar --"
+
+#: incl/page/admin_domain_edit.php:83
+msgid "-- Select a certificate --"
+msgstr "-- Zertifikat auswählen --"
+
+#: incl/page/admin_domain_edit.php:117 incl/page/user_domain_edit.php:111
+msgid "All subdomains"
+msgstr "Alle Subdomains"
+
+#: incl/page/admin_domain_edit.php:123 incl/page/user_domain_edit.php:117
+msgid "-- No subdomains for this domain --"
+msgstr "-- Keine Subdomains für diese Domain --"
+
+#: incl/page/admin_domain_edit.php:128 incl/page/user_domain_edit.php:122
+msgid "Seconds"
+msgstr "Sekunden"
+
+#: incl/page/admin_domain_edit.php:129 incl/page/admin_panel_tasks.php:43
+#: incl/page/user_domain_edit.php:123
+msgid "Minutes"
+msgstr "Minuten"
+
+#: incl/page/admin_domain_edit.php:130 incl/page/admin_panel_tasks.php:44
+#: incl/page/user_domain_edit.php:124
+msgid "Hours"
+msgstr "Stunden"
+
+#: incl/page/admin_domain_edit.php:131 incl/page/admin_panel_tasks.php:45
+#: incl/page/user_domain_edit.php:125
+msgid "Days"
+msgstr "Tage"
+
+#: incl/page/admin_domain_index.php:256 incl/page/user_domain_index.php:93
+msgid "This domain has been disabled"
+msgstr "Diese Domain wurde deaktiviert"
+
+#: incl/page/admin_domain_index.php:256 incl/page/user_domain_index.php:93
+msgid "DISABLED"
+msgstr "DEAKTIVIERT"
+
+#: incl/page/admin_domain_index.php:278 incl/page/user_domain_index.php:108
+msgid "Let's Encrypt Certificate"
+msgstr "Let's Encrypt Zertifikat"
+
+#: incl/page/admin_domain_index.php:283 incl/page/user_domain_index.php:113
+#, php-format
+msgid "SSL Certificate: %s"
+msgstr "SSL-Zertifikat: %s"
+
+#: incl/page/admin_domain_index.php:294 incl/page/user_domain_index.php:124
+msgid "All requests to http:// will be redirected to https://."
+msgstr "Alle Anfragen an http:// werden auf https:// umgeleitet."
+
+#: incl/page/admin_domain_index.php:303 incl/page/user_domain_index.php:133
+msgid "Declare web browsers should only interact via HTTPS."
+msgstr "Fordert Web-Browser auf, nur über HTTPS zu interagieren."
+
+#: incl/page/admin_domain_index.php:329 incl/page/user_domain_index.php:166
+msgid "Edit DNS zone | Custom zone file active"
+msgstr "DNS-Zone bearbeiten | Benutzerdefiniertes Zonefile aktiv"
+
+#: incl/page/admin_domain_index.php:331 incl/page/user_domain_index.php:170
+msgid "Edit DNS zone | Default zone file active"
+msgstr "DNS-Zone bearbeiten | Standard Zonefile aktiv"
+
+#: incl/page/admin_firewall.php:328 incl/page/admin_index.php:89
+#: incl/page/admin_index.php:140 incl/page/admin_index.php:168
+msgid "Dismiss this message"
+msgstr "Diese Nachricht ausblenden"
+
+#: incl/page/admin_index.php:82
+msgid "During the KeyHelp Installation errors occured!"
+msgstr "Während der KeyHelp Installation sind Fehler aufgetreten!"
+
+#: incl/page/admin_index.php:83
+msgid ""
+"Your KeyHelp Installation may not work as expected, as long as the reasons "
+"for these errors are not fixed."
+msgstr ""
+"Ihre KeyHelp-Installation funktioniert möglicherweise nicht wie erwartet, "
+"solange die Ursachen für diese Fehler nicht behoben sind."
+
+#: incl/page/admin_index.php:84
+#, php-format
+msgid "Problems occurred while installing the following modules: %s"
+msgstr "Bei der Installation der folgenden Module traten Probleme auf: %s"
+
+#: incl/page/admin_index.php:85
+#, php-format
+msgid "Please check the install log file at \"%s\""
+msgstr "Bitte überprüfen Sie die Installationsprotokolldatei unter \"%s\"."
+
+#: incl/page/admin_index.php:113
+msgid "Update notes"
+msgstr "Update Informationen"
+
+#: incl/page/admin_index.php:121
+#, php-format
+msgid "KeyHelp was updated to version %s."
+msgstr "KeyHelp wurde auf Version %s geupdated."
+
+#: incl/page/admin_index.php:226 incl/page/admin_index.php:266
+msgid "Cores"
+msgstr "Kerne"
+
+#: incl/page/admin_index.php:258
+#, php-format
+msgid "%s Day(s), %s Hour(s), %s Minute(s), %s Second(s)"
+msgstr "%s Tag(e), %s Stunde(n), %s Minute(n), %s Sekunde(n)"
+
+#: incl/page/admin_index.php:280
+msgid "Usage"
+msgstr "Nutzung"
+
+#: incl/page/admin_index.php:281
+msgid "Free"
+msgstr "Frei"
+
+#: incl/page/admin_index.php:282
+msgid "Used"
+msgstr "Belegt"
+
+#: incl/page/admin_index.php:283
+msgid "Total"
+msgstr "Gesamt"
+
+#: incl/page/admin_index.php:311
+#, php-format
+msgid "Admins: %1$s | Users: %2$s"
+msgstr "Admins: %1$s | Users: %2$s"
+
+#: incl/page/admin_logs_apacheserverstatus.php:32
+msgid "disabled"
+msgstr "deaktiviert"
+
+#: incl/page/admin_logs_apacheserverstatus.php:35
+#, php-format
+msgid "After %s second"
+msgid_plural "After %s seconds"
+msgstr[0] "Nach %s Sekunde"
+msgstr[1] "Nach %s Sekunden"
+
+#: incl/page/admin_logs_servermsg.php:51
+msgid "All"
+msgstr "Alle"
+
+#: incl/page/admin_logs_servermsg.php:52
+msgid "Info"
+msgstr "Info"
+
+#: incl/page/admin_logs_servermsg.php:53
+msgid "Warning"
+msgstr "Warnung"
+
+#: incl/page/admin_mailqueue.php:69
+#, php-format
+msgid ""
+"Attention! There are more than %s records in queue! There is possible some "
+"issues with spam messages."
+msgstr ""
+"Achtung! Es befinden sich mehr als %s Einträge in der Warteschlange! "
+"Möglicherweise liegt ein Problem mit Spam-Nachrichten vor."
+
+#: incl/page/admin_mailqueue.php:77
+#, php-format
+msgid "Messages in queue: %s"
+msgstr "Nachrichten in Warteschlange: %s"
+
+#: incl/page/admin_panel.php:84
+msgid "Test environment"
+msgstr "Test-Umgebung"
+
+#: incl/page/admin_panel.php:85
+msgid "Live environment"
+msgstr "Live-Umgebung"
+
+#: incl/page/admin_panel.php:94
+msgid "No notification"
+msgstr "Keine Benachrichtigung"
+
+#: incl/page/admin_panel.php:99
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Tag"
+msgstr[1] "Tage"
+
+#: incl/page/admin_panel_tasks.php:101
+msgid "Show log file"
+msgstr "Zeige Log-Datei"
+
+#: incl/page/admin_panel_tasks.php:120
+msgid "Start task now"
+msgstr "Aufgabe jetzt starten"
+
+#: incl/page/admin_panel_tasks.php:120
+msgid "Task queued"
+msgstr "Aufgabe in Warteschlange"
+
+#: incl/page/admin_server.php:74
+msgid "(of physical RAM)"
+msgstr "(vom physischen RAM)"
+
+#: incl/page/admin_server.php:130
+#, php-format
+msgid "Used %s time"
+msgid_plural "Used %s times"
+msgstr[0] "%s mal verwendet"
+msgstr[1] "%s mal verwendet"
+
+#: incl/page/admin_services.php:161
+msgid "Service is running"
+msgstr "Dienst wird ausgeführt"
+
+#: incl/page/admin_services.php:162
+msgid "Service is already running"
+msgstr "Dienst läuft bereits"
+
+#: incl/page/admin_services.php:163
+msgid "Stop Service"
+msgstr "Dienst stoppen"
+
+#: incl/page/admin_services.php:164
+msgid "Restart Service"
+msgstr "Dienst neu starten"
+
+#: incl/page/admin_services.php:167 incl/page/admin_services.php:170
+msgid "Service is not running"
+msgstr "Dienst wird nicht ausgeführt"
+
+#: incl/page/admin_services.php:168
+msgid "Start Service"
+msgstr "Dienst starten"
+
+#: incl/page/admin_services.php:169
+msgid "Service has already been stopped"
+msgstr "Dienst wurde bereits gestoppt"
+
+#: incl/page/admin_services.php:173
+msgid "The status could not be determined"
+msgstr "Der Status konnte nicht ermittelt werden"
+
+#: incl/page/admin_services.php:183 incl/page/admin_services.php:189
+msgid "This service is vital for the administration panel, no action allowed"
+msgstr ""
+"Dieser Dienst ist für das Administrations-Panel zwingend erforderlich, keine "
+"Aktion erlaubt"
+
+#: incl/page/admin_sslcerts_add.php:24 incl/page/admin_sslcerts_delete.php:25
+#: incl/page/admin_sslcerts_edit.php:25 incl/page/admin_sslcerts_index.php:25
+#: misc/navigation.php:96
+msgid "SSL Certificates"
+msgstr "SSL-Zertifikate"
+
+#: incl/page/admin_sslcerts_add.php:24
+msgid "Add Certificate"
+msgstr "SSL-Zertifikat hinzufügen"
+
+#: incl/page/admin_sslcerts_add.php:59
+msgid "Year(s)"
+msgstr "Jahr(e)"
+
+#: incl/page/admin_sslcerts_delete.php:25
+msgid "Delete Certificate"
+msgstr "SSL-Zertifikat löschen"
+
+#: incl/page/admin_sslcerts_edit.php:25
+msgid "Edit Certificate"
+msgstr "SSL-Zertifikat bearbeiten"
+
+#: incl/page/admin_sslcerts_edit.php:94 incl/page/admin_sslcerts_index.php:175
+msgid "Expired"
+msgstr "Abgelaufen"
+
+#: incl/page/admin_sslcerts_edit.php:96 incl/page/admin_sslcerts_index.php:177
+msgid "Expires soon"
+msgstr "Läuft in Kürze ab"
+
+#: incl/page/admin_sslcerts_index.php:101
+msgid "Let's Encrypt certificate"
+msgstr "Let's Encrypt Zertifikat"
+
+#: incl/page/admin_sslcerts_index.php:136
+msgid "Edit SSL Certificate"
+msgstr "SSL-Zertifikat bearbeiten"
+
+#: incl/page/admin_sslcerts_index.php:137
+msgid "Delete SSL Certificate"
+msgstr "SSL-Zertifikat löschen"
+
+#: incl/page/admin_sslcerts_index.php:151
+#, php-format
+msgid "Protected Services: %s"
+msgstr "Geschützte Dienste: %s"
+
+#: incl/page/admin_template_account_add.php:25
+#: incl/page/admin_template_account_delete.php:25
+#: incl/page/admin_template_account_edit.php:25
+#: incl/page/admin_template_account_index.php:25 misc/navigation.php:164
+msgid "Account Templates"
+msgstr "Konto-Vorlagen"
+
+#: incl/page/admin_template_account_add.php:25
+#: incl/page/admin_template_email_add.php:25
+msgid "Add Template"
+msgstr "Vorlage hinzufügen"
+
+#: incl/page/admin_template_account_delete.php:25
+#: incl/page/admin_template_email_delete.php:25
+msgid "Delete Template"
+msgstr "Vorlage löschen"
+
+#: incl/page/admin_template_account_edit.php:25
+#: incl/page/admin_template_email_edit.php:25
+msgid "Edit Template"
+msgstr "Vorlage bearbeiten"
+
+#: incl/page/admin_template_account_index.php:39
+msgid "Edit Account Template"
+msgstr "Konto-Vorlage bearbeiten"
+
+#: incl/page/admin_template_account_index.php:40
+msgid "Delete Account Template"
+msgstr "Konto-Vorlagen löschen"
+
+#: incl/page/admin_template_email_add.php:25
+#: incl/page/admin_template_email_delete.php:25
+#: incl/page/admin_template_email_edit.php:25
+#: incl/page/admin_template_email_index.php:25 misc/navigation.php:160
+msgid "Email Templates"
+msgstr "E-Mail-Vorlagen"
+
+#: incl/page/admin_template_email_index.php:48
+msgid "Edit Email Template"
+msgstr "E-Mail-Vorlage bearbeiten"
+
+#: incl/page/admin_template_email_index.php:49
+msgid "Delete Email Template"
+msgstr "E-Mail-Vorlage löschen"
+
+#: incl/page/admin_traffic.php:106
+msgid "No data gathered yet"
+msgstr "Noch keine Daten gesammelt"
+
+#: incl/page/admin_whitelabel_edit.php:25
+#: incl/page/admin_whitelabel_import.php:24
+#: incl/page/admin_whitelabel_index.php:25 misc/navigation.php:85
+msgid "White Label"
+msgstr "Whitelabel"
+
+#: incl/page/admin_whitelabel_edit.php:25
+msgid "Edit Settings"
+msgstr "Einstellungen bearbeiten"
+
+#: incl/page/admin_whitelabel_edit.php:143
+#, php-format
+msgid "White label settings for language \"%s\""
+msgstr "Whitelabel Eigenschaften für Sprache \"%s\""
+
+#: incl/page/admin_whitelabel_import.php:24
+msgid "Import Settings"
+msgstr "Einstellungen importieren"
+
+#: incl/page/admin_whitelabel_index.php:93
+msgid "Edit White Label Settings"
+msgstr "Whitelabel Einstellungen bearbeiten"
+
+#: incl/page/admin_whitelabel_index.php:94
+msgid "Reset White Label Settings"
+msgstr "Whitelabel Einstellungen zurücksetzen"
+
+#: incl/page/backup_create_backup.php:25
+msgid "Create A Backup"
+msgstr "Backup erstellen"
+
+#: incl/page/backup_index.php:43
+msgid "Local"
+msgstr "Lokal"
+
+#: incl/page/backup_index.php:45
+msgid "Remote"
+msgstr "Remote"
+
+#: incl/page/backup_index.php:47 incl/page/backup_index.php:59
+#: incl/page/backup_index.php:79 incl/page/backup_index.php:85
+msgid "Undefined"
+msgstr "Undefiniert"
+
+#: incl/page/backup_index.php:53
+msgid "Manually"
+msgstr "Manuell"
+
+#: incl/page/backup_index.php:54
+msgid "Started by user"
+msgstr "Durch Benutzer gestartet"
+
+#: incl/page/backup_index.php:56
+msgid "Automatically"
+msgstr "Automatisch"
+
+#: incl/page/backup_index.php:57
+msgid "Scheduled backup"
+msgstr "Geplantes Backup"
+
+#: incl/page/backup_index.php:66
+msgid "Starts soon"
+msgstr "Startet in Kürze"
+
+#. Translators: The "%%" is for escaping purpose and result into one "%"
+#: incl/page/backup_index.php:72
+#, php-format
+msgid "Processing (Progress: %u %%)"
+msgstr "Wird ausgeführt (Fortschritt: %u %%)"
+
+#: incl/page/backup_index.php:76
+msgid "Finished successfully"
+msgstr "Erfolgreich beendet"
+
+#: incl/page/backup_index.php:80
+#, php-format
+msgid "Canceled (Error: %s)"
+msgstr "Abgebrochen (Fehler: %s)"
+
+#: incl/page/backup_index.php:101
+msgid "Are you looking for a suitable storage space for your backups?"
+msgstr "Sie suchen noch einen passenden Speicherplatz für Ihre Backups?"
+
+#: incl/page/backup_index.php:102
+msgid "How about KeyDisc, the flexible cloud storage?"
+msgstr "Wie wäre es mit KeyDisc, dem flexiblen Cloudspeicher?"
+
+#: incl/page/backup_remote_settings.php:24
+msgid "Remote Server Settings"
+msgstr "Remote Server Einstellungen"
+
+#: incl/page/backup_repository.php:25
+msgid "Repository"
+msgstr "Repository"
+
+#: incl/page/backup_repository.php:184
+msgid "Download"
+msgstr "Download"
+
+#: incl/page/backup_repository.php:201
+#, php-format
+msgid "(Files: %1$s | Size: %2$s)"
+msgstr "(Dateien: %1$s | Größe: %2$s)"
+
+#: incl/page/backup_scheduled_backup.php:25
+msgid "Schedule A Backup"
+msgstr "Backup planen"
+
+#: incl/page/backup_scheduled_backup.php:50
+#: incl/page/user_scheduledtasks_edit.php:49
+msgid "Daily"
+msgstr "Täglich"
+
+#: incl/page/backup_scheduled_backup.php:51
+#: incl/page/user_scheduledtasks_edit.php:50
+msgid "Weekly"
+msgstr "Wöchentlich"
+
+#: incl/page/backup_scheduled_backup.php:127
+#, php-format
+msgid ""
+"The file limit for the local repository has been set to %s by the "
+"administrator."
+msgstr ""
+"Das Dateilimit für das lokale Repository wurde vom Administrator auf %s "
+"gesetzt."
+
+#: incl/page/dns_editor.php:25 misc/navigation.php:49 misc/navigation.php:240
+msgid "DNS Zone Editor"
+msgstr "DNS-Zone-Editor"
+
+#: incl/page/dns_editor.php:81
+msgid "Modified"
+msgstr "Geändert"
+
+#: incl/page/forgotpw.php:185
+msgid "Click the following link to set a new password."
+msgstr "Klicken Sie auf den folgenden Link, um ein neues Passwort zu setzen."
+
+#: incl/page/login.php:77
+msgid "Profile setting"
+msgstr "Profileinstellungen"
+
+#: incl/page/profile.php:220
+msgid "A user has changed its contact data"
+msgstr "Ein Benutzer hat seine Kontaktdaten geändert"
+
+#: incl/page/profile.php:221
+msgid "Server"
+msgstr "Server"
+
+#: incl/page/profile.php:223
+#, php-format
+msgid "The user \"%s\" has changed its contact data."
+msgstr "Der Benutzer \"%s\" hat seine Kontaktdaten geändert."
+
+#: incl/page/profile.php:226
+msgid "Previously stored data:"
+msgstr "Bisher gespeicherte Daten:"
+
+#: incl/page/profile.php:227
+msgid "New data:"
+msgstr "Neue Daten:"
+
+#: incl/page/user_dirprotection.php:24 misc/navigation.php:276
+msgid "Directory Protection"
+msgstr "Verzeichnisschutz"
+
+#: incl/page/user_dirprotection.php:58
+msgid "Add Directory Protection"
+msgstr "Verzeichnisschutz hinzufügen"
+
+#: incl/page/user_dirprotection.php:99
+#, php-format
+msgid ""
+"The directory protection for the directory <b>%s</b> has been successfully "
+"created and is available in a few moments."
+msgstr ""
+"Der Verzeichnisschutz für das Verzeichnis <b>%s</b> wurde erfolgreich "
+"angelegt und steht in wenigen Augenblicken zur Verfügung."
+
+#: incl/page/user_dirprotection.php:137 incl/page/user_dirprotection.php:330
+msgid "Edit Directory Protection"
+msgstr "Verzeichnisschutz bearbeiten"
+
+#: incl/page/user_dirprotection.php:169
+#, php-format
+msgid ""
+"The directory protection for the directory <b>%s</b> has been successfully "
+"updated. The changes take effect in a few moments."
+msgstr ""
+"Der Verzeichnisschutz für das Verzeichnis <b>%s</b> wurde erfolgreich "
+"aktualisiert. Die Änderungen werden in wenigen Augenblicken wirksam."
+
+#: incl/page/user_dirprotection.php:210 incl/page/user_dirprotection.php:331
+msgid "Delete Directory Protection"
+msgstr "Verzeichnisschutz löschen"
+
+#: incl/page/user_dirprotection.php:326
+msgid "The title for this directory is not unique"
+msgstr "Der Titel für dieses Verzeichnis ist nicht eindeutig"
+
+#: incl/page/user_domain_add.php:223
+#, php-format
+msgid "The domain \"<b>%s</b>\" has been successfully created."
+msgstr "Die Domain \"<b>%s</b>\" wurde erfolgreich angelegt."
+
+#: incl/page/user_domain_add.php:226
+msgid "You can now modify the security settings."
+msgstr "Sie können nun die Sicherheitseinstellungen bearbeiten."
+
+#: incl/page/user_domain_edit.php:153
+msgid "Limitations of current panel version:"
+msgstr "Einschränkung in aktueller Panel-Version:"
+
+#: incl/page/user_domain_edit.php:154
+msgid ""
+"When changing to <b>No Certificate</b> / <b>Let's Encrypt</b> you can't "
+"change back to this certificate without the help of an administrator."
+msgstr ""
+"Beim Wechsel auf <b>kein Zertifikat</b> / <b>Let's Encrypt</b> kann auf "
+"dieses Zertifikat nicht mehr ohne Hilfe eines Administrators zurück "
+"gewechselt werden."
+
+#: incl/page/user_domain_index.php:50
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential subdomains."
+msgstr ""
+"Sie verwenden derzeit <strong>%1$s</strong> von <strong>%2$s</strong> "
+"möglichen Subdomains."
+
+#: incl/page/user_domain_logs.php:24
+msgid "Web Server Logs"
+msgstr "Webserver Protokolle"
+
+#: incl/page/user_email_add.php:24 incl/page/user_email_delete.php:24
+#: incl/page/user_email_edit.php:24 incl/page/user_email_index.php:24
+#: misc/navigation.php:251
+msgid "Email Addresses"
+msgstr "E-Mail-Adressen"
+
+#: incl/page/user_email_add.php:24
+msgid "Add Email Account"
+msgstr "E-Mail-Konto hinzufügen"
+
+#: incl/page/user_email_delete.php:24 incl/page/user_email_index.php:106
+msgid "Delete Email Account"
+msgstr "E-Mail-Konto löschen"
+
+#: incl/page/user_email_edit.php:24 incl/page/user_email_index.php:105
+msgid "Edit Email Account"
+msgstr "E-Mail-Konto bearbeiten"
+
+#: incl/page/user_email_edit.php:172
+#, php-format
+msgid "Default ( %s MB )"
+msgstr "Standard ( %s MB )"
+
+#: incl/page/user_email_index.php:38
+#, php-format
+msgid ""
+"<strong>%1$s</strong> of <strong>%2$s</strong> potential email accounts."
+msgstr ""
+"<strong>%1$s</strong> von <strong>%2$s</strong> möglichen E-Mail-Konten."
+
+#: incl/page/user_email_index.php:39
+#, php-format
+msgid ""
+"<strong>%1$s</strong> of <strong>%2$s</strong> potential email addresses."
+msgstr ""
+"<strong>%1$s</strong> von <strong>%2$s</strong> möglichen E-Mail-Adressen."
+
+#: incl/page/user_email_index.php:80
+msgid "Greylisting"
+msgstr "Greylisting"
+
+#: incl/page/user_email_index.php:85
+msgid "Virus-Check"
+msgstr "Virus-Prüfung"
+
+#: incl/page/user_email_index.php:90
+msgid "Spam-Check"
+msgstr "Spam-Prüfung"
+
+#: incl/page/user_email_index.php:114 misc/navigation.php:147
+#: misc/navigation.php:299
+msgid "Webmail"
+msgstr "Webmail"
+
+#: incl/page/user_ftp.php:23
+msgid "FTP User"
+msgstr "FTP-Benutzer"
+
+#: incl/page/user_ftp.php:56
+msgid "Add FTP User"
+msgstr "FTP-Benutzer hinzufügen"
+
+#: incl/page/user_ftp.php:146 incl/page/user_ftp.php:327
+msgid "Edit FTP User"
+msgstr "FTP-Benutzer bearbeiten"
+
+#: incl/page/user_ftp.php:230 incl/page/user_ftp.php:328
+msgid "Delete FTP User"
+msgstr "FTP-Benutzer löschen"
+
+#: incl/page/user_ftp.php:318
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential FTP users."
+msgstr ""
+"Sie verwenden derzeit <strong>%1$s</strong> von <strong>%2$s</strong> "
+"möglichen FTP-Benutzern."
+
+#: incl/page/user_index.php:62
+msgid "ATTENTION - No email address has been set!"
+msgstr "ACHTUNG - Es wurde noch keine E-Mail-Adresse festgelegt!"
+
+#: incl/page/user_mysql_add.php:24 incl/page/user_mysql_delete.php:25
+#: incl/page/user_mysql_edit.php:24 incl/page/user_mysql_index.php:24
+#: misc/navigation.php:262
+msgid "MySQL Databases"
+msgstr "MySQL Datenbanken"
+
+#: incl/page/user_mysql_add.php:24
+msgid "Add Database"
+msgstr "Datenbank hinzufügen"
+
+#: incl/page/user_mysql_delete.php:25 incl/page/user_mysql_index.php:58
+msgid "Delete Database"
+msgstr "Datenbank löschen"
+
+#: incl/page/user_mysql_edit.php:24 incl/page/user_mysql_index.php:57
+msgid "Edit Database"
+msgstr "Datenbank bearbeiten"
+
+#: incl/page/user_mysql_index.php:37
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential databases."
+msgstr ""
+"Sie verwenden derzeit <strong>%1$s</strong> von <strong>%2$s</strong> "
+"möglichen Datenbanken."
+
+#: incl/page/user_mysql_index.php:63
+msgid "Database Administration"
+msgstr "Datenbank Administration"
+
+#: incl/page/user_scheduledtasks_delete.php:24
+#: incl/page/user_scheduledtasks_edit.php:208
+#: incl/page/user_scheduledtasks_index.php:24 misc/navigation.php:272
+msgid "Scheduled Tasks"
+msgstr "Geplante Aufgaben"
+
+#: incl/page/user_scheduledtasks_delete.php:24
+#: incl/page/user_scheduledtasks_index.php:75
+msgid "Delete Task"
+msgstr "Aufgabe löschen"
+
+#: incl/page/user_scheduledtasks_edit.php:48
+msgid "Hourly"
+msgstr "Stündlich"
+
+#: incl/page/user_scheduledtasks_edit.php:51
+msgid "Monthly"
+msgstr "Monatlich"
+
+#: incl/page/user_scheduledtasks_edit.php:52
+msgid "Yearly"
+msgstr "Jährlich"
+
+#: incl/page/user_scheduledtasks_edit.php:53
+msgid "Cron style"
+msgstr "Cron-Stil"
+
+#: incl/page/user_scheduledtasks_edit.php:208
+msgid "Add Task"
+msgstr "Aufgabe hinzufügen"
+
+#: incl/page/user_scheduledtasks_edit.php:208
+#: incl/page/user_scheduledtasks_index.php:74
+msgid "Edit Task"
+msgstr "Aufgabe bearbeiten"
+
+#: incl/page/user_scheduledtasks_edit.php:210
+#, php-format
+msgid ""
+"If you want to access a file from your home directory, you must use the "
+"absolute path:<br><strong>%s</strong>"
+msgstr ""
+"Wenn Sie auf eine Datei aus Ihrem Home-Verzeichnis zugreifen wollen, müssen "
+"Sie den absoluten Pfad verwenden:<br><strong>%s</strong>"
+
+#: incl/page/user_scheduledtasks_index.php:40
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential scheduled tasks."
+msgstr ""
+"Sie verwenden derzeit <strong>%1$s</strong> von <strong>%2$s</strong> "
+"möglichen geplanten Aufgaben."
+
+#: incl/page/user_scheduledtasks_index.php:51
+msgid "Task is enabled"
+msgstr "Aufgabe ist aktiviert"
+
+#: incl/page/user_scheduledtasks_index.php:53
+msgid "Task is disabled"
+msgstr "Aufgabe ist deaktiviert"
+
+#: incl/page/user_scheduledtasks_index.php:58
+msgid "Invalid settings"
+msgstr "Ungültige Einstellungen"
+
+#: incl/page/user_scheduledtasks_index.php:71
+msgid "Notification"
+msgstr "Benachrichtigung"
+
+#: index.php:450
+msgid ""
+"It seems that you have not yet taken over the selected directory path from "
+"directory explorer."
+msgstr ""
+"Es scheint, als haben Sie den im Verzeichnisexplorer gewählten Pfad noch "
+"nicht übernommen."
+
+#: index.php:451
+msgid "Do you still want to continue?"
+msgstr "Möchtest Sie dennoch fortfahren?"
+
+#: index.php:452
+msgid "User information"
+msgstr "Benutzer-Informationen"
+
+#: index.php:453
+msgid "Admin notes"
+msgstr "Admin-Notizen"
+
+#: index.php:454
+msgid "WARNING - This action will delete all existing emails for this domain."
+msgstr ""
+"ACHTUNG - Diese Aktion löscht alle vorhandenen E-Mails für diese Domain."
+
+#: index.php:455
+msgid ""
+"WARNING - This action will delete all existing backups and backup settings "
+"of this user."
+msgstr ""
+"ACHTUNG - Diese Aktion löscht alle vorhandenen Backups und Backup-"
+"Einstellungen des Users."
+
+#: misc/navigation.php:22 misc/navigation.php:217
+msgid "General"
+msgstr "Allgemein"
+
+#: misc/navigation.php:26 misc/navigation.php:220
+msgid "Overview"
+msgstr "Übersicht"
+
+#: misc/navigation.php:34
+msgid "Traffic Statistic"
+msgstr "Traffic-Statistik"
+
+#: misc/navigation.php:56 misc/navigation.php:258
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: misc/navigation.php:60
+msgid "Panel Settings"
+msgstr "Panel-Einstellungen"
+
+#: misc/navigation.php:64
+msgid "Server Settings"
+msgstr "Server-Einstellungen"
+
+#: misc/navigation.php:68
+msgid "Panel Tasks Intervals"
+msgstr "Panel-Aufgaben-Intervalle"
+
+#: misc/navigation.php:72
+msgid "Server Service Management"
+msgstr "Server-Dienst-Verwaltung"
+
+#: misc/navigation.php:92
+msgid "Security"
+msgstr "Sicherheit"
+
+#: misc/navigation.php:100
+msgid "Firewall"
+msgstr "Firewall"
+
+#: misc/navigation.php:107
+msgid "Logs & Status"
+msgstr "Logs & Status"
+
+#: misc/navigation.php:111
+msgid "Server Messages"
+msgstr "Servermeldungen"
+
+#: misc/navigation.php:115
+msgid "Apache Server Status"
+msgstr "Apache-Server-Status"
+
+#: misc/navigation.php:119
+msgid "Panel Tasks Logs"
+msgstr "Panel-Aufgaben-Logs"
+
+#: misc/navigation.php:123
+msgid "Email Queue"
+msgstr "E-Mail-Warteschlange"
+
+#: misc/navigation.php:127
+msgid "Active Sessions"
+msgstr "Aktive Sessions"
+
+#: misc/navigation.php:134 misc/navigation.php:288
+msgid "Tools"
+msgstr "Tools"
+
+#: misc/navigation.php:140 misc/navigation.php:292
+msgid "PhpMyAdmin"
+msgstr "PhpMyAdmin"
+
+#: misc/navigation.php:156
+msgid "Templates"
+msgstr "Vorlagen"
+
+#: misc/navigation.php:168
+msgid "Default Index Page"
+msgstr "Standard-Index-Seite"
+
+#: misc/navigation.php:175
+msgid "Miscellaneous"
+msgstr "Sonstiges"
+
+#: misc/navigation.php:179
+msgid "Mass Email Message"
+msgstr "Massen-E-Mail-Nachricht"
+
+#: misc/navigation.php:186 misc/navigation.php:308
+msgid "Help"
+msgstr "Hilfe"
+
+#: misc/navigation.php:190
+msgid "Support Forum"
+msgstr "Support-Forum"
+
+#: misc/navigation.php:196
+msgid "Administrator Manual"
+msgstr "Administrator-Handbuch"
+
+#: misc/navigation.php:202
+msgid "User Manual"
+msgstr "Benutzer-Handbuch"
+
+#: misc/navigation.php:224
+msgid "Web Statistic"
+msgstr "Web-Statistik"
+
+#: misc/navigation.php:247
+msgid "Email"
+msgstr "E-Mail"
+
+#: misc/navigation.php:267
+msgid "FTP Users"
+msgstr "FTP-Benutzer"
+
+#: misc/navigation.php:311
+msgid "Manual"
+msgstr "Handbuch"

@@ -1,0 +1,50 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminTraffic\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:297
+msgid "Traffic Statistic"
+msgstr ""
+
+#: functions/functions.translationStrings.php:298
+msgid "Choose time frame"
+msgstr ""
+
+#: functions/functions.translationStrings.php:299
+msgid "Show traffic"
+msgstr ""
+
+#: functions/functions.translationStrings.php:300
+msgid "Time frame"
+msgstr ""
+
+#: functions/functions.translationStrings.php:301
+msgid "Last update"
+msgstr ""
+
+#: functions/functions.translationStrings.php:302
+msgid "Total"
+msgstr ""
+
+#: functions/functions.translationStrings.php:303
+msgid "Incoming"
+msgstr ""
+
+#: functions/functions.translationStrings.php:304
+msgid "Outgoing"
+msgstr ""

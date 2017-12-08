@@ -1,0 +1,119 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userFtp\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:942
+#, fuzzy
+msgid ""
+"Here you can set up additional FTP accounts next to your main FTP access."
+"<br>Each User that you created can save and delete data and folder in the "
+"assigned directory and sub directories.<br><br>For the safety of your data "
+"we recommend establishing the FTP-connection only by protocol/encryption "
+"\"<b>FTP over SSL (FTPS) in explicit mode</b>\""
+msgstr ""
+"Qui è possibile impostare account FTP aggiuntivi accanto al tuo accesso FTP "
+"principale.<br>Ogni utente creato può salvare ed eliminare dati e cartella "
+"nella directory e sottodirectory assegnate.<br><br>Per la sicurezza dei dati "
+"si consiglia di stabilire la connessione FTP solo con crittografia/"
+"protocollo \"<b>FTP over SSL (FTPS) in modalità explicit</b>\""
+
+#: functions/functions.translationStrings.php:945
+msgid "Add FTP user"
+msgstr "Aggiungi utente FTP"
+
+#: functions/functions.translationStrings.php:946
+msgid "Existing FTP users"
+msgstr "Utenti FTP esistenti"
+
+#: functions/functions.translationStrings.php:947
+msgid "Home directory"
+msgstr "Home directory"
+
+#: functions/functions.translationStrings.php:948
+msgid "Must be the directory or a subfolder of <b>/www/</b> or <b>/files/</b>."
+msgstr ""
+"Deve essere nella directory o in una sottocartella di <b>/www/</b> o <b>/"
+"files/.</b>."
+
+#: functions/functions.translationStrings.php:949
+msgid "Connection information"
+msgstr "Informazioni di connessione"
+
+#: functions/functions.translationStrings.php:950
+msgid "Server"
+msgstr "Server"
+
+#: functions/functions.translationStrings.php:951
+msgid "Port"
+msgstr "Porta"
+
+#: functions/functions.translationStrings.php:952
+msgid "Protocol"
+msgstr "Protocollo"
+
+#: functions/functions.translationStrings.php:953
+msgid "FTP over TLS (FTPS)"
+msgstr "FTP su TLS (FTPS)"
+
+#: functions/functions.translationStrings.php:954
+msgid "Encryption"
+msgstr "Crittografia"
+
+#: functions/functions.translationStrings.php:955
+msgid "Explicit mode"
+msgstr "Esplicito"
+
+#: functions/functions.translationStrings.php:956
+msgid "If available, you can use, your own SSL protected domain as well."
+msgstr ""
+"Se disponibile, è possibile utilizzare, il proprio certificato SSL per il "
+"dominio."
+
+#: functions/functions.translationStrings.php:957
+msgid "This information is filled out automatically."
+msgstr "Questa informazione viene compilata automaticamente."
+
+#: functions/functions.translationStrings.php:958
+#, fuzzy
+msgid "Use selected directory"
+msgstr "Elimina la home directory"
+
+#: functions/functions.translationStrings.php:959
+msgid ""
+"Insert a directory - if the directory does not exist, it will be created "
+"automatically!"
+msgstr ""
+"Inserisci una directory - se la directory non esiste, verrà creata "
+"automaticamente!"
+
+#: functions/functions.translationStrings.php:960
+msgid "FTP user settings"
+msgstr "Impostazioni utente FTP"
+
+#: functions/functions.translationStrings.php:961
+msgid "Delete home directory"
+msgstr "Elimina la home directory"
+
+#~ msgid "Take as home directory"
+#~ msgstr "Prendere come home directory"
+
+#~ msgid "Are you sure you want to delete the FTP user?"
+#~ msgstr "Sei sicuro di voler eliminare l'utente FTP?"
+
+#~ msgid "Delete FTP user"
+#~ msgstr "Elimina utente FTP"

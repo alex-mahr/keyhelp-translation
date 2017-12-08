@@ -1,0 +1,436 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminAccounts\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:174
+msgid "User administration"
+msgstr ""
+
+#: functions/functions.translationStrings.php:175
+msgid "Add administrator"
+msgstr ""
+
+#: functions/functions.translationStrings.php:176
+msgid "Add user"
+msgstr ""
+
+#: functions/functions.translationStrings.php:177
+msgid "Administrators"
+msgstr ""
+
+#: functions/functions.translationStrings.php:178
+msgid "User"
+msgstr ""
+
+#: functions/functions.translationStrings.php:179
+msgid "Last login"
+msgstr ""
+
+#: functions/functions.translationStrings.php:180
+msgid "User is main administrator?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:181
+msgid ""
+"Main administrators can edit and delete other administrator accounts,<br>as "
+"well as view and edit white label settings."
+msgstr ""
+
+#: functions/functions.translationStrings.php:183
+msgid "User data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:184
+msgid "Create standard subdomain?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:185
+msgid "Contact data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:186
+msgid "First name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:187
+msgid "Last name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:188
+msgid "Company"
+msgstr ""
+
+#: functions/functions.translationStrings.php:189
+msgid "Note"
+msgstr ""
+
+#: functions/functions.translationStrings.php:190
+msgid "Admin-Notes"
+msgstr ""
+
+#: functions/functions.translationStrings.php:191
+msgid ""
+"Feel free to add any notes you like.<br>These are displayed on the user and "
+"domain overview pages of the respective user.<br>They are only visible for "
+"admins."
+msgstr ""
+
+#: functions/functions.translationStrings.php:194
+msgid "Use template"
+msgstr ""
+
+#: functions/functions.translationStrings.php:195
+msgid "Services / privileges"
+msgstr ""
+
+#: functions/functions.translationStrings.php:196
+msgid "Account template"
+msgstr ""
+
+#: functions/functions.translationStrings.php:197
+msgid "Template label"
+msgstr ""
+
+#: functions/functions.translationStrings.php:198
+msgid "Send login credentials to this email address?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:199
+msgid "Directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:200
+msgid ""
+"Send login data again to email address in the case of a modified password?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:201
+msgid "Contact name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:202
+msgid "Main domain(s)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:203
+msgid "Email"
+msgstr ""
+
+#: functions/functions.translationStrings.php:204
+msgid "Telephone"
+msgstr ""
+
+#: functions/functions.translationStrings.php:205
+msgid "Address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:206
+msgid "City"
+msgstr ""
+
+#: functions/functions.translationStrings.php:207
+msgid "Zip code"
+msgstr ""
+
+#: functions/functions.translationStrings.php:208
+msgid "Client ID"
+msgstr ""
+
+#: functions/functions.translationStrings.php:209
+msgid "Can change contact data?"
+msgstr ""
+
+#: functions/functions.translationStrings.php:210
+msgid "Except Client-ID"
+msgstr ""
+
+#: functions/functions.translationStrings.php:211
+msgid "Disk space"
+msgstr ""
+
+#: functions/functions.translationStrings.php:212
+msgid "Including: webspace, MySQL-DBs, emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:213
+msgid "FTP"
+msgstr ""
+
+#: functions/functions.translationStrings.php:214
+msgid "PHP"
+msgstr ""
+
+#: functions/functions.translationStrings.php:215
+msgid "Perl/CGI"
+msgstr ""
+
+#: functions/functions.translationStrings.php:216
+msgid "SSH"
+msgstr ""
+
+#: functions/functions.translationStrings.php:217
+msgid "Please note, user will not be jailed into his home directory."
+msgstr ""
+
+#: functions/functions.translationStrings.php:218
+msgid "Can create backups"
+msgstr ""
+
+#: functions/functions.translationStrings.php:219
+msgid "Scheduled Tasks"
+msgstr ""
+
+#: functions/functions.translationStrings.php:220
+msgid "Panel Access"
+msgstr ""
+
+#: functions/functions.translationStrings.php:221
+msgid "DNS Editor"
+msgstr ""
+
+#: functions/functions.translationStrings.php:222
+msgid "SSL Certificates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:223
+msgid "SSL Certificates..."
+msgstr ""
+
+#: functions/functions.translationStrings.php:224
+msgid "Mailboxes"
+msgstr ""
+
+#: functions/functions.translationStrings.php:225
+msgid "Email addresses"
+msgstr ""
+
+#: functions/functions.translationStrings.php:226
+msgid "MySQL databases"
+msgstr ""
+
+#: functions/functions.translationStrings.php:227
+msgid "PHP settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:228
+msgid ""
+"Sets the maximum amount of memory (in bytes), that the script may consume."
+"<br>To specify no memory limit, enter the value -1.<br>Use the following "
+"shortcuts for byte values: K (Kilo), M (Mega) and G (Giga). Example: 64M."
+msgstr ""
+
+#: functions/functions.translationStrings.php:231
+msgid ""
+"Sets the maximum time in seconds that a script is allowed to run before the "
+"execution is stopped."
+msgstr ""
+
+#: functions/functions.translationStrings.php:232
+msgid ""
+"Specifies the maximum size of data (in bytes) that can be sent by using the "
+"POST method.<br>The value should be bigger than \"upload_max_filesize\" and "
+"smaller than \"memory_limit\".<br>Use the following shortcuts for byte "
+"values: K (Kilo), M (Mega) and G (Giga). Example: 64M."
+msgstr ""
+
+#: functions/functions.translationStrings.php:235
+msgid ""
+"Specifies the maximum size (in bytes) of an uploaded file.<br>Use the "
+"following shortcuts for byte values: K (Kilo), M (Mega) and G (Giga). "
+"Example: 64M."
+msgstr ""
+
+#: functions/functions.translationStrings.php:237
+msgid ""
+"Limits the files that can be opened by PHP to a specific folder, including "
+"its subfolders.<br>The placeholder <b>##DOCROOT##</b> can be used and will "
+"be filled automatically with the document root directory of the user."
+"<br>Multiple directories will be separated from each other with a colon. "
+"Example: /web1/files/:/web1/www/"
+msgstr ""
+
+#: functions/functions.translationStrings.php:240
+msgid ""
+"Allows disabling of individual internal PHP functions for security reasons."
+"<br>Functions are passed as a comma-separated list of function names."
+msgstr ""
+
+#: functions/functions.translationStrings.php:242
+msgid "Additional PHP settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:243
+msgid ""
+"Here you can specify additional PHP settings.<br>Use the same syntax that "
+"you would use in a php.ini file."
+msgstr ""
+
+#: functions/functions.translationStrings.php:244
+msgid ""
+"If you encounter problems with rejected emails because of a wrong envelope "
+"sender address (SPF check), you can set a new sender address here."
+"<br>Otherwise just keep this field empty."
+msgstr ""
+
+#: functions/functions.translationStrings.php:245
+msgid "PHP-FPM settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:246
+msgid "pm"
+msgstr ""
+
+#: functions/functions.translationStrings.php:247
+msgid ""
+"Specifies how the process manager administrates the number of child "
+"processes.<br><b>static</b> - the number of child processes is fixed (pm."
+"max_children).<br><b>ondemand</b> - the child processes will start, when "
+"they are needed.<br><b>dynamic</b> - the number of child processes will be "
+"adjusted dynamically, at the beginning pm.start_servers processes will start."
+msgstr ""
+
+#: functions/functions.translationStrings.php:251
+msgid "static"
+msgstr ""
+
+#: functions/functions.translationStrings.php:252
+msgid "ondemand"
+msgstr ""
+
+#: functions/functions.translationStrings.php:253
+msgid "dynamic"
+msgstr ""
+
+#: functions/functions.translationStrings.php:254
+msgid "The number of child processes that will be created maximal."
+msgstr ""
+
+#: functions/functions.translationStrings.php:255
+msgid ""
+"The number of requests that a child process performs before it restarts."
+"<br>For an unlimited number of requests, enter the value 0."
+msgstr ""
+
+#: functions/functions.translationStrings.php:257
+msgid "The desired minimum number of processes."
+msgstr ""
+
+#: functions/functions.translationStrings.php:258
+msgid "The desired maximum number of processes."
+msgstr ""
+
+#: functions/functions.translationStrings.php:259
+msgid ""
+"Only necessary if the setting <strong>pm</strong> is set to <strong>dynamic</"
+"strong>."
+msgstr ""
+
+#: functions/functions.translationStrings.php:260
+msgid "Modify SSL settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:261
+msgid ""
+"The user can modify SSL settings of his domains (e.g set certificate, Let's "
+"Encrypt, HSTS)."
+msgstr ""
+
+#: functions/functions.translationStrings.php:262
+msgid "Enable PHP-FPM status page"
+msgstr ""
+
+#: functions/functions.translationStrings.php:263
+msgid ""
+"If enabled, the following URLs can be used to determine the PHP-FPM status:"
+"<br>&lt;DOMAIN NAME&gt;/fpm-ping<br>&lt;DOMAIN NAME&gt;/fpm-"
+"status<br><br>You can limit access permission to one IP. (Empty = No "
+"limitation)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:266
+msgid "Only allow access via this IP"
+msgstr ""
+
+#: functions/functions.translationStrings.php:267
+msgid "Traffic"
+msgstr ""
+
+#: functions/functions.translationStrings.php:268
+msgid "Setup date"
+msgstr ""
+
+#: functions/functions.translationStrings.php:269
+msgid "Webspace"
+msgstr ""
+
+#: functions/functions.translationStrings.php:270
+msgid "Emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:271
+msgid "show more"
+msgstr ""
+
+#: functions/functions.translationStrings.php:272
+msgid "Additional options"
+msgstr ""
+
+#: functions/functions.translationStrings.php:273
+msgid "Not set"
+msgstr ""
+
+#: functions/functions.translationStrings.php:274
+msgid "Unsuspend"
+msgstr ""
+
+#: functions/functions.translationStrings.php:275
+msgid "Set deletion date"
+msgstr ""
+
+#: functions/functions.translationStrings.php:276
+msgid "The user account will get deleted on the specified date."
+msgstr ""
+
+#: functions/functions.translationStrings.php:277
+#: functions/functions.translationStrings.php:281
+msgid ""
+"If the datepicker is not supported by your browser, enter the desired date "
+"in the format YYYY-MM-DD."
+msgstr ""
+
+#: functions/functions.translationStrings.php:278
+msgid "Set suspension date"
+msgstr ""
+
+#: functions/functions.translationStrings.php:279
+msgid "The user account will get suspended on the specified date."
+msgstr ""
+
+#: functions/functions.translationStrings.php:280
+msgid ""
+"Domains become disabled and access via FTP / SSH / email / panel access "
+"become denied."
+msgstr ""
+
+#: functions/functions.translationStrings.php:282
+msgid "Suspend now (= current date)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:283
+msgid "Suspended"
+msgstr ""

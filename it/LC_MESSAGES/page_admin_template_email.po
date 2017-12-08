@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminTemplateEmail\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1481
+msgid "Email templates"
+msgstr "Modelli per le email"
+
+#: functions/functions.translationStrings.php:1482
+msgid "Email template"
+msgstr "Template delle email"
+
+#: functions/functions.translationStrings.php:1483
+msgid "Action"
+msgstr "Azione"
+
+#: functions/functions.translationStrings.php:1484
+msgid "Add email template"
+msgstr "Aggiungi un modello di email"
+
+#: functions/functions.translationStrings.php:1485
+msgid "Load default mail"
+msgstr "Carica la mail predefinita"
+
+#: functions/functions.translationStrings.php:1486
+msgid "Subject"
+msgstr "Soggetto"
+
+#: functions/functions.translationStrings.php:1487
+msgid "Text"
+msgstr "Testo"
+
+#: functions/functions.translationStrings.php:1488
+msgid "Name of sender"
+msgstr "Mittente"
+
+#: functions/functions.translationStrings.php:1489
+msgid "Send a copy to email (BCC)"
+msgstr "Invia una copia per e-mail (BCC)"
+
+#: functions/functions.translationStrings.php:1490
+msgid "Use comma to separate multiple addresses."
+msgstr "Utilizzare la virgola per separare più indirizzi."
+
+#: functions/functions.translationStrings.php:1491
+#, fuzzy
+msgid "Test email template"
+msgstr "Aggiungi un modello di email"
+
+#: functions/functions.translationStrings.php:1492
+msgid "Enter a recipient email address."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1493
+msgid "Send email"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1494
+msgid "Failed to send email"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1495
+msgid "Successfully sent"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1497
+msgid "The following variables are available"
+msgstr "Le seguenti variabili sono disponibili"
+
+#: functions/functions.translationStrings.php:1499
+msgid "Will be replaced with the username."
+msgstr "Verrà sostituito con il nome utente."
+
+#: functions/functions.translationStrings.php:1500
+msgid "Will be replaced with the password of the user account."
+msgstr "Verrà sostituito con la password dell'account utente."
+
+#: functions/functions.translationStrings.php:1501
+msgid "Will be replaced with the URL to the administration panel."
+msgstr "Verrà sostituito con l'URL al pannello di amministrazione."
+
+#: functions/functions.translationStrings.php:1502
+#, fuzzy
+msgid "Will be replaced with a link to reset the password."
+msgstr "Verrà sostituito con la password appena generata."
+
+#: functions/functions.translationStrings.php:1503
+msgid "Will be replaced with the email address of the account."
+msgstr "Verrà sostituito con l'indirizzo email dell'account."
+
+#: functions/functions.translationStrings.php:1504
+msgid "Will be replaced with the server name."
+msgstr "Verrà sostituito con il nome del server."
+
+#: functions/functions.translationStrings.php:1506
+msgid "Forgot password"
+msgstr "Password dimenticata"
+
+#: functions/functions.translationStrings.php:1507
+msgid "A new user was created"
+msgstr "È stato creato un nuovo utente"
+
+#: functions/functions.translationStrings.php:1508
+msgid "An administrator assigns new login credentials to a user"
+msgstr "Un amministratore assegna nuove credenziali di accesso per un utente"
+
+#: functions/functions.translationStrings.php:1509
+msgid "A new email account was created"
+msgstr "È stato creato un nuovo account email"
+
+#: functions/functions.translationStrings.php:1510
+msgid "Warning if a user has only 10&#37; of his disk space available"
+msgstr "Avviso se un utente ha solo 10 &#37; del suo spazio su disco disponibile"
+
+#: functions/functions.translationStrings.php:1511
+msgid "The available disk space reaches 0%"
+msgstr "Lo spazio disponibile su disco raggiunge 0%"
+
+#: functions/functions.translationStrings.php:1512
+msgid "A domain has been disabled"
+msgstr "Un dominio è stato disattivato"
+
+#: functions/functions.translationStrings.php:1513
+msgid "A domain has been enabled"
+msgstr "Un dominio è stato abilitato"
+
+#~ msgid "Are you sure you want to delete the selected template?"
+#~ msgstr "Sei sicuro di voler eliminare il modello selezionato?"

@@ -1,0 +1,67 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userMysql\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1058
+msgid ""
+"Here you can create and manage MySQL databases.<br>This area is interesting "
+"for you if you use programs or CGI scripts that require a database. Many "
+"guest books and e-shop systems require a database."
+msgstr ""
+"Qui è possibile creare e gestire i database MySQL.<br>Questa zona è di "
+"interesse se si utilizzano programmi o script CGI che richiedono un "
+"database. Molti guestbooks e eShop richiedono un database."
+
+#: functions/functions.translationStrings.php:1060
+msgid "Databases"
+msgstr "Database"
+
+#: functions/functions.translationStrings.php:1061
+msgid "Add database"
+msgstr "Aggiungi database"
+
+#: functions/functions.translationStrings.php:1062
+msgid "Database name"
+msgstr "Nome database"
+
+#: functions/functions.translationStrings.php:1063
+msgid "Username"
+msgstr "Nome utente"
+
+#: functions/functions.translationStrings.php:1064
+msgid "Host"
+msgstr "Host"
+
+#: functions/functions.translationStrings.php:1065
+msgid "Database size"
+msgstr "Dimensione database"
+
+#: functions/functions.translationStrings.php:1066
+msgid "Database settings"
+msgstr "Impostazioni database"
+
+#: functions/functions.translationStrings.php:1067
+msgid "This information is filled out automatically."
+msgstr "Questa informazione viene compilata automaticamente."
+
+#~ msgid ""
+#~ "Are you sure you want to delete the following database including all "
+#~ "content?"
+#~ msgstr ""
+#~ "Sono sicuro che si desidera eliminare il seguente database incluso tutto "
+#~ "il contenuto?"

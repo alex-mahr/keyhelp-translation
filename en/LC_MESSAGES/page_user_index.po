@@ -1,0 +1,162 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:778
+msgid "Overview"
+msgstr ""
+
+#: functions/functions.translationStrings.php:779
+msgid "Total"
+msgstr ""
+
+#: functions/functions.translationStrings.php:780
+msgid "Account Information"
+msgstr ""
+
+#: functions/functions.translationStrings.php:781
+msgid "Main domain(s)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:782
+msgid "Emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:783
+msgid "MySQL-DBs"
+msgstr ""
+
+#: functions/functions.translationStrings.php:784
+msgid "Webspace"
+msgstr ""
+
+#: functions/functions.translationStrings.php:785
+msgid "Disk space"
+msgstr ""
+
+#: functions/functions.translationStrings.php:786
+msgid "Please note, what happens, when your disk space is 100&#37; used up:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:787
+msgid "- You can not upload more data"
+msgstr ""
+
+#: functions/functions.translationStrings.php:788
+msgid "- You can not receive emails"
+msgstr ""
+
+#: functions/functions.translationStrings.php:789
+msgid "- Your database privileges will be restricted"
+msgstr ""
+
+#: functions/functions.translationStrings.php:790
+msgid "Email address for automatic server messages"
+msgstr ""
+
+#: functions/functions.translationStrings.php:791
+msgid ""
+"- If you ever forget your password, you can request a new one using this "
+"email address"
+msgstr ""
+
+#: functions/functions.translationStrings.php:792
+msgid ""
+"- Administrators can send you messages to indicate possible maintenance etc."
+msgstr ""
+
+#: functions/functions.translationStrings.php:793
+msgid ""
+"- Warning emails will be sent if only 10&#37; of your maximum available disk "
+"space is left"
+msgstr ""
+
+#: functions/functions.translationStrings.php:794
+msgid "Change now"
+msgstr ""
+
+#: functions/functions.translationStrings.php:795
+msgid "MySQL databases"
+msgstr ""
+
+#: functions/functions.translationStrings.php:796
+msgid "Email addresses"
+msgstr ""
+
+#: functions/functions.translationStrings.php:797
+msgid "Mailboxes"
+msgstr ""
+
+#: functions/functions.translationStrings.php:798
+msgid "Scheduled tasks"
+msgstr ""
+
+#: functions/functions.translationStrings.php:799
+msgid "Activated services / privileges"
+msgstr ""
+
+#: functions/functions.translationStrings.php:800
+msgid "Directory listing"
+msgstr ""
+
+#: functions/functions.translationStrings.php:801
+msgid ""
+"If this option is enabled the files located in a web folder are shown as "
+"file lists in the browser even if there is no index file (e.g. index.html, "
+"index.php)."
+msgstr ""
+
+#: functions/functions.translationStrings.php:802
+msgid "Current state: Enabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:803
+msgid "Current state: Disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:804
+msgid "(current / maximum - in percent)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:805
+msgid "(current / maximum)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:806
+msgid "Absolute path to your home directory"
+msgstr ""
+
+#: functions/functions.translationStrings.php:807
+msgid "Consumed traffic this month"
+msgstr ""
+
+#: functions/functions.translationStrings.php:808
+msgid "Total traffic"
+msgstr ""
+
+#: functions/functions.translationStrings.php:809
+msgid "No main domains have been assigned to you."
+msgstr ""
+
+#: functions/functions.translationStrings.php:810
+msgid "This domain has been disabled"
+msgstr ""
+
+#: functions/functions.translationStrings.php:811
+msgid "DISABLED"
+msgstr ""

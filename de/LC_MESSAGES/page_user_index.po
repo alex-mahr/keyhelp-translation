@@ -1,0 +1,173 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:778
+msgid "Overview"
+msgstr "Übersicht"
+
+#: functions/functions.translationStrings.php:779
+msgid "Total"
+msgstr "Gesamt"
+
+#: functions/functions.translationStrings.php:780
+msgid "Account Information"
+msgstr "Account Informationen"
+
+#: functions/functions.translationStrings.php:781
+msgid "Main domain(s)"
+msgstr "Haupt-Domain(s)"
+
+#: functions/functions.translationStrings.php:782
+msgid "Emails"
+msgstr "E-Mails"
+
+#: functions/functions.translationStrings.php:783
+msgid "MySQL-DBs"
+msgstr "MySQL-DBs"
+
+#: functions/functions.translationStrings.php:784
+msgid "Webspace"
+msgstr "Webspace"
+
+#: functions/functions.translationStrings.php:785
+msgid "Disk space"
+msgstr "Speicherplatz"
+
+#: functions/functions.translationStrings.php:786
+msgid "Please note, what happens, when your disk space is 100&#37; used up:"
+msgstr ""
+"Bitte beachten Sie, was passiert, wenn Ihr Speicherplatz 100&#37; verbraucht "
+"ist:"
+
+#: functions/functions.translationStrings.php:787
+msgid "- You can not upload more data"
+msgstr "- Sie können keine Daten mehr hochladen"
+
+#: functions/functions.translationStrings.php:788
+msgid "- You can not receive emails"
+msgstr "- Sie können keine E-Mails mehr empfangen"
+
+#: functions/functions.translationStrings.php:789
+msgid "- Your database privileges will be restricted"
+msgstr "- Ihre Datenbankrechte werden eingeschränkt"
+
+#: functions/functions.translationStrings.php:790
+msgid "Email address for automatic server messages"
+msgstr "E-Mail-Adresse für automatische Servernachrichten"
+
+#: functions/functions.translationStrings.php:791
+msgid ""
+"- If you ever forget your password, you can request a new one using this "
+"email address"
+msgstr ""
+"- Sollten Sie einmal Ihr Passwort vergessen haben, können Sie mit Hilfe "
+"dieser E-Mail-Adresse ein neues anfordern"
+
+#: functions/functions.translationStrings.php:792
+msgid ""
+"- Administrators can send you messages to indicate possible maintenance etc."
+msgstr ""
+"- Administratoren können Ihnen Nachrichten schicken um auf mögliche "
+"Wartungsarbeiten o.Ä. hinzuweisen"
+
+#: functions/functions.translationStrings.php:793
+msgid ""
+"- Warning emails will be sent if only 10&#37; of your maximum available disk "
+"space is left"
+msgstr ""
+"- Es werden Warn-E-Mails verschickt, wenn nur noch 10&#37; Ihres maximal "
+"verfügbarer Speicherplatzes zur Verfügung steht"
+
+#: functions/functions.translationStrings.php:794
+msgid "Change now"
+msgstr "Jetzt ändern"
+
+#: functions/functions.translationStrings.php:795
+msgid "MySQL databases"
+msgstr "MySQL-Datenbanken"
+
+#: functions/functions.translationStrings.php:796
+msgid "Email addresses"
+msgstr "E-Mail-Adressen"
+
+#: functions/functions.translationStrings.php:797
+msgid "Mailboxes"
+msgstr "E-Mail-Konten"
+
+#: functions/functions.translationStrings.php:798
+msgid "Scheduled tasks"
+msgstr "Geplante Aufgaben"
+
+#: functions/functions.translationStrings.php:799
+msgid "Activated services / privileges"
+msgstr "Aktivierte Dienste / Befugnisse"
+
+#: functions/functions.translationStrings.php:800
+msgid "Directory listing"
+msgstr "Directory Listing"
+
+#: functions/functions.translationStrings.php:801
+msgid ""
+"If this option is enabled the files located in a web folder are shown as "
+"file lists in the browser even if there is no index file (e.g. index.html, "
+"index.php)."
+msgstr ""
+"Ist diese Option aktiv, werden die in einem Webordner vorhandenen Dateien "
+"auch ohne existierende Index-Datei (z.B. index.html, index.php) als "
+"Dateiliste im Browser angezeigt."
+
+#: functions/functions.translationStrings.php:802
+msgid "Current state: Enabled"
+msgstr "Aktueller Status: aktiv"
+
+#: functions/functions.translationStrings.php:803
+msgid "Current state: Disabled"
+msgstr "Aktueller Status: inaktiv"
+
+#: functions/functions.translationStrings.php:804
+msgid "(current / maximum - in percent)"
+msgstr "(aktuell / maximal - in Prozent)"
+
+#: functions/functions.translationStrings.php:805
+msgid "(current / maximum)"
+msgstr "(aktuell / maximal)"
+
+#: functions/functions.translationStrings.php:806
+msgid "Absolute path to your home directory"
+msgstr "Absoluter Pfad zu Ihrem Home-Verzeichnis"
+
+#: functions/functions.translationStrings.php:807
+msgid "Consumed traffic this month"
+msgstr "Verbrauchter Traffic in diesem Monat"
+
+#: functions/functions.translationStrings.php:808
+msgid "Total traffic"
+msgstr "Gesamt-Traffic"
+
+#: functions/functions.translationStrings.php:809
+msgid "No main domains have been assigned to you."
+msgstr "Ihnen wurden noch keine Haupt-Domains zugewiesen."
+
+#: functions/functions.translationStrings.php:810
+msgid "This domain has been disabled"
+msgstr "Diese Domain wurde deaktiviert"
+
+#: functions/functions.translationStrings.php:811
+msgid "DISABLED"
+msgstr "DEAKTIVIERT"

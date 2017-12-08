@@ -1,0 +1,93 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-08 10:33+0100\n"
+"PO-Revision-Date: 2017-12-08 10:33+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminLogs\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:676
+msgid "Server messages"
+msgstr "Servermeldungen"
+
+#: functions/functions.translationStrings.php:677
+msgid "Message type"
+msgstr "Meldungstyp"
+
+#: functions/functions.translationStrings.php:678
+msgid "Time"
+msgstr "Zeit"
+
+#: functions/functions.translationStrings.php:679
+msgid "Message"
+msgstr "Meldung"
+
+#: functions/functions.translationStrings.php:680
+msgid "Refresh view"
+msgstr "Ansicht aktualisieren"
+
+#: functions/functions.translationStrings.php:681
+msgid "Clear server messages"
+msgstr "Servermeldungen löschen"
+
+#: functions/functions.translationStrings.php:682
+msgid "Are you sure you want to delete all server messages?"
+msgstr "Sind Sie sicher, dass Sie alle Servermeldungen löschen möchten?"
+
+#: functions/functions.translationStrings.php:683
+msgid "Show message type"
+msgstr "Zeige Meldungstyp"
+
+#: functions/functions.translationStrings.php:685
+msgid "Auto status refresh:"
+msgstr "Automatische Status Aktualisierung:"
+
+#: functions/functions.translationStrings.php:687
+msgid "Choose file"
+msgstr "Datei wählen"
+
+#: functions/functions.translationStrings.php:688
+msgid "Log files"
+msgstr "Log-Dateien"
+
+#: functions/functions.translationStrings.php:689
+msgid "Show"
+msgstr "Anzeigen"
+
+#: functions/functions.translationStrings.php:690
+msgid "The latest entries"
+msgstr "Die neusten Log-Einträge"
+
+#: functions/functions.translationStrings.php:691
+msgid "Total content of the log file"
+msgstr "Gesamtinhalt der Log-Datei"
+
+#: functions/functions.translationStrings.php:692
+msgid "To total content"
+msgstr "Zum Gesamtinhalt"
+
+#: functions/functions.translationStrings.php:693
+msgid "To bottom"
+msgstr "Nach unten"
+
+#: functions/functions.translationStrings.php:694
+msgid "To top"
+msgstr "Nach oben"
+
+#: functions/functions.translationStrings.php:695
+msgid "To top of page"
+msgstr "Zum Seitenanfang"
+
+#~ msgid "Server Messages"
+#~ msgstr "Servermeldungen"

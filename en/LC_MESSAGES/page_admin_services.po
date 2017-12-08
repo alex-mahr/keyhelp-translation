@@ -1,0 +1,99 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminServices\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:319
+msgid "Server Service Management"
+msgstr ""
+
+#: functions/functions.translationStrings.php:320
+msgid "Services"
+msgstr ""
+
+#: functions/functions.translationStrings.php:321
+msgid "Web hosting services"
+msgstr ""
+
+#: functions/functions.translationStrings.php:322
+msgid "Web server (Apache)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:323
+msgid "DNS server (Bind)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:324
+msgid "FastCGI Process Manager (PHP-FPM)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:325
+#, php-format
+msgid "Additional PHP-FPM interpreter %s"
+msgstr ""
+
+#: functions/functions.translationStrings.php:326
+msgid "Database (MySQL/MariaDB)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:327
+msgid "FTP server (Proftpd)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:328
+msgid "Email services"
+msgstr ""
+
+#: functions/functions.translationStrings.php:329
+msgid "Mail Transfer Agent (Postfix)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:330
+msgid "Mail Delivery Agent (Dovecot)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:331
+msgid "Amavis"
+msgstr ""
+
+#: functions/functions.translationStrings.php:332
+msgid "Antispam (SpamAssassin)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:333
+msgid "Antivirus (ClamAV)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:334
+msgid "Other services"
+msgstr ""
+
+#: functions/functions.translationStrings.php:335
+msgid "Cron Daemon"
+msgstr ""
+
+#: functions/functions.translationStrings.php:336
+msgid "Block IP address (Fail2ban)"
+msgstr ""
+
+#: functions/functions.translationStrings.php:337
+msgid "SSH"
+msgstr ""
+
+#: functions/functions.translationStrings.php:338
+msgid "Time Synchronization (NTP)"
+msgstr ""

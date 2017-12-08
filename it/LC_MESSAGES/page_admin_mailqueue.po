@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminMailQueue\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:735
+msgid "Email Queue"
+msgstr "Coda Email"
+
+#: functions/functions.translationStrings.php:736
+msgid "Email queue records"
+msgstr "Record nella coda Email"
+
+#: functions/functions.translationStrings.php:737
+msgid "Delete entire queue"
+msgstr "Elimina intera coda"
+
+#: functions/functions.translationStrings.php:738
+msgid "ID"
+msgstr "ID"
+
+#: functions/functions.translationStrings.php:739
+msgid "Sender"
+msgstr "Mittente"
+
+#: functions/functions.translationStrings.php:740
+msgid "Recipients"
+msgstr "Destinatari"
+
+#: functions/functions.translationStrings.php:741
+msgid "Arrival date"
+msgstr "Data di arrivo"
+
+#: functions/functions.translationStrings.php:742
+msgid "Age"
+msgstr "Età"
+
+#: functions/functions.translationStrings.php:743
+msgid "Size"
+msgstr "Misura"
+
+#: functions/functions.translationStrings.php:744
+msgid "Delete records"
+msgstr "Elimina record"
+
+#: functions/functions.translationStrings.php:745
+msgid "Are you sure you want to delete the <strong>entire email queue</strong>?"
+msgstr "Sicuro di che voler eliminare la coda email<strong> interamente</strong>?"
+
+#: functions/functions.translationStrings.php:746
+msgid "Are you sure you want to delete the selected emails?"
+msgstr "Sicuro di voler cancellare le mail selezionate?"

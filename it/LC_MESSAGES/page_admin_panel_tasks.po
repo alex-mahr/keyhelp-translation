@@ -1,0 +1,181 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Pannello ITA\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alessandro Daniele (Eurhosting.net) <info@eurhosting.net>\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminPanelTasks\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:603
+msgid "Panel Tasks Intervals"
+msgstr "Intervallo delle attività del pannello"
+
+#: functions/functions.translationStrings.php:604
+msgid "Last run"
+msgstr "Ultima esecuzione"
+
+#: functions/functions.translationStrings.php:605
+msgid "Activated?"
+msgstr "Attivato?"
+
+#: functions/functions.translationStrings.php:606
+msgid "Interval"
+msgstr "Intervallo"
+
+#: functions/functions.translationStrings.php:607
+msgid "Time frame"
+msgstr "Periodo di tempo"
+
+#: functions/functions.translationStrings.php:608
+msgid "from"
+msgstr "da"
+
+#: functions/functions.translationStrings.php:609
+msgid "till"
+msgstr "a"
+
+#: functions/functions.translationStrings.php:610
+msgid "o'clock"
+msgstr "in punto"
+
+#: functions/functions.translationStrings.php:611
+msgid "every"
+msgstr "ogni"
+
+#: functions/functions.translationStrings.php:612
+msgid "Perform updates"
+msgstr "Eseguire gli aggiornamenti"
+
+#: functions/functions.translationStrings.php:613
+msgid ""
+"Performs tasks, that have been commissioned through the administration panel."
+"<br>For example creating a new user, writing configuration files etc."
+msgstr ""
+"Esegue attività, che sono state commissionate attraverso il pannello di "
+"amministrazione.<br>Ad esempio creazione nuovo utente, scrittura di file di "
+"configurazione ecc."
+
+#: functions/functions.translationStrings.php:615
+msgid "Calculate disk space"
+msgstr "Calcolare lo spazio su disco"
+
+#: functions/functions.translationStrings.php:616
+msgid "Calculates the disk space consumed by user accounts."
+msgstr "Calcola lo spazio su disco utilizzato da account utente."
+
+#: functions/functions.translationStrings.php:617
+msgid "Update statistics"
+msgstr "Aggiorna statistiche"
+
+#: functions/functions.translationStrings.php:618
+msgid "Updates the traffic usage and the web statistics of user accounts."
+msgstr ""
+"Aggiorna l'utilizzo di traffico e statistiche web degli account utente."
+
+#: functions/functions.translationStrings.php:619
+msgid "Perform automatic panel updates"
+msgstr "Eseguire gli aggiornamenti automatici pannello"
+
+#: functions/functions.translationStrings.php:620
+msgid ""
+"Keeps the administration panel up to date and installs newer versions as "
+"they are released."
+msgstr ""
+"Mantenere aggiornato il pannello di amministrazione e installare le versioni "
+"più recenti appena vengono rilasciate."
+
+#: functions/functions.translationStrings.php:621
+msgid "Keep server services up to date"
+msgstr "Mantenere i servizi del server aggiornati"
+
+#: functions/functions.translationStrings.php:622
+msgid ""
+"Installs, if available, newer, improved versions of services/packages, which "
+"are already installed on the server.<br>(apt-get update & apt-get upgrade)"
+msgstr ""
+"Installa, se disponibili, versioni più recenti di servizi/pacchetti che sono "
+"già installati sul server.<br>(apt-get update e apt-get upgrade)"
+
+#: functions/functions.translationStrings.php:624
+msgid "Session data cleanup"
+msgstr "Elimina i dati sessione"
+
+#: functions/functions.translationStrings.php:625
+msgid ""
+"Deletes unused PHP sessions from the temporary folder of the user accounts."
+msgstr ""
+"Elimina sessioni PHP inutilizzate dalla cartella temporanea degli account "
+"utente."
+
+#: functions/functions.translationStrings.php:626
+msgid "Antivirus scanner"
+msgstr "Scanner antivirus"
+
+#: functions/functions.translationStrings.php:627
+msgid "Performs a virus check."
+msgstr ""
+
+#: functions/functions.translationStrings.php:628
+#: functions/functions.translationStrings.php:631
+#: functions/functions.translationStrings.php:635
+msgid "You can configure it here:"
+msgstr ""
+
+#: functions/functions.translationStrings.php:628
+#: functions/functions.translationStrings.php:635
+msgid "Settings >> Server"
+msgstr ""
+
+#: functions/functions.translationStrings.php:629
+msgid "Maintenance of SSL certificates"
+msgstr ""
+
+#: functions/functions.translationStrings.php:630
+msgid ""
+"Checks if SSL certificates are going to expire, performs Let's Encrypt "
+"certificate update and other SSL related maintenance work."
+msgstr ""
+
+#: functions/functions.translationStrings.php:631
+msgid "Settings >> Panel Settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:632
+#, fuzzy
+msgid "Repository update"
+msgstr "Eseguire gli aggiornamenti"
+
+#: functions/functions.translationStrings.php:633
+msgid ""
+"This job is responsible for receiving and updating packages, which are "
+"located inside KeyHelp's own repository."
+msgstr ""
+
+#: functions/functions.translationStrings.php:634
+msgid "E.g. update of the optional PHP interpreter packages."
+msgstr ""
+
+#~ msgid ""
+#~ "Performs a virus check.<br>You can configure it here: <a href=\"index.php?"
+#~ "page=admin_server\">Settings >> Server</a>"
+#~ msgstr ""
+#~ "Esegue un controllo virus.<br>È possibile configurare qui: <a href="
+#~ "\"index.php?page=admin_server\">Impostazioni >> Server</a>"
+
+#~ msgid "Let's Encrypt certificate update"
+#~ msgstr "Aggiornamento certificati Let's Encrypt"
+
+#~ msgid "Performs certificate updates and other maintenance work."
+#~ msgstr ""
+#~ "Esegue gli aggiornamenti dei certificati e altri lavori di manutenzione."

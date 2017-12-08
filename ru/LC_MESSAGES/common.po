@@ -1,0 +1,2193 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-11-20 14:03+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: \n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __;_e;_ngettext:1,2;_n:1,2;_en:1,2;_pgettext:1c,2;"
+"_p:1c,2;_ep:1c,2\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: install\n"
+"X-Poedit-SearchPathExcluded-1: incl/vendor\n"
+"X-Poedit-SearchPathExcluded-2: _misc\n"
+"X-Poedit-SearchPathExcluded-3: _extern\n"
+
+#: core/Cli/CliControl.php:166 core/pending/EventLogger.php:106
+#: incl/page/admin_logs_servermsg.php:54
+msgid "Error"
+msgstr "Ошибка"
+
+#: core/Cli/CliControl.php:214
+#, fuzzy
+msgid "Your Administration-Panel"
+msgstr "Учетные записи"
+
+#: core/Cli/CliControl.php:242
+msgid "This application requires root privileges."
+msgstr "Данному приложеию необходимы привелегии root"
+
+#: core/Cli/CliControl.php:255
+#, fuzzy
+msgid "This application requires to be run in CLI mode."
+msgstr "Это приложение запускаетсяв режиме CLI"
+
+#: core/Firewall/Iptables.php:406
+msgid "Invalid default policy"
+msgstr "Некорректная политика по умолчанию"
+
+#: core/Firewall/Iptables.php:412 core/Firewall/Iptables.php:419
+#, php-format
+msgid "Required chain \"%s\" is missing"
+msgstr "Обязателбная цепочка \"%s\" не найдена"
+
+#: core/Firewall/Iptables.php:437
+msgid ""
+"Cannot find a rule with (jump-) action \"fail2ban\", this way fail2ban would "
+"not work."
+msgstr ""
+"Не возможно найти правило с действием \"fail2ban\", fail2ban не "
+"будетработать одобным образом."
+
+#: core/Firewall/Iptables.php:445
+msgid "Invalid chain name"
+msgstr "Неверное имя цепочки"
+
+#: core/Firewall/Iptables.php:484
+#, php-format
+msgid "Duplicate parameter \"%s\""
+msgstr "Повторяющийся параметр \"%s\""
+
+#: core/Firewall/Iptables.php:501
+#, php-format
+msgid "Missing value for parameter \"%s\""
+msgstr "Отсуствует значение параметра \"%s\""
+
+#: core/Firewall/Iptables.php:526 core/Firewall/Iptables.php:563
+#: core/Firewall/Iptables.php:576 core/Firewall/Iptables.php:590
+#: core/Firewall/Iptables.php:599
+#, php-format
+msgid "Missing parameter \"%s\""
+msgstr "Отсуствует параметр \"%s\""
+
+#: core/Firewall/Iptables.php:551
+#, php-format
+msgid "The parameter \"%1$s\" requires the jump action \"%2$s\""
+msgstr "Параметр \"%1$s\" требует действия \"%2$s\""
+
+#: core/Firewall/Iptables.php:580
+#, php-format
+msgid "Multiport needs \"--protocol\" with one of the following values: %s"
+msgstr ""
+
+#: core/Firewall/Iptables.php:608
+#, php-format
+msgid "Invalid value for parameter \"%s\""
+msgstr "Недопустимое значение параметра \"%s\""
+
+#: core/Firewall/Iptables.php:616
+#, php-format
+msgid "The parameters \"%s\" and \"%s\" cannot be used together"
+msgstr "\"%s\" и \"%s\" не могут быть использованы вместе"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:70 core/i18n/KeyhelpLocale.php:82
+msgid "Sunday"
+msgstr "Воскресенье"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:71 core/i18n/KeyhelpLocale.php:83
+msgid "Monday"
+msgstr "Понедельник"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:72 core/i18n/KeyhelpLocale.php:84
+msgid "Tuesday"
+msgstr "Вторник"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:73 core/i18n/KeyhelpLocale.php:85
+msgid "Wednesday"
+msgstr "Среда"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:74 core/i18n/KeyhelpLocale.php:86
+msgid "Thursday"
+msgstr "Четверг"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:75 core/i18n/KeyhelpLocale.php:87
+msgid "Friday"
+msgstr "Пятница"
+
+#. Translators: Weekday
+#: core/i18n/KeyhelpLocale.php:76 core/i18n/KeyhelpLocale.php:88
+msgid "Saturday"
+msgstr "Суббота"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:82
+#, fuzzy
+msgid "Sun"
+msgstr "Вос"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:83
+#, fuzzy
+msgid "Mon"
+msgstr "Пон"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:84
+#, fuzzy
+msgid "Tue"
+msgstr "Вт"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:85
+msgid "Wed"
+msgstr "Ср"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:86
+msgid "Thu"
+msgstr "Чет"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:87
+#, fuzzy
+msgid "Fri"
+msgstr "Птн"
+
+#. Translators: Weekday abbreviation
+#: core/i18n/KeyhelpLocale.php:88
+msgid "Sat"
+msgstr "Суб"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:94 core/i18n/KeyhelpLocale.php:111
+msgid "January"
+msgstr "Январь"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:95 core/i18n/KeyhelpLocale.php:112
+msgid "February"
+msgstr "Февраль"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:96 core/i18n/KeyhelpLocale.php:113
+msgid "March"
+msgstr "Март"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:97 core/i18n/KeyhelpLocale.php:114
+msgid "April"
+msgstr "Апрель"
+
+#. Translators: Month name
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:98 core/i18n/KeyhelpLocale.php:115
+msgid "May"
+msgstr "Май"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:99 core/i18n/KeyhelpLocale.php:116
+msgid "June"
+msgstr "Июнь"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:100 core/i18n/KeyhelpLocale.php:117
+msgid "July"
+msgstr "Июль"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:101 core/i18n/KeyhelpLocale.php:118
+msgid "August"
+msgstr "Август"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:102 core/i18n/KeyhelpLocale.php:119
+msgid "September"
+msgstr "Сентябрь"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:103 core/i18n/KeyhelpLocale.php:120
+msgid "October"
+msgstr "Октябрь"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:104 core/i18n/KeyhelpLocale.php:121
+msgid "November"
+msgstr "Ноябрь"
+
+#. Translators: Month name
+#: core/i18n/KeyhelpLocale.php:105 core/i18n/KeyhelpLocale.php:122
+msgid "December"
+msgstr "Декабрь"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:111
+#, fuzzy
+msgid "Jan"
+msgstr "Янв"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:112
+msgid "Feb"
+msgstr "Фев"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:113
+#, fuzzy
+msgid "Mar"
+msgstr "Март"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:114
+#, fuzzy
+msgid "Apr"
+msgstr "Апр"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:116
+#, fuzzy
+msgid "Jun"
+msgstr "Июнь"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:117
+#, fuzzy
+msgid "Jul"
+msgstr "Июль"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:118
+#, fuzzy
+msgid "Aug"
+msgstr "Авг"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:119
+msgid "Sep"
+msgstr "Сент"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:120
+#, fuzzy
+msgid "Oct"
+msgstr "Окт"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:121
+msgid "Nov"
+msgstr "Ноя"
+
+#. Translators: Month name abbreviation
+#: core/i18n/KeyhelpLocale.php:122
+msgid "Dec"
+msgstr "Дек"
+
+#. Translators: Thousands separator for number formatting, default ","
+#: core/i18n/KeyhelpLocale.php:129
+msgid "_number_format_thousands_separator"
+msgstr "."
+
+#. Translators: Decimal separator for number formatting, default "."
+#: core/i18n/KeyhelpLocale.php:131
+msgid "_number_format_decimal_separator"
+msgstr ","
+
+#. Translators: Localized date format (short), see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:253 incl/page/admin_accounts_index.php:356
+#: incl/page/admin_accounts_index.php:364
+#, fuzzy
+msgid "M j, Y"
+msgstr "F j, Y"
+
+#. Translators: Localized date format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:256 incl/page/admin_domain_index.php:343
+#: incl/page/admin_sslcerts_edit.php:86 incl/page/admin_sslcerts_edit.php:87
+#: incl/page/admin_sslcerts_index.php:172
+msgid "F j, Y"
+msgstr "F j, Y"
+
+#. Translators: Localized time + date format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:259 core/pending/AjaxRequest.php:220
+#: incl/page/admin_index.php:196 incl/page/admin_index.php:318
+#: incl/page/admin_logs_servermsg.php:99 incl/page/admin_mailqueue.php:109
+#: incl/page/admin_panel_tasks.php:114 incl/page/backup_index.php:90
+#: incl/page/backup_repository.php:189 index.php:504
+msgid "H:i:s - F j, Y"
+msgstr "H:i:s - F j, Y"
+
+#. Translators: Localized time + date format [short month], see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:262 incl/page/admin_accounts_index.php:121
+#: incl/page/admin_accounts_index.php:404
+#: incl/page/admin_active_sessions.php:87 incl/page/admin_traffic.php:106
+#, fuzzy
+msgid "H:i:s - M j, Y"
+msgstr "H:i:s - F j, Y"
+
+#. Translators: Localized weekday + date + time format, see http://php.net/date
+#: core/i18n/KeyhelpLocale.php:265 core/pending/AjaxRequest.php:556
+#: incl/page/admin_index.php:119
+msgid "l, F j, Y - H:i:s"
+msgstr "l, F j, Y - H:i:s"
+
+#: core/pending/AjaxRequest.php:112
+msgid "Unable to connect to update server."
+msgstr "Невозможно подключиться к серверу обновлений"
+
+#: core/pending/AjaxRequest.php:118
+msgid "Your version is up to date."
+msgstr "Используется актуальная версия."
+
+#: core/pending/AjaxRequest.php:217
+msgid "No information available."
+msgstr "Нет доступной информации"
+
+#: core/pending/AjaxRequest.php:740
+msgid "Export error - malformed data!"
+msgstr "Ошибка экспорта - неверные данные!"
+
+#: core/pending/EventLogger.php:107
+msgid "Notice"
+msgstr "Уведомление"
+
+#: functions/functions.main.php:282
+#: functions/functions.translationStrings.php:47
+msgid "unlimited"
+msgstr "Не ограничено"
+
+#: functions/functions.main.php:1442 incl/page/backup_create_backup.php:25
+#: incl/page/backup_index.php:24 incl/page/backup_remote_settings.php:24
+#: incl/page/backup_repository.php:25 incl/page/backup_scheduled_backup.php:25
+#: misc/navigation.php:76 misc/navigation.php:281
+msgid "Backup"
+msgstr "Резервные копии"
+
+#: functions/functions.main.php:1443
+#, fuzzy
+msgid "Panel Access"
+msgstr "Настройки панели"
+
+#: functions/functions.main.php:1444
+#, fuzzy
+msgid "Modify SSL Settings"
+msgstr "Настройки"
+
+#: functions/functions.main.php:1445
+#, fuzzy
+msgid "DNS Editor"
+msgstr "Изменить DNS-записи"
+
+#: functions/functions.main.php:1460
+#, fuzzy
+msgid "Everything okay"
+msgstr "Выполнено."
+
+#: functions/functions.main.php:1463
+#, fuzzy
+msgid "An error occurred"
+msgstr "Произошла ошибка"
+
+#: functions/functions.main.php:1467
+#, fuzzy
+msgid "Processing"
+msgstr "Задача в процессе обработки."
+
+#: functions/functions.main.php:1470
+#, fuzzy
+msgid "Will be deleted"
+msgstr "Удаление."
+
+#: functions/functions.main.php:1474
+#, fuzzy
+msgid "Unknown status"
+msgstr "Неизвестный статус"
+
+#: functions/functions.main.php:1485
+#, fuzzy
+msgid "No Template / Default"
+msgstr "Шаблоны / По умолчанию"
+
+#: functions/functions.main.php:1524
+#, fuzzy
+msgid "Failed to gather information from update server."
+msgstr "Невозможно подключиться к серверу обновлений"
+
+#: functions/functions.main.php:1539
+msgid "Invalid HTTP status code received"
+msgstr "Получен некорреткный HTTP код"
+
+#: functions/functions.main.php:1746 functions/functions.main.php:1815
+#: index.php:442
+#, php-format
+msgid "Minimum of %s character in length"
+msgstr "Минимум %s символов"
+
+#: functions/functions.main.php:1752 functions/functions.main.php:1821
+#: index.php:443
+#, fuzzy
+msgid "Minimum of one character [a-zA-Z]"
+msgstr "По меньшей мере одна буква в нижнем регистре"
+
+#: functions/functions.main.php:1758 functions/functions.main.php:1827
+#: index.php:444
+msgid "Minimum of one lowercase character [a-z]"
+msgstr "По меньшей мере одна буква в нижнем регистре"
+
+#: functions/functions.main.php:1764 functions/functions.main.php:1833
+#: index.php:445
+msgid "Minimum of one uppercase character [A-Z]"
+msgstr "По меньшей мере одна буква в верхнем регистре"
+
+#: functions/functions.main.php:1770 functions/functions.main.php:1839
+#: index.php:446
+msgid "Minimum of one digit [0-9]"
+msgstr "По крайне мере одна цифра"
+
+#: functions/functions.main.php:1776 functions/functions.main.php:1845
+#: index.php:447
+msgid "Minimum of one special character"
+msgstr "По крайне мере один спец символ"
+
+#: functions/functions.main.php:2157
+msgid "Hourly ( at {minute} minutes )"
+msgstr "Каждый час ( в {minute} минут )"
+
+#: functions/functions.main.php:2160
+msgid "Daily ( {hour}:{minute} o'clock )"
+msgstr "Ежедневно в ( {hour}:{minute} )"
+
+#: functions/functions.main.php:2163
+msgid "Weekly ( {dayOfWeek} | {hour}:{minute} o'clock )"
+msgstr "Еженедельно по ( {dayOfWeek} | {hour}:{minute} )"
+
+#: functions/functions.main.php:2166
+msgid "Monthly ( on {dayOfMonth} | {hour}:{minute} o'clock )"
+msgstr "Ежемесячно ( {dayOfMonth} числа в {hour}:{minute} )"
+
+#: functions/functions.main.php:2169
+msgid "Yearly ( {month} {dayOfMonth} | {hour}:{minute} o'clock )"
+msgstr "Ежегодно ( {month} {dayOfMonth} | {hour}:{minute} )"
+
+#: functions/functions.main.php:2238 incl/page/admin_sslcerts_add.php:58
+msgid "Day(s)"
+msgstr "Дней"
+
+#: functions/functions.main.php:2522 incl/page/admin_domain_index.php:312
+#: incl/page/user_domain_index.php:145
+msgid "OS default"
+msgstr "По умолчанию"
+
+#: functions/functions.main.php:2532
+#, fuzzy
+msgid "Like main domain"
+msgstr "Удалить выбранные"
+
+#: functions/functions.main.php:2562
+msgid "Error, not executable"
+msgstr "Ошибка, невыполнимо"
+
+#: functions/functions.main.php:3110
+#, php-format
+msgid ""
+"The support of your operating system was discontinued by the operating "
+"system manufacturer in %s."
+msgstr "Поддержка вашей операционной системы подходит к концу %s."
+
+#: functions/functions.main.php:3111
+msgid ""
+"It has reached its end-of-life status and will not receive any further "
+"system updates."
+msgstr "Был получен end-of-life статус. Системные обновления будт недоступны."
+
+#: functions/functions.main.php:3112 functions/functions.main.php:3118
+msgid "We recommend upgrading to a newer operating system version."
+msgstr "Мы рекомендуем перейти на новую версию операционной системы."
+
+#: functions/functions.main.php:3116
+#, php-format
+msgid ""
+"The support of your operating system is discontinued by the operating system "
+"manufacturer in %s."
+msgstr "Поддержка вашей операционной системы подходит к концу %s."
+
+#: functions/functions.main.php:3117
+msgid ""
+"It will reach its end-of-life status and will not receive any further system "
+"updates."
+msgstr "Был получен end-of-life статус. Системные обновления будт недоступны."
+
+#: functions/functions.main.php:3125
+msgid ""
+"Please don't upgrade your OS manually. We have prepared a script and a step-"
+"by-step instruction, how to perform the upgrade."
+msgstr ""
+"Пожалуйста не обновляйте свою ОС вручную. Мы подготовили скрипт и "
+"пошаговуюинтсрукцию для обновления."
+
+#: functions/functions.main.php:3129
+#, fuzzy
+msgid "Further information:"
+msgstr "Информация о пользователе"
+
+#: functions/functions.main.php:3140
+msgid "Please ask your support for further instructions."
+msgstr "Обратитесь к вашей службе поддержки/"
+
+#: functions/functions.main.php:3748
+msgid "Google Analytics has been disabled!"
+msgstr "Google Analytics был выключен!"
+
+#: functions/functions.main.php:3789
+msgid ""
+"Enjoyed KeyHelp? Request your <a href=\"https://www.keyhelp.de/en/"
+"#installation\" target=\"_blank\">install guide</a> now!"
+msgstr ""
+"Вам понравился KeyHelp? Запросите <a href=\"https://www.keyhelp.de/en/"
+"#installation\" target=\"_blank\">руководство по установке</a> now!"
+
+#: functions/functions.main.php:3804
+msgid "Data privacy"
+msgstr "Защита данных"
+
+#: functions/functions.main.php:3806
+msgid "Visitors statistics (Google Analytics)"
+msgstr "Visitors statistics (Google Analytics)"
+
+#: functions/functions.main.php:3807
+msgid ""
+"This website uses Google Analytics, a web analysis service of Google Inc. "
+"(“Google”). Google Analytics uses so-called “Cookies”, which are text files "
+"that are stored on your computer and which enable the analysis of your use "
+"of a website. The information produced by the Cookie about your use of said "
+"website is usually transmitted to a Google server in the USA where they are "
+"stored. In the event of an IP anonymisation on this website your IP address "
+"is first shortened by Google in EU member states or in other contracting "
+"states which are party to the Agreement on the European Economic Area. Only "
+"in exceptional cases is the full IP address transmitted to a Google server "
+"in the USA where it is then shortened. On behalf of the operator of this "
+"website Google will use this information in order to analyse your use of the "
+"website, to compile reports about the website’s activities and in order to "
+"bring further services connected with the use of the website and the "
+"internet for the operator of the website. The IP address that was "
+"transmitted by your browser as part of Google Analytics is not merged with "
+"any other data from Google."
+msgstr ""
+"На этом веб-сайте используется Google Analytics. В Google Analytics "
+"используютсятак называемые «Cookies», являющиеся тектовыми файлами "
+"хранящимися на вашемкомпьютере и позволяют произвести анализ вашего "
+"посещения веб-сайта. Информацияпередается на серверы Google в США, где в "
+"дальнейшем хранятся. Ваш IP адрессокращается и не хранится целиком. Данная "
+"информация использкется тольковнутри Google Analytics и более никуда не "
+"передается."
+
+#: functions/functions.main.php:3808
+msgid "Opt-Out for visitors statistics"
+msgstr "Opt-Out for visitors statistics"
+
+#: functions/functions.main.php:3809
+msgid ""
+"You can prevent the storage of Cookies by setting your browser software "
+"accordingly; we would like to point out, however, that if you do so you may "
+"not be able to use all the functions of this website to their full extent. "
+"You can prevent Google Analytics tracking by clicking on the following link. "
+"An opt-out-Cookie is put in place that prevents any future tracking of your "
+"data when visiting the respective website: <a href=\"javascript:"
+"gaOptout()\">Deactivate Google Analytics</a>"
+msgstr ""
+"Вы можете предотвратить использование Cookies, настроив ваш "
+"браузерсоотвествующим образом, однако при этом, вы не сможете "
+"использоватьполную функциональность данного ресурса. Вы можете "
+"деактивироватьGoogle Analytics нажав на ссылку: <a href=\"javascript:"
+"gaOptout()\">деактивировать Google Analytics</a>"
+
+#: functions/functions.main.php:3810
+msgid ""
+"More information on usage terms and data protection can be found <a href="
+"\"http://www.google.com/analytics/terms/gb.html\" target=\"_blank\">here</a> "
+"or <a href=\"https://support.google.com/analytics/answer/6004245?hl=en-GB\" "
+"target=\"_blank\">here</a>. We would like to point out that on this website "
+"Google Analytics was extended by the code „anonymizeIp();“ to safeguard the "
+"anonymized collecting of IP addresses, the so-called IP masking."
+msgstr "Больше информации"
+
+#: functions/functions.main.php:3811
+msgid ""
+"Plus we use Google Analytics to evaluate data from AdWords and DoubleClick "
+"cookies to produce and evaluate statistics. Should you not consent to this, "
+"you can deactivate these in <a href=\"http://www.google.com/settings/ads/"
+"onweb/?hl=en\" target=\"_blank\">ad settings</a>."
+msgstr ""
+"Также мы используем Google Analytics для анализа информации от AdWords и "
+"DoubleClick для ведения статистики. Если вы не согласны с этим, выможете "
+"деактивировать эту возможность в <a href=\"http://www.google.com/settings/"
+"ads/onweb/?hl=en\" target=\"_blank\">настройках</a>."
+
+#: functions/functions.main.php:3813
+msgid "Close window"
+msgstr "Закрыть окошко"
+
+#: functions/functions.translationStrings.php:35
+#: incl/page/admin_accounts_admin_delete.php:107
+#: incl/page/admin_domain_delete.php:96 incl/page/user_email_index.php:133
+msgid "Yes"
+msgstr "Да"
+
+#: functions/functions.translationStrings.php:36
+#: incl/page/admin_accounts_admin_delete.php:107
+#: incl/page/admin_domain_delete.php:96 incl/page/user_email_index.php:133
+msgid "No"
+msgstr "Нет"
+
+#: functions/functions.translationStrings.php:37
+msgid "Okay"
+msgstr ""
+
+#: functions/functions.translationStrings.php:38
+msgid "Cancel"
+msgstr "Отменить"
+
+#: functions/functions.translationStrings.php:39
+msgid "Password"
+msgstr "Пароль"
+
+#: functions/functions.translationStrings.php:40
+msgid "Confirm password"
+msgstr "Подтвердить пароль"
+
+#: functions/functions.translationStrings.php:41
+msgid "Password doesn't match confirmation"
+msgstr "Пароли не совпадают"
+
+#: functions/functions.translationStrings.php:42
+msgid "Suggest password"
+msgstr "Предложить пароль"
+
+#: functions/functions.translationStrings.php:43
+msgid "Generate password"
+msgstr "Генерировать пароль"
+
+#: functions/functions.translationStrings.php:44
+msgid "Options"
+msgstr "Опции"
+
+#: functions/functions.translationStrings.php:45
+msgid "This field must be filled out!"
+msgstr "This field must be filled out!"
+
+#: functions/functions.translationStrings.php:46
+msgid "(leave blank to keep current password)"
+msgstr "(Оставьте пустым для использования текущего пароля)"
+
+#: functions/functions.translationStrings.php:48
+msgid "Delete selection"
+msgstr "Удалить выбранные"
+
+#: functions/functions.translationStrings.php:49
+#: incl/page/admin_accounts_index.php:140
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: functions/functions.translationStrings.php:50
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+#: functions/functions.translationStrings.php:51
+msgid "Log out"
+msgstr "Выйти"
+
+#: functions/functions.translationStrings.php:52
+msgid "Folder explorer"
+msgstr "Проводник папок"
+
+#: functions/functions.translationStrings.php:53 index.php:449
+msgid "Open folder explorer"
+msgstr "Открыть проводник"
+
+#: functions/functions.translationStrings.php:54 index.php:448
+msgid "Close folder explorer"
+msgstr "Закрыть проводник"
+
+#: functions/functions.translationStrings.php:55
+#: incl/page/admin_domain_add.php:25 incl/page/admin_domain_delete.php:24
+#: incl/page/admin_domain_edit.php:26 incl/page/admin_domain_index.php:25
+#: incl/page/user_domain_add.php:24 incl/page/user_domain_delete.php:24
+#: incl/page/user_domain_edit.php:27 incl/page/user_domain_index.php:25
+#: incl/page/user_domain_logs.php:24 misc/navigation.php:41
+#: misc/navigation.php:45 misc/navigation.php:231 misc/navigation.php:235
+msgid "Domains"
+msgstr "Домены"
+
+#: functions/functions.translationStrings.php:56
+#: incl/page/admin_accounts_user_add.php:258
+#: incl/page/admin_accounts_user_edit.php:305
+msgid "Subdomains"
+msgstr "Поддомен"
+
+#: functions/functions.translationStrings.php:57
+#: incl/page/admin_accounts_user_add.php:259
+#: incl/page/admin_accounts_user_edit.php:306
+#, fuzzy
+msgid "FTP users"
+msgstr "FTP-пользователи"
+
+#: functions/functions.translationStrings.php:58
+msgid "No entries available"
+msgstr "Нет доступных записей"
+
+#: functions/functions.translationStrings.php:59
+msgid "Description"
+msgstr "Описание"
+
+#: functions/functions.translationStrings.php:60
+msgid "Email address"
+msgstr "E-mail адрес"
+
+#: functions/functions.translationStrings.php:61
+msgid "Language"
+msgstr "Язык"
+
+#: functions/functions.translationStrings.php:62
+#, fuzzy
+msgid "Is enabled"
+msgstr "Задача включена"
+
+#: functions/functions.translationStrings.php:63
+msgid ""
+"Please confirm the deletion of the displayed elements by activating the "
+"following checkbox."
+msgstr ""
+
+#: functions/functions.translationStrings.php:64
+#, fuzzy
+msgid "Confirmation"
+msgstr "Без уведомлений"
+
+#: functions/functions.translationStrings.php:65
+#, fuzzy
+msgid "Delete"
+msgstr "Удалить пользователя."
+
+#: functions/functions.translationStrings.php:66
+msgid "ATTENTION"
+msgstr ""
+
+#: functions/functions.translationStrings.php:67
+msgid "WARNING"
+msgstr ""
+
+#: functions/functions.translationStrings.php:69
+msgid "Back to overview"
+msgstr "Вернуться к списку"
+
+#: functions/functions.translationStrings.php:70
+msgid "Save"
+msgstr "Сохранить"
+
+#: functions/functions.translationStrings.php:71
+#, fuzzy
+msgid "Continue"
+msgstr "Имя контакта"
+
+#: functions/functions.translationStrings.php:72
+#, fuzzy
+msgid "Reset to default"
+msgstr "По умолчанию"
+
+#: functions/functions.translationStrings.php:79
+msgid "JavaScript is disabled"
+msgstr "JavaScript выключен"
+
+#: functions/functions.translationStrings.php:80
+msgid ""
+"Please activate JavaScript in the settings of your browser or use a browser "
+"which supports JavaScript."
+msgstr ""
+"Пожалуйста, включите JavaScript в настройках вашего браузера или используйте "
+"браузер который поддерживает JavaScript."
+
+#: functions/functions.translationStrings.php:81
+msgid "Login"
+msgstr "Войти"
+
+#: functions/functions.translationStrings.php:82
+msgid "Forgot password?"
+msgstr "Забыли пароль?"
+
+#: functions/functions.translationStrings.php:83
+msgid "Back to login"
+msgstr "Назад к авторизации"
+
+#: functions/functions.translationStrings.php:84
+#: functions/functions.translationStrings.php:91
+msgid "Reset password"
+msgstr "Восстановить"
+
+#: functions/functions.translationStrings.php:85
+msgid "Sorry,<br>but the requested domain is not available."
+msgstr "Извините,<br>запрашиваемый домен недоступен."
+
+#: functions/functions.translationStrings.php:86
+msgid ""
+"Due to maintenance the administration interface is temporarily not available."
+"<br><br>Please try again in a few minutes."
+msgstr ""
+"Панель администратора на данный момент недоступна.<br><br>Пожалуйста, "
+"попробуйте повторить запрос через несколько минут."
+
+#: functions/functions.translationStrings.php:87
+msgid "Please enter your username and email address."
+msgstr "Введите имя пользователя и пароль."
+
+#: functions/functions.translationStrings.php:88
+msgid ""
+"You will receive an email with instructions, how to reset your password."
+msgstr "Вы получите электонное письмо с инструкциями для сброса пароля."
+
+#: functions/functions.translationStrings.php:89
+msgid "Request email"
+msgstr "Запрос email"
+
+#: functions/functions.translationStrings.php:90
+msgid "Enter your new password below."
+msgstr "Введите ваш новый пароль."
+
+#: functions/functions.translationStrings.php:98
+msgid "Profile Settings"
+msgstr "Настройки профиля пользователя"
+
+#: functions/functions.translationStrings.php:99
+msgid "Account settings"
+msgstr "Настройки аккаунта"
+
+#: functions/functions.translationStrings.php:100
+msgid "Current password"
+msgstr "Текущий пароль"
+
+#: functions/functions.translationStrings.php:101
+msgid "Contact data"
+msgstr "Контактные данные"
+
+#: functions/functions.translationStrings.php:102 incl/page/profile.php:234
+msgid "First name"
+msgstr "Имя"
+
+#: functions/functions.translationStrings.php:103 incl/page/profile.php:235
+msgid "Last name"
+msgstr "Фамилия"
+
+#: functions/functions.translationStrings.php:104 incl/page/profile.php:236
+msgid "Company"
+msgstr "Компания"
+
+#: functions/functions.translationStrings.php:105 incl/page/profile.php:237
+msgid "Telephone"
+msgstr "Телефон"
+
+#: functions/functions.translationStrings.php:106 incl/page/profile.php:238
+msgid "Address"
+msgstr "Адрес"
+
+#: functions/functions.translationStrings.php:107 incl/page/profile.php:239
+msgid "City"
+msgstr "Город"
+
+#: functions/functions.translationStrings.php:108 incl/page/profile.php:240
+msgid "Zip code"
+msgstr "Почтовый индекс"
+
+#: functions/functions.translationStrings.php:736
+#: functions/functions.translationStrings.php:761
+#: functions/functions.translationStrings.php:785
+#: functions/functions.translationStrings.php:808
+#: functions/functions.translationStrings.php:835
+msgid "System Logs & Status"
+msgstr "Системные логи и статистика"
+
+#: functions/functions.translationStrings.php:1673
+msgid "KeyHelp Demo"
+msgstr "KeyHelp Demo"
+
+#: functions/functions.translationStrings.php:1674
+msgid "Please be aware that this demo is being reset every hour!"
+msgstr ""
+"Обратите внимание - демо панель сбрасывает настройки по умолчанию каждый час!"
+
+#: functions/functions.translationStrings.php:1675
+msgid "Administration area"
+msgstr "Administration area"
+
+#: functions/functions.translationStrings.php:1676
+msgid "User area"
+msgstr "Панель пользователя"
+
+#: incl/cronjob/jobs/statistic.php:368
+#, php-format
+msgid "Traffic usage of user \"%s\" exceeded the limit"
+msgstr "Лимит использования трафика был превышен пользователем \"%s\""
+
+#: incl/cronjob/jobs/statistic.php:370
+#, php-format
+msgid ""
+"The traffic usage of a user on server \"%s\" exceeded the limit.\n"
+"\n"
+"User: %s\n"
+"Usage: %s\n"
+"Limit: %s\n"
+msgstr ""
+
+#: incl/cronjob/mastercronjob.php:209
+msgid "Your KeyHelp Installation has been updated"
+msgstr ""
+
+#: incl/cronjob/mastercronjob.php:212
+#, php-format
+msgid ""
+"Hello!\n"
+"\n"
+"Your KeyHelp Installation on server \"%1$s\" has been updated to Version "
+"%2$s.\n"
+"\n"
+"An overview of all changes of the version can be found here: <a href=\"%3$s"
+"\">%3$s</a>"
+msgstr ""
+
+#: incl/cronjob/mastercronjob.php:226 incl/page/admin_index.php:133
+#, fuzzy
+msgid "Please note"
+msgstr "Коментарии Администратора"
+
+#: incl/page/admin_accounts_admin_add.php:25
+#: incl/page/admin_accounts_admin_delete.php:25
+#: incl/page/admin_accounts_admin_edit.php:25
+#: incl/page/admin_accounts_index.php:26
+#: incl/page/admin_accounts_user_delete.php:24
+#: incl/page/admin_accounts_user_edit.php:25 misc/navigation.php:30
+msgid "User Administration"
+msgstr "Учетные записи"
+
+#: incl/page/admin_accounts_admin_add.php:25
+#, fuzzy
+msgid "Add Administrator"
+msgstr "Изменить администратора."
+
+#: incl/page/admin_accounts_admin_delete.php:25
+#: incl/page/admin_accounts_index.php:108
+#, fuzzy
+msgid "Delete Administrator"
+msgstr "Удалить администратора."
+
+#: incl/page/admin_accounts_admin_edit.php:25
+#: incl/page/admin_accounts_index.php:107
+#, fuzzy
+msgid "Edit Administrator"
+msgstr "Изменить администратора."
+
+#: incl/page/admin_accounts_index.php:119
+#, fuzzy
+msgid "User is main administrator"
+msgstr "Пользователь выбран администратором."
+
+#: incl/page/admin_accounts_index.php:141
+msgid "Contact name"
+msgstr "Имя контакта"
+
+#: incl/page/admin_accounts_index.php:142
+#, fuzzy
+msgid "Domain"
+msgstr "Доменное имя (FQDN)"
+
+#: incl/page/admin_accounts_index.php:210
+#, php-format
+msgid "Disk space: <b>%s</b> (used) / <b>%s</b> (allocated)"
+msgstr "Дисковое простанство: <b>%s</b> (использовано / <b>%s</b> (доступно)"
+
+#: incl/page/admin_accounts_index.php:339 incl/page/admin_domain_index.php:265
+msgid "Note"
+msgstr "Коментарии"
+
+#: incl/page/admin_accounts_index.php:345 incl/page/admin_services.php:174
+#: incl/page/admin_services.php:175 incl/page/admin_services.php:176
+#, fuzzy
+msgid "No action available"
+msgstr "Действия недоступны."
+
+#: incl/page/admin_accounts_index.php:349
+#, fuzzy
+msgid "Login as this user"
+msgstr "Войти под пользователем."
+
+#: incl/page/admin_accounts_index.php:350
+#: incl/page/admin_accounts_user_edit.php:25 incl/page/admin_traffic.php:299
+#, fuzzy
+msgid "Edit User"
+msgstr "Изменить пользователя."
+
+#: incl/page/admin_accounts_index.php:351
+#: incl/page/admin_accounts_user_delete.php:24
+#, fuzzy
+msgid "Delete User"
+msgstr "Удалить пользователя."
+
+#: incl/page/admin_accounts_index.php:356
+#, fuzzy, php-format
+msgid "Will get deleted: %s"
+msgstr "Удаление."
+
+#: incl/page/admin_accounts_index.php:360
+#, fuzzy
+msgid "Will get unsuspended"
+msgstr "Удаление."
+
+#: incl/page/admin_accounts_index.php:364
+#, php-format
+msgid "Will get suspended: %s"
+msgstr ""
+
+#: incl/page/admin_accounts_index.php:368
+msgid "Changing suspension date..."
+msgstr ""
+
+#: incl/page/admin_accounts_user_add.php:173
+#, php-format
+msgid "Create the subdomain <strong>&lt;USERNAME&gt;.%s</strong>."
+msgstr "Создать поддомен <strong>&lt;USERNAME&gt;.%s</strong>."
+
+#: incl/page/admin_accounts_user_delete.php:152
+#, fuzzy
+msgid "Email addresses"
+msgstr "E-mail адреса"
+
+#: incl/page/admin_accounts_user_delete.php:152
+msgid "Mailboxes"
+msgstr "Почтовые ящики"
+
+#: incl/page/admin_active_sessions.php:75
+#, fuzzy
+msgid "Main Administrator"
+msgstr "Изменить администратора."
+
+#: incl/page/admin_active_sessions.php:76
+#, fuzzy
+msgid "Administrator"
+msgstr "Изменить администратора."
+
+#: incl/page/admin_active_sessions.php:77
+#, fuzzy
+msgid "User"
+msgstr "Имя пользователя"
+
+#: incl/page/admin_domain_add.php:25 incl/page/user_domain_add.php:24
+#, fuzzy
+msgid "Add Domain"
+msgstr "Включить домен"
+
+#: incl/page/admin_domain_add.php:78
+#, fuzzy
+msgid "Please select a main domain"
+msgstr "Удалить выбранные"
+
+#: incl/page/admin_domain_add.php:87
+#, fuzzy
+msgid "Please select a user"
+msgstr "Пожалуйста, выберите пользователя."
+
+#: incl/page/admin_domain_add.php:418
+#, fuzzy
+msgid "The following domains were successfully created."
+msgstr "Задачи были изменены"
+
+#: incl/page/admin_domain_delete.php:24 incl/page/admin_domain_index.php:323
+#: incl/page/user_domain_delete.php:24 incl/page/user_domain_index.php:158
+#, fuzzy
+msgid "Delete Domain"
+msgstr " Удаление домена"
+
+#: incl/page/admin_domain_edit.php:26 incl/page/admin_domain_index.php:322
+#: incl/page/user_domain_edit.php:27 incl/page/user_domain_index.php:153
+#, fuzzy
+msgid "Edit Domain"
+msgstr " Изменить домен"
+
+#: incl/page/admin_domain_edit.php:81 incl/page/user_domain_edit.php:76
+#, fuzzy
+msgid "-- No certifactes available --"
+msgstr "Действия недоступны."
+
+#: incl/page/admin_domain_edit.php:83
+#, fuzzy
+msgid "-- Select a certificate --"
+msgstr "-- нет SSL-сертификата --"
+
+#: incl/page/admin_domain_edit.php:117 incl/page/user_domain_edit.php:111
+#, fuzzy
+msgid "All subdomains"
+msgstr "Поддомен"
+
+#: incl/page/admin_domain_edit.php:123 incl/page/user_domain_edit.php:117
+msgid "-- No subdomains for this domain --"
+msgstr "-- Нет поддоменов для данного домена --"
+
+#: incl/page/admin_domain_edit.php:128 incl/page/user_domain_edit.php:122
+msgid "Seconds"
+msgstr "Секунды"
+
+#: incl/page/admin_domain_edit.php:129 incl/page/admin_panel_tasks.php:43
+#: incl/page/user_domain_edit.php:123
+msgid "Minutes"
+msgstr "Минут"
+
+#: incl/page/admin_domain_edit.php:130 incl/page/admin_panel_tasks.php:44
+#: incl/page/user_domain_edit.php:124
+msgid "Hours"
+msgstr "Часов"
+
+#: incl/page/admin_domain_edit.php:131 incl/page/admin_panel_tasks.php:45
+#: incl/page/user_domain_edit.php:125
+msgid "Days"
+msgstr "Дней"
+
+#: incl/page/admin_domain_index.php:256 incl/page/user_domain_index.php:93
+#, fuzzy
+msgid "This domain has been disabled"
+msgstr "Домен деактивирован."
+
+#: incl/page/admin_domain_index.php:256 incl/page/user_domain_index.php:93
+msgid "DISABLED"
+msgstr "ОТКЛЮЧЕНО"
+
+#: incl/page/admin_domain_index.php:278 incl/page/user_domain_index.php:108
+#, fuzzy
+msgid "Let's Encrypt Certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_domain_index.php:283 incl/page/user_domain_index.php:113
+#, fuzzy, php-format
+msgid "SSL Certificate: %s"
+msgstr "SSL-сертификат: %s"
+
+#: incl/page/admin_domain_index.php:294 incl/page/user_domain_index.php:124
+msgid "All requests to http:// will be redirected to https://."
+msgstr "Все http:// запросы будут перенаправлены на https://."
+
+#: incl/page/admin_domain_index.php:303 incl/page/user_domain_index.php:133
+msgid "Declare web browsers should only interact via HTTPS."
+msgstr "Декларировать о принудительном HTTPS для браузеров."
+
+#: incl/page/admin_domain_index.php:329 incl/page/user_domain_index.php:166
+#, fuzzy
+msgid "Edit DNS zone | Custom zone file active"
+msgstr "Изменить DNS записи | Изменить записи по умолчанию."
+
+#: incl/page/admin_domain_index.php:331 incl/page/user_domain_index.php:170
+#, fuzzy
+msgid "Edit DNS zone | Default zone file active"
+msgstr "Изменить DNS записи | Записи по умолчанию."
+
+#: incl/page/admin_firewall.php:328 incl/page/admin_index.php:89
+#: incl/page/admin_index.php:140 incl/page/admin_index.php:168
+msgid "Dismiss this message"
+msgstr "Отклонить это сообщение"
+
+#: incl/page/admin_index.php:82
+msgid "During the KeyHelp Installation errors occured!"
+msgstr ""
+
+#: incl/page/admin_index.php:83
+msgid ""
+"Your KeyHelp Installation may not work as expected, as long as the reasons "
+"for these errors are not fixed."
+msgstr ""
+
+#: incl/page/admin_index.php:84
+#, php-format
+msgid "Problems occurred while installing the following modules: %s"
+msgstr ""
+
+#: incl/page/admin_index.php:85
+#, php-format
+msgid "Please check the install log file at \"%s\""
+msgstr ""
+
+#: incl/page/admin_index.php:113
+#, fuzzy
+msgid "Update notes"
+msgstr "Коментарии Администратора"
+
+#: incl/page/admin_index.php:121
+#, php-format
+msgid "KeyHelp was updated to version %s."
+msgstr "KeyHelp была обновлена до %s версии"
+
+#: incl/page/admin_index.php:226 incl/page/admin_index.php:266
+msgid "Cores"
+msgstr "Ядра"
+
+#: incl/page/admin_index.php:258
+#, php-format
+msgid "%s Day(s), %s Hour(s), %s Minute(s), %s Second(s)"
+msgstr "%s Дней, %s Часов, %s Минут, %s Секунд"
+
+#: incl/page/admin_index.php:280
+#, fuzzy
+msgid "Usage"
+msgstr "Использование"
+
+#: incl/page/admin_index.php:281
+#, fuzzy
+msgid "Free"
+msgstr "Спободно"
+
+#: incl/page/admin_index.php:282
+#, fuzzy
+msgid "Used"
+msgstr "Использовано"
+
+#: incl/page/admin_index.php:283
+#, fuzzy
+msgid "Total"
+msgstr "Всего"
+
+#: incl/page/admin_index.php:311
+#, php-format
+msgid "Admins: %1$s | Users: %2$s"
+msgstr "Администратор: %1$s |Пользователь: %2$s"
+
+#: incl/page/admin_logs_apacheserverstatus.php:32
+msgid "disabled"
+msgstr "не обновлять"
+
+#: incl/page/admin_logs_apacheserverstatus.php:35
+#, php-format
+msgid "After %s second"
+msgid_plural "After %s seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: incl/page/admin_logs_servermsg.php:51
+msgid "All"
+msgstr "Все"
+
+#: incl/page/admin_logs_servermsg.php:52
+msgid "Info"
+msgstr "Информация"
+
+#: incl/page/admin_logs_servermsg.php:53
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: incl/page/admin_mailqueue.php:69
+#, php-format
+msgid ""
+"Attention! There are more than %s records in queue! There is possible some "
+"issues with spam messages."
+msgstr "Внимание! В очереди более чем %s записей. Возможно "
+
+#: incl/page/admin_mailqueue.php:77
+#, php-format
+msgid "Messages in queue: %s"
+msgstr "Сообщений в очереди %s"
+
+#: incl/page/admin_panel.php:84
+msgid "Test environment"
+msgstr "Тестовое окружение"
+
+#: incl/page/admin_panel.php:85
+msgid "Live environment"
+msgstr "Рабочее окружение"
+
+#: incl/page/admin_panel.php:94
+msgid "No notification"
+msgstr "Без уведомлений"
+
+#: incl/page/admin_panel.php:99
+#, fuzzy
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] "Дней"
+msgstr[1] "Дней"
+msgstr[2] "Дней"
+
+#: incl/page/admin_panel_tasks.php:101
+msgid "Show log file"
+msgstr ""
+
+#: incl/page/admin_panel_tasks.php:120
+#, fuzzy
+msgid "Start task now"
+msgstr "Запуск в ближайшее время"
+
+#: incl/page/admin_panel_tasks.php:120
+#, fuzzy
+msgid "Task queued"
+msgstr "Задача включена"
+
+#: incl/page/admin_server.php:74
+msgid "(of physical RAM)"
+msgstr "(физический RAM)"
+
+#: incl/page/admin_server.php:130
+#, php-format
+msgid "Used %s time"
+msgid_plural "Used %s times"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: incl/page/admin_services.php:161
+#, fuzzy
+msgid "Service is running"
+msgstr "Сервис запущен."
+
+#: incl/page/admin_services.php:162
+#, fuzzy
+msgid "Service is already running"
+msgstr "Сервис уже запущен."
+
+#: incl/page/admin_services.php:163
+#, fuzzy
+msgid "Stop Service"
+msgstr "Остановить."
+
+#: incl/page/admin_services.php:164
+#, fuzzy
+msgid "Restart Service"
+msgstr "Перезагрузить."
+
+#: incl/page/admin_services.php:167 incl/page/admin_services.php:170
+#, fuzzy
+msgid "Service is not running"
+msgstr "Сервис остановлен."
+
+#: incl/page/admin_services.php:168
+#, fuzzy
+msgid "Start Service"
+msgstr "Запустить."
+
+#: incl/page/admin_services.php:169
+#, fuzzy
+msgid "Service has already been stopped"
+msgstr "Сервис был остановлен."
+
+#: incl/page/admin_services.php:173
+#, fuzzy
+msgid "The status could not be determined"
+msgstr "Неизвестный статус сервиса."
+
+#: incl/page/admin_services.php:183 incl/page/admin_services.php:189
+msgid "This service is vital for the administration panel, no action allowed"
+msgstr ""
+"Этот серви необходим для работы панели управления, нет разрешенных действий"
+
+#: incl/page/admin_sslcerts_add.php:24 incl/page/admin_sslcerts_delete.php:25
+#: incl/page/admin_sslcerts_edit.php:25 incl/page/admin_sslcerts_index.php:25
+#: misc/navigation.php:96
+msgid "SSL Certificates"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_add.php:24
+#, fuzzy
+msgid "Add Certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_add.php:59
+msgid "Year(s)"
+msgstr "Лет"
+
+#: incl/page/admin_sslcerts_delete.php:25
+#, fuzzy
+msgid "Delete Certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_edit.php:25
+#, fuzzy
+msgid "Edit Certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_edit.php:94 incl/page/admin_sslcerts_index.php:175
+msgid "Expired"
+msgstr "Истек"
+
+#: incl/page/admin_sslcerts_edit.php:96 incl/page/admin_sslcerts_index.php:177
+msgid "Expires soon"
+msgstr "Скоро истекает"
+
+#: incl/page/admin_sslcerts_index.php:101
+#, fuzzy
+msgid "Let's Encrypt certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_index.php:136
+#, fuzzy
+msgid "Edit SSL Certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_index.php:137
+#, fuzzy
+msgid "Delete SSL Certificate"
+msgstr "SSL-сертификаты"
+
+#: incl/page/admin_sslcerts_index.php:151
+#, fuzzy, php-format
+msgid "Protected Services: %s"
+msgstr "Сервисы: %s"
+
+#: incl/page/admin_template_account_add.php:25
+#: incl/page/admin_template_account_delete.php:25
+#: incl/page/admin_template_account_edit.php:25
+#: incl/page/admin_template_account_index.php:25 misc/navigation.php:164
+msgid "Account Templates"
+msgstr "Шаблоны аккаунтов"
+
+#: incl/page/admin_template_account_add.php:25
+#: incl/page/admin_template_email_add.php:25
+#, fuzzy
+msgid "Add Template"
+msgstr "Шаблоны"
+
+#: incl/page/admin_template_account_delete.php:25
+#: incl/page/admin_template_email_delete.php:25
+#, fuzzy
+msgid "Delete Template"
+msgstr "Домен удален."
+
+#: incl/page/admin_template_account_edit.php:25
+#: incl/page/admin_template_email_edit.php:25
+#, fuzzy
+msgid "Edit Template"
+msgstr "E-mail шаблоны"
+
+#: incl/page/admin_template_account_index.php:39
+#, fuzzy
+msgid "Edit Account Template"
+msgstr "Шаблоны аккаунтов"
+
+#: incl/page/admin_template_account_index.php:40
+#, fuzzy
+msgid "Delete Account Template"
+msgstr "Шаблоны аккаунтов"
+
+#: incl/page/admin_template_email_add.php:25
+#: incl/page/admin_template_email_delete.php:25
+#: incl/page/admin_template_email_edit.php:25
+#: incl/page/admin_template_email_index.php:25 misc/navigation.php:160
+msgid "Email Templates"
+msgstr "E-mail шаблоны"
+
+#: incl/page/admin_template_email_index.php:48
+#, fuzzy
+msgid "Edit Email Template"
+msgstr "E-mail шаблоны"
+
+#: incl/page/admin_template_email_index.php:49
+#, fuzzy
+msgid "Delete Email Template"
+msgstr "Домен удален."
+
+#: incl/page/admin_traffic.php:106
+msgid "No data gathered yet"
+msgstr "Нет данных"
+
+#: incl/page/admin_whitelabel_edit.php:25
+#: incl/page/admin_whitelabel_import.php:24
+#: incl/page/admin_whitelabel_index.php:25 misc/navigation.php:85
+msgid "White Label"
+msgstr "Брендирование"
+
+#: incl/page/admin_whitelabel_edit.php:25
+#, fuzzy
+msgid "Edit Settings"
+msgstr "Настройки"
+
+#: incl/page/admin_whitelabel_edit.php:143
+#, php-format
+msgid "White label settings for language \"%s\""
+msgstr "Настройки языка \"%s\""
+
+#: incl/page/admin_whitelabel_import.php:24
+#, fuzzy
+msgid "Import Settings"
+msgstr "Настройки удаленного сервера"
+
+#: incl/page/admin_whitelabel_index.php:93
+#, fuzzy
+msgid "Edit White Label Settings"
+msgstr "Изменить настройки брендинга"
+
+#: incl/page/admin_whitelabel_index.php:94
+#, fuzzy
+msgid "Reset White Label Settings"
+msgstr "сбросить настройки брендинга"
+
+#: incl/page/backup_create_backup.php:25
+#, fuzzy
+msgid "Create A Backup"
+msgstr "Создать резервную копию"
+
+#: incl/page/backup_index.php:43
+msgid "Local"
+msgstr "Локальный"
+
+#: incl/page/backup_index.php:45
+msgid "Remote"
+msgstr "Удаленный"
+
+#: incl/page/backup_index.php:47 incl/page/backup_index.php:59
+#: incl/page/backup_index.php:79 incl/page/backup_index.php:85
+msgid "Undefined"
+msgstr "Не задан"
+
+#: incl/page/backup_index.php:53
+msgid "Manually"
+msgstr "Вручную"
+
+#: incl/page/backup_index.php:54
+msgid "Started by user"
+msgstr "Запущено пользователем"
+
+#: incl/page/backup_index.php:56
+msgid "Automatically"
+msgstr "Автоматически"
+
+#: incl/page/backup_index.php:57
+msgid "Scheduled backup"
+msgstr "По расписанию"
+
+#: incl/page/backup_index.php:66
+msgid "Starts soon"
+msgstr "Запуск в ближайшее время"
+
+#. Translators: The "%%" is for escaping purpose and result into one "%"
+#: incl/page/backup_index.php:72
+#, fuzzy, php-format
+msgid "Processing (Progress: %u %%)"
+msgstr "В процессе (Прогресс: %s %)"
+
+#: incl/page/backup_index.php:76
+msgid "Finished successfully"
+msgstr "Успешно завершено"
+
+#: incl/page/backup_index.php:80
+#, php-format
+msgid "Canceled (Error: %s)"
+msgstr "Отменено (Ошибка: %s)"
+
+#: incl/page/backup_index.php:101
+msgid "Are you looking for a suitable storage space for your backups?"
+msgstr "Вам необходимо хранилище для ваших резервных копий? "
+
+#: incl/page/backup_index.php:102
+msgid "How about KeyDisc, the flexible cloud storage?"
+msgstr "Попробуйите KeyDisc, гибкое облачное хранилище."
+
+#: incl/page/backup_remote_settings.php:24
+#, fuzzy
+msgid "Remote Server Settings"
+msgstr "Настройки удаленного сервера"
+
+#: incl/page/backup_repository.php:25
+msgid "Repository"
+msgstr "хранилище"
+
+#: incl/page/backup_repository.php:184
+msgid "Download"
+msgstr "Скачать"
+
+#: incl/page/backup_repository.php:201
+#, php-format
+msgid "(Files: %1$s | Size: %2$s)"
+msgstr "(Файлы: %1$s | Объем: %2$s)"
+
+#: incl/page/backup_scheduled_backup.php:25
+#, fuzzy
+msgid "Schedule A Backup"
+msgstr " Запланировать резервное копирование"
+
+#: incl/page/backup_scheduled_backup.php:50
+#: incl/page/user_scheduledtasks_edit.php:49
+msgid "Daily"
+msgstr "Ежедневно"
+
+#: incl/page/backup_scheduled_backup.php:51
+#: incl/page/user_scheduledtasks_edit.php:50
+msgid "Weekly"
+msgstr "Еженедельно"
+
+#: incl/page/backup_scheduled_backup.php:127
+#, php-format
+msgid ""
+"The file limit for the local repository has been set to %s by the "
+"administrator."
+msgstr "Количество файлов было ограничено до %s администратором."
+
+#: incl/page/dns_editor.php:25 misc/navigation.php:49 misc/navigation.php:240
+msgid "DNS Zone Editor"
+msgstr "Изменить DNS-записи"
+
+#: incl/page/dns_editor.php:81
+msgid "Modified"
+msgstr ""
+
+#: incl/page/forgotpw.php:185
+msgid "Click the following link to set a new password."
+msgstr "Пройдите по ссылке чтобы задать новый пароль."
+
+#: incl/page/login.php:77
+msgid "Profile setting"
+msgstr "Настройки профиля"
+
+#: incl/page/profile.php:220
+msgid "A user has changed its contact data"
+msgstr "Пользователь изменил свои контактные данные."
+
+#: incl/page/profile.php:221
+#, fuzzy
+msgid "Server"
+msgstr "Сервисы"
+
+#: incl/page/profile.php:223
+#, php-format
+msgid "The user \"%s\" has changed its contact data."
+msgstr "Пользователь \"%s\" изменил свои контактные данные."
+
+#: incl/page/profile.php:226
+msgid "Previously stored data:"
+msgstr "Данные сохраненные ранее:"
+
+#: incl/page/profile.php:227
+msgid "New data:"
+msgstr "Новые данные:"
+
+#: incl/page/user_dirprotection.php:24 misc/navigation.php:276
+msgid "Directory Protection"
+msgstr "Защита каталогов"
+
+#: incl/page/user_dirprotection.php:58
+#, fuzzy
+msgid "Add Directory Protection"
+msgstr "Защита каталогов"
+
+#: incl/page/user_dirprotection.php:99
+#, php-format
+msgid ""
+"The directory protection for the directory <b>%s</b> has been successfully "
+"created and is available in a few moments."
+msgstr ""
+"Защита каталога <b>%s</b> успешно установлена и будет доступна через "
+"несколько минут."
+
+#: incl/page/user_dirprotection.php:137 incl/page/user_dirprotection.php:330
+#, fuzzy
+msgid "Edit Directory Protection"
+msgstr "Защита каталогов"
+
+#: incl/page/user_dirprotection.php:169
+#, php-format
+msgid ""
+"The directory protection for the directory <b>%s</b> has been successfully "
+"updated. The changes take effect in a few moments."
+msgstr ""
+"Настройки защиты каталога <b>%s</b> успешно обновлены. Изменения будут "
+"доступны через несколько минут."
+
+#: incl/page/user_dirprotection.php:210 incl/page/user_dirprotection.php:331
+#, fuzzy
+msgid "Delete Directory Protection"
+msgstr "Защита каталогов"
+
+#: incl/page/user_dirprotection.php:326
+#, fuzzy
+msgid "The title for this directory is not unique"
+msgstr "Повторяющееся имя директории"
+
+#: incl/page/user_domain_add.php:223
+#, fuzzy, php-format
+msgid "The domain \"<b>%s</b>\" has been successfully created."
+msgstr "Задачи были изменены"
+
+#: incl/page/user_domain_add.php:226
+msgid "You can now modify the security settings."
+msgstr "Теперь вы можете менять настройки безопасности."
+
+#: incl/page/user_domain_edit.php:153
+msgid "Limitations of current panel version:"
+msgstr "Ограничения текущей версии панели:"
+
+#: incl/page/user_domain_edit.php:154
+msgid ""
+"When changing to <b>No Certificate</b> / <b>Let's Encrypt</b> you can't "
+"change back to this certificate without the help of an administrator."
+msgstr ""
+"Выбрав <b>Без сертификата</b> / <b>Let's Encrypt</b> вы не сможетевернуть "
+"значение обратно без помощи администратора."
+
+#: incl/page/user_domain_index.php:50
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential subdomains."
+msgstr ""
+"Использовано <strong>%1$s</strong> из <strong>%2$s</strong> поддоменов."
+
+#: incl/page/user_domain_logs.php:24
+#, fuzzy
+msgid "Web Server Logs"
+msgstr "Веб-сервер (Apache)"
+
+#: incl/page/user_email_add.php:24 incl/page/user_email_delete.php:24
+#: incl/page/user_email_edit.php:24 incl/page/user_email_index.php:24
+#: misc/navigation.php:251
+msgid "Email Addresses"
+msgstr "E-mail адреса"
+
+#: incl/page/user_email_add.php:24
+#, fuzzy
+msgid "Add Email Account"
+msgstr "Изменить домен."
+
+#: incl/page/user_email_delete.php:24 incl/page/user_email_index.php:106
+#, fuzzy
+msgid "Delete Email Account"
+msgstr "Домен удален."
+
+#: incl/page/user_email_edit.php:24 incl/page/user_email_index.php:105
+#, fuzzy
+msgid "Edit Email Account"
+msgstr "Изменить домен."
+
+#: incl/page/user_email_edit.php:172
+#, php-format
+msgid "Default ( %s MB )"
+msgstr "По умолчанию ( %s MB )"
+
+#: incl/page/user_email_index.php:38
+#, php-format
+msgid ""
+"<strong>%1$s</strong> of <strong>%2$s</strong> potential email accounts."
+msgstr ""
+"<strong>%1$s</strong> из <strong>%2$s</strong> разрешенного количества E-"
+"mail-аккаунтов."
+
+#: incl/page/user_email_index.php:39
+#, php-format
+msgid ""
+"<strong>%1$s</strong> of <strong>%2$s</strong> potential email addresses."
+msgstr ""
+"<strong>%1$s</strong> из <strong>%2$s</strong> разрешенного количества E-"
+"mail-адресов."
+
+#: incl/page/user_email_index.php:80
+msgid "Greylisting"
+msgstr "Грейлистинг"
+
+#: incl/page/user_email_index.php:85
+msgid "Virus-Check"
+msgstr "Антивирусная проверка"
+
+#: incl/page/user_email_index.php:90
+msgid "Spam-Check"
+msgstr "Спам - проверка"
+
+#: incl/page/user_email_index.php:114 misc/navigation.php:147
+#: misc/navigation.php:299
+#, fuzzy
+msgid "Webmail"
+msgstr "Email"
+
+#: incl/page/user_ftp.php:23
+#, fuzzy
+msgid "FTP User"
+msgstr "FTP-пользователи"
+
+#: incl/page/user_ftp.php:56
+#, fuzzy
+msgid "Add FTP User"
+msgstr "Изменить пользователя."
+
+#: incl/page/user_ftp.php:146 incl/page/user_ftp.php:327
+#, fuzzy
+msgid "Edit FTP User"
+msgstr "Изменить пользователя."
+
+#: incl/page/user_ftp.php:230 incl/page/user_ftp.php:328
+#, fuzzy
+msgid "Delete FTP User"
+msgstr "Удалить пользователя."
+
+#: incl/page/user_ftp.php:318
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential FTP users."
+msgstr ""
+"В данный момент вы используете <strong>%1$s</strong> of <strong>%2$s</"
+"strong> из доступного количества FTP-аккаунтов."
+
+#: incl/page/user_index.php:62
+msgid "ATTENTION - No email address has been set!"
+msgstr ""
+
+#: incl/page/user_mysql_add.php:24 incl/page/user_mysql_delete.php:25
+#: incl/page/user_mysql_edit.php:24 incl/page/user_mysql_index.php:24
+#: misc/navigation.php:262
+msgid "MySQL Databases"
+msgstr "Базы данных MySQL"
+
+#: incl/page/user_mysql_add.php:24
+#, fuzzy
+msgid "Add Database"
+msgstr "Изменить пользователя."
+
+#: incl/page/user_mysql_delete.php:25 incl/page/user_mysql_index.php:58
+#, fuzzy
+msgid "Delete Database"
+msgstr "Удалить пользователя."
+
+#: incl/page/user_mysql_edit.php:24 incl/page/user_mysql_index.php:57
+#, fuzzy
+msgid "Edit Database"
+msgstr "Изменить пользователя."
+
+#: incl/page/user_mysql_index.php:37
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential databases."
+msgstr ""
+"В данный момент вы используете <strong>%1$s</strong> of <strong>%2$s</"
+"strong> из доступного количества баз данных."
+
+#: incl/page/user_mysql_index.php:63
+#, fuzzy
+msgid "Database Administration"
+msgstr "Учетные записи"
+
+#: incl/page/user_scheduledtasks_delete.php:24
+#: incl/page/user_scheduledtasks_edit.php:208
+#: incl/page/user_scheduledtasks_index.php:24 misc/navigation.php:272
+msgid "Scheduled Tasks"
+msgstr "Запланированные задачи"
+
+#: incl/page/user_scheduledtasks_delete.php:24
+#: incl/page/user_scheduledtasks_index.php:75
+#, fuzzy
+msgid "Delete Task"
+msgstr "Удалить пользователя."
+
+#: incl/page/user_scheduledtasks_edit.php:48
+msgid "Hourly"
+msgstr "Каждый час"
+
+#: incl/page/user_scheduledtasks_edit.php:51
+msgid "Monthly"
+msgstr "Ежемесячно"
+
+#: incl/page/user_scheduledtasks_edit.php:52
+msgid "Yearly"
+msgstr "Ежегодно"
+
+#: incl/page/user_scheduledtasks_edit.php:53
+msgid "Cron style"
+msgstr "Стиль Cron"
+
+#: incl/page/user_scheduledtasks_edit.php:208
+#, fuzzy
+msgid "Add Task"
+msgstr "Изменить пользователя."
+
+#: incl/page/user_scheduledtasks_edit.php:208
+#: incl/page/user_scheduledtasks_index.php:74
+#, fuzzy
+msgid "Edit Task"
+msgstr "Изменить пользователя."
+
+#: incl/page/user_scheduledtasks_edit.php:210
+#, php-format
+msgid ""
+"If you want to access a file from your home directory, you must use the "
+"absolute path:<br><strong>%s</strong>"
+msgstr ""
+"Если вам нужен доступ к файлу из домашней директории, укажите абсолютныйпуть:"
+"<br><strong>%s</strong>"
+
+#: incl/page/user_scheduledtasks_index.php:40
+#, php-format
+msgid ""
+"You are currently using <strong>%1$s</strong> of <strong>%2$s</strong> "
+"potential scheduled tasks."
+msgstr ""
+"На данный момент вы используете <strong>%1$s</strong> из <strong>%2$s</"
+"strong>допустимых задач"
+
+#: incl/page/user_scheduledtasks_index.php:51
+#, fuzzy
+msgid "Task is enabled"
+msgstr "Задача включена"
+
+#: incl/page/user_scheduledtasks_index.php:53
+#, fuzzy
+msgid "Task is disabled"
+msgstr "Задача отключена"
+
+#: incl/page/user_scheduledtasks_index.php:58
+#, fuzzy
+msgid "Invalid settings"
+msgstr "Неверные настройки"
+
+#: incl/page/user_scheduledtasks_index.php:71
+msgid "Notification"
+msgstr "Уведомление"
+
+#: index.php:450
+#, fuzzy
+msgid ""
+"It seems that you have not yet taken over the selected directory path from "
+"directory explorer."
+msgstr ""
+"Скорее всего, вы еще не выбрали путь к каталогу из проводника.\\n\\nВы "
+"действительно хотите продолжить?"
+
+#: index.php:451
+msgid "Do you still want to continue?"
+msgstr ""
+
+#: index.php:452
+msgid "User information"
+msgstr "Информация о пользователе"
+
+#: index.php:453
+msgid "Admin notes"
+msgstr "Коментарии Администратора"
+
+#: index.php:454
+msgid "WARNING - This action will delete all existing emails for this domain."
+msgstr ""
+"ПРЕДУПРЕЖДЕНИЕ - Это действие приведет к удалению всех активных почтовых "
+"ящиков у домена."
+
+#: index.php:455
+msgid ""
+"WARNING - This action will delete all existing backups and backup settings "
+"of this user."
+msgstr ""
+"ВНИМАНИЕ - данное действите удалит все настройки резервного копирования, а "
+"так же резервные копии данного пользователя."
+
+#: misc/navigation.php:22 misc/navigation.php:217
+msgid "General"
+msgstr "Главная"
+
+#: misc/navigation.php:26 misc/navigation.php:220
+msgid "Overview"
+msgstr "Основная информация"
+
+#: misc/navigation.php:34
+#, fuzzy
+msgid "Traffic Statistic"
+msgstr "Веб-статистика"
+
+#: misc/navigation.php:56 misc/navigation.php:258
+msgid "Settings"
+msgstr "Настройки"
+
+#: misc/navigation.php:60
+msgid "Panel Settings"
+msgstr "Настройки панели"
+
+#: misc/navigation.php:64
+msgid "Server Settings"
+msgstr "Настройки Сервер"
+
+#: misc/navigation.php:68
+#, fuzzy
+msgid "Panel Tasks Intervals"
+msgstr "Интервалы обновления"
+
+#: misc/navigation.php:72
+msgid "Server Service Management"
+msgstr "Управление службами"
+
+#: misc/navigation.php:92
+msgid "Security"
+msgstr "Безопасность"
+
+#: misc/navigation.php:100
+msgid "Firewall"
+msgstr "Firewall"
+
+#: misc/navigation.php:107
+#, fuzzy
+msgid "Logs & Status"
+msgstr "Системные логи и статистика"
+
+#: misc/navigation.php:111
+msgid "Server Messages"
+msgstr "Журнал ошибок"
+
+#: misc/navigation.php:115
+msgid "Apache Server Status"
+msgstr "Статус веб-сервера"
+
+#: misc/navigation.php:119
+msgid "Panel Tasks Logs"
+msgstr "Журнал задач панели"
+
+#: misc/navigation.php:123
+#, fuzzy
+msgid "Email Queue"
+msgstr "Email"
+
+#: misc/navigation.php:127
+msgid "Active Sessions"
+msgstr ""
+
+#: misc/navigation.php:134 misc/navigation.php:288
+msgid "Tools"
+msgstr "Инструменты"
+
+#: misc/navigation.php:140 misc/navigation.php:292
+msgid "PhpMyAdmin"
+msgstr "PhpMyAdmin"
+
+#: misc/navigation.php:156
+msgid "Templates"
+msgstr "Шаблоны"
+
+#: misc/navigation.php:168
+msgid "Default Index Page"
+msgstr "Страница по умолчанию"
+
+#: misc/navigation.php:175
+msgid "Miscellaneous"
+msgstr "Разное"
+
+#: misc/navigation.php:179
+msgid "Mass Email Message"
+msgstr "Массовая рассылка"
+
+#: misc/navigation.php:186 misc/navigation.php:308
+msgid "Help"
+msgstr "Помощь"
+
+#: misc/navigation.php:190
+msgid "Support Forum"
+msgstr "Форум поддержки"
+
+#: misc/navigation.php:196
+msgid "Administrator Manual"
+msgstr "руководство <small>администратора</small>"
+
+#: misc/navigation.php:202
+msgid "User Manual"
+msgstr "руководство <small>пользователя</small>"
+
+#: misc/navigation.php:224
+msgid "Web Statistic"
+msgstr "Веб-статистика"
+
+#: misc/navigation.php:247
+msgid "Email"
+msgstr "Email"
+
+#: misc/navigation.php:267
+msgid "FTP Users"
+msgstr "FTP-пользователи"
+
+#: misc/navigation.php:311
+msgid "Manual"
+msgstr "руководство <small>пользователя</small>"
+
+#, fuzzy
+#~ msgid "DNS Templates"
+#~ msgstr "Шаблоны"
+
+#~ msgid "Yes, I am sure"
+#~ msgstr "Да, удалить"
+
+#, fuzzy
+#~ msgid "License Management"
+#~ msgstr "Менеджер лицензий"
+
+#, fuzzy
+#~ msgid "Install New License"
+#~ msgstr "Установить новую лицензию"
+
+#, fuzzy
+#~ msgid "Remove Current License"
+#~ msgstr "Удалить текущую лицензию"
+
+#~ msgid "Web server (Apache)"
+#~ msgstr "Веб-сервер (Apache)"
+
+#~ msgid "DNS server (Bind)"
+#~ msgstr "DNS-сервер (Bind)"
+
+#~ msgid "PHP-FPM"
+#~ msgstr "PHP-FPM"
+
+#~ msgid "Database (MySQL/MariaDB)"
+#~ msgstr "База данных (MySQL/MariaDB)"
+
+#~ msgid "FTP server (Proftpd)"
+#~ msgstr "FTP-сервер (Proftpd)"
+
+#, fuzzy
+#~ msgid "Mail Transfer Agent (Postfix)"
+#~ msgstr "SMTP-сервер (Postfix)"
+
+#~ msgid "Mail Delivery Agent (Dovecot)"
+#~ msgstr "IMAP и POP3 сервер (Dovecot)"
+
+#~ msgid "Amavis"
+#~ msgstr "Amavis"
+
+#~ msgid "Antispam (SpamAssassin)"
+#~ msgstr "Антиспам (SpamAssassin)"
+
+#~ msgid "Antivirus (ClamAV)"
+#~ msgstr "Антивирус (ClamAV)"
+
+#~ msgid "Cron Daemon"
+#~ msgstr "Планировщик"
+
+#~ msgid "Block IP address (Fail2ban)"
+#~ msgstr "Блокировка IP (Fail2ban)"
+
+#~ msgid "SSH"
+#~ msgstr "SSH"
+
+#~ msgid "Time Synchronization (NTP)"
+#~ msgstr "Синхронизация времени (NTP)"
+
+#~ msgid "PHP-FPM - Additional PHP interpreter %s"
+#~ msgstr "PHP-FPM - дополнительный интерпретатор %s"
+
+#~ msgid "No main domains have been assigned to you."
+#~ msgstr "Основной домен не установлен."
+
+#, fuzzy
+#~ msgid "Subdomain"
+#~ msgid_plural "Subdomains"
+#~ msgstr[0] "Поддомен"
+#~ msgstr[1] "Поддомен"
+#~ msgstr[2] "Поддомен"
+
+#, fuzzy
+#~ msgid "Show subdomains"
+#~ msgstr "Поддомен"
+
+#~ msgid "This domain is not a subdomain."
+#~ msgstr "Это не поддомен."

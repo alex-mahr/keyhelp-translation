@@ -1,0 +1,62 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:49+0100\n"
+"PO-Revision-Date: 2017-12-06 15:49+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __adminTemplateDefaultIndex\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1459
+msgid "Edit default index page"
+msgstr "Izmjeni zadanu index stranicu"
+
+#: functions/functions.translationStrings.php:1460
+msgid ""
+"When creating a new user an index file is automatically created in the /www/ "
+"directory of the user. Here you can define and edit the content of this page."
+"<br> Changes to the default index page will take effect only for new created "
+"customer."
+msgstr ""
+"Kada pravite novog korisnika, korisnicka index stranica ce biti automaski "
+"napravljena u /www/ direktoriji od korisnika. Ovdje mozete definisati i "
+"izmjenuti sadrzaj doticne stranice.<br> Promjene ce imati uticaj samo na "
+"novo napravljene korisnike."
+
+#: functions/functions.translationStrings.php:1461
+msgid "Default index page"
+msgstr "Zadana index stranica"
+
+#: functions/functions.translationStrings.php:1462
+msgid "Filename"
+msgstr "Ime datoteke"
+
+#: functions/functions.translationStrings.php:1463
+msgid "Code"
+msgstr "Kod"
+
+#: functions/functions.translationStrings.php:1464
+msgid "The following variables are available"
+msgstr "Sljedece opcije su dostupne"
+
+#: functions/functions.translationStrings.php:1465
+msgid "Will be replaced with the username."
+msgstr "Bice zamijenjeno s korisnickim imenom."
+
+#: functions/functions.translationStrings.php:1466
+msgid "Do you really want to reset the settings to default?"
+msgstr ""
+
+#~ msgid "Reset to default"
+#~ msgstr "Vrati podrazumjevano"

@@ -1,0 +1,57 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KeyHelp\n"
+"POT-Creation-Date: 2017-12-06 15:50+0100\n"
+"PO-Revision-Date: 2017-12-06 15:50+0100\n"
+"Last-Translator: Alexander Mahr <info@keyhelp.de>\n"
+"Language-Team: Alexander Mahr (KeyHelp Developer) <info@keyhelp.de>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: __userMysql\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+
+#: functions/functions.translationStrings.php:1058
+msgid ""
+"Here you can create and manage MySQL databases.<br>This area is interesting "
+"for you if you use programs or CGI scripts that require a database. Many "
+"guest books and e-shop systems require a database."
+msgstr ""
+
+#: functions/functions.translationStrings.php:1060
+msgid "Databases"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1061
+msgid "Add database"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1062
+msgid "Database name"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1063
+msgid "Username"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1064
+msgid "Host"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1065
+msgid "Database size"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1066
+msgid "Database settings"
+msgstr ""
+
+#: functions/functions.translationStrings.php:1067
+msgid "This information is filled out automatically."
+msgstr ""
